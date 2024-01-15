@@ -19,20 +19,9 @@ export const navLinks = [
   },
   {
     id: 4,
-    name: "About Us",
-    href: "/About",
-    title: "About",
-  },
-  {
-    id: 5,
     name: "Gallery",
     href: "/Gallery",
     title: "Gallery",
   },
-  {
-    id: 6,
-    name: "FAQ & QnA",
-    href: "/Faqsection",
-    title: "FAQ & QnA",
-  },
+
 ];
