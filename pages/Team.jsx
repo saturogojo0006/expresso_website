@@ -1,0 +1,91 @@
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import TeamCard from "@/components/TeamCard";
+import teamData from "@/constants/cardDetails";
+
+const Team = () => {
+  const [toggle, setToggle] = useState(0); // Start with the first team
+  const teamKeys = Object.keys(teamData);
+  const currentTeam = teamKeys[toggle];
+  const teamInfo = teamData[currentTeam];
+  const teamMembers = teamInfo.members;
+  const [teamName, setTeamName] = useState(teamInfo.teamName);
+  const [teamImage, setTeamImage] = useState(teamInfo.teamImage);
+
+  const handleButtonleft = () => {
+    setToggle((prevIndex) => (prevIndex - 1 + teamKeys.length) % teamKeys.length);
+  };
+
+  const handleButtonRight = () => {
+    setToggle((prevIndex) => (prevIndex + 1) % teamKeys.length);
+  };
+
+  // Split the teamMembers array into topQuarter and bottomHalf
+  const topQuarter = teamMembers.slice(0, 3);
+  const bottomHalf = teamMembers.slice(3, 8);
+
+  // Update team information when toggle changes
+  useEffect(() => {
+    const newTeam = teamKeys[toggle];
+    const newTeamInfo = teamData[newTeam];
+    setTeamName(newTeamInfo.teamName);
+    setTeamImage(newTeamInfo.teamImage);
+  }, [toggle, teamKeys]);
+
+  return (
+    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(/background.png)" }}>
+      <div className="flex flex-col w-full h-1/2 lg:h-full">
+        <div className="flex flex-row w-full lg:w-2/3 h-1/2 overflow-auto lg:overflow-hidden">
+          <div className="flex flex-col space-y-10 mt-6 mr-5 ml-16 lg:ml-10 lg:space-y-0 lg:space-x-10 lg:flex-row lg:flex-wrap">
+            {topQuarter.map((member) => (
+              <TeamCard key={member.id} member={member} />
+            ))}
+          </div>
+        </div>
+
+        <div className="absolute top-0 right-0 h-1/2 w-1/3 mt-10 lg:mt-20">
+          <div id="details" className="flex flex-col justify-center items-center h-full w-full">
+            <div className="w-1/2 flex flex-col justify-center items-start text-white">
+              <div className="w-full flex items-center justify-center">
+                <div className="mr-4 mt-10">
+                  <div className="flex items-center justify-center w-20 h-20">
+                    <Image height={150} src={teamImage} width={130} alt="developerImage" />
+                  </div>
+                  <div className="mt-0 flex items-center justify-center w-full">
+                    <div className="w-full text-center">
+                      <h1 className="text-xl font-Antonio whitespace-nowrap overflow-hidden overflow-ellipsis">{teamName}</h1>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-14 ml-5 flex items-center justify-center w-40 h-30">
+                  <Image src='/team.png' width={620} height={550} alt="teamImage" />
+                </div>
+              </div>
+              <div className="mt-10 flex flex-row items-center justify-center w-full">
+                <div className="mr-4 cursor-pointer">
+                  <Image onClick={handleButtonleft} src="/leftArrow.png" width={50} height={50} alt="leftarrow" />
+                </div>
+                <div className="mr-4 font-Antonio text-5xl font-bold ml-4 flex items-center justify-center w-14 h-14 rounded-full bg-white text-black">
+                  {toggle + 1}
+                </div>
+                <div className="ml-4 cursor-pointer">
+                  <Image onClick={handleButtonRight} src="/rightArrow.png" width={50} height={50} alt="rightarrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col w-full h-1/2 lg:flex-row lg:justify-between items-center">
+        <div className="flex flex-col lg:flex-row lg:space-x-10 justify-between mb-6 pt-10 lg:mr-5 lg:ml-10 h-full lg:h-auto lg:overflow-hidden">
+          {bottomHalf.map((member) => (
+            <TeamCard key={member.id} member={member} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Team;
