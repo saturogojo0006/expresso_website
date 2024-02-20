@@ -1,9 +1,7 @@
-<<<<<<< Updated upstream
-@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
-=======
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
 
->>>>>>> Stashed changes
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import './fonts.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
