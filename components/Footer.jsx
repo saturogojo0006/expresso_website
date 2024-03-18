@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <div>I am changing Footer !</div>;
+  return <div>Hello Form Fork Branch!</div>;
 };
 
 export default Footer;
