@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
       {/* <Home /> */}
-      {/* <LandingPage />
-      <About /> */}
-      <Team/>
+      {/* <LandingPage />*/}
+      <About /> 
+      {/* <Team/> */}
       {/* <main
         className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
       >
