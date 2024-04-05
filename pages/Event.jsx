@@ -23,7 +23,7 @@ const Event = () => {
       </div>
       <div className="flex-col mr-0">
 
-       <div className="font-antonio text-[#FEFEFE] text-5xl ">EVENT-3
+       <div className="font-antonio text-[#FEFEFE] text-5xl ">EVENT-1
        </div>
        <div  className=" text-[#ffffff] h-[200px] w-[900px] text-[16px]   pt-4 pl-6 pb-4 "   style={{backgroundImage:`url('/event.png')`}}>
          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam voluptatibus ut officiis, maiores dolore n
@@ -37,7 +37,7 @@ const Event = () => {
     
     <div className="flex h-1/4 mt-4 mr-20 gap-2">
       <div className="flex-col items-end">
-       <div className="font-antonio text-[#FEFEFE] text-5xl "> <p className="text-right">   EVENT-3</p>
+       <div className="font-antonio text-[#FEFEFE] text-5xl "> <p className="text-right">   EVENT-2</p>
     
        </div>
        <div  className=" text-[#ffffff] w-[900px] h-[200px] text-[16px] text-wrap  pt-4 pl-6 pb-4 "   style={{backgroundImage:`url('/event.png')`}}>
