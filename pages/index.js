@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 // import Home from "./Home";
 import LandingPage from "./LandingPage";
 import About from "./About";
-
+import Event from "./Event";
 import Team from "./Team";
 import Contact from "./Contact";
 
@@ -35,7 +35,7 @@ export default function Home() {
         <h1>Expresso Website</h1>
         <Contact/>
       </main> */}
-      <Contact/>
+      <Event/>
 
     </>
   );
