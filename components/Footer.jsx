@@ -1,16 +1,19 @@
 import React from "react";
-
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { IoIosMail } from "react-icons/io";
+import { SiGooglemaps } from "react-icons/si";
+import Image from "next/image";
 const Footer = () => {
   return <div>
     <footer className="flex bg-[#0C0C0C] max-w-[1631px] w-screen">
       <div className='bg-[#0C0C0C] h-20 '>
         <div className='flex flex-center  justify-between ml-[200px] p-4 w-full'>
-          <div className='flex space-x-4 mr-9'>
-            <a href='https://instagram.com' className='text-white'><img src='/assets/Facebook.svg' alt='Instagram' /></a>
-            <a href='https://instagram.com' className='text-white'><img src='/assets/Instagram.svg' alt='Instagram' /></a>
-            <a href='https://instagram.com' className='text-white'><img src='/assets/Instagram.svg' alt='Instagram' /></a>
-            <a href='https://instagram.com' className='text-white'><img src='/assets/Instagram.svg' alt='Instagram' /></a>
-            <a href='https://instagram.com' className='text-white'><img src='/assets/Instagram.svg' alt='Instagram' /></a>
+          <div className="text-white flex space-x-4  mb-4 mt-2 w-[230px]">
+            <div><FaInstagram size={30} /></div>
+            <div><FaFacebook size={30} /></div>
+            <div><FaLinkedin size={30} /></div>
+            <div><IoIosMail size={30} /></div>
+            <div><SiGooglemaps size={30} /></div>
           </div>
 
           <div className='text-white text-xs font-["Antoino"] ml-5'>

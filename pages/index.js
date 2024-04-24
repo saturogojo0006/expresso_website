@@ -35,7 +35,7 @@ export default function Home() {
         <h1>Expresso Website</h1>
         <Contact/>
       </main> */}
-      <Event/>
+      <Event />
 
     </>
   );
