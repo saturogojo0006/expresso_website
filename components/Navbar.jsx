@@ -3,11 +3,7 @@
 const Navbar = () => {
 
 
-  const upper = {
-    backgroundImage: 'url("/nav.svg")',
-    width: '1400px'
 
-  };
 
 
 
@@ -17,17 +13,17 @@ const Navbar = () => {
 
 
       <div className="absolute top-0 right-0">
-        <ul className='bg-cover flex   mt-4  justify-end' style={upper}>
+        <ul className="bg-cover flex  mt-[0.25rem] max-w-[87.5rem] w-screen justify-end bg-[url('/nav.svg')]">
           <div className=' mr-8 flex items-center text-black'>
-            <a href="" className='text-[15px] font-["Coluna"] p-2 m-[30px] font-semibold  rounded hover:rounded-full hover:border-4 border-black hover:font-extrabold'>HOME</a>
-            <a href="" className='text-[15px] font-["Coluna"] p-2 m-[30px] font-semibold  rounded hover:rounded-full hover:border-4 border-black hover:font-extrabold'>EVENTS</a>
-            <a href="" className='text-[15px] font-["Coluna"] p-2 m-[30px] font-semibold  rounded hover:rounded-full hover:border-4 border-black hover:font-extrabold'>ALUMNI</a>
-            <a href="" className='text-[15px] font-["Coluna"] p-2 m-[30px] font-semibold  rounded hover:rounded-full hover:border-4 border-black hover:font-extrabold'>ART</a>
-            <a href="" className='text-[15px] font-["Coluna"] p-2 m-[30px] font-semibold  rounded hover:rounded-full hover:border-4 border-black hover:font-extrabold'>LITERARY</a>
+            <a href="" className='text-[0.9375rem] font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>HOME</a>
+            <a href="" className='text-[0.9375rem] font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>EVENTS</a>
+            <a href="" className='text-[0.9375rem] font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>ALUMNI</a>
+            <a href="" className='text-[0.9375rem] font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>ART</a>
+            <a href="" className='text-[0.9375rem] font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>LITERARY</a>
           </div>
           <button
             type="button"
-            className="text-black text-[20px] w-[200px] pt-2 mt-2  font-['Coluna']  mr-16 bg-[#F4B24E] hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900" style={{ font: 'bold' }}
+            className="text-black text-[1.25rem] w-[12.5rem] pt-2 mt-2  font-['Coluna']  mr-16 bg-[#F4B24E] hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900" style={{ font: 'bold' }}
           >
             Join Us
           </button>
