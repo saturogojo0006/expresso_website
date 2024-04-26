@@ -34,14 +34,6 @@ export default function Home() {
       >
         <h1>Expresso Website</h1>
       </main> */}
-<<<<<<< HEAD
-
-      <LandingPage />
-      <About />
-      <Contact />
-      <Event />
-=======
->>>>>>> 264d4c6a21d023815d9b3d81536d2e431da55dfb
 
       <LandingPage />
       <About />

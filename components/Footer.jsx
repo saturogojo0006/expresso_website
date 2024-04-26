@@ -10,11 +10,11 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between items-center mx-0">
         {/* Social Icons */}
         <div className="flex space-x-4 mb-2 md:mb-0">
-          <FaInstagram className="text-white w-6 h-6 md:w-8 md:h-8" />
-          <FaFacebook className="text-white w-6 h-6 md:w-8 md:h-8" />
-          <FaLinkedin className="text-white w-6 h-6 md:w-8 md:h-8" />
-          <IoIosMail className="text-white w-6 h-6 md:w-8 md:h-8" />
-          <SiGooglemaps className="text-white w-6 h-6 md:w-8 md:h-8" />
+          <a href="https://www.instagram.com/expresso_nitp/" target="blank"><FaInstagram className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="https://www.facebook.com/expresso.nitp/" target="blank"><FaFacebook className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="https://www.linkedin.com/company/expressonitp/" target="blank"><FaLinkedin className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="https://www.expressonitp.co.in/" target="blank"><IoIosMail className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="" target="blank"><SiGooglemaps className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
         </div>
 
         {/* Copyright */}
