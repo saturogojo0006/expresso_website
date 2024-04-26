@@ -9,17 +9,17 @@ import Contact from "./Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;700&family=Poppins&display=swap');
-</style>
+  @import
+  url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;700&family=Poppins&display=swap');
+</style>;
 
 export default function Home() {
   return (
     <>
-
       {/* <Home /> */}
-      {/* <LandingPage />
-      <About /> */}
-      {/* <Team/> */}
+      <LandingPage />
+      <About />
+      {/* <Team /> */}
       {/* <main
         className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
       >
@@ -28,19 +28,25 @@ export default function Home() {
 
       {/* <Home />
       <LandingPage />
-      <About />
-      <main
+      {/* <About /> */}
+      {/* <main
         className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
       >
         <h1>Expresso Website</h1>
-        <Contact/>
       </main> */}
+<<<<<<< HEAD
 
       <LandingPage />
       <About />
       <Contact />
       <Event />
+=======
+>>>>>>> 264d4c6a21d023815d9b3d81536d2e431da55dfb
 
+      <LandingPage />
+      <About />
+      <Contact />
+      <Event />
     </>
   );
 }
