@@ -25,7 +25,7 @@ const Footer = () => {
         {/* Address and Logo */}
         <div className="flex items-center">
           <div className="text-white text-xs">
-            <p className="mb-1">Student Activity Centre (SAC), NIT Patna</p>
+            <p className="mb-1 text-'Antonio'">Student Activity Centre (SAC), NIT Patna</p>
             <p>Ashok Rajpath, Patna, Bihar - 800005</p>
           </div>
           <div className="ml-4">
