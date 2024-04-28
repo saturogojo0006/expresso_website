@@ -2,7 +2,18 @@ import React from "react";
 import Image from 'next/image';
 
 const Event = () => {
+
   return <div className="flex-col bg-[#4B4B4B] h-full pt-4">
+    <button className="float-right mr-4 h-[29px] w-[109px]">
+    <div className="flex gap-1 flex-row-reverse items=center">
+    <div className="text-white text-xl font-antonio pb-1"> BACK</div>
+      <div className=" border-2 rounded-full border-white p-1 ">
+          <Image src='/Arrow2.png' width={20} height={20} className=""/>
+      </div>
+
+    </div>
+    </button>
+
     {/* <div className="flex  ml-20 ">
     <div className="flex ">
       <Image src='/eventPicture.png' width={1500} height={200} alt="image" className=""/>

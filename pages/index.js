@@ -1,4 +1,4 @@
-// import Image from "next/image";
+ import Image from "next/image";
 import { Inter } from "next/font/google";
 // import Home from "./Home";
 import LandingPage from "./LandingPage";
@@ -6,6 +6,7 @@ import About from "./About";
 import Event from "./Event";
 import Team from "./Team";
 import Contact from "./Contact";
+import EventDesc from "./EventDesc";
 
 const inter = Inter({ subsets: ["latin"] });
 <style>
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <>
       {/* <Home /> */}
+
       <LandingPage />
       <About />
       {/* <Team /> */}
@@ -39,6 +41,15 @@ export default function Home() {
       <About />
       <Contact />
       <Event />
+      <EventDesc
+  event={{
+    title: 'EVENT-2',
+    date: '11.10.2023',
+    venue: 'NEAR SAC',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+    images: ['/eventPic.png', '/eventPic.png', '/eventPic.png'] // Array of image paths
+  }}
+/>
     </>
   );
 }
