@@ -5,8 +5,9 @@ const Navbar = () => {
 
 
   return <div className="bg-black resize w-screen max-w-screen ">
-    <div className="text-white justify-center align-center md:flex flex-end">
-      <a href="/"> <div className='text-white mr-[100px] lg:mt-6 md:mt-5'><img src="/assets/logo.svg" alt="" /></div></a>
+    <div className="text-white justify-center align-center lg:justify-start md:justify-start md:flex flex-end">
+      <a href="/"> <div className='text-white  mr-[100px] lg:mt-6 md:mt-5'><img src="/assets/logo.svg" alt="" />
+      </div></a>
       <div className="top-10 right-5 absolute md:hidden">
         <button
           onClick={() => setIsnav(!isnav)}
@@ -42,7 +43,7 @@ const Navbar = () => {
       </div>
       <div className="hidden md:block lg:absolute top-0 right-0">
         <div className=' lg:visible md:visible'>
-          <ul className="bg-cover bg-local  lg: h-[6.4rem]  flex flex-col md:flex-row lg:flex-auto mt-[0.25rem] max-w-[87.5rem] w-screen justify-end md:bg-[url('/nav.svg')] lg:md:bg-[url('/nav.svg')] lg:w-[87.5rem]">
+          <ul className="bg-cover bg-local  lg: h-[6.4rem]  flex flex-col md:flex-row lg:flex-auto mt-[0.25rem] max-w-[87.5rem] w-screen justify-end md:bg-[url('/nav.svg')] lg:md:bg-[url('/nav.svg')] md:w-full lg:w-[87.5rem]">
             <div className=' mr-8 flex flex-col md:flex-row lg:flex-row items-center text-black'>
               <li className="bg-[url(' /nav.svg')] md:bg-none"> <a href="/" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>HOME</a></li>
               <li> <a href="/Event" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>EVENTS</a></li>
