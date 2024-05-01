@@ -5,8 +5,8 @@ const Navbar = () => {
 
 
   return <div className="bg-black resize w-screen max-w-screen ">
-    <div className="text-white flex flex-end">
-      <a href="/"> <div className='text-white mr-[100px]  mt-5'><img src="/assets/logo.svg" alt="" /></div></a>
+    <div className="text-white justify-center align-center md:flex flex-end">
+      <a href="/"> <div className='text-white mr-[100px] lg:mt-6 md:mt-5'><img src="/assets/logo.svg" alt="" /></div></a>
       <div className="top-10 right-5 absolute md:hidden">
         <button
           onClick={() => setIsnav(!isnav)}
@@ -65,48 +65,49 @@ const Navbar = () => {
 
       </div>
 
-      <center>{!isnav && (
-        <>
-          <ul className='md:hidden m-[10rem] flex flex-col'>
+      {!isnav && (
+        <div className='h-[40rem]'>
+
+          <ul className='md:hidden  m-auto flex flex-col'>
             <li>
               <Link href="/">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Home</p>
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Home</p>
                 <hr className='w-[10rem] justify-end ' />
               </Link>
 
             </li>
             <li>
               <Link href="/Event">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Event</p>
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Event</p>
                 <hr className='w-[10rem] justify-end ' />
               </Link>
 
             </li>
             <li>
               <Link href="/Alumuni">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Alumini</p>
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Alumini</p>
                 <hr className='w-[10rem] justify-end ' />
               </Link>
 
             </li>
             <li>
               <Link href="/Art">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Art</p>
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Art</p>
                 <hr className='w-[10rem] justify-end ' />
               </Link>
 
             </li>
             <li>
               <Link href="/Literary">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Literary</p>
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Literary</p>
                 <hr className='w-[10rem] justify-end ' />
               </Link>
 
             </li>
           </ul>
-        </>
+        </div>
       )
-      }</center>
+      }
 
     </div >
 
