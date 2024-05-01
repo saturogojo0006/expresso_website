@@ -70,33 +70,38 @@ const Navbar = () => {
           <ul className='md:hidden m-[10rem] flex flex-col'>
             <li>
               <Link href="/">
-                <p className="nav-link">Home</p>
+                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Home</p>
+                <hr className='w-[10rem] justify-end ' />
               </Link>
+
             </li>
             <li>
               <Link href="/Event">
-                <p className="nav-link">Events</p>
+                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Event</p>
+                <hr className='w-[10rem] justify-end ' />
               </Link>
+
             </li>
             <li>
-              <Link href="/Alumini">
-                <p className="nav-link">Alumni</p>
+              <Link href="/Alumuni">
+                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Alumini</p>
+                <hr className='w-[10rem] justify-end ' />
               </Link>
+
             </li>
             <li>
-              <Link href="/Gallery">
-                <p className="nav-link">Art</p>
+              <Link href="/Art">
+                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Art</p>
+                <hr className='w-[10rem] justify-end ' />
               </Link>
+
             </li>
             <li>
-              <Link href="/Team">
-                <p className="nav-link">Literary</p>
+              <Link href="/Literary">
+                <p className='nav-link font-semibold text-10 font-["Coluna"] '>Literary</p>
+                <hr className='w-[10rem] justify-end ' />
               </Link>
-            </li>
-            <li>
-              <Link href="/section">
-                <p className="nav-link">Section</p>
-              </Link>
+
             </li>
           </ul>
         </>
