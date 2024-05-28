@@ -1,0 +1,89 @@
+.rectangle {
+    width: 1162px;
+    height: 600px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    position: absolute; /* Absolute positioning */
+    top: 55%; /* Position the top center of the rectangle */
+    left: 50%; /* Position the left center of the rectangle */
+    transform: translate(-50%, -50%); /* Adjust the position to center it */
+    z-index: 8; /* Higher than the image to stay on top */
+  }
+  
+  .bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .msg {
+    position: absolute;
+    top: -2%;
+    left: 260px;
+    display: flex; /* Display contents in a flex container */
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    padding: 0 2px;
+    font-size: 46px;
+    color: white;
+    z-index: 12; /* Higher than the rectangle */
+  }
+  
+  .professorInCharge {
+    position: absolute;
+    top: 88px;
+    left: 260px;
+    display: flex; /* Display contents in a flex container */
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    padding: 4px 4px;
+    font-size: 46px;
+    color: #FEB952;
+    z-index: 12; /* Higher than the rectangle */
+  }
+  
+  .letter {
+    margin-left: 200px;
+    margin-top: 210px;
+    margin-right: 200px;
+    top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 4px;
+    color: white;
+    opacity: 1;
+    font-size: 20px;
+    z-index: 14;
+  }
+  
+  .letter > p {
+    color: white;
+  }
+  
+  .club {
+    position: absolute;
+    top: 145px;
+    left: 260px;
+    display: flex; /* Display contents in a flex container */
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    padding: 4px 4px;
+    font-family: Antonio-Bold-ttf;
+    font-size: 30px;
+    color: #f3f3f3;
+    opacity: 0.78;
+    z-index: 12; /* Higher than the rectangle */
+  }
+  
+  .topRightImage {
+    position: absolute;
+    top: 22%; /* Align with the top center of the rectangle */
+    right: 8%; /* Align near the right edge of the rectangle */
+    transform: translateY(-50%); /* Adjust the position to center vertically */
+    z-index: 15; /* Higher than the rectangle */
+  }
+  
