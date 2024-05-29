@@ -86,4 +86,14 @@
     transform: translateY(-50%); /* Adjust the position to center vertically */
     z-index: 15; /* Higher than the rectangle */
   }
+  .icons {
+    position: absolute;
+    top: 18%; /* Align with the top center of the rectangle */
+    right: 8.4%; /* Align near the right edge of the rectangle */
+    transform: translateY(-50%); /* Adjust the position to center vertically */
+    z-index: 15; /* Higher than the rectangle */
+  }
+  .icons div{
+    padding-top: 15px;
+  }
   

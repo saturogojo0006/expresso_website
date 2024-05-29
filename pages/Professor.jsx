@@ -1,6 +1,8 @@
 import React from "react";
 import Image from 'next/image';
 import styles from "./Professor.module.css";
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+
 
 function Professor() {
   return (
@@ -41,7 +43,12 @@ function Professor() {
           </p>
         </div>
         <div className={styles.rectangle}></div>
-        <span className={styles.topRightImage}><Image src="/PI.png" width={294} height = {276}  /></span>
+        <span className={styles.topRightImage}><Image src="/dkdheer.png" width={294} height = {276}  /></span>
+        <div className={styles.icons}>
+           <div> <a href="" target="blank"><FaInstagram className="text-black w-6 h-6 md:w-8 md:h-8" /></a> </div>
+           <div><a href="" target="blank"><FaFacebook className="text-black w-6 h-6 md:w-8 md:h-8" /></a> </div>
+           <div> <a href="https://www.linkedin.com/in/dr-dharmendra-kumar-dheer-65b17b97?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><FaLinkedin className="text-black w-6 h-6 md:w-8 md:h-8" /></a> </div>
+        </div>
       </div>
     </div>
   );
