@@ -38,8 +38,8 @@ export default function Home() {
       </main> */}
 
       <LandingPage />
-      <About />
-      <Contact />
+  
+      <Contact/>
       <Event />
       <EventDesc
   event={{
