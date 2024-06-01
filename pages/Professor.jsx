@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 function Professor() {
   return (
-    <div className="flex flex-col min-h-screen relative">
+    <div className="flex flex-col min-h-screen relative bg-black z-[-1]">
       <div className="flex-1 relative">
         <Image
           src="/profbg.png"
@@ -15,7 +15,7 @@ function Professor() {
           alt="Background"
         />
         <div className={styles.msg}>
-          <span><Image src="/Letter.png" width={54} height={190} /></span>
+          <span><Image src="/Letter.png" width={54} height={190} className={styles.msgimg} alt="msg-image"/></span>
           <span>ESSAGE FROM OUR</span> <br />
         </div>
         <div className={styles.professorInCharge}>PROFESSOR-IN-CHARGE</div>
