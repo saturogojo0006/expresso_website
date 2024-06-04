@@ -8,20 +8,20 @@ import Team from "./Team";
 import Contact from "./Contact";
 import EventDesc from "./EventDesc";
 
-const inter = Inter({ subsets: ["latin"] });
-<style>
-  @import
-  url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;700&family=Poppins&display=swap');
-</style>;
+// const inter = Inter({ subsets: ["latin"] });
+// <style>
+//   @import
+//   url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;700&family=Poppins&display=swap');
+// </style>;
 
 export default function Home() {
   return (
     <>
       {/* <Home /> */}
 
-      <LandingPage />
-      <About />
-      {/* <Team /> */}
+      {/* <LandingPage />
+      <About /> */}
+      <Team />
       {/* <main
         className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
       >
@@ -38,8 +38,8 @@ export default function Home() {
       </main> */}
 
       <LandingPage />
-      <About />
-      <Contact />
+  
+      <Contact/>
       <Event />
       <EventDesc
   event={{

@@ -1,30 +1,118 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import Link from 'next/link';
 const Navbar = () => {
+  const [isnav, setIsnav] = useState(true);
+
+
   return <div className="bg-black resize w-screen max-w-screen ">
-    <div className="text-white flex flex-end">
-      <a href="/"> <div className='text-white mr-[100px]  mt-5'><img src="/assets/logo.svg" alt="" /></div></a>
+    <div className="text-white justify-center align-center lg:justify-start md:justify-start md:flex flex-end">
+      <Link href="/"> <div className='text-white  mr-[100px] lg:mt-6 md:mt-5'><img src="/assets/logo.svg" alt="" />
+      </div></Link>
+      <div className="top-10 right-5 absolute md:hidden">
+        <button
+          onClick={() => setIsnav(!isnav)}
+          className="text-white focus:outline-none focus:text-white"
+        >
+          {isnav ? (
+            <svg
+              className="h-6 w-6 fill-current"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M3 5h18v2H3V5zm0 6h18v2H3v-2zm0 6h18v2H3v-2z"
+              />
+            </svg>
+
+          ) : (
+            <svg
+              className="h-6 w-6 fill-current"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M4.293 19.707a1 1 0 0 1-1.414-1.414L10.586 12 2.293 3.707a1 1 0 1 1 1.414-1.414L12 10.586l8.293-8.293a1 1 0 1 1 1.414 1.414L13.414 12l8.293 8.293a1 1 0 0 1-1.414 1.414L12 13.414l-8.293 8.293z"
+              />
+            </svg>
+          )}
+        </button>
 
 
-      <div className="absolute top-0 right-0">
-        <ul className="bg-cover bg-local  lg: h-[6.4rem]  flex  mt-[0.25rem] max-w-[87.5rem] w-screen justify-end bg-[url('/nav.svg')] lg:w-[87.5rem]">
-          <div className=' mr-8 flex items-center text-black'>
-            <a href="/" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full  hover:border-[0.25rem] border-black hover:font-extrabold'>HOME</a>
-            <a href="/Event" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>EVENTS</a>
-            <a href="/Almuni" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>ALUMNI</a>
-            <a href="/Gallery" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>ART</a>
-            <a href="/" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>LITERARY</a>
-          </div>
-          <button
-            type="button" href="/"
-            className="text-black text-[1.25rem] w-[12.5rem] pt-2 mt-2  font-['Coluna']  mr-16 bg-[#F4B24E] hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900 hover:border-[0.25rem] border-black" style={{ font: 'bold' }}
-          >
-            Join Us
-          </button>
-
-        </ul>
       </div>
-    </div>
+      <div className="hidden md:block lg:absolute top-0 right-0">
+        <div className=' lg:visible md:visible'>
+          <ul className="bg-cover bg-local  lg: h-[6.4rem]  flex flex-col md:flex-row lg:flex-auto mt-[0.25rem] max-w-[87.5rem] w-screen justify-end md:bg-[url('/nav.svg')] lg:md:bg-[url('/nav.svg')] md:w-full lg:w-[87.5rem]">
+            <div className=' mr-8 flex flex-col md:flex-row lg:flex-row items-center text-black'>
+              <li className="bg-[url(' /nav.svg')] md:bg-none"> <Link href="/" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>HOME</Link></li>
+              <li> <Link href="/Event" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>EVENTS</Link></li>
+              <li> <Link href="/Almuni" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>ALUMNI</Link></li>
+              <li> <Link href="/Gallery" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>ART</Link></li>
+              <li> <Link href="/" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>LITERARY</Link></li>
+
+              <li><button
+                type="button" href="/"
+                className="text-black p-[0.125rem 0.5rem] p-2 h-[3.2rem] text-[1.25rem] w-[8.2rem] font-['Coluna'] font-extrabold mr-16 bg-[#F4B24E] hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm text-center 2 dark:focus:ring-yellow-900 hover:border-[0.25rem] border-black "
+              >
+                Join Us
+              </button></li>
+            </div>
+
+
+          </ul>
+        </div>
+
+
+      </div>
+
+      {!isnav && (
+        <div className='h-[40rem]'>
+
+          <ul className='md:hidden  m-auto flex flex-col'>
+            <li>
+              <Link href="/">
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Home</p>
+                <hr className='w-[10rem] justify-end ' />
+              </Link>
+
+            </li>
+            <li>
+              <Link href="/Event">
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Event</p>
+                <hr className='w-[10rem] justify-end ' />
+              </Link>
+
+            </li>
+            <li>
+              <Link href="/Alumuni">
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Alumini</p>
+                <hr className='w-[10rem] justify-end ' />
+              </Link>
+
+            </li>
+            <li>
+              <Link href="/Art">
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Art</p>
+                <hr className='w-[10rem] justify-end ' />
+              </Link>
+
+            </li>
+            <li>
+              <Link href="/Literary">
+                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Literary</p>
+                <hr className='w-[10rem] justify-end ' />
+              </Link>
+
+            </li>
+          </ul>
+        </div>
+      )
+      }
+
+    </div >
+
+
   </div >;
 }
 

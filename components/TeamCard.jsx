@@ -21,7 +21,7 @@ const TeamCard = ({ member }) => {
           <h3>{member.branch}</h3>
         </div>
       <div className="text-center">
-        <h2 className="text-2xl font-normal font-Antonio">{member.name}</h2>
+        <h2 className="text-xl font-normal font-Antonio">{member.name}</h2>
         <p className="text-lg mb-5 font-Antonio">{member.position}</p>
       <div className="flex justify-center items-center space-between space-x-10 cursor-pointer">
       <a href={member.instagram} className="text-lg" target="_blank" rel="noopener noreferrer">

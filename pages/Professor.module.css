@@ -1,0 +1,194 @@
+.rectangle {
+  width: 1162px;
+  height: 600px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  position: absolute; /* Absolute positioning */
+  top: 55%; /* Position the top center of the rectangle */
+  left: 50%; /* Position the left center of the rectangle */
+  transform: translate(-50%, -50%); /* Adjust the position to center it */
+  z-index: 8; /* Higher than the image to stay on top */
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.msg {
+  position: absolute;
+  top: -2%;
+  left: 260px;
+  display: flex; /* Display contents in a flex container */
+  align-items: center; /* Center vertically */
+  justify-content: center;
+  padding: 0 2px;
+  font-size: 46px;
+  color: white;
+  z-index: 12; /* Higher than the rectangle */
+}
+
+.professorInCharge {
+  position: absolute;
+  top: 88px;
+  left: 260px;
+  display: flex; /* Display contents in a flex container */
+  align-items: center; /* Center vertically */
+  justify-content: center;
+  padding: 4px 4px;
+  font-size: 46px;
+  color: #FEB952;
+  z-index: 12; /* Higher than the rectangle */
+}
+
+.letter {
+  margin-left: 200px;
+  margin-top: 210px;
+  margin-right: 200px;
+  top: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 4px;
+  color: white;
+  opacity: 1;
+  font-size: 20px;
+  z-index: 14;
+}
+
+.letter > p {
+  color: white;
+}
+
+.club {
+  position: absolute;
+  top: 145px;
+  left: 260px;
+  display: flex; /* Display contents in a flex container */
+  align-items: center; /* Center vertically */
+  justify-content: center;
+  padding: 4px 4px;
+  font-family: Antonio-Bold-ttf;
+  font-size: 30px;
+  color: #f3f3f3;
+  opacity: 0.78;
+  z-index: 12; /* Higher than the rectangle */
+}
+
+.topRightImage {
+  position: absolute;
+  top: 22%; /* Align with the top center of the rectangle */
+  right: 8%; /* Align near the right edge of the rectangle */
+  transform: translateY(-50%); /* Adjust the position to center vertically */
+  z-index: 15; /* Higher than the rectangle */
+}
+.icons {
+  position: absolute;
+  top: 18%; /* Align with the top center of the rectangle */
+  right: 8.4%; /* Align near the right edge of the rectangle */
+  transform: translateY(-50%); /* Adjust the position to center vertically */
+  z-index: 15; /* Higher than the rectangle */
+}
+.icons div{
+  padding-top: 15px;
+}
+
+
+@media screen and (max-width:500px) {
+  .bgImage {
+    display: none; /* Hide background image for screens less than 500px */
+  }
+  
+/* Create a centered container */
+.centered-container {
+  display: flex;
+  flex-direction: column; /* Adjust for row or other layouts */
+  justify-content: center;
+  align-items: center;
+  max-width: 500px; /* Ensures responsiveness */
+  margin: 0 auto; /* Centers horizontally within parent container */
+}
+
+/* Remove conflicting styles for centering */
+.msg,
+.professorInCharge,
+.club,
+.icons,
+.letter {
+  /* Remove left, top, and position: absolute properties */
+  left: unset;
+  top: unset;
+  position: static;
+}
+
+/* Rest of your styles (if any) */
+
+.msg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.msgimg {
+  width: 25px;
+  height: 72px;
+}
+
+.professorInCharge {
+  display: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.club {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.topRightImage {
+  /* Position below club class */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -90px; /* Adjust spacing as needed */
+  left: 24%;
+  height: 240px;
+  width: 240px;
+}
+
+.icons {
+ /* Position below club class */
+
+ position: absolute;
+margin-top: -1390px;
+ right: 19.5%;
+
+
+}
+
+.letter {
+  /* Centered with 80% width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  /* text-wrap: wrap; */
+  margin-top: 300px; /* Adjust spacing as needed */
+}
+
+.rectangle {
+  display: none;
+}
+
+}
