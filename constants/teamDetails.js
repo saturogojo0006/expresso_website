@@ -66,7 +66,7 @@ technical: {
 ],
 },
 nontechnical: {
-  teamName: "Non-Technical",
+  teamName: "Non-Tech",
   teamImage: '/Megaphone.png',
   members: [
   { id: 1, name: 'Shubham Tiwari', position: 'Web developer', team: 'technical', image: '', branch: 'CSE-26', instagram: '',
