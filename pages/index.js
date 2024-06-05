@@ -7,6 +7,8 @@ import Event from "./Event";
 import Team from "./Team";
 import Contact from "./Contact";
 import EventDesc from "./EventDesc";
+import EventFirstPage from "./EventFirstPage";
+import AllEventsPage from "./AllEventsPage";
 
 // const inter = Inter({ subsets: ["latin"] });
 // <style>
@@ -41,6 +43,8 @@ export default function Home() {
   
       <Contact/>
       <Event />
+      <EventFirstPage/>
+      <AllEventsPage/>
       <EventDesc
   event={{
     title: 'EVENT-2',

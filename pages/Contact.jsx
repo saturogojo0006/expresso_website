@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     value={formData.lastName}
-                    onChange={handleInputChange}
+                    onChange={handleInputChange} 
                     className="w-full border-b-2 text-lg border-gray-400 focus:border-blue-500 outline-none bg-black text-white"
                     placeholder="Art"
                   />
