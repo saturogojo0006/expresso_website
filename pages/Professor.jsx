@@ -1,7 +1,7 @@
 import React from "react";
-import Image from 'next/image';
 import styles from "./Professor.module.css";
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import Image from "next/image";
 
 
 function Professor() {
