@@ -67,48 +67,55 @@ const Navbar = () => {
       </div>
 
       {!isnav && (
-        <div className='h-[40rem]'>
-
-          <ul className='md:hidden  m-auto flex flex-col'>
-            <li>
-              <Link href="/">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Home</p>
-                <hr className='w-[10rem] justify-end ' />
-              </Link>
-
-            </li>
-            <li>
-              <Link href="/Event">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Event</p>
-                <hr className='w-[10rem] justify-end ' />
-              </Link>
-
-            </li>
-            <li>
-              <Link href="/Alumuni">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Alumini</p>
-                <hr className='w-[10rem] justify-end ' />
-              </Link>
-
-            </li>
-            <li>
-              <Link href="/Art">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Art</p>
-                <hr className='w-[10rem] justify-end ' />
-              </Link>
-
-            </li>
-            <li>
-              <Link href="/Literary">
-                <p className='nav-link font-semibold text-10 font-["Coluna"] m-2 '>Literary</p>
-                <hr className='w-[10rem] justify-end ' />
-              </Link>
-
-            </li>
+        <div className='w-screen h-screen fixed top-0 left-0 bg-black bg-opacity-90 z-50 flex justify-center items-center'>
+          <button
+            onClick={() => setIsnav(!isnav)}
+            className="text-white focus:outline-none fixed top-10 right-10"
+          >
+            {isnav ? (
+              <svg
+                className="h-6 w-6 fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 5h18v2H3V5zm0 6h18v2H3v-2zm0 6h18v2H3v-2z"
+                />
+              </svg>
+            ) : (
+              <svg
+                className="h-6 w-6 fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4.293 19.707a1 1 0 0 1-1.414-1.414L10.586 12 2.293 3.707a1 1 0 1 1 1.414-1.414L12 10.586l8.293-8.293a1 1 0 1 1 1.414 1.414L13.414 12l8.293 8.293a1 1 0 0 1-1.414 1.414L12 13.414l-8.293 8.293z"
+                />
+              </svg>
+            )}
+          </button>
+          <ul className='space-y-6'>
+            {[
+              { href: "/", text: "Home" },
+              { href: "/Event", text: "Event" },
+              { href: "/Alumni", text: "Alumni" },
+              { href: "/Art", text: "Art" },
+              { href: "/Literary", text: "Literary" }
+            ].map((item, index) => (
+              <li key={index} className="group relative">
+                <Link href={item.href}>
+                  <p className='nav-link font-semibold text-lg font-coluna m-2 transition duration-300 group-hover:text-yellow-700'>
+                    {item.text}
+                  </p>
+                  <hr className='w-40 mt-1 border-t-2 border-gray-300 transition duration-300 transform group-hover:translate-x-2 group-hover:border-yellow-700' />
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
-      )
-      }
+      )}
 
     </div >
 
