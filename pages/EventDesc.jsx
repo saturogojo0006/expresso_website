@@ -25,7 +25,7 @@ function EventDesc({ event }) {
             {description}
           </div>
           <div className="mt-4">
-            <span className="text-[#FFBC58] text-lg sm:text-3xl">DATE:</span>
+            <span className="text-[] text-lg sm:text-3xl">DATE:</span>
             <span className="text-white text-lg sm:text-3xl pl-2">{date}</span>
           </div>
           <div className="mt-2">
