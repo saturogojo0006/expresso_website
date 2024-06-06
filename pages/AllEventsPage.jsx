@@ -53,6 +53,12 @@ function AllEventsPage() {
               placeholder="Suggestion:"
               className="p-2 border-b-2 bg-[rgba(255,255,255,0.05)] text-white border-gray-400  rounded-3xl w-1/2 h-32"
             ></textarea>
+               <button
+              type="submit"
+              className="mt-4 bg-white text-black px-6 py-2 rounded-lg text-lg"
+            >
+              Submit
+            </button>
           </form>
         </div>
       </div>
