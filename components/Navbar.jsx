@@ -46,7 +46,7 @@ const Navbar = () => {
           <ul className="bg-cover bg-local  lg: h-[6.4rem]  flex flex-col md:flex-row lg:flex-auto mt-[0.25rem] max-w-[87.5rem] w-screen justify-end md:bg-[url('/nav.svg')] lg:md:bg-[url('/nav.svg')] md:w-full lg:w-[87.5rem]">
             <div className=' mr-8 flex flex-col md:flex-row lg:flex-row items-center text-black'>
               <li className="bg-[url(' /nav.svg')] md:bg-none"> <Link href="/" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>HOME</Link></li>
-              <li> <Link href="/Event" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>EVENTS</Link></li>
+              <li> <Link href="/UpcomingEvent" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>EVENTS</Link></li>
               <li> <Link href="/Almuni" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>ALUMNI</Link></li>
               <li> <Link href="/Gallery" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>ART</Link></li>
               <li> <Link href="/" className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'>LITERARY</Link></li>
