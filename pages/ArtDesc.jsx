@@ -82,9 +82,9 @@ const ArtDesc = () => {
       </div>
 
       {/* Displaying cards for smaller screens */}
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full md:hidden">
         <div className="flex flex-col space-y-6 mt-6 ml-20 mb-6 mx-4">
-          {currentArtSet.slice(0,2).map((key) => (
+          {currentArtSet.slice(0, 2).map((key) => (
             <ArtCard key={key} art={artData[key]} />
           ))}
         </div>
