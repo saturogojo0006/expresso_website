@@ -1,8 +1,7 @@
 import React from "react"
 import Image from "next/image"
-import styles from "./Art.module.css"
 
-export default function Art() {
+export default function Literature() {
     return (
         <>
             <div className="relative h-screen w-full text-white text-center flex items-center justify-center">
@@ -15,7 +14,7 @@ export default function Art() {
                     />
                 </div>
                 <div className={`text-[24vw] relative z-10 font-antonio`} >
-                    ART
+                    LITERATURE
                 </div>
             </div>
         </>
