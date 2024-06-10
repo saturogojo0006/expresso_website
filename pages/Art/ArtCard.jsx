@@ -4,8 +4,8 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const ArtCard = ({ art }) => {
   return (
-    <div className="flex flex-col items-center p-2 bg-transparent rounded-xl shadow-lg border-2 border-white w-60 h-90 backdrop-filter backdrop-blur-md">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+    <div className="flex flex-col items-center p-1 bg-transparent rounded-xl shadow-lg border-2 border-white w-60 h-90 backdrop-filter backdrop-blur-md">
+      <div className="grid grid-cols-2 gap-2 w-full">
         <div className="flex flex-col col-span-1 md:col-span-8/10 bg-transparent items-start">
           <div className="text-xl font-bold text-center text-white font-antonio">
             {art.artName}
@@ -14,7 +14,7 @@ const ArtCard = ({ art }) => {
             {art.medium}
           </div>
         </div>
-        <div className="flex flex-col col-span-1 items-center text-bold md:col-span-2/10 bg-transparent border-yellow-500 border-l-4 border-b-4 m-0 p-0.5 text-black"> 
+        <div className="flex flex-col col-span-1 items-center text-bold md:col-span-2/10 bg-transparent border-white border-l-4 border-b-4 m-0 p-0.5 text-black"> 
           <div className="mb-1">
             <Image
               src={art.artistImage}
