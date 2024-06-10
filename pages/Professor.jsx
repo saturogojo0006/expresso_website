@@ -59,7 +59,7 @@ function Professor() {
 
   return (
     <>
-      <div className="bg-black p-0 m-0 min-h-[400px] flex flex-col gap-y-4 justify-center w-full lg:bg-[url('/profbg.png')] lg:bg-cover">
+      <div className="bg-black p-0 m-0 min-h-[400px] flex flex-col gap-y-4 justify-center w-full md:bg-[url('/profbg.png')] md:bg-cover">
         <div className="flex flex-col items-center lg:justify-start lg:items-start lg:ml-40 lg:z-10">
           <div className="text-white flex flex-row items-center space-x-2">
             <Image src="/Letter.png" width={44} height={140} alt="msg-image" />
