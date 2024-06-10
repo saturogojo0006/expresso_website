@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import LiteratureCard from "./LiteratureCard.jsx";
 import LiteratureData from "./LiteratureData.jsx";
@@ -25,66 +25,11 @@ const LiteratureDesc = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(/art-desc-bg.png)" }}>
-      <div className="hidden lg:flex flex-col w-full h-full">
-        {/* Displaying cards for larger screens */}
-        <div className="flex flex-row w-full lg:w-2/3 h-1/2 overflow-auto lg:overflow-hidden">
-          <div className="flex flex-col space-y-10 mt-6 mr-5 ml-16 lg:ml-10 lg:space-y-0 lg:space-x-10 lg:flex-row lg:flex-wrap">
-            <div className="flex flex-row flex-wrap">
-              {currentLiteratureSet.slice(0, 3).map((key) => (
-                <div key={key} className="w-full lg:w-[30%] px-8">
-                  <LiteratureCard literature={LiteratureData[key]} />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Displaying toggle button for larger screens */}
-        <div id="toggle" className="absolute top-12 right-5 h-1/2 w-1/3 mt-10 lg:mt-20">
-          <div id="details" className="mt-12 mr-2 flex flex-col justify-center items-center h-full w-full">
-            <div className="w-1/2 flex flex-col justify-center items-start text-white">
-              <div className="w-full flex items-center justify-center">
-                <div className="mr-4 mt-10">
-                  <div className="mt-0 flex items-center justify-center w-full">
-                    <div className="w-full text-center">
-                      <h1 className="text-[90px] ml-4 font-Antonio whitespace-nowrap overflow-hidden overflow-ellipsis">LITERATURE</h1>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="mt-10 flex flex-row items-center justify-center w-full">
-                <div className="mr-4 cursor-pointer">
-                  <Image onClick={handleButtonLeft} src="/leftarrow.png" width={50} height={50} alt="leftarrow" />
-                </div>
-                <div className="mr-4 font-Antonio text-5xl ml-4 flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4 p-2">
-                  {toggle + 1}
-                </div>
-                <div className="ml-4 cursor-pointer">
-                  <Image onClick={handleButtonRight} src="/rightarrow.png" width={50} height={50} alt="rightarrow" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Displaying cards for larger screens */}
-        <div className="flex flex-col w-full h-1/2 lg:flex-row lg:justify-between items-center">
-          <div className="flex flex-col lg:flex-row lg:space-x-10 justify-between mb-6 pt-10 lg:mr-5 lg:ml-10 h-full lg:h-auto lg:overflow-hidden">
-            <div className="flex flex-row flex-wrap justify-between">
-              {currentLiteratureSet.map((key) => (
-                <div key={key} className="w-full lg:w-[20%] px-8"> {/* Each card takes 1/4 of the row for screens larger than 1000px */}
-                  <LiteratureCard literature={LiteratureData[key]} />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Displaying cards for smaller screens */}
-      <div className="flex flex-col w-full md:hidden">
-        <div className="flex flex-col space-y-6 mt-6 ml-20 mb-6 mx-4">
-          {currentLiteratureSet.slice(0, 2).map((key) => (
+      <div className="flex flex-col w-full items-center m-2 gap-y-4 md:hidden">
+        <div className="flex flex-col gap-y-4">
+          {currentLiteratureSet.slice(0, 5).map((key) => (
             <LiteratureCard key={key} literature={LiteratureData[key]} />
           ))}
         </div>
@@ -98,6 +43,115 @@ const LiteratureDesc = () => {
             </div>
             <div className="ml-4 cursor-pointer">
               <Image onClick={handleButtonRight} src="/rightarrow.png" width={50} height={50} alt="rightarrow" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* MEDIUM SCREENS */}
+      <div className="hidden md:flex flex-col w-full h-full lg:hidden">
+        {/* Displaying cards for medium screens */}
+        <div className="flex flex-col w-full gap-y-4 my-4">
+          <div className="flex flex-row w-[70%] justify-center items-center px-2">
+            {currentLiteratureSet.slice(0, 2).map((key) => (
+              <div key={key} className="w-1/2">
+                <LiteratureCard literature={LiteratureData[key]} />
+              </div>
+            ))}
+          </div>
+          <div className="flex flex-row w-full gap-y-4 justify-center items-center">
+            {currentLiteratureSet.slice(2, 5).map((key) => (
+              <div key={key} className="w-1/3 p-4">
+                <LiteratureCard literature={LiteratureData[key]} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Displaying toggle button for medium screens */}
+        <div id="toggle" className="absolute top-[750px] right-5 h-1/2 w-1/3 mt-10 lg:mt-20">
+          <div id="details" className="mt-12 mr-2 flex flex-col justify-center items-center h-full w-full">
+            <div className="w-1/2 flex flex-col justify-center items-start text-white">
+              <div className="w-full flex items-center justify-center">
+                <div className="mr-4 mt-10">
+                  <div className="mt-0 flex items-center justify-center w-full">
+                    <div className="w-full text-center">
+                      <h1 className="text-6xl ml-4 font-Antonio whitespace-nowrap overflow-hidden overflow-ellipsis">LITERATURE</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-10 flex flex-row items-center justify-between w-full">
+                <div className="cursor-pointer">
+                  <Image onClick={handleButtonLeft} src="/leftarrow-artdesc.png" width={50} height={50} alt="leftarrow" />
+                </div>
+                <div className="font-Antonio text-5xl flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4 p-2 mx-1">
+                  {toggle + 1}
+                </div>
+                <div className="cursor-pointer">
+                  <Image onClick={handleButtonRight} src="/rightarrow-artdesc.png" width={50} height={50} alt="rightarrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      {/* LARGER SCREENS */}
+      <div className="hidden lg:flex flex-col w-full h-full lg:max-w-[1500px]">
+        {/* Displaying cards for larger screens */}
+        <div className="flex flex-col w-full lg:w-2/3 h-1/2">
+          <div className="flex flex-col lg:flex-row lg:mt-2 p-0">
+            <div className="flex flex-row">
+              {currentLiteratureSet.slice(0, 3).map((key) => (
+                <div key={key} className="w-full lg:w-1/3 px-2">
+                  <LiteratureCard literature={LiteratureData[key]} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Displaying toggle button for larger screens */}
+        <div id="toggle" className="absolute top-[750px] right-5 mt-10 h-1/2 w-1/3 lg:mt-20">
+          <div id="details" className="mt-12 mr-2 flex flex-col justify-center items-center h-full w-full">
+            <div className="w-1/2 flex flex-col flex-wrap justify-center items-start text-white">
+              <div className="w-full flex items-center justify-center">
+                <div className="mr-4 mt-10">
+                  <div className="mt-0 flex items-center justify-center w-full">
+                    <div className="w-full text-center">
+                      <h1 className="text-8xl ml-4 font-Antonio whitespace-nowrap overflow-hidden overflow-ellipsis">LITERATURE</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-row items-center justify-center w-full">
+                <div className="cursor-pointer">
+                  <Image onClick={handleButtonLeft} src="/leftarrow-artdesc.png" width={50} height={50} alt="leftarrow" />
+                </div>
+                <div className="font-Antonio text-5xl ml-4 mr-4 flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4">
+                  {toggle + 1}
+                </div>
+                <div className="cursor-pointer">
+                  <Image onClick={handleButtonRight} src="/rightarrow-artdesc.png" width={50} height={50} alt="rightarrow" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Displaying cards for larger screens */}
+        <div className="flex flex-col w-full h-1/2 lg:flex-row lg:justify-between items-center">
+          <div className="flex flex-col lg:flex-row lg:flex-wrap justify-between mt-4 mb-4 h-full lg:h-auto lg:overflow-wrap ">
+            <div className="lg:flex justify-between p-0">
+              {currentLiteratureSet.slice(0).map((key) => (
+                <div key={key} className="w-full lg:w-1/5 px-2 justify-between"> {/* Each card takes 1/5 of the row for larger screens */}
+                  <LiteratureCard literature={LiteratureData[key]} />
+                </div>
+              ))}
             </div>
           </div>
         </div>
