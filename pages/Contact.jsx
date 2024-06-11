@@ -153,11 +153,11 @@ const Contact = () => {
       {/* Footer Images */}
       <div className="w-full bg-black">
         <div className="w-full">
-          <Image src='/treebottom.png' width={1200} height={200} alt="image" className="object-cover w-full h-auto" />
+          <Image src='/treebottom.png' width={1200} height={140} alt="image" className="object-cover w-full h-auto" />
         </div>
-        <div className="w-full">
+        {/* <div className="w-full">
           <Image src='/tornpaper2.png' width={1000} height={200} alt="image" className="object-cover w-full h-auto" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

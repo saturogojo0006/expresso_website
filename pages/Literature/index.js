@@ -1,7 +1,5 @@
 import React from "react";
 import Literature from "./Literature";
-import LiteratureCard from "./LiteratureCard";
-import LiteratureData from "./LiteratureData";
 import LiteratureDesc from "./LiteratureDesc";
 
 const LiteraturePage = () => {

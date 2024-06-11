@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 const Navbar = () => {
   const [isnav, setIsnav] = useState(true);
 
@@ -8,8 +9,8 @@ const Navbar = () => {
       <div className="text-white justify-center align-center lg:justify-start md:justify-start md:flex flex-end">
         <Link href="/">
           {" "}
-          <div className="text-white  mr-[100px] lg:mt-6 md:mt-5">
-            <img src="/assets/logo.svg" alt="" />
+          <div className="text-white  mr-[100px]">
+            <Image width={140} height={140} src="/assets/logo.svg" alt="logo" />
           </div>
         </Link>
         <div className="top-10 right-5 absolute md:hidden">
@@ -45,7 +46,7 @@ const Navbar = () => {
         <div className="hidden md:block lg:absolute top-0 right-0">
           <div className=" lg:visible md:visible">
             <ul className="bg-cover bg-local  lg: h-[6.4rem]  flex flex-col md:flex-row lg:flex-auto mt-[0.25rem] max-w-[87.5rem] w-screen justify-end md:bg-[url('/nav.svg')] lg:md:bg-[url('/nav.svg')] md:w-full lg:w-[87.5rem]">
-              <div className=" mr-8 flex flex-col md:flex-row lg:flex-row items-center text-black">
+              <div className="flex flex-col md:flex-row lg:flex-row items-center text-black">
                 <li className="bg-[url(' /nav.svg')] md:bg-none">
                   {" "}
                   <Link
@@ -67,7 +68,16 @@ const Navbar = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/Almuni"
+                    href="/Team"
+                    className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'
+                  >
+                    TEAM
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link
+                    href="/Alumni"
                     className='p-2 font-["Coluna"] p-[0.125rem 0.5rem] m-[1.875rem] font-semibold rounded hover:rounded-full hover:border-[0.25rem] border-black hover:font-extrabold'
                   >
                     ALUMNI
@@ -97,7 +107,7 @@ const Navbar = () => {
                     <button
                       type="button"
                       href="/"
-                      className="text-black p-[0.125rem 0.5rem] p-2 h-[3.2rem] text-[1.25rem] w-[8.2rem] font-['Coluna']  mr-16 bg-[#F4B24E] hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm text-center 2 dark:focus:ring-yellow-900 hover:border-[0.25rem] border-black "
+                      className="text-black text-lg font-bold p-[0.1rem 0.5rem] p-2 h-[3.2rem] text-[1.25rem] w-[8.2rem] font-['Coluna']  mr-16 bg-[#F4B24E] hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm text-center 2 dark:focus:ring-yellow-900 hover:border-[0.005rem] border-black "
                     >
                       Join Us
                     </button>
