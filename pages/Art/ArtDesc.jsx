@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import ArtCard from "./ArtCard.jsx";
-import artData from "./ArtData.jsx";
+import ArtCard from "../../components/ArtCard.jsx";
+import artData from "../../constants/ArtData.js";
 
 const ArtDesc = () => {
   const [toggle, setToggle] = useState(0); // Start with the first art piece
@@ -119,8 +119,8 @@ const ArtDesc = () => {
         </div>
 
         {/* Displaying toggle button for larger screens */}
-        <div id="toggle" className="absolute top-[750px] right-5 mt-10 h-1/2 w-1/3 lg:mt-20">
-          <div id="details" className="mt-12 mr-2 flex flex-col justify-center items-center h-full w-full">
+        <div id="toggle" className="absolute top-[780px]] right-5 mt-10 h-1/2 w-1/3 lg:mt-2">
+          <div id="details" className="mr-2 flex flex-col justify-center items-center h-full w-full">
             <div className="w-1/2 flex flex-col flex-wrap justify-center items-start text-white">
               <div className="w-full flex items-center justify-center">
                 <div className="mr-4 mt-10">

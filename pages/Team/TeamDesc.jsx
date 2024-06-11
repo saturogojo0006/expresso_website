@@ -3,7 +3,7 @@ import Image from "next/image";
 import TeamCard from "@/components/TeamCard";
 import teamData from "@/constants/teamDetails";
 
-const Team = () => {
+const TeamDesc = () => {
   const [toggle, setToggle] = useState(0); // Start with the first team
   const teamKeys = Object.keys(teamData);
   const currentTeam = teamKeys[toggle];
@@ -43,9 +43,9 @@ const Team = () => {
           </div>
         </div>
 
-        <div id="toggle" className="absolute top-12 right-5 h-1/2 w-1/3 mt-10 lg:mt-20">
-          <div id="details" className="mt-12 mr-2 flex flex-col justify-center items-center h-full w-full">
-            <div className="w-1/2 flex flex-col justify-center items-start text-white">
+        <div id="toggle" className="absolute right-5 h-1/2 w-1/3">
+          <div id="details" className="mr-2 flex flex-col justify-center items-center mb-10 h-full w-full">
+            <div className="w-1/2 mb-14 flex flex-col justify-center items-start text-white">
               <div className="w-full flex items-center justify-center">
                 <div className="mr-4 mt-10">
                   <div className="flex items-center justify-center w-20 h-20">
@@ -126,4 +126,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default TeamDesc;
