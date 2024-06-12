@@ -4,7 +4,7 @@ import Image from "next/image";
 function Home() {
   return (
     <div
-      className="relative flex items-center justify-center h-[400px] p-4 sm:h-[600px] md:h-[700px] lg:h-[800px] object-contain"
+      className="relative flex items-center justify-center h-[400px] p-4 sm:h-[600px] md:h-[700px] object-contain"
       style={{ backgroundImage: `url(/HomeBg1.png)` }}
     >
       <div
