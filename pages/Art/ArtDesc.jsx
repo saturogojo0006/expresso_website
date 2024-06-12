@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import ArtCard from "./ArtCard.jsx";
 import artData from "./ArtData.jsx";
 
 const ArtDesc = () => {
   const [toggle, setToggle] = useState(0); // Start with the first art piece
+  const [overlay, setOverlay] = useState({ isOpen: false, art: null });
+
   const artKeys = Object.keys(artData);
 
   // Calculate the number of sets of art cards to display
@@ -18,6 +20,14 @@ const ArtDesc = () => {
     setToggle((prevIndex) => (prevIndex + 1) % totalSets);
   };
 
+  const openOverlay = (art) => {
+    setOverlay({ isOpen: true, art });
+  };
+
+  const closeOverlay = () => {
+    setOverlay({ isOpen: false, art: null });
+  };
+
   // Get the current set of art cards to display
   const startIndex = toggle * 5;
   const endIndex = startIndex + 5;
@@ -25,12 +35,33 @@ const ArtDesc = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(/art-desc-bg.png)" }}>
+      {overlay.isOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
+          <div className="relative w-4/5 h-4/5">
+            <button
+              onClick={closeOverlay}
+              className="absolute top-4 right-4 text-white text-2xl"
+            >
+              &times;
+            </button>
+            <div className="flex justify-center items-center h-full">
+              <Image
+                src={overlay.art.artImage}
+                width={900}
+                height={900}
+                alt={overlay.art.artName}
+                className="max-w-full max-h-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Displaying cards for smaller screens */}
       <div className="flex flex-col w-full items-center m-2 gap-y-4 md:hidden">
         <div className="flex flex-col gap-y-4">
           {currentArtSet.slice(0, 5).map((key) => (
-            <ArtCard key={key} art={artData[key]} />
+            <ArtCard key={key} art={artData[key]} openOverlay={openOverlay} />
           ))}
         </div>
         <div className="flex flex-col w-full justify-center items-center">
@@ -55,14 +86,14 @@ const ArtDesc = () => {
           <div className="flex flex-row w-[70%] justify-center items-center px-2">
             {currentArtSet.slice(0, 2).map((key) => (
               <div key={key} className="w-1/2">
-                <ArtCard art={artData[key]} />
+                <ArtCard art={artData[key]} openOverlay={openOverlay} />
               </div>
             ))}
           </div>
           <div className="flex flex-row w-full gap-y-4 justify-center items-center">
             {currentArtSet.slice(2, 5).map((key) => (
               <div key={key} className="w-1/3 p-4">
-                <ArtCard art={artData[key]} />
+                <ArtCard art={artData[key]} openOverlay={openOverlay} />
               </div>
             ))}
           </div>
@@ -97,12 +128,6 @@ const ArtDesc = () => {
         </div>
       </div>
 
-
-
-
-
-
-
       {/* LARGER SCREENS */}
       <div className="hidden lg:flex flex-col w-full h-full lg:max-w-[1500px]">
         {/* Displaying cards for larger screens */}
@@ -111,7 +136,7 @@ const ArtDesc = () => {
             <div className="flex flex-row">
               {currentArtSet.slice(0, 3).map((key) => (
                 <div key={key} className="w-full lg:w-1/3 px-2">
-                  <ArtCard art={artData[key]} />
+                  <ArtCard art={artData[key]} openOverlay={openOverlay} />
                 </div>
               ))}
             </div>
@@ -148,11 +173,11 @@ const ArtDesc = () => {
 
         {/* Displaying cards for larger screens */}
         <div className="flex flex-col w-full h-1/2 lg:flex-row lg:justify-between items-center">
-          <div className="flex flex-col lg:flex-row lg:flex-wrap justify-between mt-4 mb-4 h-full lg:h-auto lg:overflow-wrap ">
+          <div className="flex flex-col lg:flex-row lg:flex-wrap justify-between mt-4 mb-4 h-full lg:h-auto lg:overflow-wrap">
             <div className="lg:flex justify-between p-0">
               {currentArtSet.slice(0).map((key) => (
-                <div key={key} className="w-full lg:w-1/5 px-2 justify-between"> {/* Each card takes 1/5 of the row for larger screens */}
-                  <ArtCard art={artData[key]} />
+                <div key={key} className="w-full lg:w-1/5 px-2 justify-between">
+                  <ArtCard art={artData[key]} openOverlay={openOverlay} />
                 </div>
               ))}
             </div>
