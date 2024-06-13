@@ -23,6 +23,31 @@ const LiteratureDesc = () => {
   const endIndex = startIndex + 5;
   const currentLiteratureSet = literatureKeys.slice(startIndex, endIndex);
 
+
+
+ // LARGE SCREENS
+ const [toggleL, setToggleL] = useState(0); // Start with the first art piece
+//  const [overlayL, setOverlayL] = useState({ isOpen: false, art: null });
+
+ const literatureKeysL = Object.keys(LiteratureData);
+
+ // Calculate the number of sets of art cards to display
+ const totalSetsL = Math.ceil(literatureKeysL.length / 8);
+
+ const handleButtonLeftL = () => {
+   setToggleL((prevIndex) => (prevIndex - 1 + totalSetsL) % totalSetsL);
+ };
+
+ const handleButtonRightL = () => {
+   setToggleL((prevIndex) => (prevIndex + 1) % totalSetsL);
+ };
+
+
+ const startIndexL = toggleL * 8;
+ const endIndexL = startIndexL + 8;
+ const currentLiteratureSetL = literatureKeysL.slice(startIndexL, endIndexL);
+
+
   return (
     <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(/art-desc-bg.png)" }}>
 
@@ -106,7 +131,7 @@ const LiteratureDesc = () => {
         <div className="flex flex-col w-full lg:w-2/3 h-1/2">
           <div className="flex flex-col lg:flex-row lg:mt-2 p-0">
             <div className="flex flex-row">
-              {currentLiteratureSet.slice(0, 3).map((key) => (
+              {currentLiteratureSetL.slice(0, 3).map((key) => (
                 <div key={key} className="w-full lg:w-1/3 px-2">
                   <LiteratureCard literature={LiteratureData[key]} />
                 </div>
@@ -130,13 +155,13 @@ const LiteratureDesc = () => {
               </div>
               <div className="flex flex-row items-center justify-center w-full">
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonLeft} src="/leftarrow-artdesc.png" width={50} height={50} alt="leftarrow" />
+                  <Image onClick={handleButtonLeftL} src="/leftarrow-artdesc.png" width={50} height={50} alt="leftarrow" />
                 </div>
                 <div className="font-Antonio text-5xl ml-4 mr-4 flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4">
-                  {toggle + 1}
+                  {toggleL + 1}
                 </div>
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonRight} src="/rightarrow-artdesc.png" width={50} height={50} alt="rightarrow" />
+                  <Image onClick={handleButtonRightL} src="/rightarrow-artdesc.png" width={50} height={50} alt="rightarrow" />
                 </div>
               </div>
             </div>
@@ -147,7 +172,7 @@ const LiteratureDesc = () => {
         <div className="flex flex-col w-full h-1/2 lg:flex-row lg:justify-between items-center">
           <div className="flex flex-col lg:flex-row lg:flex-wrap justify-between mt-4 mb-4 h-full lg:h-auto lg:overflow-wrap ">
             <div className="lg:flex justify-between p-0">
-              {currentLiteratureSet.slice(0).map((key) => (
+              {currentLiteratureSetL.slice(3,8).map((key) => (
                 <div key={key} className="w-full lg:w-1/5 px-2 justify-between"> {/* Each card takes 1/5 of the row for larger screens */}
                   <LiteratureCard literature={LiteratureData[key]} />
                 </div>

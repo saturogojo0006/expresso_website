@@ -28,10 +28,38 @@ const ArtDesc = () => {
     setOverlay({ isOpen: false, art: null });
   };
 
-  // Get the current set of art cards to display
   const startIndex = toggle * 5;
   const endIndex = startIndex + 5;
   const currentArtSet = artKeys.slice(startIndex, endIndex);
+
+  // LARGE SCREENS
+  const [toggleL, setToggleL] = useState(0); // Start with the first art piece
+  const [overlayL, setOverlayL] = useState({ isOpen: false, art: null });
+
+  const artKeysL = Object.keys(artData);
+
+  // Calculate the number of sets of art cards to display
+  const totalSetsL = Math.ceil(artKeysL.length / 8);
+
+  const handleButtonLeftL = () => {
+    setToggleL((prevIndex) => (prevIndex - 1 + totalSetsL) % totalSetsL);
+  };
+
+  const handleButtonRightL = () => {
+    setToggleL((prevIndex) => (prevIndex + 1) % totalSetsL);
+  };
+
+  const openOverlayL = (art) => {
+    setOverlayL({ isOpen: true, art });
+  };
+
+  const closeOverlayL = () => {
+    setOverlayL({ isOpen: false, art: null });
+  };
+
+  const startIndexL = toggleL * 8;
+  const endIndexL = startIndexL + 8;
+  const currentArtSetL = artKeysL.slice(startIndexL, endIndexL);
 
   return (
     <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(/art-desc-bg.png)" }}>
@@ -57,10 +85,32 @@ const ArtDesc = () => {
         </div>
       )}
 
+      {overlayL.isOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
+          <div className="relative w-4/5 h-4/5">
+            <button
+              onClick={closeOverlayL}
+              className="absolute top-4 right-4 text-white text-2xl"
+            >
+              &times;
+            </button>
+            <div className="flex justify-center items-center h-full">
+              <Image
+                src={overlayL.art.artImage}
+                width={900}
+                height={900}
+                alt={overlayL.art.artName}
+                className="max-w-full max-h-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Displaying cards for smaller screens */}
       <div className="flex flex-col w-full items-center m-2 gap-y-4 md:hidden">
         <div className="flex flex-col gap-y-4">
-          {currentArtSet.slice(0, 5).map((key) => (
+          {currentArtSet.map((key) => (
             <ArtCard key={key} art={artData[key]} openOverlay={openOverlay} />
           ))}
         </div>
@@ -134,9 +184,9 @@ const ArtDesc = () => {
         <div className="flex flex-col w-full lg:w-2/3 h-1/2">
           <div className="flex flex-col lg:flex-row lg:mt-2 p-0">
             <div className="flex flex-row">
-              {currentArtSet.slice(0, 3).map((key) => (
+              {currentArtSetL.slice(0, 3).map((key) => (
                 <div key={key} className="w-full lg:w-1/3 px-2">
-                  <ArtCard art={artData[key]} openOverlay={openOverlay} />
+                  <ArtCard art={artData[key]} openOverlay={openOverlayL} />
                 </div>
               ))}
             </div>
@@ -144,7 +194,7 @@ const ArtDesc = () => {
         </div>
 
         {/* Displaying toggle button for larger screens */}
-        <div id="toggle" className="absolute top-[780px]] right-5 mt-10 h-1/2 w-1/3 lg:mt-2">
+        <div id="toggle" className="absolute top-[780px] right-5 mt-10 h-1/2 w-1/3 lg:mt-2">
           <div id="details" className="mr-2 flex flex-col justify-center items-center h-full w-full">
             <div className="w-1/2 flex flex-col flex-wrap justify-center items-start text-white">
               <div className="w-full flex items-center justify-center">
@@ -158,13 +208,13 @@ const ArtDesc = () => {
               </div>
               <div className="flex flex-row items-center justify-center w-full">
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonLeft} src="/leftarrow-artdesc.png" width={50} height={50} alt="leftarrow" />
+                  <Image onClick={handleButtonLeftL} src="/leftarrow-artdesc.png" width={50} height={50} alt="leftarrow" />
                 </div>
                 <div className="font-Antonio text-5xl ml-4 mr-4 flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4">
-                  {toggle + 1}
+                  {toggleL + 1}
                 </div>
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonRight} src="/rightarrow-artdesc.png" width={50} height={50} alt="rightarrow" />
+                  <Image onClick={handleButtonRightL} src="/rightarrow-artdesc.png" width={50} height={50} alt="rightarrow" />
                 </div>
               </div>
             </div>
@@ -175,9 +225,9 @@ const ArtDesc = () => {
         <div className="flex flex-col w-full h-1/2 lg:flex-row lg:justify-between items-center">
           <div className="flex flex-col lg:flex-row lg:flex-wrap justify-between mt-4 mb-4 h-full lg:h-auto lg:overflow-wrap">
             <div className="lg:flex justify-between p-0">
-              {currentArtSet.slice(0).map((key) => (
+              {currentArtSetL.slice(3, 8).map((key) => (
                 <div key={key} className="w-full lg:w-1/5 px-2 justify-between">
-                  <ArtCard art={artData[key]} openOverlay={openOverlay} />
+                  <ArtCard art={artData[key]} openOverlay={openOverlayL} />
                 </div>
               ))}
             </div>

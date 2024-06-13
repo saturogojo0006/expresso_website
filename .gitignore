@@ -12,6 +12,7 @@
 # next.js
 /.next/
 /out/
+/public/art/   # Add this line to ignore the /public/art folder
 
 # production
 /build
