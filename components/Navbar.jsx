@@ -152,12 +152,13 @@ const Navbar = () => {
               {[
                 { href: "/", text: "Home" },
                 { href: "/Event", text: "Event" },
+                { href: "/Team", text: "Team" },
                 { href: "/Alumni", text: "Alumni" },
                 { href: "/Art", text: "Art" },
-                { href: "/Literary", text: "Literary" },
+                { href: "/Literature", text: "Literature" },
               ].map((item, index) => (
                 <li key={index} className="group relative">
-                  <Link href={item.href}>
+                  <Link href={item.href} onClick={()=>setIsnav(true)}>
                     <p className="nav-link font-semibold text-lg font-coluna m-2 transition duration-300 group-hover:text-yellow-700">
                       {item.text}
                     </p>

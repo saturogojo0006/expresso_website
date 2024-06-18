@@ -17,8 +17,8 @@ const teamData = {
     linkedin: '', twitter: '' },
     { id: 7, name: 'Aditya Kumar', position: 'Web developer', team: 'technical', image: '/p2.webp', branch: 'ECEE-26', instagram: '',
     linkedin: '', twitter: '' },
-    { id: 8, name: 'Shubham Tiwari', position: 'Web developer', team: 'technical', image: '', branch: 'CSE-26', instagram: '',
-    linkedin: '', twitter: '' },
+    // { id: 8, name: 'Shubham Tiwari', position: 'Web developer', team: 'technical', image: '', branch: 'CSE-26', instagram: '',
+    // linkedin: '', twitter: '' },
   ],
 },
 event: {
@@ -66,8 +66,8 @@ technical: {
 ],
 },
 nontechnical: {
-  teamName: "Non-Tech",
-  teamImage: '/Megaphone.png',
+  teamName: "Office",
+  teamImage: '/office.png',
   members: [
   { id: 1, name: 'Shubham Tiwari', position: 'Web developer', team: 'technical', image: '', branch: 'CSE-26', instagram: '',
   linkedin: '', twitter: '' },
