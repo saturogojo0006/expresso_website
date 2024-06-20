@@ -20,7 +20,7 @@ const ArtCard = ({ art, openOverlay }) => {
               src={art.artistImage}
               width={65}
               height={80}
-              alt={art.artist}
+              // alt={art.artist}
             />
           </div>
           <div className="flex flex-col items-center font-bold text-white text-center text-[10px] font-sans">
