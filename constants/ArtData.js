@@ -2,7 +2,7 @@ const artData = {
   art1: {
     artName: "Abraham Lincoln",
     medium: "Photoshop",
-    artist: "Rai Chirag Kumar",
+    artist: "Raai Chirag Kumar",
     artistImage: "https://drive.google.com/uc?export=view&id=1PFjNzI33n0J7sBi6OLKUQPRFZK3FC0Vy",
     instagram: "https://www.instagram.com/chirag.rai31?igsh=MXJkZ2t3cXdlcXloNw==",
     linkedin: "https://www.linkedin.com/in/chirag-kumar-rai-bbb009271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
