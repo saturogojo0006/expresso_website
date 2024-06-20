@@ -219,17 +219,6 @@ const artData = {
     description: "A magnificent sketch of an elegant side eye look.",
   },
   art22: {
-    artName: "Drowsing Girl",
-    medium: "Water Color",
-    artist: "Damini Kumari",
-    artistImage : "/p1.jpeg",
-    instagram : "https://www.instagram.com/da_snowmin" ,
-    linkedin : "https://www.linkedin.com/in/damini-kumari-a0a098282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1xezkh6iY25VwuY_U4foAjcyV4X0boJQD",
-    description: "A relaxing painting of a girl catering herself to deep sleep.",
-   
-  },
-  art23: {
     artName: "NIT Patna",
     medium: "Digital",
     artist: "Sanya Pundhir",
@@ -238,6 +227,18 @@ const artData = {
     linkedin : "" ,
     artImage: "https://drive.google.com/uc?export=view&id=1Sm8ajkVm_RBMyZQNi9sxFAr_a35GGdD6",
     description: "A panoramic view of our Institute , NIT Patna.",
+   
+  },
+  art23: {
+    artName: "Drowsing Girl",
+    medium: "Water Color",
+    artist: "Damini Kumari",
+    artistImage : "/p1.jpeg",
+    instagram : "https://www.instagram.com/da_snowmin" ,
+    linkedin : "https://www.linkedin.com/in/damini-kumari-a0a098282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1xezkh6iY25VwuY_U4foAjcyV4X0boJQD",
+    description: "A relaxing painting of a girl catering herself to deep sleep.",
+    
   },
   art24: {
     artName: "Peacock",
