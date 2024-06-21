@@ -36,15 +36,15 @@ const LiteratureCard = ({ literature }) => {
           </div>
         </div>
       </div>
-      <div className="flex mt-2">
+      {/* <div className="flex mt-2">
         <Image
           src={literature.coverImage}
           width={240}
           height={250}
           alt={literature.title}
         />
-      </div>
-      <div className="text-white text-sm font-sans mt-2">
+      </div> */}
+      <div className="text-white text-sm font-sans mt-2 whitespace-pre-line overflow-y-auto max-h-64 font-[PPWoodland]">
         {literature.description}
       </div>
     </div>
