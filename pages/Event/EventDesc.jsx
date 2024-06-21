@@ -22,7 +22,7 @@ function EventDesc({ event }) {
         <div className="flex flex-col w-full sm:ml-4">
           <div className="font-antonio text-[#FEFEFE] text-3xl sm:text-5xl">{title}</div>
           <div className="text-[#ffffff] text-sm sm:text-lg bg-cover bg-center p-4 mt-2" style={{ backgroundImage: `url('/event.png')` }}>
-            {description}
+            <pre>{description}</pre>
           </div>
           <div className="mt-4">
             <span className="text-[] text-lg sm:text-3xl">DATE:</span>
