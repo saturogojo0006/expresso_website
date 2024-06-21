@@ -1,17 +1,6 @@
 const artData = {
   art1: {
-    artName: "Mustang",
-    medium: "Photoshop",
-    artist: "Utsav Thakur",
-    artistImage : "https://drive.google.com/uc?export=view&id=1T3ULf3Y1J1kTly-thcAJNU1Tqb47hqra",
-    instagram : "https://www.instagram.com/thakur_utsav_" ,
-    linkedin : "https://www.linkedin.com/in/utsav-thakur-960760294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1Av-_8J74OjqNEhVIBLYPzt284FKqXxi0",
-    description: "The all classic , everyone's favourite , FORD MUSTANG SHELBY 350",
-    
-  },
-  art2: {
-    artName: "Abraham Lincoln",
+     artName: "Abraham Lincoln",
     medium: "Photoshop",
     artist: "Rai Chirag Kumar",
     artistImage : "https://drive.google.com/uc?export=view&id=1r4j5mF3sMnuTiWRczbAT2_CWWC3JmGCK",
@@ -20,6 +9,17 @@ const artData = {
     artImage: "https://drive.google.com/uc?export=view&id=164r6g-GmGHYNezkGpPgy9vDGSH_fXOq_",
     description: "Smokin' good Digital Portrait of The Abraham Lincoln",
   
+  },
+  art2: {
+    artName: "Mustang",
+    medium: "Photoshop",
+    artist: "Utsav Thakur",
+    artistImage : "https://drive.google.com/uc?export=view&id=1T3ULf3Y1J1kTly-thcAJNU1Tqb47hqra",
+    instagram : "https://www.instagram.com/thakur_utsav_" ,
+    linkedin : "https://www.linkedin.com/in/utsav-thakur-960760294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1Av-_8J74OjqNEhVIBLYPzt284FKqXxi0",
+    description: "The all classic , everyone's favourite , FORD MUSTANG SHELBY 350",
+   
   },
   art3: {
     artName: "Twirly Heart",
@@ -33,37 +33,40 @@ const artData = {
    
   },
   art4: {
-    artName: "Bathing Bliss",
-    medium: "Charcoal Shading",
-    artist: "Saim Jawed",
-    artistImage : "https://drive.google.com/uc?export=view&id=1uSzeQ1NQSCRmVg-wnNfz5F-jXw6myp1g",
-    instagram : "https://www.instagram.com/s._aim_jawed" ,
-    linkedin : "https://www.linkedin.com/in/saim-jawed-6a8766294" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1vKWpdWssKvxfIfz1hJBnLNKw6nTVlyAk",
-    description: "A little boy exploring the joy of bath on a sunny day",
+    artName: "NIT Patna",
+    medium: "Digital",
+    artist: "Sanya Pundhir",
+    artistImage : "https://drive.google.com/uc?export=view&id=1B5KoSVLlvAhVXZCTfzOWC-3TRLLTxTNq",
+    instagram : "" ,
+    linkedin : "" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1Sm8ajkVm_RBMyZQNi9sxFAr_a35GGdD6",
+    description: "A panoramic view of our Institute , NIT Patna.",
+   
+  
   },
   art5: {
-    artName: "Money Talks",
-    medium: "Photoshop",
-    artist: "Rai Chirag Kumar",
-    artistImage : "https://drive.google.com/uc?export=view&id=1r4j5mF3sMnuTiWRczbAT2_CWWC3JmGCK",
-    instagram : "https://www.instagram.com/chirag.rai31?igsh=MXJkZ2t3cXdlcXloNw==" ,
-    linkedin : "https://www.linkedin.com/in/chirag-kumar-rai-bbb009271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  ,
-    artImage: "https://drive.google.com/uc?export=view&id=1ZRSSD0YMpWUnMIJ0_yRj9Y3hbLo6KnRd",
-    description: "The JACK of all trades , Leonardo DiCaprio",
-    
-  },
-  art6: {
-    artName: "The Might of the Mighty",
+    artName: "Nature's Symphony",
     medium: "Charcoal Shading",
     artist: "Saim Jawed",
     artistImage : "https://drive.google.com/uc?export=view&id=1uSzeQ1NQSCRmVg-wnNfz5F-jXw6myp1g",
     instagram : "https://www.instagram.com/s._aim_jawed" ,
     linkedin : "https://www.linkedin.com/in/saim-jawed-6a8766294" ,
-    artImage: "https://drive.google.com/uc?export=view&id=181Tl2GlPsvbYggrVK9iL1hAViE9fZOEl",
-    description: "An african elephant roaming in the Savannah's",
-    
+    artImage: "https://drive.google.com/uc?export=view&id=1YTxIXT-_8vEa7nTYDv8w1Rxqu8j9H1ZY",
+    description: "A true combination of all of nature's beautiful aspects. Flowers, Birds, Animals, Humans all merged in a single frame."
+ 
   },
+  art6: {
+    artName: "MoonTracks",
+    medium: "Watercolors",
+    artist: "Supriya",
+    artistImage : "https://drive.google.com/uc?export=view&id=1qfZE7YG6qVIPK1enzc_7oA1GvN062fcJ",
+    instagram : "https://www.instagram.com/supriya_sharma_568" ,
+    linkedin : "https://www.linkedin.com/in/supriya-kumari-1021a7258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1heDDeheg01tjxQjv4NnxO_BvWBG7yA3O",
+    description: "The mesmerizing scenery of a track bathed in the blissful moonlight",
+   
+    },
+   
   art7: {
     artName: "Dino",
     medium: "Origami",
@@ -95,6 +98,18 @@ const artData = {
     description: "A beautiful field of white daisies",
   },
   art10: {
+   artName: "Money Talks",
+    medium: "Photoshop",
+    artist: "Rai Chirag Kumar",
+    artistImage : "https://drive.google.com/uc?export=view&id=1r4j5mF3sMnuTiWRczbAT2_CWWC3JmGCK",
+    instagram : "https://www.instagram.com/chirag.rai31?igsh=MXJkZ2t3cXdlcXloNw==" ,
+    linkedin : "https://www.linkedin.com/in/chirag-kumar-rai-bbb009271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  ,
+    artImage: "https://drive.google.com/uc?export=view&id=1ZRSSD0YMpWUnMIJ0_yRj9Y3hbLo6KnRd",
+    description: "The JACK of all trades , Leonardo DiCaprio",
+    
+    
+  },
+  art11: {
     artName: "Ganesh",
     medium: "Pencil Shading",
     artist: "Nicky Kumari",
@@ -104,41 +119,43 @@ const artData = {
     artImage: "https://drive.google.com/uc?export=view&id=11d19CvvKSNBhjXs5Pe8QywPPSfhJX00e",
     description: "The Lord Ganesh",
    
-    
-  },
-  art11: {
-    artName: "Evening in Blue",
-    medium: "Acrylic",
-    artist: "Madhumista",
-    artistImage : "https://drive.google.com/uc?export=view&id=1tma2OrdMfaxk-j9K0p_hBDSSkQ77UdNF",
-    instagram : "https://www.instagram.com/jfoyrangggg" ,
-    linkedin : "" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1G4weGuoWBR8JKWtXq-xANSoCuNd1wbAh",
-    description: "A starry evening in blue",
   },
   art12: {
-    artName: "MoonTracks",
-    medium: "Watercolors",
-    artist: "Supriya",
-    artistImage : "https://drive.google.com/uc?export=view&id=1qfZE7YG6qVIPK1enzc_7oA1GvN062fcJ",
-    instagram : "https://www.instagram.com/supriya_sharma_568" ,
-    linkedin : "https://www.linkedin.com/in/supriya-kumari-1021a7258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1heDDeheg01tjxQjv4NnxO_BvWBG7yA3O",
-    description: "The mesmerizing scenery of a track bathed in the blissful moonlight",
+    artName: "Lady With Oranges",
+    medium: "Acrylics",
+    artist: "Bhavya Sinha",
+    artistImage : "https://drive.google.com/uc?export=view&id=1HWXw9Zneq8lQe6Gb01otSE85ClU0OYUN",
+    instagram : "https://www.instagram.com/bhav_yeaaah" ,
+    linkedin : "https://www.linkedin.com/in/bhavya-sinha-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1fe37Em_MmMjo52dtprhV90GSlyYSDdKm",
+    description: "A gorgeous Desi Lady holding an utensil full of oranges and grapes.",
+   
+   
    
   },
   art13: {
-    artName: "Dripped in Shadows",
+    artName: "Azim Premji",
+    medium: "Ball Pen",
+    artist: "Dipesh Kumar Singh",
+    artistImage : "https://drive.google.com/uc?export=view&id=1KQoySALRPPLpR6oXjiJblU68ESXzpvng",
+    instagram : "https://www.instagram.com/di.pesh279?igsh=MTV2c2x1Njdud3FpaA==" ,
+    linkedin : "https://www.linkedin.com/in/dipesh-singh-0225891ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=19zKLGUq8wpKJ1OAaBGhN6dkbnqFyYMrO",
+    description: "An amazing portrait of Sir Azim Premji in blue point ball pen.",
+  
+  },
+  art14: {
+    artName: "The Might of the Mighty",
     medium: "Charcoal Shading",
     artist: "Saim Jawed",
     artistImage : "https://drive.google.com/uc?export=view&id=1uSzeQ1NQSCRmVg-wnNfz5F-jXw6myp1g",
     instagram : "https://www.instagram.com/s._aim_jawed" ,
-    linkedin : "https://www.linkedin.com/in/saim-jawed-6a8766294"  ,
-    artImage: "https://drive.google.com/uc?export=view&id=1LLgkdR48d6sbKsYzDNV0fyxwNkI6DVvX",
-    description: "A breathtaking sketch of a model while oil is dripping from her face.",
+    linkedin : "https://www.linkedin.com/in/saim-jawed-6a8766294" ,
+    artImage: "https://drive.google.com/uc?export=view&id=181Tl2GlPsvbYggrVK9iL1hAViE9fZOEl",
+    description: "An african elephant roaming in the Savannah's",
     
   },
-  art14: {
+  art15: {
     artName: "Floral Girl",
     medium: "Pencil Color",
     artist: "Damini Kumari",
@@ -147,16 +164,8 @@ const artData = {
     linkedin : "https://www.linkedin.com/in/damini-kumari-a0a098282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
     artImage: "https://drive.google.com/uc?export=view&id=1VBEho5xA5Bkojdz7EPdSWMZH4zK5yrs8",
     description: "A beautiful and colorful portrait of a young girl with flowers embedded in her hair.",
-  },
-  art15: {
-    artName: "Nature's Symphony",
-    medium: "Charcoal Shading",
-    artist: "Saim Jawed",
-    artistImage : "https://drive.google.com/uc?export=view&id=1uSzeQ1NQSCRmVg-wnNfz5F-jXw6myp1g",
-    instagram : "https://www.instagram.com/s._aim_jawed" ,
-    linkedin : "https://www.linkedin.com/in/saim-jawed-6a8766294" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1YTxIXT-_8vEa7nTYDv8w1Rxqu8j9H1ZY",
-    description: "A true combination of all of nature's beautiful aspects. Flowers, Birds, Animals, Humans all merged in a single frame."
+  
+    
   },
   art16: {
     artName: "Blossom",
@@ -169,14 +178,14 @@ const artData = {
     description: "A really vibrant mesh of colorful twirls forming a beautiful bouquet of flowers.",
   },
   art17: {
-    artName: "Lady With Oranges",
-    medium: "Acrylics",
-    artist: "Bhavya Sinha",
-    artistImage : "https://drive.google.com/uc?export=view&id=1HWXw9Zneq8lQe6Gb01otSE85ClU0OYUN",
-    instagram : "https://www.instagram.com/bhav_yeaaah" ,
-    linkedin : "https://www.linkedin.com/in/bhavya-sinha-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1fe37Em_MmMjo52dtprhV90GSlyYSDdKm",
-    description: "A gorgeous Desi Lady holding an utensil full of oranges and grapes.",
+    artName: "Evening in Blue",
+    medium: "Acrylic",
+    artist: "Madhumista",
+    artistImage : "https://drive.google.com/uc?export=view&id=1tma2OrdMfaxk-j9K0p_hBDSSkQ77UdNF",
+    instagram : "https://www.instagram.com/jfoyrangggg" ,
+    linkedin : "" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1G4weGuoWBR8JKWtXq-xANSoCuNd1wbAh",
+    description: "A starry evening in blue",
   },
   art18: {
     artName: "Laxmi Ma",
@@ -199,35 +208,37 @@ const artData = {
     description: "The Lord Shiva.",
   },
   art20: {
-    artName: "Azim Premji",
-    medium: "Ball Pen",
-    artist: "Dipesh Kumar Singh",
-    artistImage : "https://drive.google.com/uc?export=view&id=1KQoySALRPPLpR6oXjiJblU68ESXzpvng",
-    instagram : "https://www.instagram.com/di.pesh279?igsh=MTV2c2x1Njdud3FpaA==" ,
-    linkedin : "https://www.linkedin.com/in/dipesh-singh-0225891ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=19zKLGUq8wpKJ1OAaBGhN6dkbnqFyYMrO",
-    description: "An amazing portrait of Sir Azim Premji in blue point ball pen.",
+    artName: "Stare",
+    medium: "Pencil Shading",
+    artist: "Nicky Kumari",
+    artistImage : "https://drive.google.com/uc?export=view&id=1z_j-p58-5XT0bJStCBlN8ypUAIHOey2f",
+    instagram: "https://www.instagram.com/nickyk2004?igsh=Z2tyaXhxNTkzeHE2",
+    linkedin : " https://www.linkedin.com/in/nicky-kumari-7a57312b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1v4xXaqkUpzL8Tgf5jTx5wRQx7Bso7Gz0",
+    description: "A sublime sketch of a girl in deep waters.",
+  
   },
   art21: {
-    artName: "Eyes",
-    medium: "Pencil Shading",
-    artist: "Gaurav Suman",
-    artistImage : "https://drive.google.com/uc?export=view&id=1I49-Au4p1_ztuhk8ngMDVn-D5Lk0adsC",
-    instagram : "https://www.instagram.com/gaurav.33_" ,
-    linkedin : "https://www.linkedin.com/in/gaurav-suman-baa84328a" ,
-    artImage: "https://drive.google.com/uc?export=view&id=17-QMVYCnJYHXljAFNMMtGG_pZbMqDyBj",
-    description: "A magnificent sketch of an elegant side eye look.",
+    artName: "Woman Hawking Fan",
+    medium: "Poster Colors",
+    artist: "Sanchita Jha",
+    artistImage : "https://drive.google.com/uc?export=view&id=1ZZNJf8JbPH70Fp92iUy1ocJXd9ijsDfl",
+    instagram : "https://www.instagram.com/sanchitaj_04?igsh=MWF0anZucWRqY256cA==" ,
+    linkedin : "https://www.linkedin.com/in/sanchita-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1kWLo-cw5NMuO8WMpfS93MQILXVzPf3YE",
+    description: "A beautiful Madhubani painting of a woman hawking a fan.",
+    
   },
   art22: {
-    artName: "NIT Patna",
-    medium: "Digital",
-    artist: "Sanya Pundhir",
-    artistImage : "https://drive.google.com/uc?export=view&id=1B5KoSVLlvAhVXZCTfzOWC-3TRLLTxTNq",
-    instagram : "" ,
-    linkedin : "" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1Sm8ajkVm_RBMyZQNi9sxFAr_a35GGdD6",
-    description: "A panoramic view of our Institute , NIT Patna.",
-   
+    artName: "Bathing Bliss",
+    medium: "Charcoal Shading",
+    artist: "Saim Jawed",
+    artistImage : "https://drive.google.com/uc?export=view&id=1uSzeQ1NQSCRmVg-wnNfz5F-jXw6myp1g",
+    instagram : "https://www.instagram.com/s._aim_jawed" ,
+    linkedin : "https://www.linkedin.com/in/saim-jawed-6a8766294" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1vKWpdWssKvxfIfz1hJBnLNKw6nTVlyAk",
+    description: "A little boy exploring the joy of bath on a sunny day",
+  
   },
   art23: {
     artName: "Drowsing Girl",
@@ -291,6 +302,40 @@ const artData = {
     description: "A graceful painting of a rural girl with her goat..",
   },
   art29: {
+     artName: "Spongebob",
+    medium: "Acrylic",
+    artist: "Madhumista",
+    artistImage : "https://drive.google.com/uc?export=view&id=1tma2OrdMfaxk-j9K0p_hBDSSkQ77UdNF",
+    instagram : "https://www.instagram.com/jfoyrangggg" ,
+    linkedin : "" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1d22J0cKPUwVmOifyD3NWuezCC0WHpiMZ",
+    description: "Who else other than Mr. Squarepants, The Spongebob.",
+ 
+  },
+  art30: {
+    
+    artName: "Eyes",
+    medium: "Pencil Shading",
+    artist: "Gaurav Suman",
+    artistImage : "https://drive.google.com/uc?export=view&id=1I49-Au4p1_ztuhk8ngMDVn-D5Lk0adsC",
+    instagram : "https://www.instagram.com/gaurav.33_" ,
+    linkedin : "https://www.linkedin.com/in/gaurav-suman-baa84328a" ,
+    artImage: "https://drive.google.com/uc?export=view&id=17-QMVYCnJYHXljAFNMMtGG_pZbMqDyBj",
+    description: "A magnificent sketch of an elegant side eye look.",
+   
+     },
+  art31: {
+    artName: "Dripped in Shadows",
+    medium: "Charcoal Shading",
+    artist: "Saim Jawed",
+    artistImage : "https://drive.google.com/uc?export=view&id=1uSzeQ1NQSCRmVg-wnNfz5F-jXw6myp1g",
+    instagram : "https://www.instagram.com/s._aim_jawed" ,
+    linkedin : "https://www.linkedin.com/in/saim-jawed-6a8766294"  ,
+    artImage: "https://drive.google.com/uc?export=view&id=1LLgkdR48d6sbKsYzDNV0fyxwNkI6DVvX",
+    description: "A breathtaking sketch of a model while oil is dripping from her face.",
+    
+   },
+  art32: {
     artName: "Sadhu",
     medium: "Pencil Shading",
     artist: "Bhavya Sinha",
@@ -300,27 +345,7 @@ const artData = {
     artImage: "https://drive.google.com/uc?export=view&id=1hWNCH_ym5CJDF6VwDkqORzeb_tfG5XsN",
     description: "A Sadhu.",
   },
-  art30: {
-    artName: "Spongebob",
-    medium: "Acrylic",
-    artist: "Madhumista",
-    artistImage : "https://drive.google.com/uc?export=view&id=1tma2OrdMfaxk-j9K0p_hBDSSkQ77UdNF",
-    instagram : "https://www.instagram.com/jfoyrangggg" ,
-    linkedin : "" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1d22J0cKPUwVmOifyD3NWuezCC0WHpiMZ",
-    description: "Who else other than Mr. Squarepants, The Spongebob.",
-  },
-  art31: {
-    artName: "Stare",
-    medium: "Pencil Shading",
-    artist: "Nicky Kumari",
-    artistImage : "https://drive.google.com/uc?export=view&id=1z_j-p58-5XT0bJStCBlN8ypUAIHOey2f",
-    instagram: "https://www.instagram.com/nickyk2004?igsh=Z2tyaXhxNTkzeHE2",
-    linkedin : " https://www.linkedin.com/in/nicky-kumari-7a57312b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1v4xXaqkUpzL8Tgf5jTx5wRQx7Bso7Gz0",
-    description: "A sublime sketch of a girl in deep waters.",
-  },
-  art32: {
+  art33: {
     artName: "Underwater",
     medium: "Acrylic",
     artist: "Sanya Pundhir",
@@ -329,16 +354,7 @@ const artData = {
     linkedin : "" ,
     artImage: "https://drive.google.com/uc?export=view&id=18TImvM3TD1VPXDKKPOqL-GwHXPMZiAbQ",
     description: "A lovely painting of a girl swimming in blue ocean.",
-  },
-  art33: {
-    artName: "Woman Hawking Fan",
-    medium: "Poster Colors",
-    artist: "Sanchita Jha",
-    artistImage : "https://drive.google.com/uc?export=view&id=1ZZNJf8JbPH70Fp92iUy1ocJXd9ijsDfl",
-    instagram : "https://www.instagram.com/sanchitaj_04?igsh=MWF0anZucWRqY256cA==" ,
-    linkedin : "https://www.linkedin.com/in/sanchita-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1kWLo-cw5NMuO8WMpfS93MQILXVzPf3YE",
-    description: "A beautiful Madhubani painting of a woman hawking a fan.",
+   
   },
   
 };
