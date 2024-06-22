@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const LiteratureCard = ({ literature }) => {
   return (
-    <div className="flex flex-col items-center p-2 bg-transparent rounded-xl shadow-lg border-2 border-gray-200 w-60 h-90 backdrop-filter backdrop-blur-md">
+    <div className="flex flex-col items-center p-2 bg-transparent rounded-xl shadow-lg border-2 border-gray-200 w-60 h-80 backdrop-filter backdrop-blur-md">
       <div className="grid grid-cols-2 gap-4 w-full">
         <div className="flex flex-col col-span-1 md:col-span-8/10 bg-transparent items-start">
           <div className="text-xl font-bold text-center text-white font-antonio">
@@ -44,7 +44,7 @@ const LiteratureCard = ({ literature }) => {
           alt={literature.title}
         />
       </div> */}
-      <div className="text-white text-sm font-sans mt-2 whitespace-pre-line overflow-y-auto max-h-64 font-[PPWoodland]">
+      <div className="text-white text-sm font-sans mt-2 whitespace-pre-line overflow-y-auto max-h-64 font-[PPWoodland-Regular]">
         {literature.description}
       </div>
     </div>
