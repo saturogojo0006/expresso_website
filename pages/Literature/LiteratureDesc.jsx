@@ -129,7 +129,7 @@ const LiteratureDesc = () => {
       <div className="hidden lg:flex flex-col w-full h-full lg:max-w-[1500px]">
         {/* Displaying cards for larger screens */}
         <div className="flex flex-col w-full lg:w-2/3 h-1/2">
-          <div className="flex flex-col lg:flex-row lg:mt-2 p-0">
+          <div className="flex flex-col lg:flex-row lg:mt-8 p-0">
             <div className="flex flex-row">
               {currentLiteratureSetL.slice(0, 3).map((key) => (
                 <div key={key} className="w-full lg:w-1/3 px-2">
@@ -170,7 +170,7 @@ const LiteratureDesc = () => {
 
         {/* Displaying cards for larger screens */}
         <div className="flex flex-col w-full h-1/2 lg:flex-row lg:justify-between items-center">
-          <div className="flex flex-col lg:flex-row lg:flex-wrap justify-between mt-4 mb-4 h-full lg:h-auto lg:overflow-wrap ">
+          <div className="flex flex-col lg:flex-row lg:flex-wrap justify-between mt-12 mb-8 h-full lg:h-auto lg:overflow-wrap ">
             <div className="lg:flex justify-between p-0">
               {currentLiteratureSetL.slice(3,8).map((key) => (
                 <div key={key} className="w-full lg:w-1/5 px-2 justify-between"> {/* Each card takes 1/5 of the row for larger screens */}

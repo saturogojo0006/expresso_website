@@ -56,14 +56,14 @@ const artData = {
  
   },
   art6: {
-    artName: "MoonTracks",
-    medium: "Watercolors",
-    artist: "Supriya",
-    artistImage : "https://drive.google.com/uc?export=view&id=1qfZE7YG6qVIPK1enzc_7oA1GvN062fcJ",
-    instagram : "https://www.instagram.com/supriya_sharma_568" ,
-    linkedin : "https://www.linkedin.com/in/supriya-kumari-1021a7258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1heDDeheg01tjxQjv4NnxO_BvWBG7yA3O",
-    description: "The mesmerizing scenery of a track bathed in the blissful moonlight",
+    artName: "Woman Hawking Fan",
+    medium: "Poster Colors",
+    artist: "Sanchita Jha",
+    artistImage : "https://drive.google.com/uc?export=view&id=1ZZNJf8JbPH70Fp92iUy1ocJXd9ijsDfl",
+    instagram : "https://www.instagram.com/sanchitaj_04?igsh=MWF0anZucWRqY256cA==" ,
+    linkedin : "https://www.linkedin.com/in/sanchita-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1kWLo-cw5NMuO8WMpfS93MQILXVzPf3YE",
+    description: "A beautiful Madhubani painting of a woman hawking a fan.",
    
     },
    
@@ -219,15 +219,14 @@ const artData = {
   
   },
   art21: {
-    artName: "Woman Hawking Fan",
-    medium: "Poster Colors",
-    artist: "Sanchita Jha",
-    artistImage : "https://drive.google.com/uc?export=view&id=1ZZNJf8JbPH70Fp92iUy1ocJXd9ijsDfl",
-    instagram : "https://www.instagram.com/sanchitaj_04?igsh=MWF0anZucWRqY256cA==" ,
-    linkedin : "https://www.linkedin.com/in/sanchita-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
-    artImage: "https://drive.google.com/uc?export=view&id=1kWLo-cw5NMuO8WMpfS93MQILXVzPf3YE",
-    description: "A beautiful Madhubani painting of a woman hawking a fan.",
-    
+    artName: "MoonTracks",
+    medium: "Watercolors",
+    artist: "Supriya",
+    artistImage : "https://drive.google.com/uc?export=view&id=1qfZE7YG6qVIPK1enzc_7oA1GvN062fcJ",
+    instagram : "https://www.instagram.com/supriya_sharma_568" ,
+    linkedin : "https://www.linkedin.com/in/supriya-kumari-1021a7258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ,
+    artImage: "https://drive.google.com/uc?export=view&id=1heDDeheg01tjxQjv4NnxO_BvWBG7yA3O",
+    description: "The mesmerizing scenery of a track bathed in the blissful moonlight",
   },
   art22: {
     artName: "Bathing Bliss",
