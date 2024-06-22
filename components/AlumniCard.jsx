@@ -21,8 +21,8 @@ const AlumniCard = ({ member }) => {
           <h3>{member.branch}</h3>
         </div> */}
       <div className="text-center">
-        <h2 className="mt-3 text-xl font-semibold font-Antonio">{member.name}</h2>
-       <div className="mt-1 font-semibold mb-8 text-lg font-Antonio">
+        <h2 className="mt-2 text-xl font-semibold font-Antonio">{member.name}</h2>
+       <div className="mt-1 font-semibold mb-4 text-lg font-Antonio">
           <h3>{member.branch}</h3>
         </div>
       <div className="flex justify-center items-center space-between space-x-10 cursor-pointer">
