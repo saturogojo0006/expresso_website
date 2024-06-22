@@ -15,7 +15,7 @@ const ArtCard = ({ art, openOverlay }) => {
           </div>
         </div>
         <div className="flex flex-col col-span-1 items-center text-bold md:col-span-2/10 bg-transparent border-white border-l-4 border-b-4 m-0 p-0.5 text-black">
-          <div className="mb-1">
+          <div className="mb-1 max-h-20 overflow-hidden">
             <Image
               src={art.artistImage}
               width={65}
@@ -36,7 +36,7 @@ const ArtCard = ({ art, openOverlay }) => {
           </div>
         </div>
       </div>
-      <div className="flex mt-2 cursor-pointer" onClick={() => openOverlay(art)}>
+      <div className="flex mt-2 cursor-pointer max-h-64 overflow-hidden" onClick={() => openOverlay(art)}>
         <Image src={art.artImage} width={240} height={250} alt={art.artName} />
       </div>
       <div className="text-white text-sm font-sans mt-2">{art.description}</div>

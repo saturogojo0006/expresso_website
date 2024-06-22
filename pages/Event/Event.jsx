@@ -104,7 +104,7 @@ attended. This was possible only due to the amazing cooperation and active
 participation of the members of both the fantastic clubs of NIT Patna , 
 Expresso - The Literary & Art Club & Saptak - The Music Club .`
         ,
-        image: '/eventPicture.png'
+        image: '/Group 204.png'
       }, 
       {
         id: 5,
@@ -158,7 +158,7 @@ Avlokan 2024 was more than just an event, it was a collaboration of intelligence
 creativity, fun and knowledge. We eagerly anticipate many more enjoyable and 
 enriching experiences like this in the future.`  
 ,
-        image: '/eventPicture.png'
+        image: '/Group 204.png'
       }, 
       {
         id: 7,
@@ -219,7 +219,7 @@ This event allowed students to nurture new connections that enhanced their socia
 experiences in the college and created a vibrant and inclusive environment which 
 celebrated different forms of love and connections.`
         ,
-        image: '/eventPicture.png'
+        image: '/Group 204.png'
       }, 
       {
         id: 9,
@@ -259,7 +259,7 @@ The event was a haven for art lovers, featuring interactive sessions where parti
 could learn about tattoo techniques and portrait drawing. It was a day of creativity, 
 inspiration, and the celebration of artistic expression.`
         ,
-        image: '/eventPicture.png'
+        image: '/Group 204.png'
       }, 
       {
         id: 11,
@@ -323,8 +323,8 @@ their talents and creativity with the enhancement by glorifying their qualities 
             <Image src={event.image} width={1500} height={200} alt="Event Picture" className="object-cover w-full h-auto" />
           </div>
           <div className="flex flex-col w-full sm:ml-4">
-            <div className={`font-antonio text-[#FEFEFE] text-2xl sm:text-5xl ${index % 2 !== 0 ? 'text-right' : ''}`}>{event.title}</div>
-            <div className="text-[#ffffff] text-base sm:text-lg bg-cover bg-center p-4 mt-2" style={{ backgroundImage: `url('/event.png')` }}>
+            <div className={`font-antonio   text-[#FEFEFE] text-2xl sm:text-5xl ${index % 2 !== 0 ? 'text-right' : ''}`}>{event.title}</div>
+            <div className="text-[#ffffff] text-base sm:text-lg bg-cover bg-center p-4 mt-4 mb-6 overflow-y-auto max-h-64" style={{ backgroundImage: `url('/event.png')` }}>
               <pre>{event.description}</pre>
             </div>
           </div>
