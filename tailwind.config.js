@@ -16,6 +16,10 @@ module.exports = {
       fontFamily: {
         antonio: ["Antonio"],
       },
+      fontSize: {
+        '10xl': '10rem',
+        // Add additional font sizes here
+      },
     },
   },
   plugins: [],
