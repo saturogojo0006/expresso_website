@@ -2,8 +2,10 @@ const LiteratureData = {
   literature1: {
     title: "खो दिया हूं।",
     author: "Aditya Kumar",
-    authorImage: "https://drive.google.com/uc?export=view&id=1km12Uy-Ssy-cNcSr74fJ1RDMFSyW8Gaz",
-    instagram: "https://www.instagram.com/adityakumar.393?igsh=MTUxNW85d3pycDkxbQ==",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1TE--HyhdJsUqwAOH5Rzvq-bMbx-JVUCB",
+    instagram:
+      "https://www.instagram.com/adityakumar.393?igsh=MTUxNW85d3pycDkxbQ==",
     linkedin: "https://www.linkedin.com/in/aditya-kumar-7bb54b257/",
     coverImage: "/artpic.png",
     description: `न जाने मैं कैसा हो गया हूं? मैं खुद को ही खो दिया हूं।
@@ -24,7 +26,8 @@ const LiteratureData = {
   literature2: {
     title: "सफेद रंगत",
     author: "Om Vats",
-    authorImage: "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
     instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
     linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
     coverImage: "/artpic.png",
@@ -48,7 +51,8 @@ const LiteratureData = {
   literature3: {
     title: "बेटी",
     author: "Shikha Thakur ",
-    authorImage: "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
     instagram: "https://www.instagram.com/nebula_k05?igsh=MTRjOW5oNDI4dWk5bQ==",
     linkedin: "https://www.linkedin.com/in/shikha-thakur-8028a7258",
     coverImage: "/artpic.png",
@@ -75,11 +79,13 @@ const LiteratureData = {
   literature4: {
     title: "इश्क़",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1",
     coverImage: "/artpic.png",
-    description: `तुमसे इश्क़ है मुझे
+    description: 
+`तुमसे इश्क़ है मुझे
 खतों वाला, गुलाब वाला
 बिंदी वाला, रूह वाला
 कृष्ण वाला, इमरोज़ वाला
@@ -90,8 +96,10 @@ const LiteratureData = {
   literature5: {
     title: "I Apologise to Myself",
     author: "Kaushikee Kashyap",
-    authorImage: "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
-    instagram: "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
+    instagram:
+      "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
     linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
     coverImage: "/artpic.png",
     description: `Oh dear me... I am sorry..
@@ -117,41 +125,33 @@ You can do anything, I know this for sure..
   literature6: {
     title: "आए पधारे राम हमारे ",
     author: "Nilabh Mishra",
-    authorImage: "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
     instagram: "https://www.instagram.com/nilabh__mishra?igsh=anF0Yzk4bHBiZXhm",
     linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
     coverImage: "/artpic.png",
-    description: `असत पर सत विराज हुआ
-अवध में आज प्रकाश हुआ
-अवधपति श्री रघुनंदन का 
-अपने घर में अवतार हुआ ।
+    description: `असत पर सत विराज हुआ, अवध में आज प्रकाश हुआ
+अवधपति श्री रघुनंदन का, अपने घर में अवतार हुआ ।
 
-धरती पे राम का नाम हुआ
-सरयू का ताप शांत हुआ
-तड़प रही उस धरती पर
-आज ध्वजा का मान हुआ ।
+धरती पे राम का नाम हुआ, सरयू का ताप शांत हुआ
+तड़प रही उस धरती पर, आज ध्वजा का मान हुआ ।
 
-जल गए अब दीपक सब
-हर घर में त्यौहार हुआ
-बहती इस समीर में
-राम नाम संचार हुआ 
+जल गए अब दीपक सब, हर घर में त्यौहार हुआ
+बहती इस समीर में, राम नाम संचार हुआ 
 
+अवध में अब फिर से, राम राज्य आ जायेगा
+कई सूखे हृदयों में , फिर राम नाम रह जायेगा ।
 
-अवध में अब फिर से
-राम राज्य आ जायेगा
-कई सूखे हृदयों में 
-फिर राम नाम रह जायेगा ।
-
-पुलक प्रकट करेगी धरती
-गायेंगे सब नाम तिहारे
-आज कई दिन बाद 
-अवध में राम पधारे ।`,
+पुलक प्रकट करेगी धरती, गायेंगे सब नाम तिहारे
+आज कई दिन बाद, अवध में राम पधारे ।`,
   },
   literature7: {
     title: "यादें इश्क़ की",
     author: "Vani Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
-    instagram: "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
+    instagram:
+      "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
     linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
     coverImage: "/artpic.png",
     description: `कभी इश्क़ हुआ ?
@@ -183,9 +183,10 @@ You can do anything, I know this for sure..
   },
   literature8: {
     title: "मैं तुम्हें फिर मिलूंगा",
-    author: "Satyam Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1Tq7YmLuC0KNYJOa7PEl0nwBYQu5odTDd",
-    instagram: "https://www.instagram.com/nebula_k05?igsh=MTRjOW5oNDI4dWk5bQ==",
+    author: "Satyam",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1Toder0-ZYdT-DJOdhEiCohwSCim2YXzg",
+    instagram: "https://www.instagram.com/satyamk1345/",
     linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
     coverImage: "/artpic.png",
     description: `मैं तुम्हें फिर मिलूंगा, कल, परसों, इस जन्म में नहीं तो अगले जनम में दिखूंगा, पर मैं तुमसे, फिर मिलूंगा।
@@ -205,7 +206,8 @@ You can do anything, I know this for sure..
   literature9: {
     title: "Beginning is End",
     author: "Supriya Raj",
-    authorImage: "https://drive.google.com/uc?export=view&id=1XwteHEWO42Fuu8csSMMeDrgcEzVTVPYS",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1XwteHEWO42Fuu8csSMMeDrgcEzVTVPYS",
     instagram: "https://www.instagram.com/supriyaraj5073",
     linkedin: "SupriyaLinkedIn",
     coverImage: "/artpic.png",
@@ -223,7 +225,8 @@ That's how a Great Human is made.`,
   literature10: {
     title: "बर्बादी",
     author: "Om Vats",
-    authorImage: "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
     instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
     linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
     coverImage: "/artpic2.png",
@@ -248,8 +251,10 @@ That's how a Great Human is made.`,
   literature11: {
     title: "बहुत दूर",
     author: "Kaushikee Kashyap",
-    authorImage: "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
-    instagram: "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
+    instagram:
+      "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
     linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
     coverImage: "/artpic.png",
     description: `तब दूर होकर भी पास थे,
@@ -276,7 +281,8 @@ That's how a Great Human is made.`,
   literature12: {
     title: "इक दिन उसको खो दोगे",
     author: "Shikha Thakur ",
-    authorImage: "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
     instagram: "https://www.instagram.com/nebula_k05?igsh=MTRjOW5oNDI4dWk5bQ==",
     linkedin: "https://www.linkedin.com/in/shikha-thakur-8028a7258",
     coverImage: "/artpic.png",
@@ -301,7 +307,8 @@ That's how a Great Human is made.`,
   literature13: {
     title: "माँ  सरस्वती के प्रति",
     author: "Nilabh Mishra",
-    authorImage: "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
     instagram: "https://www.instagram.com/nilabh__mishra?igsh=anF0Yzk4bHBiZXhm",
     linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
     coverImage: "/artpic.png",
@@ -325,7 +332,8 @@ That's how a Great Human is made.`,
   literature14: {
     title: "सपना",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -338,9 +346,10 @@ That's how a Great Human is made.`,
   },
   literature15: {
     title: "आज बहुत समय बाद",
-    author: "Satyam Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1Tq7YmLuC0KNYJOa7PEl0nwBYQu5odTDd",
-    instagram: "https://www.instagram.com/nebula_k05?igsh=MTRjOW5oNDI4dWk5bQ==",
+    author: "Satyam",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1Toder0-ZYdT-DJOdhEiCohwSCim2YXzg",
+    instagram: "https://www.instagram.com/satyamk1345/",
     linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
     coverImage: "/artpic.png",
     description: `आज बहुत समय बाद, तुम्हारी तस्वीर से मुलाकात हुई ,
@@ -359,8 +368,10 @@ That's how a Great Human is made.`,
   literature16: {
     title: "बिका हुआ अख़बार",
     author: "Vani Kumari",
-    authorImage: "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
-    instagram: "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
+    instagram:
+      "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
     linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
     coverImage: "/artpic.png",
     description: `अब धर्म की लड़ाई में, बिक रहा ईमान है,
@@ -387,7 +398,8 @@ That's how a Great Human is made.`,
   literature17: {
     title: "लड़कियां",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -403,7 +415,8 @@ That's how a Great Human is made.`,
   literature18: {
     title: "ग़ज़ल",
     author: "Nilabh Mishra",
-    authorImage: "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
     instagram: "https://www.instagram.com/nilabh__mishra?igsh=anF0Yzk4bHBiZXhm",
     linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
     coverImage: "/artpic.png",
@@ -416,8 +429,10 @@ That's how a Great Human is made.`,
   literature19: {
     title: "Trees : The treasure",
     author: "Kaushikee Kashyap",
-    authorImage: "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
-    instagram: "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
+    instagram:
+      "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
     linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
     coverImage: "/artpic.png",
     description: `Through my window , I see a tree beneath the sky,
@@ -438,7 +453,8 @@ Although their fascinating beauty is still obscure.
   literature20: {
     title: "पट्टी  की कहानी",
     author: "Supriya Raj",
-    authorImage: "https://drive.google.com/uc?export=view&id=1XwteHEWO42Fuu8csSMMeDrgcEzVTVPYS",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1XwteHEWO42Fuu8csSMMeDrgcEzVTVPYS",
     instagram: "https://www.instagram.com/supriyaraj5073",
     linkedin: "SupriyaLinkedIn",
     coverImage: "/artpic.png",
@@ -453,7 +469,8 @@ Although their fascinating beauty is still obscure.
   literature21: {
     title: "महफ़िल",
     author: "Shikha Thakur ",
-    authorImage: "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
     instagram: "https://www.instagram.com/nebula_k05?igsh=MTRjOW5oNDI4dWk5bQ==",
     linkedin: "https://www.linkedin.com/in/shikha-thakur-8028a7258",
     coverImage: "/artpic.png",
@@ -478,8 +495,10 @@ Although their fascinating beauty is still obscure.
   literature22: {
     title: "माँ",
     author: "Vani Kumari",
-    authorImage: "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
-    instagram: "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
+    instagram:
+      "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
     linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
     coverImage: "/artpic.png",
     description: `कोई छंद, कविता, गीत लिखूं मैं, 
@@ -528,7 +547,8 @@ Although their fascinating beauty is still obscure.
   literature23: {
     title: "सफ़र",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -546,7 +566,8 @@ Although their fascinating beauty is still obscure.
   literature24: {
     title: "तरस",
     author: "Om Vats",
-    authorImage: "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
     instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
     linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
     coverImage: "/artpic2.png",
@@ -564,7 +585,8 @@ Although their fascinating beauty is still obscure.
   literature25: {
     title: "जादू",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -577,7 +599,8 @@ Although their fascinating beauty is still obscure.
   literature26: {
     title: "प्रेम इच्छा",
     author: "Nilabh Mishra",
-    authorImage: "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
     instagram: "https://www.instagram.com/nilabh__mishra?igsh=anF0Yzk4bHBiZXhm",
     linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
     coverImage: "/artpic.png",
@@ -613,7 +636,8 @@ Although their fascinating beauty is still obscure.
   literature27: {
     title: "वो-जो मेरी है",
     author: "Om Vats",
-    authorImage: "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
     instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
     linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
     coverImage: "/artpic.png",
@@ -630,8 +654,10 @@ Although their fascinating beauty is still obscure.
   literature28: {
     title: "Imperfectly Perfect",
     author: "Kaushikee Kashyap",
-    authorImage: "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
-    instagram: "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
+    instagram:
+      "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
     linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
     coverImage: "/artpic.png",
     description: `I have many faults in me , I know
@@ -647,7 +673,8 @@ There lie many hindrances in my way,
   literature29: {
     title: "Journey's Echoes",
     author: "Om Vats",
-    authorImage: "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
     instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
     linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
     coverImage: "/artpic.png",
@@ -666,7 +693,8 @@ Still, remembering the "suffer" of this train.`,
   literature30: {
     title: "कहता है कि..",
     author: "Shikha Thakur ",
-    authorImage: "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
     instagram: "https://www.instagram.com/nebula_k05?igsh=MTRjOW5oNDI4dWk5bQ==",
     linkedin: "https://www.linkedin.com/in/shikha-thakur-8028a7258",
     coverImage: "/artpic.png",
@@ -674,10 +702,12 @@ Still, remembering the "suffer" of this train.`,
 कहता है कि दुनियाभर को, ये खले तो खले!
 फ़ोन में घंटी मेरी हो तो ख़ाक भर कि कीमत है 
 चूल्हे पर रक्खे बर्तन में, चाय जले तो जले!!`,
-  },literature31: {
+  },
+  literature31: {
     title: "किताबें",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -697,7 +727,8 @@ Still, remembering the "suffer" of this train.`,
   literature32: {
     title: "प्रेम विरह",
     author: "Nilabh Mishra",
-    authorImage: "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
     instagram: "https://www.instagram.com/nilabh__mishra?igsh=anF0Yzk4bHBiZXhm",
     linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
     coverImage: "/artpic.png",
@@ -720,7 +751,8 @@ Still, remembering the "suffer" of this train.`,
   literature33: {
     title: "बसंत",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -735,7 +767,8 @@ Still, remembering the "suffer" of this train.`,
   literature34: {
     title: "प्रेमी पत्र",
     author: "Nilabh Mishra",
-    authorImage: "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
     instagram: "https://www.instagram.com/nilabh__mishra?igsh=anF0Yzk4bHBiZXhm",
     linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
     coverImage: "/artpic.png",
@@ -764,7 +797,8 @@ Still, remembering the "suffer" of this train.`,
   literature35: {
     title: "ग़म",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -776,7 +810,8 @@ Still, remembering the "suffer" of this train.`,
   literature36: {
     title: "शिकायत",
     author: "Shikha Thakur ",
-    authorImage: "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
     instagram: "https://www.instagram.com/nebula_k05?igsh=MTRjOW5oNDI4dWk5bQ==",
     linkedin: "https://www.linkedin.com/in/shikha-thakur-8028a7258",
     coverImage: "/artpic.png",
@@ -800,7 +835,8 @@ Still, remembering the "suffer" of this train.`,
   literature37: {
     title: "मजदूर",
     author: "Akash Patel Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -821,7 +857,8 @@ Still, remembering the "suffer" of this train.`,
   literature38: {
     title: "Lost in a world of desires",
     author: "Om Vats",
-    authorImage: "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=1abmonGSnrjNJO4p6Nax7Xq0325lrq7Ja",
     instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
     linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
     coverImage: "/artpic.png",
@@ -842,7 +879,8 @@ Yet, content, amidst life's quagmire.`,
   literature39: {
     title: "शायरी",
     author: "Nilabh Mishra",
-    authorImage: "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
+    authorImage:
+      "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
     instagram: "https://www.instagram.com/nilabh__mishra?igsh=anF0Yzk4bHBiZXhm",
     linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
     coverImage: "/artpic.png",
@@ -868,7 +906,7 @@ Yet, content, amidst life's quagmire.`,
 वो पूछते है क्या नशा किया है 
 हम नाम उनकी आंखों का ले लेते है ।`,
   },
-  
+
   // Add more literature pieces as needed
 };
 
