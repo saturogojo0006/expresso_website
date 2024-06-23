@@ -41,6 +41,7 @@ Chanakyaniti is a collection of aphorisms composed by Chanakya. It is a set of i
 and statements given by the acharya  Chankya  many of which give valuable tips on 
 how to lead a good and productive life even in this day and age.
 
+
 - April was the month of “MADHUSHALA” by harivanshrai bachchan .
 
 Madhushala is a classic poetry book. The poetic narrative symbolises life as 
@@ -48,6 +49,7 @@ a tavern or a public drinking place. It teaches us to have a must life goal
 otherwise we will live in distraction and get deviated on life.
 
 - May was the month magic love with " Gunaho Ka Devta " by Dharamveer Bharti .
+
 
 The novel tells the passionate love story of Chander and Sudha. The book also 
 addresses moral and ethical concerns . The main character, Chander, is a complex man 
@@ -78,6 +80,7 @@ This series will stay continued and will bring  best out of bestBooks to the rea
         description: `The aroma of NIT Patna immersed in Diplomacy as the first 
 ever Model United Nations (MUN) of the campus commenced on 9th and 10th September 
 of 2k23 in the Visvesvaraya Hall. MUN acts as a simulation of the working of 
+
 United Nations giving students the opportunity to act like delegates representing 
 their allotted nations.
 
@@ -85,7 +88,7 @@ In our edition we had 3 committees to facilitate proceedings namely
 1.General Assembly: For tackling global challenges with wide coordination.
 2.Security Council: Resolving security concerns as world leaders.
 3.International Press: To give a sneak peek of international proceeding to masses.
-            
+          
 The curtain rang up on the first day with General Assembly and rang down on the 
 following day with Security Council, while the press covered both the proceedings. 
 Participants enjoyed the festivities and got exposure to International Diplomacy 
@@ -211,6 +214,7 @@ The event consisted of :
 These events saw enthusiastic participation from students across various disciplines, 
 engaging in thought-provoking discussions on diverse topics. The debates highlighted 
 the power of critical thinking, fostering an environment of intellectual curiosity 
+
 and lively discourse.
         `,
         images: [
@@ -234,6 +238,7 @@ a secret way, i.e without letting the receiver know about the one who wrote the 
         
 This event allowed students to nurture new connections that enhanced their social 
 experiences in the college and created a vibrant and inclusive environment which 
+
 celebrated different forms of love and connections. `,
         images: [
           "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
@@ -261,6 +266,7 @@ It was more than just a movie night; it was a communal celebration of storytelli
 shared emotions, all orchestrated by Expresso.
         
 The event truly highlighted the magic of cinema in bringing people together, making 
+
 it an evening to remember.
         `,
         images: [
@@ -322,7 +328,6 @@ It had a total sparks of ten events :-
         
 These idiosyncratic ideas and interesting events encourage the participants to show 
 their talents and creativity with the enhancement by glorifying their qualities ....
-
         `,
         images: [
           "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
