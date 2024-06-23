@@ -1,59 +1,61 @@
-import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
+import React, { useState, useEffect } from "react";
+import Image from "next/image";
+// import {NavLink, Navigate, useNavigate} from 'react-router-dom' ;
 
 const Event = () => {
   const [events, setEvents] = useState([]);
-
-  // Mimicking an API call to fetch event data
+  const [currentImageIndex, setCurrentImageIndex] = useState({});
+  const [overlay, setOverlay] = useState({ isOpen: false, image: null });
+ 
+  // const goBackHome = () => {
+  //   Navigate('/');
+  // };
+  
   const fetchEventData = async () => {
-    // Simulated data, replace with actual API call
     const data = [
       {
         id: 1,
-        title: 'Art_Doodle your day',
-        description: `“Art is the language of the soul, speaking volumes where words falter,and painting
-colors of humanity’s shared journey.” 
-“Expresso”- the art and literary club of NIT Patna had organised an interesting
-event on 15th April at the front of Architecture department as we celebrated World 
-Art day with our exciting event, Doddle your day 
-Doddling made a creative outlet, relaxation,and sometimes unexpected 
-inspiration.It’s a way to let your mind wander and express itself freely.
-On that evening every detail find its place in the tapestry of time.Each doodle 
-captures a fragment of time, weaving together the story of the day well-lived.
-      `,
-        image: '/eventPicture.png'
+        title: "Art_Doodle your day",
+        description: `"Art is the language of the soul, speaking volumes where words falter, and painting colors of humanity’s shared journey."
+"Expresso" - the art and literary club of NIT Patna had organized an interesting event on 15th April at the front of Architecture department as we celebrated World Art day with our exciting event, Doddle your day.
+Doodling made a creative outlet, relaxation, and sometimes unexpected inspiration. It’s a way to let your mind wander and express itself freely. On that evening every detail find its place in the tapestry of time. Each doodle captures a fragment of time, weaving together the story of the day well-lived.`,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
       },
       {
         id: 2,
-        title: 'kitabe padho behas nhi tark do..',
-        description: `" Books are our Bestfriends , windows to the World ."
+        title: "kitabe padho behas nhi tark do..",
+        description: `"Books are our Bestfriends , windows to the World."
+        
+EXPRESSO: The art and literary club of NITPatna
+Started an online Event called " किताबे पढो - बहस नही तर्क दो   "..on 1st March, 2024.
+Every month a Book is started in which on each Wednesday and Sunday a content derived 
+from the book is posted  on Instagram handel of Expresso.
 
-EXPRESSO : The art and literary club of NITPatna
-Started an online Event called " किताबे पढो - बहस नही तर्क दो   "..on 1st March,2024.
-Every month a Book is started in which on each wednesday and Sunday a content derived 
-from the book is posted  on Instagram handel of Expresso .
-
-●_ March was the month of Book- “CHANAKYANITI” by acharya Chankya ..
+- March was the month of Book- “CHANAKYANITI” by acharya Chankya ..
 
 Chanakyaniti is a collection of aphorisms composed by Chanakya. It is a set of ideas
 and statements given by the acharya  Chankya  many of which give valuable tips on 
 how to lead a good and productive life even in this day and age.
 
-● _April was the month of “MADHUSHALA” by harivanshrai bachchan .
+- April was the month of “MADHUSHALA” by harivanshrai bachchan .
 
-Madhushala is a classicpoetry book .The poetic narrative symbolises life as 
+Madhushala is a classic poetry book. The poetic narrative symbolises life as 
 a tavern or a public drinking place. It teaches us to have a must life goal 
 otherwise we will live in distraction and get deviated on life.
 
-●_May was the month magiclove with " Gunaho Ka Devta " by Dharamveer Bharti .
+- May was the month magic love with " Gunaho Ka Devta " by Dharamveer Bharti .
 
 The novel tells the passionate love story of Chander and Sudha. The book also 
 addresses moral and ethical concerns . The main character, Chander, is a complex man 
 who struggles to balance between his loyalty to his friend Pammi and his desire 
 for Sudha. The story examines the tension between obligation 
-and desire, as well as effect of our desicions. 
+and desire, as well as effect of our decisions.
 
-●_June was the month of Enlightenment with " GOD OF LITTLE THINGS " 
+- June was the month of Enlightenment with " GOD OF LITTLE THINGS " 
 by Arundhati Roy
 
 It is a story about the childhood experiences of fraternal twins whose lives
@@ -63,33 +65,40 @@ The novel examines how conventional society seeks to destroy true love as
 this novel is constantly connected to loss, death and sadness.
 
 This series will stay continued and will bring  best out of bestBooks to the readers 
-& learning enthusiasths...`,
-        image: '/Group 204.png'
+& learning enthusiasts...`,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
       },
       {
         id: 3,
-        title: 'literature _mun',
+        title: "literature _mun",
         description: `The aroma of NIT Patna immersed in Diplomacy as the first 
 ever Model United Nations (MUN) of the campus commenced on 9th and 10th September 
-of 2k23 in the Visvesvaraya Hall. MUN acts as a stimulation of the working of 
+of 2k23 in the Visvesvaraya Hall. MUN acts as a simulation of the working of 
 United Nations giving students the opportunity to act like delegates representing 
 their allotted nations.
 
 In our edition we had 3 committees to facilitate proceedings namely 
-    1.General Assembly: For tackling global challenges with wide coordination.
-    2.Security Council: Resolving security concerns as world leaders.
-    3.International Press: To give a sneak peek of international proceeding to masses.
-        
+1.General Assembly: For tackling global challenges with wide coordination.
+2.Security Council: Resolving security concerns as world leaders.
+3.International Press: To give a sneak peek of international proceeding to masses.
+            
 The curtain rang up on the first day with General Assembly and rang down on the 
 following day with Security Council, while the press covered both the proceedings. 
 Participants enjoyed the festivities and got exposure to International Diplomacy 
 reporting a significant enhancement in their public speaking and planning skills.`,
-        
-        image: '/eventPicture.png'
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
       },
       {
         id: 4,
-        title: 'Literature_AAWAAZ',
+        title: "Literature_AAWAAZ",
         description: `The NIT Patna , under the collaboration of  
 Expresso - the Literary & Art Club and Saptak - the music club hosted a 
 captivating event , AAWAAZ Shayari and Ghazal Night on 13th September , 2023 
@@ -98,71 +107,75 @@ from 5:30 pm onwards  in the ever lively C.V. Raman Hall.
 The attendees were treated to a mesmerizing display of poetic prowess, as 
 each poet shared their unique perspectives and interpretations of love, life, 
 and the human experience.
-        
+
 AAWAAZ was a resounding success , leaving a lasting impression on everyone who 
 attended. This was possible only due to the amazing cooperation and active 
 participation of the members of both the fantastic clubs of NIT Patna , 
-Expresso - The Literary & Art Club & Saptak - The Music Club .`
-        ,
-        image: '/Group 204.png'
-      }, 
+Expresso - The Literary & Art Club & Saptak - The Music Club.`,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
+      },
       {
         id: 5,
-        title: 'literature_dil se canvas',
-        description: `Expresso is all about expresing yourself, and this time 
-you can do it in “Dil Se Canvas” . This is one of the awesome event of expresso, 
+        title: "literature_dil se canvas",
+        description: `Expresso is all about expressing yourself, and this time 
+you can do it in “Dil Se Canvas”. This is one of the awesome events of Expresso, 
 where two artists team up to create magic on a canvas! First, one artist starts 
-with the theme, then they swap, and the other finishes it. Organised at 
+with the theme, then they swap, and the other finishes it. Organized at 
 CV Raman Hall on March 3rd, 2024, at 5:00 pm, so just grab your partner now and 
 unleash your creativity. We will give you paint and you’ll give us painting. 
-Let your creativity shine!`
-        ,
-        image: '/eventPicture.png'
-      }, 
+Let your creativity shine!`,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
+      },
       {
         id: 6,
-        title: 'Literature_TCF_Avlokan',
+        title: "Literature_TCF_Avlokan",
         description: `"The power of a mastermind lies in their ability to see
 the bigger picture and connect the dots"!
 Expresso - Literary and Art Club of NIT Patna organized a series of events under 
 Avlokan in TCF '24, providing an opportunity to hone your abilities and talents 
-in the fun filled hours of dares, wisdom, writing and spelling.
+in the fun-filled hours of dares, wisdom, writing, and spelling.
 
 Avlokan brought together students with a passion for intellectual pursuits, 
 spelling prowess, and creative writing. The event kicked off with Spelling Bee 
 and Geek-O-Brain on January 24th, followed by Don't You Dare And Nazm on 
 January 26th.
 
-  1.Geek-O-Brain explored the knowledge, analytical and critical thinking skills 
-  of the individuals by quiz based on diverse topics, an interesting and 
-  informative sub-event for participants as well as the audience.
+1. Geek-O-Brain explored the knowledge, analytical and critical thinking skills 
+of the individuals by a quiz based on diverse topics, an interesting and 
+informative sub-event for participants as well as the audience.
 
-  2.Spelling Bee showcased the linguistic prowess of students, it accommodated a 
-  wide range of vocabulary and challenged participants appropriately, consisting 
-  of two parts - Rapid Fire Spell-it-out and Unscramble.
+2. Spelling Bee showcased the linguistic prowess of students, it accommodated a 
+wide range of vocabulary and challenged participants appropriately, consisting 
+of two parts - Rapid Fire Spell-it-out and Unscramble.
 
-  3.Nazm highlighted the creativity and poetic skills of the participants as they 
-  presented shayri and poems incorporating a specific trigger word. The team with 
-  the most creative and skillful poetry were crowned the Nazm event champions.
+3. Nazm highlighted the creativity and poetic skills of the participants as they 
+presented shayri and poems incorporating a specific trigger word. The team with 
+the most creative and skillful poetry were crowned the Nazm event champions.
 
-  4.In Don't you Dare, participants were given a dare to perform through 
-  chit-selection in allotted time. The event was individual participation and 
-  participants performed the dare among excitement and laughter.
+4. In Don't you Dare, participants were given a dare to perform through 
+chit-selection in the allotted time. The event was individual participation and 
+participants performed the dare among excitement and laughter.
 
-Following these intense sessions, the excitement continued with participants 
-expressing their thoughts and emotions, testing their resolve and daring spirit, 
-reminding us of the power of words and the importance of seeing the bigger picture 
-in literature and art.
-
-Avlokan 2024 was more than just an event, it was a collaboration of intelligence, 
-creativity, fun and knowledge. We eagerly anticipate many more enjoyable and 
-enriching experiences like this in the future.`  
-,
-        image: '/Group 204.png'
-      }, 
+Following these enthusiastic and spirited events, participants found a sense of 
+belonging in the literary and artistic community at NIT Patna, recognizing the 
+talent and skills of all involved.`,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
+      },
       {
         id: 7,
-        title: 'Literature_Tcf_Sanhita',
+        title: "Literature_Tcf_Sanhita",
         description: `Literature and debate are twin pillars of intellectual 
 growth; while literature enriches our minds with diverse narratives and profound 
 truths, debate sharpens our ability to challenge, defend, and refine those ideas 
@@ -198,14 +211,18 @@ The event consisted of :
 These events saw enthusiastic participation from students across various disciplines, 
 engaging in thought-provoking discussions on diverse topics. The debates highlighted 
 the power of critical thinking, fostering an environment of intellectual curiosity 
-and lively discourse.`
-        ,
-        image: '/eventPicture.png'
-      }, 
+and lively discourse.
+        `,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
+      },
       {
         id: 8,
         title: `literature_valentine's week`,
-        description:`What's better than sharing your feelings and thoughts to your 
+        description: ` What's better than sharing your feelings and thoughts to your 
 favourite person without the fear of judgement, that too in the love-filled and 
 heartfelt week of valentine's.
 
@@ -217,13 +234,16 @@ a secret way, i.e without letting the receiver know about the one who wrote the 
         
 This event allowed students to nurture new connections that enhanced their social 
 experiences in the college and created a vibrant and inclusive environment which 
-celebrated different forms of love and connections.`
-        ,
-        image: '/Group 204.png'
-      }, 
+celebrated different forms of love and connections. `,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
+      },
       {
         id: 9,
-        title: 'Movie matinee',
+        title: "Movie matinee",
         description: `Expresso’s Signature Event, Secret Valentine, brought an 
 unforgettable cinematic experience to NIT Patna  with the screening of Sita Ramam! 
 
@@ -241,14 +261,18 @@ It was more than just a movie night; it was a communal celebration of storytelli
 shared emotions, all orchestrated by Expresso.
         
 The event truly highlighted the magic of cinema in bringing people together, making 
-it an evening to remember.`
-        ,
-        image: '/eventPicture.png'
-      }, 
+it an evening to remember.
+        `,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
+      },
       {
         id: 10,
-        title: 'Portrait Palooza and Tattoo Booth',
-        description: `The artist and their passionate immersed in two great event under 
+        title: "Portrait Palooza and Tattoo Booth",
+        description: ` The artist and their passionate immersed in two great event under 
 the Expresso named as Portrait Palooza and Tattoo Booth on 10th February, 2024 from 
 2.30 pm onwards at Pmc offering a vibrant blend of live tattooing and portrait artistry. 
 
@@ -257,14 +281,18 @@ or watching as intricate portraits came to life on canvases.
         
 The event was a haven for art lovers, featuring interactive sessions where participants 
 could learn about tattoo techniques and portrait drawing. It was a day of creativity, 
-inspiration, and the celebration of artistic expression.`
-        ,
-        image: '/Group 204.png'
-      }, 
+inspiration, and the celebration of artistic expression.
+        `,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
+      },
       {
         id: 11,
-        title: 'tcf_kalakriti',
-        description: `Art is the expression of emotions and beauty in a creative manner 
+        title: "tcf_kalakriti",
+        description: ` Art is the expression of emotions and beauty in a creative manner 
 that stirs the soul ….. 
 
 “ _Expresso_ “-the art and literary club of Nit Patna , organised “ _kalakriti_ “ an event 
@@ -294,42 +322,156 @@ It had a total sparks of ten events :-
         
 These idiosyncratic ideas and interesting events encourage the participants to show 
 their talents and creativity with the enhancement by glorifying their qualities ....
-`
-        ,
-        image: '/eventPicture.png'
-      }
+
+        `,
+        images: [
+          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
+          "/eventPicture.png",
+        ],
+      },
     ];
     setEvents(data);
+
+    const initialImageIndex = data.reduce((acc, event) => {
+      acc[event.id] = 0;
+      return acc;
+    }, {});
+    setCurrentImageIndex(initialImageIndex);
   };
 
   useEffect(() => {
     fetchEventData();
   }, []);
 
+  const handleNextImage = (eventId) => {
+    setCurrentImageIndex((prevState) => ({
+      ...prevState,
+      [eventId]:
+        (prevState[eventId] + 1) %
+        events.find((event) => event.id === eventId).images.length,
+    }));
+  };
+
+  const handlePrevImage = (eventId) => {
+    setCurrentImageIndex((prevState) => ({
+      ...prevState,
+      [eventId]:
+        (prevState[eventId] -
+          1 +
+          events.find((event) => event.id === eventId).images.length) %
+        events.find((event) => event.id === eventId).images.length,
+    }));
+  };
+
+  const openOverlay = (image) => {
+    setOverlay({ isOpen: true, image });
+  };
+
+  const closeOverlay = () => {
+    setOverlay({ isOpen: false, image: null });
+  };
+
   return (
-    <div className="flex flex-col bg-[#4B4B4B] h-full pt-4 px-4 sm:px-8">
-      <button className="self-end h-[29px] w-[109px] mb-4 sm:mb-0">
+    <div className="flex flex-col bg-[#4B4B4B] h-full pt-4 px-4 sm:px-8 sm:justify-center">
+      <button className="self-end h-[29px] w-[109px] mb-4 sm:mb-0"
+      // onClick={goBackHome}
+      >
         <div className="flex gap-1 flex-row-reverse items-center">
           <div className="text-white text-xl font-antonio pb-1">BACK</div>
           <div className="border-2 rounded-full border-white p-1">
-            <Image src='/Arrow2.png' width={20} height={20} alt="Arrow" />
+            <Image src="/Arrow2.png" width={20} height={20} alt="Arrow" />
           </div>
         </div>
       </button>
 
       {events.map((event, index) => (
-        <div key={event.id} className={`flex flex-col sm:flex-row items-center sm:items-${index % 2 === 0 ? 'start' : 'end'} mt-4 gap-4`}>
-          <div className={`w-full sm:w-auto ${index % 2 !== 0 ? 'sm:order-2' : ''}`}>
-            <Image src={event.image} width={1500} height={200} alt="Event Picture" className="object-cover w-full h-auto" />
+        <div
+          key={event.id}
+          className={`flex flex-col sm:flex-row items-center sm:items-${
+            index % 2 === 0 ? "start" : "end"
+          } mt-4 gap-4`}
+        >
+          <div
+            className={`w-full sm:w-auto ${
+              index % 2 !== 0 ? "sm:order-2" : ""
+            } `}
+          >
+            <div
+              className="relative  h-80 w-80 lg:mx-4 overflow-hidden rounded-full border-4 border-[#FEB952] cursor-pointer mx-auto shadow-lg shadow-slate-100"
+              onClick={() =>
+                openOverlay(event.images[currentImageIndex[event.id]])
+              }
+            >
+              <Image
+                src={event.images[currentImageIndex[event.id]]}
+                layout="fill"
+                objectFit="cover"
+                alt="Event Picture"
+              />
+            </div>
+            <div className="flex items-center justify-center mt-2 text-white text-[24px] font-bold p-2">
+              <button
+                onClick={() => handlePrevImage(event.id)}
+                className="px-2"
+              >
+                {"<"}
+              </button>
+              <span className="px-4">
+                {currentImageIndex[event.id] + 1}/
+                {events.find((event) => event.id === event.id).images.length}
+              </span>
+              <button
+                onClick={() => handleNextImage(event.id)}
+                className="px-2"
+              >
+                {">"}
+              </button>
+            </div>
           </div>
-          <div className="flex flex-col w-full sm:ml-4">
-            <div className={`font-antonio   text-[#FEFEFE] text-2xl sm:text-5xl ${index % 2 !== 0 ? 'text-right' : ''}`}>{event.title}</div>
-            <div className="text-[#ffffff] text-base sm:text-lg bg-cover bg-center p-4 mt-4 mb-6 overflow-y-auto max-h-64" style={{ backgroundImage: `url('/event.png')` }}>
-              <pre>{event.description}</pre>
+          <div className="flex flex-col w-full sm:ml-4 lg:mx-16 ">
+            <div
+              className={`font-antonio text-white text-2xl sm:text-5xl ${
+                index % 2 !== 0 ? "text-right" : ""
+              }`}
+            >
+              {event.title}
+            </div>
+            <div
+              className="text-[#ffffff] text-base sm:text-lg bg-cover bg-center p-4 mt-4 mb-6 whitespace-pre-line overflow-y-auto max-h-64 rounded-2xl"
+              style={{ backgroundImage: `url('/event.png')` }}
+            >
+              {event.description}
+            </div>
+          </div>
+          </div>
+       
+      ))}
+
+      {overlay.isOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+          onClick={closeOverlay}
+        >
+          <div className="relative w-4/5 h-4/5">
+            <button
+              className="absolute top-4 right-4 text-white text-2xl"
+              onClick={closeOverlay}
+            >
+              &times;
+            </button>
+            <div className="flex justify-center items-center h-full">
+              <Image
+                src={overlay.image}
+                layout="fill"
+                objectFit="contain"
+                alt="Overlay"
+                className="max-w-full max-h-full object-contain"
+              />
             </div>
           </div>
         </div>
-      ))}
+      )}
     </div>
   );
 };

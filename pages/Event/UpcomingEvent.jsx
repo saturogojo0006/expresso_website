@@ -31,7 +31,7 @@ const UpcomingEvent = () => {
   };
 
   return (
-    <div className="flex h-screen">
+    <div className="flex">
       <div className="w-full md:w-1/3 bg-yellow-500 text-white flex flex-col items-left justify-center overflow-y-auto p-4 space-y-4">
         <div className="w-[348px] h-[125.93px] text-black text-[54.45px] font-bold font-['Montserrat'] leading-[54.45px] tracking-wide ml-4 mt-4 pl-2">
           UPCOMING EVENTS
