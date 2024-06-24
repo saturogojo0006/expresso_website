@@ -180,6 +180,6 @@ const alumniData = {
       },
     ],
   },
- 
+} 
 
 export default alumniData;
