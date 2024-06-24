@@ -121,7 +121,7 @@ Let your creativity shine!`
       }, 
       {
         id: 6,
-        title: 'Literature_TCF_Avlokan',
+        title: 'TCF_Avlokan',
         description: `"The power of a mastermind lies in their ability to see
 the bigger picture and connect the dots"!
 Expresso - Literary and Art Club of NIT Patna organized a series of events under 
@@ -158,11 +158,11 @@ Avlokan 2024 was more than just an event, it was a collaboration of intelligence
 creativity, fun and knowledge. We eagerly anticipate many more enjoyable and 
 enriching experiences like this in the future.`  
 ,
-        image: '/Group 204.png'
+        image: 'https://drive.google.com/uc?export=view&id=1QnYBYP9lz_xuHzFzVD2kGGMklYUXTddQ'
       }, 
       {
         id: 7,
-        title: 'Literature_Tcf_Sanhita',
+        title: 'Tcf_Sanhita',
         description: `Literature and debate are twin pillars of intellectual 
 growth; while literature enriches our minds with diverse narratives and profound 
 truths, debate sharpens our ability to challenge, defend, and refine those ideas 
@@ -200,11 +200,11 @@ engaging in thought-provoking discussions on diverse topics. The debates highlig
 the power of critical thinking, fostering an environment of intellectual curiosity 
 and lively discourse.`
         ,
-        image: '/eventPicture.png'
+        image: 'https://drive.google.com/uc?export=view&id=1QLkbGAEJBHVoa0Uq6CQQnH7diSwUIST-'
       }, 
       {
         id: 8,
-        title: `literature_valentine's week`,
+        title: `Valentine's Week`,
         description:`What's better than sharing your feelings and thoughts to your 
 favourite person without the fear of judgement, that too in the love-filled and 
 heartfelt week of valentine's.
@@ -219,11 +219,11 @@ This event allowed students to nurture new connections that enhanced their socia
 experiences in the college and created a vibrant and inclusive environment which 
 celebrated different forms of love and connections.`
         ,
-        image: '/Group 204.png'
+        image: 'https://drive.google.com/uc?export=view&id=1-iZPbK4XH3CFQ0rIuBky6v0l79zX5y3W'
       }, 
       {
         id: 9,
-        title: 'Movie matinee',
+        title: 'Movie Matinee',
         description: `Expresso’s Signature Event, Secret Valentine, brought an 
 unforgettable cinematic experience to NIT Patna  with the screening of Sita Ramam! 
 
@@ -243,7 +243,7 @@ shared emotions, all orchestrated by Expresso.
 The event truly highlighted the magic of cinema in bringing people together, making 
 it an evening to remember.`
         ,
-        image: '/eventPicture.png'
+        image: 'https://drive.google.com/uc?export=view&id=16io85ugk4pGFQ8NzfzTXng88k9WsgCZX'
       }, 
       {
         id: 10,
@@ -263,13 +263,12 @@ inspiration, and the celebration of artistic expression.`
       }, 
       {
         id: 11,
-        title: 'tcf_kalakriti',
-        description: `Art is the expression of emotions and beauty in a creative manner 
-that stirs the soul ….. 
+        title: 'Tcf_Kalakriti',
+        description: `Art is the expression of emotions and beauty in a creative manner that stirs the soul ….. 
 
 “ _Expresso_ “-the art and literary club of Nit Patna , organised “ _kalakriti_ “ an event 
-under TCF ’24 calling all the artists to unleash their artistic spirit in the most 
-creative and amazing manner . 
+under TCF ’24 calling all the artists to unleash their artistic spirit in the most creative
+ and amazing manner . 
 The event was comprised of multiple sub-events with a 2-3 member participation in each 
 group in a never seen before interesting way !         
 It had a total sparks of ten events :-
@@ -296,7 +295,7 @@ These idiosyncratic ideas and interesting events encourage the participants to s
 their talents and creativity with the enhancement by glorifying their qualities ....
 `
         ,
-        image: '/eventPicture.png'
+        image: 'https://drive.google.com/uc?export=view&id=1jkGaFppYUy2W3gB1hy2GqjX973yZFIKd'
       }
     ];
     setEvents(data);
