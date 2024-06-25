@@ -346,9 +346,6 @@ That's how a Great Human is made.`,
   },
   literature15: {
     title: "आज बहुत समय बाद",
-    author: "Satyam Singh",
-    authorImage: "https://drive.google.com/uc?export=view&id=1Tq7YmLuC0KNYJOa7PEl0nwBYQu5odTDd",
-    instagram: "https://www.instagram.com/satyamk1345?igsh=NGlpMHJqYmVkY3Rk",
     author: "Satyam",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1Toder0-ZYdT-DJOdhEiCohwSCim2YXzg",
