@@ -139,236 +139,151 @@ Let your creativity shine!`,
       },
       {
         id: 6,
-        title: "Literature_TCF_Avlokan",
+        title: "TCF_Avlokan",
         title: 'TCF_Avlokan',
-        description: `"The power of a mastermind lies in their ability to see
-the bigger picture and connect the dots"!
-Expresso - Literary and Art Club of NIT Patna organized a series of events under 
-Avlokan in TCF '24, providing an opportunity to hone your abilities and talents 
-in the fun-filled hours of dares, wisdom, writing, and spelling.
+        description: `"The power of a mastermind lies in their ability to see the bigger picture and connect the dots"!
+        Expresso - Literary and Art Club of NIT Patna organized a series of events under Avlokan in TCF '24, providing an opportunity to hone your abilities and talents in the fun-filled hours of dares, wisdom, writing, and spelling.
 
-Avlokan brought together students with a passion for intellectual pursuits, 
-spelling prowess, and creative writing. The event kicked off with Spelling Bee 
-and Geek-O-Brain on January 24th, followed by Don't You Dare And Nazm on 
-January 26th.
+        Avlokan brought together students with a passion for intellectual pursuits, spelling prowess, and creative writing. The event kicked off with Spelling Bee and Geek-O-Brain on January 24th, followed by Don't You Dare And Nazm on January 26th.
 
-1. Geek-O-Brain explored the knowledge, analytical and critical thinking skills 
-of the individuals by a quiz based on diverse topics, an interesting and 
-informative sub-event for participants as well as the audience.
+        1. Geek-O-Brain explored the knowledge, analytical and critical thinking skills of the individuals by a quiz based on diverse topics, an interesting and informative sub-event for participants as well as the audience.
 
-2. Spelling Bee showcased the linguistic prowess of students, it accommodated a 
-wide range of vocabulary and challenged participants appropriately, consisting 
-of two parts - Rapid Fire Spell-it-out and Unscramble.
+        2. Spelling Bee showcased the linguistic prowess of students, it accommodated a wide range of vocabulary and challenged participants appropriately, consisting of two parts - Rapid Fire Spell-it-out and Unscramble.
 
-3. Nazm highlighted the creativity and poetic skills of the participants as they 
-presented shayri and poems incorporating a specific trigger word. The team with 
-the most creative and skillful poetry were crowned the Nazm event champions.
+        3. Nazm highlighted the creativity and poetic skills of the participants as they presented shayri and poems incorporating a specific trigger word. The team with the most creative and skillful poetry were crowned the Nazm event champions.
 
-4. In Don't you Dare, participants were given a dare to perform through 
-chit-selection in the allotted time. The event was individual participation and 
-participants performed the dare among excitement and laughter.
+        4. In Don't you Dare, participants were given a dare to perform through chit-selection in the allotted time. The event was individual participation and participants performed the dare among excitement and laughter.
 
-Following these enthusiastic and spirited events, participants found a sense of 
-belonging in the literary and artistic community at NIT Patna, recognizing the 
-talent and skills of all involved.`,
+        Following these enthusiastic and spirited events, participants found a sense of belonging in the literary and artistic community at NIT Patna, recognizing the talent and skills of all involved.`,
         images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
+          "https://drive.google.com/uc?export=view&id=1jnD5R6O2lA3XpNkxzIu04q0AQvImEkUI",
+          "https://drive.google.com/uc?export=view&id=1CamCCY355BtkDS2AXdO5NFXxvhkmLFEf",
+          "https://drive.google.com/uc?export=view&id=1MqIsMO1_18-G4G5TWIXvTEYEZzKdjRCG",
+          "https://drive.google.com/uc?export=view&id=1Ei3LmDuB37s9l7gPMtR2lLbI0iiSIlwq",
+          "https://drive.google.com/uc?export=view&id=1QnYBYP9lz_xuHzFzVD2kGGMklYUXTddQ",
+          "https://drive.google.com/uc?export=view&id=1qb84ahX2cieoA4ir-YyvC8ubshAQkLex",
         ],
       },
-Following these intense sessions, the excitement continued with participants 
-expressing their thoughts and emotions, testing their resolve and daring spirit, 
-reminding us of the power of words and the importance of seeing the bigger picture 
-in literature and art.
-
-Avlokan 2024 was more than just an event, it was a collaboration of intelligence, 
-creativity, fun and knowledge. We eagerly anticipate many more enjoyable and 
-enriching experiences like this in the future.`  
-,
-        image: 'https://drive.google.com/uc?export=view&id=1QnYBYP9lz_xuHzFzVD2kGGMklYUXTddQ'
-      }, 
       {
         id: 7,
-        title: "Literature_Tcf_Sanhita",
-        title: 'Tcf_Sanhita',
-        description: `Literature and debate are twin pillars of intellectual 
-growth; while literature enriches our minds with diverse narratives and profound 
-truths, debate sharpens our ability to challenge, defend, and refine those ideas 
-through rigorous discourse.
+        title: "Tcf_Sanhita",
+        description: `Literature and debate are twin pillars of intellectual growth; while literature enriches our minds with diverse narratives and profound truths, debate sharpens our ability to challenge, defend, and refine those ideas through rigorous discourse.
 
-During TCF'24 , the Literature and Art Club of NIT Patna, Expresso  organized a 
-series of stimulating debates under the event named SANHITA '24 . Each of the 
-debates had many teams each consisting of 3 members.
+        During TCF'24 , the Literature and Art Club of NIT Patna, Expresso  organized a series of stimulating debates under the event named SANHITA '24 . Each of the debates had many teams each consisting of 3 members.
         
-The event consisted of :
-  1. Parliamentary Debate
-    - Teams argue for or against a motion in a formal, structured format, 
-    simulating parliamentary procedures. Participants must use logic, evidence, 
-    and rhetoric to defend their stance, with a focus on quick thinking and teamwork.
-  2. English Debate
-    - Teams debate on various topics in English, focusing on clear articulation,
-    strong arguments, and rebuttals. The emphasis is on language proficiency, 
-    critical analysis, and persuasive speaking skills.
-  3. Hindi Debate
-    - Similar to the English Debate but conducted in Hindi, this event challenges 
-    participants to demonstrate their debating skills in their native language, 
-    promoting cultural and linguistic diversity.      
-  4. Turn Coat
-    - A single participant must argue both for and against a given topic, 
-    switching sides at designated intervals. This format tests the debater's ability 
-    to understand and articulate both perspectives, showcasing flexibility and 
-    comprehensive understanding of the subject.
-  5. Story Wars
-    - Teams of three are given a picture and tasked with collaboratively writing 
-    a story based on it. This event emphasizes creativity, teamwork, and narrative 
-    skills, allowing participants to explore imaginative storytelling.
+        The event consisted of :
+          1. Parliamentary Debate
+            - Teams argue for or against a motion in a formal, structured format, simulating parliamentary procedures. Participants must use logic, evidence, and rhetoric to defend their stance, with a focus on quick thinking and teamwork.
+          2. English Debate
+            - Teams debate on various topics in English, focusing on clear articulation, strong arguments, and rebuttals. The emphasis is on language proficiency, critical analysis, and persuasive speaking skills.
+          3. Hindi Debate
+            - Similar to the English Debate but conducted in Hindi, this event challenges participants to demonstrate their debating skills in their native language, promoting cultural and linguistic diversity.      
+          4. Turn Coat
+            - A single participant must argue both for and against a given topic, switching sides at designated intervals. This format tests the debater's ability to understand and articulate both perspectives, showcasing flexibility and comprehensive understanding of the subject.
+          5. Story Wars
+            - Teams of three are given a picture and tasked with collaboratively writing a story based on it. This event,emphasizes creativity, teamwork, and narrative skills, allowing participants to explore imaginative storytelling.
         
-These events saw enthusiastic participation from students across various disciplines, 
-engaging in thought-provoking discussions on diverse topics. The debates highlighted 
-the power of critical thinking, fostering an environment of intellectual curiosity 
-
-and lively discourse.
+        These events saw enthusiastic participation from students across various disciplines, engaging in thought-provoking discussions on diverse topics. The debates highlighted the power of critical thinking, fostering an environment of intellectual curiosity and lively discourse.
         `,
         images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
+          "https://drive.google.com/uc?export=view&id=1OueiPz3IF8bMjrSjLpQqYoEFa9ljTxKV",
+          "https://drive.google.com/uc?export=view&id=1yTJP9Ncx4YHieY6gIr8oqbvC96Rq_oCS",
+          "https://drive.google.com/uc?export=view&id=1XwKKWKsNofwe_mAhVpsqSvgLcGSNZM9n",
+          "https://drive.google.com/uc?export=view&id=1QLkbGAEJBHVoa0Uq6CQQnH7diSwUIST-",
+          "https://drive.google.com/uc?export=view&id=1LvOwSac26eJTaHwcSYjUCPcmQrhRkjXc",
+          "https://drive.google.com/uc?export=view&id=1iUwg2gJ54zihRCGOkzG_bocsbmLj3Nb3",
         ],
       },
-and lively discourse.`
-        ,
-        image: 'https://drive.google.com/uc?export=view&id=1QLkbGAEJBHVoa0Uq6CQQnH7diSwUIST-'
-      }, 
       {
         id: 8,
-        title: `literature_valentine's week`,
-        description: ` What's better than sharing your feelings and thoughts to your 
         title: `Valentine's Week`,
-        description:`What's better than sharing your feelings and thoughts to your 
-favourite person without the fear of judgement, that too in the love-filled and 
-heartfelt week of valentine's.
+        description: ` What's better than sharing your feelings and thoughts to your favourite person without the fear of judgement, that too in the love-filled and heartfelt week of valentine's.
 
-Expresso organised a fun event during the valentine's week from 7th to 14th February 
-titled 'Love is in the air' which allowed everyone to pour their heart out anonymously.
+        Expresso organised a fun event during the valentine's week from 7th to 14th February titled 'Love is in the air' which allowed everyone to pour their heart out anonymously.
         
-The club's social media handle acted as a messenger to deliver the special messages in 
-a secret way, i.e without letting the receiver know about the one who wrote the message.
+        The club's social media handle acted as a messenger to deliver the special messages in a secret way, i.e without letting the receiver know about the one who wrote the message.
         
-This event allowed students to nurture new connections that enhanced their social 
-experiences in the college and created a vibrant and inclusive environment which 
-
-celebrated different forms of love and connections. `,
+        This event allowed students to nurture new connections that enhanced their social experiences in the college and created a vibrant and inclusive environment which celebrated different forms of love and connections. `,
         images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
+          "https://drive.google.com/uc?export=view&id=1lD7lgJUeGrKDiQPM3eouCP_7dPd9eHp2",
+          "https://drive.google.com/uc?export=view&id=1Dr1wR2XXfLPfMKBAI7VxpFlC0qGroEkf",
+          "https://drive.google.com/uc?export=view&id=1Elu-bztGLxlX1pgGXEEvz4Z2jiVFHlE4",
         ],
       },
-celebrated different forms of love and connections.`
-        ,
-        image: 'https://drive.google.com/uc?export=view&id=1-iZPbK4XH3CFQ0rIuBky6v0l79zX5y3W'
-      }, 
       {
         id: 9,
-        title: "Movie matinee",
-        title: 'Movie Matinee',
-        description: `Expresso’s Signature Event, Secret Valentine, brought an 
-unforgettable cinematic experience to NIT Patna  with the screening of Sita Ramam! 
+        title: "Movie Matinee",
+        description: `Expresso’s Signature Event, Secret Valentine, brought an unforgettable cinematic experience to NIT Patna  with the screening of Sita Ramam! 
 
-As part of the broader Secret Valentine celebration, Movie Matinee was organized by 
-Expresso, the Art and Literary Club of NITP.
+        As part of the broader Secret Valentine celebration, Movie Matinee was organized by Expresso, the Art and Literary Club of NITP.
         
-On February 9th, 2024, at Meghnad Saha Hall, we gathered to celebrate Valentine’s 
-week filled with drama and love. Starting at 5:30 PM, the event transformed the 
-hall into a hub of excitement and anticipation.  The atmosphere was electric as the 
-lights dimmed and Sita Ramam began, promising to deliver not just a movie, but an 
-experience that resonated deeply with each viewer. The film’s compelling narrative 
-of love and connection was perfect for the season of romance. 
+        On February 9th, 2024, at Meghnad Saha Hall, we gathered to celebrate Valentine’s week filled with drama and love. Starting at 5:30 PM, the event transformed the hall into a hub of excitement and anticipation.  The atmosphere was electric as the lights dimmed and Sita Ramam began, promising to deliver not just a movie, but an experience that resonated deeply with each viewer. The film’s compelling narrative of love and connection was perfect for the season of romance. 
         
-It was more than just a movie night; it was a communal celebration of storytelling and 
-shared emotions, all orchestrated by Expresso.
+        It was more than just a movie night; it was a communal celebration of storytelling and shared emotions, all orchestrated by Expresso.
         
-The event truly highlighted the magic of cinema in bringing people together, making 
-
-it an evening to remember.
+        The event truly highlighted the magic of cinema in bringing people together, making it an evening to remember.
         `,
         images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
+          "https://drive.google.com/uc?export=view&id=1pZXAtVnyjzRxE__LWd5vOS5yHA-UZJDW",
+          "https://drive.google.com/uc?export=view&id=1egNy-bNoa2lCSxyX56XDjV0Dz0LfrjYo",
+          "https://drive.google.com/uc?export=view&id=16io85ugk4pGFQ8NzfzTXng88k9WsgCZX",
         ],
       },
-it an evening to remember.`
-        ,
-        image: 'https://drive.google.com/uc?export=view&id=16io85ugk4pGFQ8NzfzTXng88k9WsgCZX'
-      }, 
       {
         id: 10,
         title: "Portrait Palooza and Tattoo Booth",
-        description: ` The artist and their passionate immersed in two great event under 
-the Expresso named as Portrait Palooza and Tattoo Booth on 10th February, 2024 from 
-2.30 pm onwards at Pmc offering a vibrant blend of live tattooing and portrait artistry. 
+        description: ` The artist and their passionate immersed in two great event under the Expresso named as Portrait Palooza and Tattoo Booth on 10th February, 2024 from 2.30 pm onwards at Pmc offering a vibrant blend of live tattooing and portrait artistry. 
 
-Attendees could witness skilled tattoo artists at work, getting inked with unique designs 
-or watching as intricate portraits came to life on canvases.
+        Attendees could witness skilled tattoo artists at work, getting inked with unique designs or watching as intricate portraits came to life on canvases.
         
-The event was a haven for art lovers, featuring interactive sessions where participants 
-could learn about tattoo techniques and portrait drawing. It was a day of creativity, 
-inspiration, and the celebration of artistic expression.
+        The event was a haven for art lovers, featuring interactive sessions where participants could learn about tattoo techniques and portrait drawing. It was a day of creativity, inspiration, and the celebration of artistic expression.
         `,
         images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
+          "https://drive.google.com/uc?export=view&id=1d0bDyf_c2HPAs5g2mLVsDt4ZKneEk7ou",
+          "https://drive.google.com/uc?export=view&id=1YtZjDXVmrP4BChWGiGbdfbtq7Zi2pGGO",
+          "https://drive.google.com/uc?export=view&id=1I-F9d-pZM0RBkhiib-YKdoNwjDinMFxU",
+          "https://drive.google.com/uc?export=view&id=1-iZPbK4XH3CFQ0rIuBky6v0l79zX5y3W",
         ],
       },
       {
         id: 11,
-        title: "tcf_kalakriti",
-        description: ` Art is the expression of emotions and beauty in a creative manner 
-that stirs the soul ….. 
-        title: 'Tcf_Kalakriti',
-        description: `Art is the expression of emotions and beauty in a creative manner that stirs the soul ….. 
+        title: "Tcf_Kalakriti",
+        description: ` Art is the expression of emotions and beauty in a creative manner that stirs the soul ….. 
 
-“ _Expresso_ “-the art and literary club of Nit Patna , organised “ _kalakriti_ “ an event 
-under TCF ’24 calling all the artists to unleash their artistic spirit in the most creative
- and amazing manner . 
-The event was comprised of multiple sub-events with a 2-3 member participation in each 
-group in a never seen before interesting way !         
-It had a total sparks of ten events :-
-
-  1.Dye verse - a ‘T-shirt painting ‘competition …. One of the most interesting events 
-    according to all the participants…         
-  2.Frame the Face -  a competition where you would get to paint the face of people in 
-    the surroundings….                 
-  3.No Brushes - painting was to be done based on a theme but without using any brush .
-  4.Caricature-Culture - a cartoon character making competition which reminds us of our 
-    childhood memories……        
-  5.DoodleFiesta - a solo competition of doodle making with creativity and talent….   
-  6.Safar e Rangoli - a 3 membered competition to make a colourful rangoli based on a 
-    given theme .. 
-  7.Clay- clash -it reminds us of the fragnance of depicting our hidden talent….a two 
-    membered competition to craft a clay model based on instant theme…… 
-  8.TattooFiesta - this is the event of creating tatoo on the arm of the random people 
-    with their own creativity and originality…. 
-  9.CineFrame - based on originality and visualisation participants have to frame the 
-    given theme work…         
-  10.Mosaic-Marvel - collage making event with solo or group of 2 participants… 
+        “ _Expresso_ “-the art and literary club of Nit Patna , organised “ _kalakriti_ “ an event under TCF ’24 calling all the artists to unleash their artistic spirit in the most creative and amazing manner. The event was comprised of multiple sub-events with a 2-3 member participation in each group in a never seen before interesting way!         
         
-These idiosyncratic ideas and interesting events encourage the participants to show 
-their talents and creativity with the enhancement by glorifying their qualities ....
+        It had a total sparks of ten events :-
+          1. Dye verse 
+            - a ‘T-shirt painting ‘competition …. One of the most interesting events according to all the participants…         
+          2. Frame the Face 
+            -  a competition where you would get to paint the face of people in the surroundings….                 
+          3. No Brushes 
+            - painting was to be done based on a theme but without using any brush .
+          4. Caricature-Culture - a cartoon character making competition which reminds us of our childhood memories……        
+          5. DoodleFiesta 
+            - a solo competition of doodle making with creativity and talent….   
+          6. Safar e Rangoli 
+            - a 3 membered competition to make a colourful rangoli based on a given theme .. 
+          7. Clay- clash 
+            -it reminds us of the fragnance of depicting our hidden talent….a two membered competition to craft a clay model based on instant theme…… 
+          8. TattooFiesta 
+            - this is the event of creating tatoo on the arm of the random people with their own creativity and originality…. 
+          9. CineFrame 
+            - based on originality and visualisation participants have to frame the given theme work…         
+          10. Mosaic-Marvel 
+            - collage making event with solo or group of 2 participants… 
+        
+        These idiosyncratic ideas and interesting events encourage the participants to show their talents and creativity with the enhancement by glorifying their qualities ....
         `,
         images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
+          "https://drive.google.com/uc?export=view&id=1ZXgELRdXETPbFGimQcfDnDfE5Y0m3rPu",
+          "https://drive.google.com/uc?export=view&id=11ZAiGywVWm_iPylMRNv-oTKGwgQJC0x5",
+          "https://drive.google.com/uc?export=view&id=1Yyt9n49QZiuALvSUUojVlAPOjsjBOO7d",
+          "https://drive.google.com/uc?export=view&id=1Nn1-BLYTMhqu_bK90IuEgpOjWhtzBATN",
+          "https://drive.google.com/uc?export=view&id=1jkGaFppYUy2W3gB1hy2GqjX973yZFIKd",
+          "https://drive.google.com/uc?export=view&id=1ZAOoKSbp5LVo63Hf2zDskxVOJlaP48J_",
         ],
       },
-`
-        ,
-        image: 'https://drive.google.com/uc?export=view&id=1jkGaFppYUy2W3gB1hy2GqjX973yZFIKd'
-      }
     ];
     setEvents(data);
 
