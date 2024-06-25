@@ -320,7 +320,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1UHtO64mE1vsih1cmW7-IPGQEcJYyRa9o",
         branch: "ARCH-26",
         instagram: "https://www.instagram.com/_nabii1.14_",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/aditi-jayesh-rao-a506a818b",
         twitter: "",
       },
       {
@@ -374,7 +374,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1z_j-p58-5XT0bJStCBlN8ypUAIHOey2f",
         branch: "ECE-26",
         instagram: "https://www.instagram.com/",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/nicky-kumari-7a57312b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
       {
@@ -408,7 +408,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1Ad__1a29-jZpskhveiVQaHMu7ofv5hMT",
         branch: "ARCH-27",
         instagram: "https://www.instagram.com/ritikakumari_chaurasia1234",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/ritika-kumari-bb4705258",
         twitter: "",
       },
 
@@ -456,7 +456,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1vbjScQLb121FBBRZia0QfosXIuLUnJpE",
         branch: "ARCH-28",
         instagram: "https://www.instagram.com/da_snowmin",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/damini-kumari-a0a098282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
 
@@ -581,7 +581,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1ukS6ivbk6A_JkbwbHB8k1dBYOPre57ip",
         branch: "CE-26",
         instagram: "https://www.instagram.com/tiwary_anuragg",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/anurag-kumar-14ba2828b",
         twitter: "",
       },
       {
@@ -626,7 +626,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1CfjOrys-kuRApJHNNrUz80B7r-eqbHNk",
         branch: "CSE-26",
         instagram: "https://www.instagram.com/the_kushagra_singhh",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/kushagra-singh-888996258",
         twitter: "",
       },
 
@@ -638,7 +638,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
         branch: "ME-26",
         instagram: "https://www.instagram.com/nilabh_mishra",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
         twitter: "",
       },
       
@@ -661,7 +661,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1psdlIybxDUDc6X7M4uCOx0Hk1H0hLy1K",
         branch: "ECE-27",
         instagram: "https://www.instagram.com/dubeyadarsh.028",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/adarsh-kumar-dubey-748024290",
         twitter: "",
       },
 
@@ -720,7 +720,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
         branch: "CSE-27",
         instagram: "https://www.instagram.com/kaushikee_k",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
         twitter: "",
       },
       

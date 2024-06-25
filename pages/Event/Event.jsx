@@ -15,19 +15,94 @@ const Event = () => {
     const data = [
       {
         id: 1,
-        title: "Art_Doodle your day",
+        title: "Doodle Your Day",
         description: `"Art is the language of the soul, speaking volumes where words falter, and painting colors of humanity’s shared journey."
 "Expresso" - the art and literary club of NIT Patna had organized an interesting event on 15th April at the front of Architecture department as we celebrated World Art day with our exciting event, Doddle your day.
 Doodling made a creative outlet, relaxation, and sometimes unexpected inspiration. It’s a way to let your mind wander and express itself freely. On that evening every detail find its place in the tapestry of time. Each doodle captures a fragment of time, weaving together the story of the day well-lived.`,
         images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
+          "https://drive.google.com/uc?export=view&id=1_9COrNsZ_R4d3AbK0DkXepbjrJIrvK2x",
+          "https://drive.google.com/uc?export=view&id=1qzHpqHAZXaNosv_Usov-nzAuqIJtsL6G",
+          "https://drive.google.com/uc?export=view&id=19saXVqqJYGtic09tOYXKTbXHfkGKgbjH",
+          "https://drive.google.com/uc?export=view&id=1y698mqcbW3OEyJ0MmoFq6ldojSv2jT3o",
+          "https://drive.google.com/uc?export=view&id=1x4YnI4uQXsOEstB-1anmfre243pgZLWy",
+          "https://drive.google.com/uc?export=view&id=11L59xTpdtoRlSRHLiCe8p-_ZYVQQmpzt",
         ],
       },
       {
         id: 2,
-        title: "kitabe padho behas nhi tark do..",
+        title: "Dil se Canvas",
+        description: `Expresso is all about expressing yourself, and this time 
+you can do it in “Dil Se Canvas”. This is one of the awesome events of Expresso, 
+where two artists team up to create magic on a canvas! First, one artist starts 
+with the theme, then they swap, and the other finishes it. Organized at 
+CV Raman Hall on March 3rd, 2024, at 5:00 pm, so just grab your partner now and 
+unleash your creativity. We will give you paint and you’ll give us painting. 
+Let your creativity shine!`,
+        images: [
+          "https://drive.google.com/uc?export=view&id=1nM-6o2etnG-ai1pCTrpBGHKMqvBWPPAU",
+          "https://drive.google.com/uc?export=view&id=1m4sn77c9Dv4s6ltcqRwkVjN5A6sIapwG",
+          "https://drive.google.com/uc?export=view&id=1Y2_DnJKmqBblYpgdHqYiPESBGy1W2-oQ",
+          "https://drive.google.com/uc?export=view&id=1-cD4sYI-vc-aThk1bzLJDVYXFb1jQS8Q",
+          "https://drive.google.com/uc?export=view&id=1L6NwNbPex0iEEK0mc7VrkgvRW0fhy3PK",
+        ],
+      },
+      {
+        id: 3,
+        title: "MUN",
+        description: `The aroma of NIT Patna immersed in Diplomacy as the first 
+ever Model United Nations (MUN) of the campus commenced on 9th and 10th September 
+of 2k23 in the Visvesvaraya Hall. MUN acts as a simulation of the working of 
+
+United Nations giving students the opportunity to act like delegates representing 
+their allotted nations.
+
+In our edition we had 3 committees to facilitate proceedings namely 
+1.General Assembly: For tackling global challenges with wide coordination.
+2.Security Council: Resolving security concerns as world leaders.
+3.International Press: To give a sneak peek of international proceeding to masses.
+          
+The curtain rang up on the first day with General Assembly and rang down on the 
+following day with Security Council, while the press covered both the proceedings. 
+Participants enjoyed the festivities and got exposure to International Diplomacy 
+reporting a significant enhancement in their public speaking and planning skills.`,
+        images: [
+          "https://drive.google.com/uc?export=view&id=1YqKLiExA_l_YWnLvkc8sAMQZceemTqYq",
+          "https://drive.google.com/uc?export=view&id=11uWINvUJYC7jhVP5oKvx0dTLKO5g9S77",
+          "https://drive.google.com/uc?export=view&id=17eRhpN5a8bB06068EhrBitjwpzUOx7Wj",
+          "https://drive.google.com/uc?export=view&id=1ot8kuBOBKdGgz3s8-eKm-2MAf5iTeiTT",
+          "https://drive.google.com/uc?export=view&id=1JZ7diMyYh19Cm4KxFHRrIvViP2cRQQ8L",
+          "https://drive.google.com/uc?export=view&id=1rlKr-84Sm-bJG_0Rd_2dXtV3W1ND5zPZ",
+          "https://drive.google.com/uc?export=view&id=1mzPdo4E4YbXiktyOiWBkmQtNkLhPVldB",
+        ],
+      },
+      {
+        id: 4,
+        title: "AAWAAZ",
+        description: `The NIT Patna , under the collaboration of  
+Expresso - the Literary & Art Club and Saptak - the music club hosted a 
+captivating event , AAWAAZ Shayari and Ghazal Night on 13th September , 2023 
+from 5:30 pm onwards  in the ever lively C.V. Raman Hall.
+
+The attendees were treated to a mesmerizing display of poetic prowess, as 
+each poet shared their unique perspectives and interpretations of love, life, 
+and the human experience.
+
+AAWAAZ was a resounding success , leaving a lasting impression on everyone who 
+attended. This was possible only due to the amazing cooperation and active 
+participation of the members of both the fantastic clubs of NIT Patna , 
+Expresso - The Literary & Art Club & Saptak - The Music Club.`,
+        images: [
+          "https://drive.google.com/uc?export=view&id=1XBK49Y-SY4apQFFHG7Gz8TFJcu3SfaoQ",
+          "https://drive.google.com/uc?export=view&id=1ntv9S8DyCp09gDTSeZ9TJw1sDVKRMgUG",
+          "https://drive.google.com/uc?export=view&id=1zPyteJ4cM9tS4bC6U8KJKOd7lld9a_Mr",
+          "https://drive.google.com/uc?export=view&id=15I3ZGSQ6tGvVIz2Q3RPgVrrLKED6SAOI",
+          "https://drive.google.com/uc?export=view&id=1X2bzxqxVQpKw7xwBJQJK-yAqARW1Hk77",
+          "https://drive.google.com/uc?export=view&id=1BpBybbbLJwCfFw4HK8zaBRIIzHZE71Fa",
+        ],
+      },
+      {
+        id: 5,
+        title: "Kitabe Padho Behas Nhi Tark Do..",
         description: `"Books are our Bestfriends , windows to the World."
         
 EXPRESSO: The art and literary club of NITPatna
@@ -69,74 +144,14 @@ this novel is constantly connected to loss, death and sadness.
 This series will stay continued and will bring  best out of bestBooks to the readers 
 & learning enthusiasts...`,
         images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
+          "https://drive.google.com/uc?export=view&id=1ZdujiG9hnilCFSUi6QIOPF9E29We_itO",
+          "https://drive.google.com/uc?export=view&id=1Ko8DqU_mHcOIky7lvYb5hIj5_qXgHcv1",
+          "https://drive.google.com/uc?export=view&id=1vR9NcBVu0VCW5FZtgwfQMkpdLRfphyfs",
+          "https://drive.google.com/uc?export=view&id=1Kd3qw7cT-0RJWNV80cNQq_oKpSvx5NXZ",
+          "https://drive.google.com/uc?export=view&id=1Hl0pWXX4IBVhDNPWS4xATU3VW65lyuCa",
         ],
       },
-      {
-        id: 3,
-        title: "literature _mun",
-        description: `The aroma of NIT Patna immersed in Diplomacy as the first 
-ever Model United Nations (MUN) of the campus commenced on 9th and 10th September 
-of 2k23 in the Visvesvaraya Hall. MUN acts as a simulation of the working of 
-
-United Nations giving students the opportunity to act like delegates representing 
-their allotted nations.
-
-In our edition we had 3 committees to facilitate proceedings namely 
-1.General Assembly: For tackling global challenges with wide coordination.
-2.Security Council: Resolving security concerns as world leaders.
-3.International Press: To give a sneak peek of international proceeding to masses.
-          
-The curtain rang up on the first day with General Assembly and rang down on the 
-following day with Security Council, while the press covered both the proceedings. 
-Participants enjoyed the festivities and got exposure to International Diplomacy 
-reporting a significant enhancement in their public speaking and planning skills.`,
-        images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
-        ],
-      },
-      {
-        id: 4,
-        title: "Literature_AAWAAZ",
-        description: `The NIT Patna , under the collaboration of  
-Expresso - the Literary & Art Club and Saptak - the music club hosted a 
-captivating event , AAWAAZ Shayari and Ghazal Night on 13th September , 2023 
-from 5:30 pm onwards  in the ever lively C.V. Raman Hall.
-
-The attendees were treated to a mesmerizing display of poetic prowess, as 
-each poet shared their unique perspectives and interpretations of love, life, 
-and the human experience.
-
-AAWAAZ was a resounding success , leaving a lasting impression on everyone who 
-attended. This was possible only due to the amazing cooperation and active 
-participation of the members of both the fantastic clubs of NIT Patna , 
-Expresso - The Literary & Art Club & Saptak - The Music Club.`,
-        images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
-        ],
-      },
-      {
-        id: 5,
-        title: "literature_dil se canvas",
-        description: `Expresso is all about expressing yourself, and this time 
-you can do it in “Dil Se Canvas”. This is one of the awesome events of Expresso, 
-where two artists team up to create magic on a canvas! First, one artist starts 
-with the theme, then they swap, and the other finishes it. Organized at 
-CV Raman Hall on March 3rd, 2024, at 5:00 pm, so just grab your partner now and 
-unleash your creativity. We will give you paint and you’ll give us painting. 
-Let your creativity shine!`,
-        images: [
-          "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
-          "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
-          "/eventPicture.png",
-        ],
-      },
+      
       {
         id: 6,
         title: "TCF_Avlokan",
