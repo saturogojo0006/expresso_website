@@ -36,7 +36,7 @@ const TeamDesc = () => {
     <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(/background.png)" }}>
       <div className="hidden lg:flex flex-col w-full h-full">
         <div className="flex flex-row w-full lg:w-2/3 h-1/2 overflow-auto lg:overflow-hidden">
-          <div className="flex flex-wrap justify-around gap-4 mt-6 mr-5 ml-16 lg:ml-10">
+          <div className="flex flex-wrap justify-around gap-12 mt-6 mr-5 ml-16 lg:ml-10">
             {topQuarter.map((member) => (
               <div className="flex-1 min-w-[200px] max-w-[calc(33%-16px)] box-border" key={member.id}>
                 <TeamCard member={member} />
@@ -46,8 +46,8 @@ const TeamDesc = () => {
         </div>
 
         <div id="toggle" className="absolute right-5 h-1/2 w-1/3">
-          <div id="details" className="mr-2 flex flex-col justify-center items-center mb-10 h-full w-full">
-            <div className="w-1/2 mb-14 flex flex-col justify-center items-start text-white">
+          <div id="details" className="mr-2 flex flex-col justify-center items-center mb-8 h-full w-full">
+            <div className="w-1/2 mb-24 flex flex-col justify-center items-start text-white">
               <div className="w-full flex items-center justify-center">
                 <div className="mr-4 mt-10">
                   <div className="flex items-center justify-center w-20 h-20">
@@ -79,7 +79,7 @@ const TeamDesc = () => {
         </div>
 
         <div className="flex flex-col w-full h-1/2 lg:flex-row lg:justify-between items-center">
-          <div className="flex flex-wrap justify-around gap-4 mb-6 pt-10 lg:mr-5 lg:ml-10 h-full lg:h-auto lg:overflow-hidden">
+          <div className="flex flex-wrap justify-around gap-12 mb-6 pt-10 lg:mr-5 lg:ml-10 h-full lg:h-auto lg:overflow-hidden">
             {bottomHalf.map((member) => (
               <div className="flex-1 min-w-[200px] max-w-[calc(20%-16px)] box-border" key={member.id}>
                 <TeamCard member={member} />
@@ -90,7 +90,7 @@ const TeamDesc = () => {
       </div>
 
       <div className="flex flex-col w-full lg:hidden">
-        <div className="flex flex-col space-y-6 mt-6 ml-4 mb-6 mx-4">
+        <div className="flex flex-col space-y-6 mt-6 ml-28 mb-6">
           {teamMembers.map((member) => (
             <TeamCard key={member.id} member={member} />
           ))}

@@ -98,6 +98,11 @@ const teamData = {
           "https://www.linkedin.com/in/shalvee0920?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
+    ],},
+      post_bearers_2: {
+        teamName: "Post-Bearers",
+        teamImage: "/Mask group.png",
+        members: [
       {
         id: 8,
         name: "Shivani",
@@ -189,6 +194,11 @@ const teamData = {
         linkedin: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAD99_cIBw2SISbDBFeUl1QLIOCRJBau9uj8&keywords=shikha%20thakur&origin=RICH_QUERY_SUGGESTION&position=1&searchId=fc5c6569-c37a-4825-8a3d-ea44e32032c7&sid=A%40x&spellCorrectionEnabled=false",
         twitter: "",
       },
+    ],},
+    post_bearers_3: {
+      teamName: "Post-Bearers",
+      teamImage: "/Mask group.png",
+      members: [
       {
         id: 16,
         name: "Bhavya Sinha",
@@ -281,7 +291,11 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/kshitijekvs",
         twitter: "",
       },
-
+    ],},
+    post_bearers_4: {
+      teamName: "Post-Bearers",
+      teamImage: "/Mask group.png",
+      members: [
       {
         id: 24,
         name: "Neeraj Kumar",
@@ -398,8 +412,11 @@ const teamData = {
         instagram: "https://www.instagram.com/",
         linkedin: "https://www.linkedin.com/in/rajnandini-roy-031a61261",
         twitter: "",
-      },
-
+      },],},
+      art_2: {
+        teamName: "Art",
+        teamImage: "/ART.png",
+        members: [
       {
         id: 9,
         name: "Ritika Kumari",
@@ -495,7 +512,11 @@ const teamData = {
         linkedin: "",
         twitter: "",
       },
-
+    ],},
+    art_3: {
+      teamName: "Art",
+      teamImage: "/ART.png",
+      members: [
       {
         id: 17,
         name: "Moupiya Goldar",
@@ -640,8 +661,11 @@ const teamData = {
         instagram: "https://www.instagram.com/nilabh_mishra",
         linkedin: "",
         twitter: "",
-      },
-      
+      },],},
+      literature_2: {
+        teamName: "Literary",
+        teamImage: "/Pen.png",
+        members: [
       {
         id: 9,
         name: "Aakash Tiwari",
@@ -723,7 +747,6 @@ const teamData = {
         linkedin: "",
         twitter: "",
       },
-      
       {
         id: 16,
         name: "Nikita Pant",
@@ -735,7 +758,11 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/nikita-pant-852806280?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAER2jT4BtuQfRN3RRGT6ERVoOHvxJ3h9wW4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BMctvhmjjTmWLvO9SRwQOiQ%3D%3D",
         twitter: "",
       },
-
+    ],},
+    literature_3: {
+      teamName: "Literary",
+      teamImage: "/Pen.png",
+      members: [
       {
         id: 17,
         name: "Om Vats",
