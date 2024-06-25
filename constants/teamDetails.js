@@ -216,7 +216,7 @@ const teamData = {
       {
         id: 18,
         name: "Utsav Thakur",
-        position: "Design Co-Ordinator",
+        position: "Co-Design Head",
         image:
           "https://drive.google.com/uc?export=view&id=1T3ULf3Y1J1kTly-thcAJNU1Tqb47hqra",
         branch: "ARCH-27",
@@ -575,17 +575,6 @@ const teamData = {
       },
       {
         id: 3,
-        name: "Anurag Kumar",
-        position: "",
-        image:
-          "https://drive.google.com/uc?export=view&id=1ukS6ivbk6A_JkbwbHB8k1dBYOPre57ip",
-        branch: "CE-26",
-        instagram: "https://www.instagram.com/tiwary_anuragg",
-        linkedin: "",
-        twitter: "",
-      },
-      {
-        id: 4,
         name: "Bhawna Roy",
         position: "",
         image:
@@ -596,7 +585,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 5,
+        id: 4,
         name: "Dristi Upadhyay",
         position: "",
         image:
@@ -608,7 +597,7 @@ const teamData = {
       },
 
       {
-        id: 6,
+        id: 5,
         name: "Kiran Saini",
         position: "",
         image:
@@ -619,7 +608,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 7,
+        id: 6,
         name: "Kushagra",
         position: "",
         image:
@@ -631,7 +620,7 @@ const teamData = {
       },
 
       {
-        id: 8,
+        id: 7,
         name: "Nilabh Mishra",
         position: "",
         image:
@@ -643,7 +632,7 @@ const teamData = {
       },
       
       {
-        id: 9,
+        id: 8,
         name: "Aakash Tiwari",
         position: "",
         image:
@@ -654,7 +643,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 10,
+        id: 9,
         name: "Adarsh Kumar Dubey",
         position: "",
         image:
@@ -666,7 +655,7 @@ const teamData = {
       },
 
       {
-        id: 11,
+        id: 10,
         name: "Aniket Kumar",
         position: "",
         image:
@@ -677,7 +666,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 12,
+        id: 11,
         name: "Anish Kumar",
         position: "",
         image:
@@ -687,7 +676,17 @@ const teamData = {
         linkedin: "",
         twitter: "",
       },
-
+      {
+        id: 12,
+        name: "Anurag Kumar",
+        position: "",
+        image:
+          "https://drive.google.com/uc?export=view&id=1ukS6ivbk6A_JkbwbHB8k1dBYOPre57ip",
+        branch: "CE-26",
+        instagram: "https://www.instagram.com/tiwary_anuragg",
+        linkedin: "",
+        twitter: "",
+      },
       {
         id: 13,
         name: "Ayushi Shukla",
