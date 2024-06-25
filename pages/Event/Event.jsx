@@ -17,8 +17,10 @@ const Event = () => {
         id: 1,
         title: "Doodle Your Day",
         description: `"Art is the language of the soul, speaking volumes where words falter, and painting colors of humanity’s shared journey."
-"Expresso" - the art and literary club of NIT Patna had organized an interesting event on 15th April at the front of Architecture department as we celebrated World Art day with our exciting event, Doddle your day.
-Doodling made a creative outlet, relaxation, and sometimes unexpected inspiration. It’s a way to let your mind wander and express itself freely. On that evening every detail find its place in the tapestry of time. Each doodle captures a fragment of time, weaving together the story of the day well-lived.`,
+
+        "Expresso" - the art and literary club of NIT Patna had organized an interesting event on 15th April at the front of Architecture department as we celebrated World Art day with our exciting event, Doddle your day.
+
+        Doodling made a creative outlet, relaxation, and sometimes unexpected inspiration. It’s a way to let your mind wander and express itself freely. On that evening every detail find its place in the tapestry of time. Each doodle captures a fragment of time, weaving together the story of the day well-lived.`,
         images: [
           "https://drive.google.com/uc?export=view&id=1_9COrNsZ_R4d3AbK0DkXepbjrJIrvK2x",
           "https://drive.google.com/uc?export=view&id=1qzHpqHAZXaNosv_Usov-nzAuqIJtsL6G",
@@ -31,13 +33,8 @@ Doodling made a creative outlet, relaxation, and sometimes unexpected inspiratio
       {
         id: 2,
         title: "Dil se Canvas",
-        description: `Expresso is all about expressing yourself, and this time 
-you can do it in “Dil Se Canvas”. This is one of the awesome events of Expresso, 
-where two artists team up to create magic on a canvas! First, one artist starts 
-with the theme, then they swap, and the other finishes it. Organized at 
-CV Raman Hall on March 3rd, 2024, at 5:00 pm, so just grab your partner now and 
-unleash your creativity. We will give you paint and you’ll give us painting. 
-Let your creativity shine!`,
+        description: `Expresso is all about expressing yourself, and this time you can do it in “Dil Se Canvas”. This is one of the awesome events of Expresso, where two artists team up to create magic on a canvas! First, one artist starts with the theme, then they swap, and the other finishes it. Organized at CV Raman Hall on March 3rd, 2024, at 5:00 pm, so just grab your partner now and unleash your creativity. We will give you paint and you’ll give us painting. 
+        Let your creativity shine!`,
         images: [
           "https://drive.google.com/uc?export=view&id=1nM-6o2etnG-ai1pCTrpBGHKMqvBWPPAU",
           "https://drive.google.com/uc?export=view&id=1m4sn77c9Dv4s6ltcqRwkVjN5A6sIapwG",
@@ -49,22 +46,16 @@ Let your creativity shine!`,
       {
         id: 3,
         title: "MUN",
-        description: `The aroma of NIT Patna immersed in Diplomacy as the first 
-ever Model United Nations (MUN) of the campus commenced on 9th and 10th September 
-of 2k23 in the Visvesvaraya Hall. MUN acts as a simulation of the working of 
+        description: `The aroma of NIT Patna immersed in Diplomacy as the first ever Model United Nations (MUN) of the campus commenced on 9th and 10th September of 2k23 in the Visvesvaraya Hall. MUN acts as a simulation of the working of United Nations giving students the opportunity to act like delegates representing their allotted nations.
 
-United Nations giving students the opportunity to act like delegates representing 
-their allotted nations.
-
-In our edition we had 3 committees to facilitate proceedings namely 
-1.General Assembly: For tackling global challenges with wide coordination.
-2.Security Council: Resolving security concerns as world leaders.
-3.International Press: To give a sneak peek of international proceeding to masses.
+        In our edition we had 3 committees to facilitate proceedings namely 
+        1.General Assembly: For tackling global challenges with wide coordination.
+        2.Security Council: Resolving security concerns as world leaders.
+        3.International Press: To give a sneak peek of international proceeding to masses.
           
-The curtain rang up on the first day with General Assembly and rang down on the 
-following day with Security Council, while the press covered both the proceedings. 
-Participants enjoyed the festivities and got exposure to International Diplomacy 
-reporting a significant enhancement in their public speaking and planning skills.`,
+        The curtain rang up on the first day with General Assembly and rang down on the following day with Security Council, while the press covered both the proceedings.
+        
+        Participants enjoyed the festivities and got exposure to International Diplomacy reporting a significant enhancement in their public speaking and planning skills.`,
         images: [
           "https://drive.google.com/uc?export=view&id=1YqKLiExA_l_YWnLvkc8sAMQZceemTqYq",
           "https://drive.google.com/uc?export=view&id=11uWINvUJYC7jhVP5oKvx0dTLKO5g9S77",
@@ -78,19 +69,11 @@ reporting a significant enhancement in their public speaking and planning skills
       {
         id: 4,
         title: "AAWAAZ",
-        description: `The NIT Patna , under the collaboration of  
-Expresso - the Literary & Art Club and Saptak - the music club hosted a 
-captivating event , AAWAAZ Shayari and Ghazal Night on 13th September , 2023 
-from 5:30 pm onwards  in the ever lively C.V. Raman Hall.
+        description: `The NIT Patna , under the collaboration of Expresso - the Literary & Art Club and Saptak - the music club hosted a captivating event , AAWAAZ Shayari and Ghazal Night on 13th September, 2023 from 5:30 pm onwards in the ever lively C.V. Raman Hall.
 
-The attendees were treated to a mesmerizing display of poetic prowess, as 
-each poet shared their unique perspectives and interpretations of love, life, 
-and the human experience.
+        The attendees were treated to a mesmerizing display of poetic prowess, as each poet shared their unique perspectives and interpretations of love, life, and the human experience.
 
-AAWAAZ was a resounding success , leaving a lasting impression on everyone who 
-attended. This was possible only due to the amazing cooperation and active 
-participation of the members of both the fantastic clubs of NIT Patna , 
-Expresso - The Literary & Art Club & Saptak - The Music Club.`,
+        AAWAAZ was a resounding success , leaving a lasting impression on everyone who attended. This was possible only due to the amazing cooperation and active participation of the members of both the fantastic clubs of NIT Patna, Expresso - The Literary & Art Club & Saptak - The Music Club.`,
         images: [
           "https://drive.google.com/uc?export=view&id=1XBK49Y-SY4apQFFHG7Gz8TFJcu3SfaoQ",
           "https://drive.google.com/uc?export=view&id=1ntv9S8DyCp09gDTSeZ9TJw1sDVKRMgUG",
@@ -105,44 +88,28 @@ Expresso - The Literary & Art Club & Saptak - The Music Club.`,
         title: "Kitabe Padho Behas Nhi Tark Do..",
         description: `"Books are our Bestfriends , windows to the World."
         
-EXPRESSO: The art and literary club of NITPatna
-Started an online Event called " किताबे पढो - बहस नही तर्क दो   "..on 1st March, 2024.
-Every month a Book is started in which on each Wednesday and Sunday a content derived 
-from the book is posted  on Instagram handel of Expresso.
+        EXPRESSO: The art and literary club of NITPatna started an online Event called " किताबे पढो - बहस नही तर्क दो   "..on 1st March, 2024.
 
-- March was the month of Book- “CHANAKYANITI” by acharya Chankya ..
+        Every month a Book is started in which on each Wednesday and Sunday a content derived from the book is posted  on Instagram handel of Expresso.
 
-Chanakyaniti is a collection of aphorisms composed by Chanakya. It is a set of ideas
-and statements given by the acharya  Chankya  many of which give valuable tips on 
-how to lead a good and productive life even in this day and age.
+        - March was the month of Book- “CHANAKYANITI” by acharya Chankya ..
 
+        Chanakyaniti is a collection of aphorisms composed by Chanakya. It is a set of ideas and statements given by the acharya  Chankya  many of which give valuable tips on how to lead a good and productive life even in this day and age.
 
-- April was the month of “MADHUSHALA” by harivanshrai bachchan .
+        - April was the month of “MADHUSHALA” by harivanshrai bachchan .
 
-Madhushala is a classic poetry book. The poetic narrative symbolises life as 
-a tavern or a public drinking place. It teaches us to have a must life goal 
-otherwise we will live in distraction and get deviated on life.
+        Madhushala is a classic poetry book. The poetic narrative symbolises life as a tavern or a public drinking place. It teaches us to have a must life goal otherwise we will live in distraction and get deviated on life.
 
-- May was the month magic love with " Gunaho Ka Devta " by Dharamveer Bharti .
+        - May was the month magic love with " Gunaho Ka Devta " by Dharamveer Bharti .
 
+        The novel tells the passionate love story of Chander and Sudha. The book also addresses moral and ethical concerns . The main character, Chander, is a complex man who struggles to balance between his loyalty to his friend Pammi and his desire for Sudha. The story examines the tension between obligation and desire, as well as effect of our decisions.
 
-The novel tells the passionate love story of Chander and Sudha. The book also 
-addresses moral and ethical concerns . The main character, Chander, is a complex man 
-who struggles to balance between his loyalty to his friend Pammi and his desire 
-for Sudha. The story examines the tension between obligation 
-and desire, as well as effect of our decisions.
+        - June was the month of Enlightenment with " GOD OF LITTLE THINGS " by Arundhati Roy
 
-- June was the month of Enlightenment with " GOD OF LITTLE THINGS " 
-by Arundhati Roy
+        It is a story about the childhood experiences of fraternal twins whose lives are destroyed by the "Love Laws" prevalent in 1960s Kerala, India.This novel explores love and how love can't be ignored when confronted with social boundaries. 
+        The novel examines how conventional society seeks to destroy true love as this novel is constantly connected to loss, death and sadness.
 
-It is a story about the childhood experiences of fraternal twins whose lives
-are destroyed by the "Love Laws" prevalent in 1960s Kerala, India.This novel 
-explores love and how love can't be ignored when confronted with social boundaries. 
-The novel examines how conventional society seeks to destroy true love as 
-this novel is constantly connected to loss, death and sadness.
-
-This series will stay continued and will bring  best out of bestBooks to the readers 
-& learning enthusiasts...`,
+        This series will stay continued and will bring  best out of bestBooks to the readers & learning enthusiasts...`,
         images: [
           "https://drive.google.com/uc?export=view&id=1ZdujiG9hnilCFSUi6QIOPF9E29We_itO",
           "https://drive.google.com/uc?export=view&id=1Ko8DqU_mHcOIky7lvYb5hIj5_qXgHcv1",
