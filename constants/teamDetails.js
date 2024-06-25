@@ -579,7 +579,7 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1ukS6ivbk6A_JkbwbHB8k1dBYOPre57ip",
-        branch: "CE-26",
+        branch: "CSE-DS-28",
         instagram: "https://www.instagram.com/tiwary_anuragg",
         linkedin: "https://www.linkedin.com/in/anurag-kumar-14ba2828b",
         twitter: "",
@@ -648,9 +648,9 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1dz4PonLAUlUmVC4rG0X2mfCKyg3cI4KM",
-        branch: "CSE-27",
+        branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/tiwariji.789/",
-        linkedin: "89https://www.linkedin.com/in/aakash-tiwari-in",
+        linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
         twitter: "",
       },
       {
@@ -754,7 +754,7 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1HlcU7Yu3x5eDPbYs3BGKb1ltRQfoR2SK",
-        branch: "CSE-27",
+        branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/ratneeshh",
         linkedin: "https://www.linkedin.com/in/ratnesh-anand-nitp",
         twitter: "",
@@ -799,7 +799,7 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1XwteHEWO42Fuu8csSMMeDrgcEzVTVPYS",
-        branch: "CSE-27",
+        branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/Supriyaraj5073",
         linkedin: "",
         twitter: "",
@@ -874,9 +874,9 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1dz4PonLAUlUmVC4rG0X2mfCKyg3cI4KM",
-        branch: "CSE-27",
+        branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/tiwariji.789/",
-        linkedin: "89https://www.linkedin.com/in/aakash-tiwari-in",
+        linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
         twitter: "",
       },
       {
