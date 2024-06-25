@@ -226,7 +226,7 @@ const teamData = {
       {
         id: 18,
         name: "Utsav Thakur",
-        position: "Design Co-Ordinator",
+        position: "Co-Design Head",
         image:
           "https://drive.google.com/uc?export=view&id=1T3ULf3Y1J1kTly-thcAJNU1Tqb47hqra",
         branch: "ARCH-27",
@@ -334,7 +334,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1UHtO64mE1vsih1cmW7-IPGQEcJYyRa9o",
         branch: "ARCH-26",
         instagram: "https://www.instagram.com/_nabii1.14_",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/aditi-jayesh-rao-a506a818b",
         twitter: "",
       },
       {
@@ -388,7 +388,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1z_j-p58-5XT0bJStCBlN8ypUAIHOey2f",
         branch: "ECE-26",
         instagram: "https://www.instagram.com/",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/nicky-kumari-7a57312b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
       {
@@ -425,7 +425,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1Ad__1a29-jZpskhveiVQaHMu7ofv5hMT",
         branch: "ARCH-27",
         instagram: "https://www.instagram.com/ritikakumari_chaurasia1234",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/ritika-kumari-bb4705258",
         twitter: "",
       },
 
@@ -473,7 +473,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1vbjScQLb121FBBRZia0QfosXIuLUnJpE",
         branch: "ARCH-28",
         instagram: "https://www.instagram.com/da_snowmin",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/damini-kumari-a0a098282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
 
@@ -596,17 +596,6 @@ const teamData = {
       },
       {
         id: 3,
-        name: "Anurag Kumar",
-        position: "",
-        image:
-          "https://drive.google.com/uc?export=view&id=1ukS6ivbk6A_JkbwbHB8k1dBYOPre57ip",
-        branch: "CE-26",
-        instagram: "https://www.instagram.com/tiwary_anuragg",
-        linkedin: "",
-        twitter: "",
-      },
-      {
-        id: 4,
         name: "Bhawna Roy",
         position: "",
         image:
@@ -617,7 +606,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 5,
+        id: 4,
         name: "Dristi Upadhyay",
         position: "",
         image:
@@ -629,7 +618,7 @@ const teamData = {
       },
 
       {
-        id: 6,
+        id: 5,
         name: "Kiran Saini",
         position: "",
         image:
@@ -640,26 +629,26 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 7,
+        id: 6,
         name: "Kushagra",
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1CfjOrys-kuRApJHNNrUz80B7r-eqbHNk",
         branch: "CSE-26",
         instagram: "https://www.instagram.com/the_kushagra_singhh",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/kushagra-singh-888996258",
         twitter: "",
       },
 
       {
-        id: 8,
+        id: 7,
         name: "Nilabh Mishra",
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=153gNlyXEnydGvXFXjfZ6I0BoufSev2zm",
         branch: "ME-26",
         instagram: "https://www.instagram.com/nilabh_mishra",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
         twitter: "",
       },],},
       literature_2: {
@@ -667,30 +656,30 @@ const teamData = {
         teamImage: "/Pen.png",
         members: [
       {
-        id: 9,
+        id: 8,
         name: "Aakash Tiwari",
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1dz4PonLAUlUmVC4rG0X2mfCKyg3cI4KM",
-        branch: "CSE-27",
+        branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/tiwariji.789/",
-        linkedin: "89https://www.linkedin.com/in/aakash-tiwari-in",
+        linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
         twitter: "",
       },
       {
-        id: 10,
+        id: 9,
         name: "Adarsh Kumar Dubey",
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1psdlIybxDUDc6X7M4uCOx0Hk1H0hLy1K",
         branch: "ECE-27",
         instagram: "https://www.instagram.com/dubeyadarsh.028",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/adarsh-kumar-dubey-748024290",
         twitter: "",
       },
 
       {
-        id: 11,
+        id: 10,
         name: "Aniket Kumar",
         position: "",
         image:
@@ -701,7 +690,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 12,
+        id: 11,
         name: "Anish Kumar",
         position: "",
         image:
@@ -711,7 +700,17 @@ const teamData = {
         linkedin: "",
         twitter: "",
       },
-
+      {
+        id: 12,
+        name: "Anurag Kumar",
+        position: "",
+        image:
+          "https://drive.google.com/uc?export=view&id=1ukS6ivbk6A_JkbwbHB8k1dBYOPre57ip",
+        branch: "CE-26",
+        instagram: "https://www.instagram.com/tiwary_anuragg",
+        linkedin: "",
+        twitter: "",
+      },
       {
         id: 13,
         name: "Ayushi Shukla",
@@ -744,7 +743,7 @@ const teamData = {
           "https://drive.google.com/uc?export=view&id=1cMCZHcF79HF23Un7AaarjJi6yaHbGf8J",
         branch: "CSE-27",
         instagram: "https://www.instagram.com/kaushikee_k",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
         twitter: "",
       },
       {
@@ -781,7 +780,7 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1HlcU7Yu3x5eDPbYs3BGKb1ltRQfoR2SK",
-        branch: "CSE-27",
+        branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/ratneeshh",
         linkedin: "https://www.linkedin.com/in/ratnesh-anand-nitp",
         twitter: "",
@@ -826,7 +825,7 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1XwteHEWO42Fuu8csSMMeDrgcEzVTVPYS",
-        branch: "CSE-27",
+        branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/Supriyaraj5073",
         linkedin: "",
         twitter: "",
@@ -901,9 +900,9 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1dz4PonLAUlUmVC4rG0X2mfCKyg3cI4KM",
-        branch: "CSE-27",
+        branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/tiwariji.789/",
-        linkedin: "89https://www.linkedin.com/in/aakash-tiwari-in",
+        linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
         twitter: "",
       },
       {
