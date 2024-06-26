@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import { useRouter } from 'next/router';
 // import {NavLink, Navigate, useNavigate} from 'react-router-dom' ;
 
 const Event = () => {
@@ -7,27 +8,29 @@ const Event = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState({});
   const [overlay, setOverlay] = useState({ isOpen: false, image: null });
  
-  // const goBackHome = () => {
-  //   Navigate('/');
-  // };
+    const router = useRouter();
+  
+    const goBackHome = () => {
+      router.push('/'); // Replace '/' with the path to your home page
+    };
   
   const fetchEventData = async () => {
     const data = [
       {
         id: 1,
-        title: "Doodle Your Day",
-        description: `"Art is the language of the soul, speaking volumes where words falter, and painting colors of humanity’s shared journey."
+        title: "AAWAAZ",
+        description: `The NIT Patna , under the collaboration of Expresso - the Literary & Art Club and Saptak - the music club hosted a captivating event , AAWAAZ Shayari and Ghazal Night on 13th September, 2023 from 5:30 pm onwards in the ever lively C.V. Raman Hall.
 
-        "Expresso" - the art and literary club of NIT Patna had organized an interesting event on 15th April at the front of Architecture department as we celebrated World Art day with our exciting event, Doddle your day.
+        The attendees were treated to a mesmerizing display of poetic prowess, as each poet shared their unique perspectives and interpretations of love, life, and the human experience.
 
-        Doodling made a creative outlet, relaxation, and sometimes unexpected inspiration. It’s a way to let your mind wander and express itself freely. On that evening every detail find its place in the tapestry of time. Each doodle captures a fragment of time, weaving together the story of the day well-lived.`,
+        AAWAAZ was a resounding success , leaving a lasting impression on everyone who attended. This was possible only due to the amazing cooperation and active participation of the members of both the fantastic clubs of NIT Patna, Expresso - The Literary & Art Club & Saptak - The Music Club.`,
         images: [
-          "https://drive.google.com/uc?export=view&id=1_9COrNsZ_R4d3AbK0DkXepbjrJIrvK2x",
-          "https://drive.google.com/uc?export=view&id=1qzHpqHAZXaNosv_Usov-nzAuqIJtsL6G",
-          "https://drive.google.com/uc?export=view&id=19saXVqqJYGtic09tOYXKTbXHfkGKgbjH",
-          "https://drive.google.com/uc?export=view&id=1y698mqcbW3OEyJ0MmoFq6ldojSv2jT3o",
-          "https://drive.google.com/uc?export=view&id=1x4YnI4uQXsOEstB-1anmfre243pgZLWy",
-          "https://drive.google.com/uc?export=view&id=11L59xTpdtoRlSRHLiCe8p-_ZYVQQmpzt",
+          "https://drive.google.com/uc?export=view&id=1XBK49Y-SY4apQFFHG7Gz8TFJcu3SfaoQ",
+          "https://drive.google.com/uc?export=view&id=1ntv9S8DyCp09gDTSeZ9TJw1sDVKRMgUG",
+          "https://drive.google.com/uc?export=view&id=1zPyteJ4cM9tS4bC6U8KJKOd7lld9a_Mr",
+          "https://drive.google.com/uc?export=view&id=15I3ZGSQ6tGvVIz2Q3RPgVrrLKED6SAOI",
+          "https://drive.google.com/uc?export=view&id=1X2bzxqxVQpKw7xwBJQJK-yAqARW1Hk77",
+          "https://drive.google.com/uc?export=view&id=1BpBybbbLJwCfFw4HK8zaBRIIzHZE71Fa",
         ],
       },
       {
@@ -58,29 +61,42 @@ const Event = () => {
         Participants enjoyed the festivities and got exposure to International Diplomacy reporting a significant enhancement in their public speaking and planning skills.`,
         images: [
           "https://drive.google.com/uc?export=view&id=1YqKLiExA_l_YWnLvkc8sAMQZceemTqYq",
+          "https://drive.google.com/uc?export=view&id=1mzPdo4E4YbXiktyOiWBkmQtNkLhPVldB",
           "https://drive.google.com/uc?export=view&id=11uWINvUJYC7jhVP5oKvx0dTLKO5g9S77",
           "https://drive.google.com/uc?export=view&id=17eRhpN5a8bB06068EhrBitjwpzUOx7Wj",
           "https://drive.google.com/uc?export=view&id=1ot8kuBOBKdGgz3s8-eKm-2MAf5iTeiTT",
           "https://drive.google.com/uc?export=view&id=1JZ7diMyYh19Cm4KxFHRrIvViP2cRQQ8L",
           "https://drive.google.com/uc?export=view&id=1rlKr-84Sm-bJG_0Rd_2dXtV3W1ND5zPZ",
-          "https://drive.google.com/uc?export=view&id=1mzPdo4E4YbXiktyOiWBkmQtNkLhPVldB",
         ],
       },
       {
         id: 4,
-        title: "AAWAAZ",
-        description: `The NIT Patna , under the collaboration of Expresso - the Literary & Art Club and Saptak - the music club hosted a captivating event , AAWAAZ Shayari and Ghazal Night on 13th September, 2023 from 5:30 pm onwards in the ever lively C.V. Raman Hall.
+        title: "Tcf_Sanhita",
+        description: `Literature and debate are twin pillars of intellectual growth; while literature enriches our minds with diverse narratives and profound truths, debate sharpens our ability to challenge, defend, and refine those ideas through rigorous discourse.
 
-        The attendees were treated to a mesmerizing display of poetic prowess, as each poet shared their unique perspectives and interpretations of love, life, and the human experience.
-
-        AAWAAZ was a resounding success , leaving a lasting impression on everyone who attended. This was possible only due to the amazing cooperation and active participation of the members of both the fantastic clubs of NIT Patna, Expresso - The Literary & Art Club & Saptak - The Music Club.`,
+        During TCF'24 , the Literature and Art Club of NIT Patna, Expresso  organized a series of stimulating debates under the event named SANHITA '24 . Each of the debates had many teams each consisting of 3 members.
+        
+        The event consisted of :
+          1. Parliamentary Debate
+            - Teams argue for or against a motion in a formal, structured format, simulating parliamentary procedures. Participants must use logic, evidence, and rhetoric to defend their stance, with a focus on quick thinking and teamwork.
+          2. English Debate
+            - Teams debate on various topics in English, focusing on clear articulation, strong arguments, and rebuttals. The emphasis is on language proficiency, critical analysis, and persuasive speaking skills.
+          3. Hindi Debate
+            - Similar to the English Debate but conducted in Hindi, this event challenges participants to demonstrate their debating skills in their native language, promoting cultural and linguistic diversity.      
+          4. Turn Coat
+            - A single participant must argue both for and against a given topic, switching sides at designated intervals. This format tests the debater's ability to understand and articulate both perspectives, showcasing flexibility and comprehensive understanding of the subject.
+          5. Story Wars
+            - Teams of three are given a picture and tasked with collaboratively writing a story based on it. This event,emphasizes creativity, teamwork, and narrative skills, allowing participants to explore imaginative storytelling.
+        
+        These events saw enthusiastic participation from students across various disciplines, engaging in thought-provoking discussions on diverse topics. The debates highlighted the power of critical thinking, fostering an environment of intellectual curiosity and lively discourse.
+        `,
         images: [
-          "https://drive.google.com/uc?export=view&id=1XBK49Y-SY4apQFFHG7Gz8TFJcu3SfaoQ",
-          "https://drive.google.com/uc?export=view&id=1ntv9S8DyCp09gDTSeZ9TJw1sDVKRMgUG",
-          "https://drive.google.com/uc?export=view&id=1zPyteJ4cM9tS4bC6U8KJKOd7lld9a_Mr",
-          "https://drive.google.com/uc?export=view&id=15I3ZGSQ6tGvVIz2Q3RPgVrrLKED6SAOI",
-          "https://drive.google.com/uc?export=view&id=1X2bzxqxVQpKw7xwBJQJK-yAqARW1Hk77",
-          "https://drive.google.com/uc?export=view&id=1BpBybbbLJwCfFw4HK8zaBRIIzHZE71Fa",
+          "https://drive.google.com/uc?export=view&id=1QLkbGAEJBHVoa0Uq6CQQnH7diSwUIST-",
+          "https://drive.google.com/uc?export=view&id=1OueiPz3IF8bMjrSjLpQqYoEFa9ljTxKV",
+          "https://drive.google.com/uc?export=view&id=1yTJP9Ncx4YHieY6gIr8oqbvC96Rq_oCS",
+          "https://drive.google.com/uc?export=view&id=1XwKKWKsNofwe_mAhVpsqSvgLcGSNZM9n",
+          "https://drive.google.com/uc?export=view&id=1LvOwSac26eJTaHwcSYjUCPcmQrhRkjXc",
+          "https://drive.google.com/uc?export=view&id=1iUwg2gJ54zihRCGOkzG_bocsbmLj3Nb3",
         ],
       },
       {
@@ -148,32 +164,19 @@ const Event = () => {
       },
       {
         id: 7,
-        title: "Tcf_Sanhita",
-        description: `Literature and debate are twin pillars of intellectual growth; while literature enriches our minds with diverse narratives and profound truths, debate sharpens our ability to challenge, defend, and refine those ideas through rigorous discourse.
+        title: "Doodle Your Day",
+        description: `"Art is the language of the soul, speaking volumes where words falter, and painting colors of humanity’s shared journey."
 
-        During TCF'24 , the Literature and Art Club of NIT Patna, Expresso  organized a series of stimulating debates under the event named SANHITA '24 . Each of the debates had many teams each consisting of 3 members.
-        
-        The event consisted of :
-          1. Parliamentary Debate
-            - Teams argue for or against a motion in a formal, structured format, simulating parliamentary procedures. Participants must use logic, evidence, and rhetoric to defend their stance, with a focus on quick thinking and teamwork.
-          2. English Debate
-            - Teams debate on various topics in English, focusing on clear articulation, strong arguments, and rebuttals. The emphasis is on language proficiency, critical analysis, and persuasive speaking skills.
-          3. Hindi Debate
-            - Similar to the English Debate but conducted in Hindi, this event challenges participants to demonstrate their debating skills in their native language, promoting cultural and linguistic diversity.      
-          4. Turn Coat
-            - A single participant must argue both for and against a given topic, switching sides at designated intervals. This format tests the debater's ability to understand and articulate both perspectives, showcasing flexibility and comprehensive understanding of the subject.
-          5. Story Wars
-            - Teams of three are given a picture and tasked with collaboratively writing a story based on it. This event,emphasizes creativity, teamwork, and narrative skills, allowing participants to explore imaginative storytelling.
-        
-        These events saw enthusiastic participation from students across various disciplines, engaging in thought-provoking discussions on diverse topics. The debates highlighted the power of critical thinking, fostering an environment of intellectual curiosity and lively discourse.
-        `,
+        "Expresso" - the art and literary club of NIT Patna had organized an interesting event on 15th April at the front of Architecture department as we celebrated World Art day with our exciting event, Doddle your day.
+
+        Doodling made a creative outlet, relaxation, and sometimes unexpected inspiration. It’s a way to let your mind wander and express itself freely. On that evening every detail find its place in the tapestry of time. Each doodle captures a fragment of time, weaving together the story of the day well-lived.`,
         images: [
-          "https://drive.google.com/uc?export=view&id=1OueiPz3IF8bMjrSjLpQqYoEFa9ljTxKV",
-          "https://drive.google.com/uc?export=view&id=1yTJP9Ncx4YHieY6gIr8oqbvC96Rq_oCS",
-          "https://drive.google.com/uc?export=view&id=1XwKKWKsNofwe_mAhVpsqSvgLcGSNZM9n",
-          "https://drive.google.com/uc?export=view&id=1QLkbGAEJBHVoa0Uq6CQQnH7diSwUIST-",
-          "https://drive.google.com/uc?export=view&id=1LvOwSac26eJTaHwcSYjUCPcmQrhRkjXc",
-          "https://drive.google.com/uc?export=view&id=1iUwg2gJ54zihRCGOkzG_bocsbmLj3Nb3",
+          "https://drive.google.com/uc?export=view&id=1_9COrNsZ_R4d3AbK0DkXepbjrJIrvK2x",
+          "https://drive.google.com/uc?export=view&id=1qzHpqHAZXaNosv_Usov-nzAuqIJtsL6G",
+          "https://drive.google.com/uc?export=view&id=19saXVqqJYGtic09tOYXKTbXHfkGKgbjH",
+          "https://drive.google.com/uc?export=view&id=1y698mqcbW3OEyJ0MmoFq6ldojSv2jT3o",
+          "https://drive.google.com/uc?export=view&id=1x4YnI4uQXsOEstB-1anmfre243pgZLWy",
+          "https://drive.google.com/uc?export=view&id=11L59xTpdtoRlSRHLiCe8p-_ZYVQQmpzt",
         ],
       },
       {
@@ -310,16 +313,17 @@ const Event = () => {
 
   return (
     <div className="flex flex-col bg-[#4B4B4B] h-full pt-4 px-4 sm:px-8 sm:justify-center">
-      <button className="self-end h-[29px] w-[109px] mb-4 sm:mb-0"
-      // onClick={goBackHome}
-      >
-        <div className="flex gap-1 flex-row-reverse items-center">
-          <div className="text-white text-xl font-antonio pb-1">BACK</div>
-          <div className="border-2 rounded-full border-white p-1">
-            <Image src="/Arrow2.png" width={20} height={20} alt="Arrow" />
-          </div>
+      <button
+      className="self-end h-[29px] w-[109px] mb-4 sm:mb-0"
+      onClick={goBackHome}
+    >
+      <div className="flex gap-1 flex-row-reverse items-center">
+        <div className="text-white text-xl font-antonio pb-1">BACK</div>
+        <div className="border-2 rounded-full border-white p-1">
+          <Image src="/Arrow2.png" width={20} height={20} alt="Arrow" />
         </div>
-      </button>
+      </div>
+    </button>
 
       {events.map((event, index) => (
         <div

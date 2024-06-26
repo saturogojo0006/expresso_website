@@ -9,9 +9,9 @@ const EventPage = () => {
     <div>
       <EventFirstPage />
       <Event />
-      <UpcomingEvent />
+      {/* <UpcomingEvent /> */}
       <AllEventsPage />
-      <EventDesc
+      {/* <EventDesc
         event={{
           title: "Portrait Palooza and Tattoo Booth",
           date: "11.10.2023",
@@ -29,7 +29,7 @@ could learn about tattoo techniques and portrait drawing. It was a day of creati
 inspiration, and the celebration of artistic expression. `,
           images: ["/eventPic.png", "/eventPic.png", "/eventPic.png"], // Array of image paths
         }}
-      />
+      /> */}
     </div>
   );
 };

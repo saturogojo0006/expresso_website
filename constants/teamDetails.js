@@ -88,23 +88,35 @@ const teamData = {
       },
       {
         id: 7,
-        name: "Shalvee Kumari",
-        position: "PR Head",
+        name: "Harsh Vardhan",
+        position: "Event Coordinator",
         image:
-          "https://drive.google.com/uc?export=view&id=1xRKmCV9a3MnuBiywm__cLfGfSCrjvovN",
-        branch: "ECE-25",
-        instagram: "https://www.instagram.com/shalvee_20",
-        linkedin:
-          "https://www.linkedin.com/in/shalvee0920?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          "https://drive.google.com/uc?export=view&id=1N4woU2r1hftLAVdwztHSMjwHSYlWYF_X",
+        branch: "CSE-25",
+        instagram: "https://www.instagram.com/ig_harsh.vardhan",
+        linkedin: "https://www.linkedin.com/in/harsh-vardhan-4354b1237/",
         twitter: "",
       },
+      
     ],},
       post_bearers_2: {
         teamName: "Post-Bearers",
         teamImage: "/Mask group.png",
         members: [
-      {
-        id: 8,
+          {
+            id: 8,
+            name: "Shalvee Kumari",
+            position: "PR Head",
+            image:
+              "https://drive.google.com/uc?export=view&id=1xRKmCV9a3MnuBiywm__cLfGfSCrjvovN",
+            branch: "ECE-25",
+            instagram: "https://www.instagram.com/shalvee_20",
+            linkedin:
+              "https://www.linkedin.com/in/shalvee0920?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            twitter: "",
+          },    
+        {
+        id: 9,
         name: "Shivani",
         position: "Content Coordinator",
         image:
@@ -115,7 +127,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 9,
+        id: 10,
         name: "Rohan Shetty",
         position: "Web Head",
         image: "https://drive.google.com/uc?export=view&id=1U61at9ophp0Bl1PwIARU6DIPf6d5a2I5",
@@ -128,7 +140,7 @@ const teamData = {
       },
 
       {
-        id: 10,
+        id: 11,
         name: "Arun Singh",
         position: "Web Co-Head",
         image: "https://drive.google.com/uc?export=view&id=1om-BH8LejCULnvDeh9p8HQqHJYq28uVU",
@@ -139,10 +151,10 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 11,
+        id: 12,
         name: "Aishwarya Pandit",
         position: "Media Head",
-        image: "",
+        image: "https://drive.google.com/uc?export=view&id=1MykIFdiQxvBP_UaT-UPU3sI-qEdwvIEa",
         branch: "ARCH-26",
         instagram: "https://www.instagram.com/",
         linkedin: "https://www.linkedin.com/in/aishwarya-pandit-176567234",
@@ -150,7 +162,7 @@ const teamData = {
       },
 
       {
-        id: 12,
+        id: 13,
         name: "Aditya Kumar",
         position: "Operational Co-Head",
         image:
@@ -161,7 +173,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 13,
+        id: 14,
         name: "Reeya Ranjan",
         position: "Operational Co-Head",
         image:
@@ -173,34 +185,37 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 14,
+        id: 15,
         name: "Satyam",
         position: "MUN Convenor",
         image:
-          "https://drive.google.com/uc?export=view&id=1Toder0-ZYdT-DJOdhEiCohwSCim2YXzg",
+          "https://drive.google.com/uc?export=view&id=1i9Bhy_Q5oBAQNbdPmeIp4qP0p2sjOEmG",
         branch: "CSE-26",
         instagram: "https://www.instagram.com/Satyamk1345",
         linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
         twitter: "",
       },
-      {
-        id: 15,
-        name: "Shikha Thakur",
-        position: "Co-Literary Head",
-        image:
-          "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
-        branch: "ECE-26",
-        instagram: "https://www.instagram.com/nebula_k05",
-        linkedin: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAD99_cIBw2SISbDBFeUl1QLIOCRJBau9uj8&keywords=shikha%20thakur&origin=RICH_QUERY_SUGGESTION&position=1&searchId=fc5c6569-c37a-4825-8a3d-ea44e32032c7&sid=A%40x&spellCorrectionEnabled=false",
-        twitter: "",
-      },
+      
     ],},
     post_bearers_3: {
       teamName: "Post-Bearers",
       teamImage: "/Mask group.png",
       members: [
+      
+        {
+          id: 16,
+          name: "Shikha Thakur",
+          position: "Co-Literary Head",
+          image:
+            "https://drive.google.com/uc?export=view&id=19HZN3V7GPPX5ucYF1ltKwlS1Q5K1oosq",
+          branch: "ECE-26",
+          instagram: "https://www.instagram.com/nebula_k05",
+          linkedin: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAD99_cIBw2SISbDBFeUl1QLIOCRJBau9uj8&keywords=shikha%20thakur&origin=RICH_QUERY_SUGGESTION&position=1&searchId=fc5c6569-c37a-4825-8a3d-ea44e32032c7&sid=A%40x&spellCorrectionEnabled=false",
+          twitter: "",
+        },
+
       {
-        id: 16,
+        id: 17,
         name: "Bhavya Sinha",
         position: "Co-Art Head",
         image:
@@ -212,7 +227,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 17,
+        id: 18,
         name: "Ronak Das",
         position: "Co-Design Head",
         image:
@@ -224,7 +239,7 @@ const teamData = {
       },
       
       {
-        id: 18,
+        id: 19,
         name: "Utsav Thakur",
         position: "Co-Design Head",
         image:
@@ -235,7 +250,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 19,
+        id: 20,
         name: "Lakshya Parashar",
         position: "Event Co-Coordinator",
         image:
@@ -247,7 +262,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 20,
+        id: 21,
         name: "Mayank Harsh",
         position: "Event Co-Coordinator",
         image:
@@ -258,7 +273,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 21,
+        id: 22,
         name: "Supriya Kumari",
         position: "Content Co-Coordinator",
         image:
@@ -269,7 +284,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 22,
+        id: 23,
         name: "Vani Kumari",
         position: "Content Co-Coordinator",
         image:
@@ -280,24 +295,25 @@ const teamData = {
         twitter: "",
       },
       
-      {
-        id: 23,
-        name: "Kshitije Vinay Singh",
-        position: "Co-PR Head",
-        image:
-          "https://drive.google.com/uc?export=view&id=1gUcZB_s696u5OnfAwYGDx5znfmsWCAtT",
-        branch: "ME-26",
-        instagram: "https://www.instagram.com/Kshitijesingh_",
-        linkedin: "https://www.linkedin.com/in/kshitijekvs",
-        twitter: "",
-      },
+      
     ],},
     post_bearers_4: {
       teamName: "Post-Bearers",
       teamImage: "/Mask group.png",
       members: [
+        {
+          id: 24,
+          name: "Kshitije Vinay Singh",
+          position: "Co-PR Head",
+          image:
+            "https://drive.google.com/uc?export=view&id=1gUcZB_s696u5OnfAwYGDx5znfmsWCAtT",
+          branch: "ME-26",
+          instagram: "https://www.instagram.com/Kshitijesingh_",
+          linkedin: "https://www.linkedin.com/in/kshitijekvs",
+          twitter: "",
+        },  
       {
-        id: 24,
+        id: 25,
         name: "Neeraj Kumar",
         position: "Co-PR Head",
         image:
@@ -309,7 +325,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 25,
+        id: 26,
         name: "Manaswini Patil",
         position: "Co-Media Head",
         image:
@@ -332,7 +348,7 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1UHtO64mE1vsih1cmW7-IPGQEcJYyRa9o",
-        branch: "ARCH-26",
+        branch: "ARCH-27",
         instagram: "https://www.instagram.com/_nabii1.14_",
         linkedin: "https://www.linkedin.com/in/aditi-jayesh-rao-a506a818b",
         twitter: "",
@@ -363,7 +379,7 @@ const teamData = {
         id: 4,
         name: "Jeevan Pamidipati",
         position: "",
-        image: "",
+        image: "https://drive.google.com/uc?export=view&id=1h1nlFc7fOjcuedBGuMRjWD0RrrC3CL26",
         branch: "CSE-26",
         instagram: "https://www.instagram.com/zeevan0863",
         linkedin: "",

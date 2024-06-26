@@ -3,10 +3,10 @@ import React from "react";
 function AllEventsPage() {
   return (
     <div className="bg-black flex flex-col ">
-      <div className="text-white h-[80px] text-7xl pt-3 pr-8 pb-0 text-right">
+      {/* <div className="text-white h-[80px] text-7xl pt-3 pr-8 pb-0 text-right">
         EVENTS
-      </div>
-      <div className="p-6 bg-[#FFBC58] ">
+      </div> */}
+      {/* <div className="p-6 bg-[#FFBC58] ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="space-y-4">
             <div className="rounded-lg p-4 flex">
@@ -32,7 +32,7 @@ function AllEventsPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="pl-2 pr-2">
           <h2 className="text-white text-5xl font-bold text-center mb-4">SUGGEST EVENTS</h2>
           <form className="bg-black p-6 rounded-lg flex flex-col justify-center items-center">
