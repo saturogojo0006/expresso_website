@@ -20,6 +20,7 @@ const ArtCard = ({ art, openOverlay }) => {
               src={art.artistImage}
               width={65}
               height={80}
+              alt ="ArtistAwesome"
               // alt={art.artist}
             />
           </div>

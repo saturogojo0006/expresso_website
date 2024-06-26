@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <div>
         <div className="responsive x-0 y-0 object-cover">
-          <Image src="/HomePageBG.png" width={1530} height={860} />
+          <Image src="/HomePageBG.png" width={1530} height={860} alt="Home Page" />
         </div>
       </div>
       <div className="">
