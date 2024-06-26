@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import LandingPage from "./LandingPage";
 import About from "./About";
 import Professor from "./Professor";
+import CarouselPage from "./CarouselPage";
 // import Event from "./Event";
 // import Team from "./Team";
 // import Contact from "./Contact";
@@ -30,6 +31,9 @@ export default function Home() {
       </div>
       <div className="m-2">
         <About />
+      </div>
+      <div>
+        <CarouselPage/>
       </div>
       {/* <Home /> */}
       {/* <LandingPage />
