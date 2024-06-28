@@ -8,16 +8,17 @@ const Team = () => {
       <div
         className="absolute w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: `url('/background1.png')`,
+          backgroundImage: `url('/teambg.jpg')`,
         }}
       ></div>
 
       {/* Overlay content */}
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
         {/* Split text */}
-        <div className="text-white text-10xl ml-24 mr-6 font-antonio font-bold text-center">
-          <span className="text-black">Te</span>
-          <span className="text-gray-200">am</span>
+        <div className="text-white text-[20vw] mx-auto font-antonio font-bold text-center">
+          {/* <span className="text-black">Te</span> */}
+          {/* <span className="text-gray-200">am</span> */}
+          <span className="text-white">TEAM</span>
         </div>
 
         {/* Bottom bar */}
