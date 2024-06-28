@@ -44,12 +44,16 @@ const CarouselPage = () => {
       src: "https://drive.google.com/uc?export=view&id=1P4ftux2rjE_VWrHQs4cycMMuQX7f9SFf",
     },
     {
-      id: 9,
-      src: "https://drive.google.com/uc?export=view&id=1P4ftux2rjE_VWrHQs4cycMMuQX7f9SFf",
+      id: 10,
+      src: "https://drive.google.com/uc?export=view&id=1NJeGeHXIKxzhaEJZpLYWlaiuhhKiZG_l",
     },
     {
-      id: 10,
+      id: 11,
       src: "https://drive.google.com/uc?export=view&id=12QQDUz63xoOHYx5H-zLrO_CB4Csm3qzZ",
+    },
+    {
+      id: 12,
+      src: "https://drive.google.com/uc?export=view&id=1FpasbBTw28TRxCmAVI3MysocO8LIukHr",
     },
   ];
 
