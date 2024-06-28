@@ -625,11 +625,7 @@ const teamData = {
         instagram: "https://www.instagram.com/nilabh_mishra",
         linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
         twitter: "",
-      },],},
-      literature_2: {
-        teamName: "Literary",
-        teamImage: "/Pen.png",
-        members: [
+      },
       {
         id: 8,
         name: "Aakash Tiwari",
@@ -640,7 +636,12 @@ const teamData = {
         instagram: "https://www.instagram.com/tiwariji.789/",
         linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
         twitter: "",
-      },
+      },],},
+      literature_2: {
+        teamName: "Literary",
+        teamImage: "/Pen.png",
+        members: [
+      
       {
         id: 9,
         name: "Adarsh Kumar Dubey",
@@ -823,6 +824,7 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/shubham-tiwari-966223253",
         twitter: "",
       },
+    
       {
         id: 2,
         name: "Shradha Jha",
@@ -845,7 +847,7 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
         twitter: "",
       },
-
+   
       {
         id: 4,
         name: "Nikhil Kumar Das",
@@ -904,6 +906,48 @@ const teamData = {
       },
     ],
   },
+  website_2: {
+    teamName: "Web",
+    teamImage: "/office.png",
+    members: [
+      
+  {
+    id: 1,
+    name: "Aman Gupta",
+    position: "Web Design Lead",
+    image:
+      "https://drive.google.com/uc?export=view&id=10FqHTBgt13ZnnBC-uXlHcvsQhlF6aFZx",
+    branch: "ARCH-26",
+    instagram: "https://www.instagram.com/itz_aman506",
+    linkedin: "https://www.linkedin.com/in/aman-gupta-3726521b4",
+    twitter: "",
+  },
+  {
+    id: 2,
+    name: "Aditya Kumar",
+    position: "Web Design Co-lead",
+    image:
+      "https://drive.google.com/uc?export=view&id=1TE--HyhdJsUqwAOH5Rzvq-bMbx-JVUCB",
+    branch: "ECE-26",
+    instagram: "https://www.instagram.com/adityakumar.393",
+    linkedin: "https://www.linkedin.com/in/aditya-kumar-7bb54b257/",
+    twitter: "",
+  },
+  {
+    id: 3,
+    name: "Sanchita Jha",
+    position: "Web Asset Management",
+    image:
+      "https://drive.google.com/uc?export=view&id=1ZZNJf8JbPH70Fp92iUy1ocJXd9ijsDfl",
+    branch: "CE-27",
+    instagram:
+      "https://www.instagram.com/sanchitaj_04/?igsh=MWF0anZucWRqY256cA%3D%3D",
+    linkedin:
+      "https://www.linkedin.com/in/sanchita-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "",
+  },
+],
+},
 };
 
 export default teamData;
