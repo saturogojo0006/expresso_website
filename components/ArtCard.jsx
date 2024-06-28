@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const ArtCard = ({ art, openOverlay }) => {
   return (
-    <div className="flex flex-col items-center p-1 bg-transparent rounded-xl shadow-lg border-2 border-white w-60 h-90 backdrop-filter backdrop-blur-md">
+    <div className="flex flex-col items-center p-1 bg-transparent rounded-xl shadow-lg border-2 border-white w-[260px]  backdrop-filter backdrop-blur-md max-h-80 overflow-y-scroll">
       <div className="grid grid-cols-2 gap-2 w-full">
         <div className="flex flex-col col-span-1 md:col-span-8/10 bg-transparent items-start">
           <div className="text-xl font-bold text-center text-white font-antonio">
@@ -37,7 +37,7 @@ const ArtCard = ({ art, openOverlay }) => {
           </div>
         </div>
       </div>
-      <div className="flex mt-2 cursor-pointer max-h-64 overflow-hidden" onClick={() => openOverlay(art)}>
+      <div className="flex mt-2 cursor-pointer min-h-64 max-h-64 overflow-hidden" onClick={() => openOverlay(art)}>
         <Image src={art.artImage} width={240} height={250} alt={art.artName} />
       </div>
       <div className="text-white text-sm font-sans mt-2">{art.description}</div>

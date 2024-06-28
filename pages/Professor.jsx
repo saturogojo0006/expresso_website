@@ -101,14 +101,14 @@ function Professor() {
           {isMobile &&
             (showFullDescription ? (
               <span
-                className={`read-less ${styles.readLess}`}
+                className={`read-less cursor-pointer underline ${styles.readLess}`}
                 onClick={handleReadLess}
               >
                 Read Less
               </span>
             ) : (
               <span
-                className={`read-more ${styles.readMore}`}
+                className={`read-more cursor-pointer underline ${styles.readMore}`}
                 onClick={handleReadMore}
               >
                 Read More

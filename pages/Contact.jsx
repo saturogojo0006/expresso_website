@@ -85,7 +85,7 @@ const Contact = () => {
                     value={formData.firstName}
                     onChange={handleInputChange}
                     className="w-full border-b-2 text-lg border-gray-400 focus:border-blue-500 outline-none bg-black text-white"
-                    placeholder="Literature"
+                    placeholder="Enter your First Name"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -96,7 +96,7 @@ const Contact = () => {
                     value={formData.lastName}
                     onChange={handleInputChange} 
                     className="w-full border-b-2 text-lg border-gray-400 focus:border-blue-500 outline-none bg-black text-white"
-                    placeholder="Art"
+                    placeholder="Enter your Last Name"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -107,7 +107,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleInputChange}
                     className="w-full border-b-2 text-lg border-gray-400 focus:border-blue-500 outline-none bg-black text-white"
-                    placeholder="expresso@nitp.ac.in"
+                    placeholder="Enter your E-mail ID"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -118,7 +118,7 @@ const Contact = () => {
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="w-full border-b-2 text-lg border-gray-400 focus:border-blue-500 outline-none bg-black text-white"
-                    placeholder="+91"
+                    placeholder="Enter your Phone Number"
                   />
                 </div>
               </div>
@@ -142,11 +142,11 @@ const Contact = () => {
             {formSubmitted && <p className="text-green-500 mt-4">Thank you for your message!</p>}
           </div>
           <div className="flex space-x-4 mt-4">
-            <FaInstagram size={30} className="text-white" />
-            <FaFacebook size={30} className="text-white" />
-            <FaLinkedin size={30} className="text-white" />
-            <IoIosMail size={30} className="text-white" />
-            <SiGooglemaps size={30} className="text-white" />
+          <a href="https://www.instagram.com/expresso_nitp/" target="blank"><FaInstagram className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="https://www.facebook.com/expresso.nitp/" target="blank"><FaFacebook className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="https://www.linkedin.com/company/expressonitp/" target="blank"><FaLinkedin className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="mailto:expressoclub@nitp.ac.in" target="blank"><IoIosMail className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="https://maps.app.goo.gl/ochD6thH9G93RZJK8" target="blank"><SiGooglemaps className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
           </div>
         </div>
       </div>

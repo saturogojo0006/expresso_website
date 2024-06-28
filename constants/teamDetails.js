@@ -269,7 +269,7 @@ const teamData = {
         position: "Content Co-Coordinator",
         image: "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
         branch: "ECE-26",
-        instagram: "https://www.instagram.com/vanisingh8830",
+        instagram: "https://www.instagram.com/vanisingh_2701/",
         linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
         twitter: "",
       },
@@ -297,7 +297,7 @@ const teamData = {
         image: "https://drive.google.com/uc?export=view&id=1NxhJO2Qzb0QOOSCl1Qm58jSG0ws3gVS_",
         branch: "ARCH-27",
         instagram: "https://www.instagram.com/neerajk1617",
-        linkedin: "https://www.linkedin.com/in/neeraj-kumar-chaurasiya-1a86a925b",
+        linkedin: "https://www.linkedin.com/in/neeraj-kumar-96657330a/",
         twitter: "",
       },
       {

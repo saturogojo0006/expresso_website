@@ -1,6 +1,6 @@
 const LiteratureData = {
   literature1: {
-    title: "सुधमा कृष्ण का मिलन",
+    title: "सुदामा कृष्ण का मिलन",
     author: "Shivani",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1wrCy286I9SXQDCPaokKXvzLW-8iErq27",
@@ -44,7 +44,7 @@ const LiteratureData = {
 कृष्ण से मिलने आज सुदामा आये हैं।`,
   },
   literature2: {
-    title: "वफ़ा",
+    title: "फरियाद",
     author: "Aman Gupta",
     authorImage:
       "https://drive.google.com/uc?export=view&id=10FqHTBgt13ZnnBC-uXlHcvsQhlF6aFZx",
@@ -103,7 +103,7 @@ const LiteratureData = {
 मैं हंसता और हंसाता बहुत हूँ।`,
   },
   literature4: {
-    title: "आदते",
+    title: "आदतें",
     author: "Aniket Kumar",
     authorImage:
       "https://drive.google.com/uc?export=view&id=15m3G6iCYW6D5d0Mm5pnZVrYx2-mQaqWs",
@@ -122,7 +122,8 @@ const LiteratureData = {
     author: "Alankrita Singh",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1vaRsz4-N_O1cqBbljwM6boiIipIA822u",
-    instagram: "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
+    instagram:
+      "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
     linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260/?",
     coverImage: "/artpic.png",
     description: `तुम्हारी आँखे, देखो कुछ इशारा करती हैं,
@@ -360,8 +361,7 @@ const LiteratureData = {
     author: "Aditya Kumar",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1TE--HyhdJsUqwAOH5Rzvq-bMbx-JVUCB",
-    instagram:
-      "https://www.instagram.com/adityakumar.393",
+    instagram: "https://www.instagram.com/adityakumar.393",
     linkedin: "https://www.linkedin.com/in/aditya-kumar-7bb54b257/",
     coverImage: "/artpic.png",
     description: `न जाने मैं कैसा हो गया हूं? मैं खुद को ही खो दिया हूं।
@@ -406,7 +406,7 @@ const LiteratureData = {
     authorImage:
       "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
     instagram:
-      "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
+      "https://www.instagram.com/vanisingh_2701/",
     linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
     coverImage: "/artpic.png",
     description: `अब धर्म की लड़ाई में, बिक रहा ईमान है,
@@ -511,7 +511,8 @@ That's how a Great Human is made.`,
     author: "Alankrita Singh",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1vaRsz4-N_O1cqBbljwM6boiIipIA822u",
-    instagram: "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
+    instagram:
+      "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
     linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260/?",
     coverImage: "/artpic.png",
     description: `एक माँ चटाई पर लेती आराम से सो रही थी
@@ -724,7 +725,7 @@ There lie many hindrances in my way,
     authorImage:
       "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
     instagram:
-      "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
+      "https://www.instagram.com/vanisingh_2701/",
     linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
     coverImage: "/artpic.png",
     description: `कभी इश्क़ हुआ ?
@@ -940,7 +941,8 @@ There lie many hindrances in my way,
     author: "Alankrita Singh",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1vaRsz4-N_O1cqBbljwM6boiIipIA822u",
-    instagram: "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
+    instagram:
+      "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
     linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260/?",
     coverImage: "/artpic.png",
     description: `जी चाहता है तुझे अपने हार्फों में ऐसा लिखूं
@@ -1173,8 +1175,7 @@ Although their fascinating beauty is still obscure.
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1",
     coverImage: "/artpic.png",
-    description: 
-`तुमसे इश्क़ है मुझे
+    description: `तुमसे इश्क़ है मुझे
 खतों वाला, गुलाब वाला
 बिंदी वाला, रूह वाला
 कृष्ण वाला, इमरोज़ वाला
@@ -1336,7 +1337,8 @@ Yet, content, amidst life's quagmire.`,
     author: "Alankrita Singh",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1vaRsz4-N_O1cqBbljwM6boiIipIA822u",
-    instagram: "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
+    instagram:
+      "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
     linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260/?",
     coverImage: "/artpic.png",
     description: `तुमने क्या लाज रखी है मेरी गुमराही की,
@@ -1351,7 +1353,8 @@ Yet, content, amidst life's quagmire.`,
     author: "Alankrita Singh",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1vaRsz4-N_O1cqBbljwM6boiIipIA822u",
-    instagram: "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
+    instagram:
+      "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
     linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260/?",
     coverImage: "/artpic.png",
     description: `एक अलग ही कशिश है आज की चांदनी में
@@ -1456,11 +1459,11 @@ Still, remembering the "suffer" of this train.`,
   },
   literature63: {
     title: "माँ",
-    author: "Vani Kumari",
+    author: "Vani Singh",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
     instagram:
-      "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
+      "https://www.instagram.com/vanisingh_2701/",
     linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
     coverImage: "/artpic.png",
     description: `कोई छंद, कविता, गीत लिखूं मैं, 
@@ -1507,19 +1510,34 @@ Still, remembering the "suffer" of this train.`,
 बात अधूरे रह जायेंगे ।।`,
   },
   literature64: {
-    title: "सपना",
-    author: "Akash Patel Singh",
+    title: "बेवफाई",
+    author: "Arun Singh",
     authorImage:
-      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
-    instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
-    linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
+      "https://drive.google.com/uc?export=view&id=1om-BH8LejCULnvDeh9p8HQqHJYq28uVU",
+    instagram: "https://www.instagram.com/arunsingh_.08/",
+    linkedin: "https://www.linkedin.com/in/arun-singh-1a0b25225",
     coverImage: "/artpic.png",
-    description: `कभी कभी लगता है तुम हो
-पास मेरे, साथ मेरे
-मेरी रूह में, पसीने की खुशबू में।
-अचानक आवाज आती है
-और मेरा भ्रम टूट जाता है,
-किसी सपने की तरह`,
+    description: `यह कैसी बेवफाई है, जिसे हम दिल से निभा रहे हैं,
+तेरे बिना इस दुनिया में खुद को तन्हा पा रहे हैं।
+
+तेरी यादों में बसा है दिल, तुझसे है हर शिकायत,
+फिर भी तेरी खुशबू से, हर साँस को महका रहे हैं।
+
+तूने तोड़ दिए वादे, फिर भी हम वफ़ा के गीत गा रहे हैं,
+तेरी बेवफाई में भी, हम खुद को तुझसे जोड़ पा रहे हैं।
+
+चाँदनी रातों में तेरी यादें सितारे बनकर झिलमिलाती हैं,
+हर आहट में तेरा नाम, हर सांस में तेरा एहसास पा रहे हैं।
+
+इक तरफ़ा ये प्यार हमारा, क्या तुझ तक पहुँचेगा कभी,
+तेरे बिना इस दिल में, हम तड़प तड़प कर जी रहे हैं।
+
+तेरे बिना हर खुशी अधूरी, हर खुशी से हम दूर जा रहे हैं,
+तेरे बिन ये दुनिया वीरान, हम बस तेरी राह देख रहे हैं।
+
+तेरी बेवफाई का ग़म हमें चाँद सितारों सा लग रहा है,
+तेरी जुदाई में भी, हम तुझसे मुहब्बत निभा रहे हैं।
+`,
   },
   literature65: {
     title: "मजदूर",
@@ -1582,7 +1600,7 @@ Still, remembering the "suffer" of this train.`,
     authorImage:
       "https://drive.google.com/uc?export=view&id=1v1Lvrws760ZnNOkysklPhFRYJJdWKCi_",
     instagram:
-      "https://www.instagram.com/vanisingh_2701?igsh=MXBrOTVobTNtaDE5ZQ==",
+      "https://www.instagram.com/vanisingh_2701/",
     linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
     coverImage: "/artpic.png",
     description: `आखिर में इतना अंजाम लिखी थी,
@@ -1772,18 +1790,17 @@ Still, remembering the "suffer" of this train.`,
 जिस पर दिल से यकीन करने का दिल करे ।`,
   },
   literature75: {
-    title: "जादू",
-    author: "Akash Patel Singh",
+    title: "खुशी",
+    author: "Satyam",
     authorImage:
-      "https://drive.google.com/uc?export=view&id=1ZPlEApTg65bTQ_NbrEl38UBea_gRfiKE",
-    instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
-    linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
+      "https://drive.google.com/uc?export=view&id=1Toder0-ZYdT-DJOdhEiCohwSCim2YXzg",
+    instagram: "https://www.instagram.com/satyamk1345/",
+    linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
     coverImage: "/artpic.png",
-    description: `मैं कवि नहीं जादूगर हूं 
-शब्दों का, बातों का
-बंद बक्से से निकालता हूं 
-तुम्हारे प्रेम को
-और रच जाती है कोई कविता।।`,
+    description: `क्या करें हम ऐसी खुशी का,
+ यह तो पल दो पल तक साथी है..
+ जिसे हर पल हम खुश रहते,
+वह तो एक पल को भी ना राज़ी हैं..`,
   },
 
   // Add more literature pieces as needed
