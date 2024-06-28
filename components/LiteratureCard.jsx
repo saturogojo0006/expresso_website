@@ -15,7 +15,7 @@ const LiteratureCard = ({ literature }) => {
           </div>
         </div>
         <div className="flex flex-col col-span-1 items-center text-bold md:col-span-2/10  bg-transparent border-white border-l-4 border-b-4 m-0 p-0.5 text-black">
-          <div className="mb-1 max-h-20 overflow-hidden">
+          <div className="mb-1 max-h-[70px] overflow-hidden">
             <Image
               src={literature.authorImage}
               width={65}

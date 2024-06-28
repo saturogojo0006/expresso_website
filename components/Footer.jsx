@@ -13,8 +13,8 @@ const Footer = () => {
           <a href="https://www.instagram.com/expresso_nitp/" target="blank"><FaInstagram className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
           <a href="https://www.facebook.com/expresso.nitp/" target="blank"><FaFacebook className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
           <a href="https://www.linkedin.com/company/expressonitp/" target="blank"><FaLinkedin className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
-          <a href="https://www.expressonitp.co.in/" target="blank"><IoIosMail className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
-          <a href="" target="blank"><SiGooglemaps className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="mailto:expressoclub@nitp.ac.in" target="blank"><IoIosMail className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
+          <a href="https://maps.app.goo.gl/ochD6thH9G93RZJK8" target="blank"><SiGooglemaps className="text-white w-6 h-6 md:w-8 md:h-8" /></a>
         </div>
 
         {/* Copyright */}
