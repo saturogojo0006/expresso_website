@@ -7,7 +7,7 @@ const teamData = {
         id: 0,
         name: "Rahul Xavier",
         position: "President",
-        image: "https://drive.google.com/uc?export=view&id=18KY8TBo4ScJ5RKMJqh0fatmt87ZLxAE4",
+        image: "https://drive.google.com/uc?export=view&id=11kjxA38tAVpXXEZoQ9wSHMCe0Id7wZBx",
         branch: "ARCH-25",
         instagram:
           "https://www.instagram.com/rahul_xvr",
