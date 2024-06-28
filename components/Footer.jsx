@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="text-white text-sm font-semibold text-center md:text-left mb-2">
+        <div className="text-white text-sm font-semibold text-center md:text-left mb-2 hover:underline">
           &copy; Expresso NIT Patna 2024
         </div>
 
@@ -29,7 +29,9 @@ const Footer = () => {
             <p>Ashok Rajpath, Patna, Bihar - 800005</p>
           </div>
           <div className="ml-4">
-            <Image src="/assets/logo.svg" alt="Logo" width={40} height={40} />
+            <a href="/">
+            <Image src="/assets/logo.svg" alt="Logo" width={80} height={80} />
+            </a>
           </div>
         </div>
       </div>
