@@ -32,7 +32,7 @@ const alumniData = {
       {
         id: 3,
         name: "Yash Anupam",
-        position: "Event co-ordinator ",
+        position: "Event Coordinator ",
         team: " ",
         image:
           "https://drive.google.com/uc?export=view&id=1-EpL6YEgYiLI4q7O5P1Ko578_kDOPVai",
@@ -86,7 +86,7 @@ const alumniData = {
       {
         id: 7,
         name: "Subhi Singh",
-        position: "Editor in-chef",
+        position: "Editor In-Chief",
         team: "Non-Technical",
         image:
           "https://drive.google.com/uc?export=view&id=1bQ54Hvt_7vzRWo3aeVmNkFY9b9ut1DXJ",
@@ -99,7 +99,7 @@ const alumniData = {
       {
         id: 8,
         name: "Riti Raj",
-        position: "Event Co-Cordinator",
+        position: "Event Co-Coordinator",
         team: "Non-Technical",
         image: "https://drive.google.com/uc?export=view&id=1N9-utfoIfy8DZyM-8bYsx8bsGBoWjJIG",
         branch: "CE-24",
@@ -178,6 +178,20 @@ const alumniData = {
           "https://www.linkedin.com/in/jaindarsh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
+      {
+        id: 6,
+        name: "Roshani Mayur",
+        position: " ",
+        team: " ",
+        image:
+          "https://drive.google.com/uc?export=view&id=12fH1TGKvjz-NAponxVJ1Tkk0OCQa1QzB",
+        branch: "ARCH-25",
+        instagram: "https://www.instagram.com/mayuroshani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+        linkedin:
+          "https://www.linkedin.com/in/jaindarsh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        twitter: "",
+      },
+
     ],
   },
 } 
