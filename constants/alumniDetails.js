@@ -191,6 +191,19 @@ const alumniData = {
           "https://www.linkedin.com/in/jaindarsh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
+      {
+        id: 7,
+        name: "Muskan Jha",
+        position: "Ex Vice President",
+        team: " ",
+        image:
+          "https://drive.google.com/uc?export=view&id=1JA42d_R_iAnDy_dXnJRyiHSscyi2pw0x",
+        branch: "ARCH-26",
+        instagram: "https://www.instagram.com/mayuroshani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+        linkedin:
+          "https://in.linkedin.com/in/muskanjhamj",
+        twitter: "",
+      },
 
     ],
   },

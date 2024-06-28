@@ -25,13 +25,13 @@ const AlumniCard = ({ member }) => {
        <div className="mt-1 font-semibold mb-4 text-lg font-Antonio">
           <h3>{member.branch}</h3>
         </div>
-      <div className="flex justify-center items-center space-between space-x-10 cursor-pointer">
+      <div className="flex justify-center items-center space-between space-x-16 cursor-pointer">
       <a href={member.instagram} className="text-lg" target="_blank" rel="noopener noreferrer">
       <FaInstagram />
       </a>
-      <a href={member.twitter} target="_blank" rel="noopener noreferrer" className="text-lg">
+      {/* <a href={member.twitter} target="_blank" rel="noopener noreferrer" className="text-lg">
       <FaTwitter />
-      </a>
+      </a> */}
       <a href={member.linkedin} className="text-lg" target="_blank" rel="noopener noreferrer">
       <FaLinkedin />
   </a>
