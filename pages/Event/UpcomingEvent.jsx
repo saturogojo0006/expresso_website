@@ -75,7 +75,7 @@ const UpcomingEvent = () => {
             </div>
           </div>
           <div className="flex items-center space-x-4 mt-4">
-            <Image src="/pinLocation.png" alt="Location Pin" width={50} height={50} />
+            <Image src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664940/expresso/pinLocation_glqqiy.png" alt="Location Pin" width={50} height={50} />
             <div className="flex flex-col items-start">
               <div className="w-20 h-7 rounded-lg border border-orange-400 flex items-center justify-center mb-2">
                 <span className="text-white text-sm font-normal font-['Inter']">VENUE</span>

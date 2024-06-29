@@ -62,7 +62,7 @@ const ArtDesc = () => {
   const currentArtSetL = artKeysL.slice(startIndexL, endIndexL);
 
   return (
-    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(/art-desc-bg.png)" }}>
+    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(https://res.cloudinary.com/dnbutfdy7/image/upload/v1719665021/expresso/art-desc-bg_zf9qnp.png)" }}>
       {overlay.isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
           <div className="relative w-4/5 h-4/5">
@@ -117,13 +117,13 @@ const ArtDesc = () => {
         <div className="flex flex-col w-full justify-center items-center">
           <div className="w-full flex items-center justify-center">
             <div className="mr-4 cursor-pointer">
-              <Image onClick={handleButtonLeft} src="/leftarrow.png" width={50} height={50} alt="leftarrow" />
+              <Image onClick={handleButtonLeft} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664972/expresso/leftArrow_roirvg.png" width={50} height={50} alt="leftarrow" />
             </div>
             <div className="mr-4 font-Antonio text-5xl ml-4 flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4 p-2">
               {toggle + 1}
             </div>
             <div className="ml-4 cursor-pointer">
-              <Image onClick={handleButtonRight} src="/rightarrow.png" width={50} height={50} alt="rightarrow" />
+              <Image onClick={handleButtonRight} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664944/expresso/rightArrow_acnskv.png" width={50} height={50} alt="rightarrow" />
             </div>
           </div>
         </div>
@@ -164,13 +164,13 @@ const ArtDesc = () => {
               </div>
               <div className="mt-10 flex flex-row items-center justify-between w-full">
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonLeft} src="/leftarrow-artdesc.png" width={50} height={50} alt="leftarrow" />
+                  <Image onClick={handleButtonLeft} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664973/expresso/leftarrow-artdesc_s2ckx6.png" width={50} height={50} alt="leftarrow" />
                 </div>
                 <div className="font-Antonio text-5xl flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4 p-2 mx-1">
                   {toggle + 1}
                 </div>
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonRight} src="/rightarrow-artdesc.png" width={50} height={50} alt="rightarrow" />
+                  <Image onClick={handleButtonRight} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664945/expresso/rightarrow-artdesc_yckiew.png" width={50} height={50} alt="rightarrow" />
                 </div>
               </div>
             </div>
@@ -194,7 +194,7 @@ const ArtDesc = () => {
         </div>
 
         {/* Displaying toggle button for larger screens */}
-        <div id="toggle" className="absolute top-[780px] right-5 mt-10 h-1/2 w-1/3 lg:mt-2">
+        <div id="toggle" className="absolute top-full right-5 mt-10 h-1/2 w-1/3 lg:mt-2">
           <div id="details" className="mr-2 flex flex-col justify-center items-center h-full w-full">
             <div className="w-1/2 flex flex-col flex-wrap justify-center items-start text-white">
               <div className="w-full flex items-center justify-center">
@@ -208,13 +208,13 @@ const ArtDesc = () => {
               </div>
               <div className="flex flex-row items-center justify-center w-full">
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonLeftL} src="/leftarrow-artdesc.png" width={50} height={50} alt="leftarrow" />
+                  <Image onClick={handleButtonLeftL} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664973/expresso/leftarrow-artdesc_s2ckx6.png" width={50} height={50} alt="leftarrow" />
                 </div>
                 <div className="font-Antonio text-5xl ml-4 mr-4 flex items-center justify-center w-14 h-14 rounded-full bg-black text-white border-[#FDB851] border-4">
                   {toggleL + 1}
                 </div>
                 <div className="cursor-pointer">
-                  <Image onClick={handleButtonRightL} src="/rightarrow-artdesc.png" width={50} height={50} alt="rightarrow" />
+                  <Image onClick={handleButtonRightL} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664945/expresso/rightarrow-artdesc_yckiew.png" width={50} height={50} alt="rightarrow" />
                 </div>
               </div>
             </div>

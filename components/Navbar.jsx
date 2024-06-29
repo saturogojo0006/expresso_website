@@ -144,6 +144,7 @@ const Navbar = () => {
                 { href: "/Literature", text: "Literature" },
                 { href: "/Team", text: "Team" },
                 { href: "/Alumni", text: "Alumni" },
+                { href: "/Contact", text: "Join Us" },
               ].map((item, index) => (
                 <li key={index} className="group relative">
                   <Link href={item.href} onClick={() => setIsnav(false)}>
