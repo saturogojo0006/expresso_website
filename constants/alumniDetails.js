@@ -199,7 +199,7 @@ const alumniData = {
         image:
           "https://drive.google.com/uc?export=view&id=1JA42d_R_iAnDy_dXnJRyiHSscyi2pw0x",
         branch: "ARCH-26",
-        instagram: "https://www.instagram.com/mayuroshani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
+        instagram: "",
         linkedin:
           "https://in.linkedin.com/in/muskanjhamj",
         twitter: "",

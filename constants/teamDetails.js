@@ -682,7 +682,7 @@ const teamData = {
         position: "",
         image:
           "https://drive.google.com/uc?export=view&id=1ukS6ivbk6A_JkbwbHB8k1dBYOPre57ip",
-        branch: "CE-26",
+        branch: "CSE-DD-28",
         instagram: "https://www.instagram.com/tiwary_anuragg",
         linkedin: "",
         twitter: "",
