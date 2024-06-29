@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { IoIosMail } from "react-icons/io";
 import { SiGooglemaps } from "react-icons/si";
+import Link from "next/link";
 import Image from "next/image";
 
 const Footer = () => {
@@ -29,9 +30,9 @@ const Footer = () => {
             <p>Ashok Rajpath, Patna, Bihar - 800005</p>
           </div>
           <div className="ml-4">
-            <a href="/">
+            <Link href="/" alt=":)">
             <Image src="/assets/logo.svg" alt="Logo" width={80} height={80} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

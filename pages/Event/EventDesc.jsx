@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 
 function EventDesc({ event }) {
+  // Ensure event is defined before destructuring
+  if (!event) {
+    return <div>Loading...</div>; // Or handle loading state as appropriate
+  }
+
   const { title, date, venue, description, images } = event;
 
   return (
@@ -17,15 +22,16 @@ function EventDesc({ event }) {
 
       <div className="flex flex-col sm:flex-row items-center sm:items-start mt-4 gap-4">
         <div className="w-full sm:w-auto">
-          <Image src="/eventPicture.png" width={250} height={30} alt="Event Picture" className="object-cover w-full h-auto" />
+          {/* Use Next.js Image component */}
+          <Image src="/eventPicture.png" width={250} height={300} alt="Event Picture" className="object-cover w-full h-auto" />
         </div>
         <div className="flex flex-col w-full sm:ml-4">
           <div className="font-antonio text-[#FEFEFE] text-3xl sm:text-5xl">{title}</div>
-          <div className="text-[#ffffff] text-sm sm:text-lg bg-cover bg-center p-4 mt-2 whitescpace-pre-line overflow-y-auto max-h-64" style={{ backgroundImage: `url('/event.png')` }}>
+          <div className="text-[#ffffff] text-sm sm:text-lg bg-cover bg-center p-4 mt-2 whitespace-pre-line overflow-y-auto max-h-64" style={{ backgroundImage: `url('/event.png')` }}>
             {description}
           </div>
           <div className="mt-4">
-            <span className="text-[] text-lg sm:text-3xl">DATE:</span>
+            <span className="text-[#ffffff] text-lg sm:text-3xl">DATE:</span>
             <span className="text-white text-lg sm:text-3xl pl-2">{date}</span>
           </div>
           <div className="mt-2">
