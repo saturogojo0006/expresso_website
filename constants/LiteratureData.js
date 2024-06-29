@@ -1510,7 +1510,7 @@ Still, remembering the "suffer" of this train.`,
 बात अधूरे रह जायेंगे ।।`,
   },
   literature64: {
-    title: "बेवफाई",
+    title: "यादें",
     author: "Arun Singh",
     authorImage:
       "https://drive.google.com/uc?export=view&id=1om-BH8LejCULnvDeh9p8HQqHJYq28uVU",
