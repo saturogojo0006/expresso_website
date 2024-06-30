@@ -7,18 +7,18 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Footer = () => {
-  const [visits, setVisits] = useState(0);
+  // const [visits, setVisits] = useState(0);
 
-  useEffect(() => {
-    const fetchVisits = async () => {
-      const response = await fetch("/api/visit?url=home");
-      const data = await response.json();
-      setVisits(data.visits);
-    };
+  // useEffect(() => {
+  //   const fetchVisits = async () => {
+  //     const response = await fetch("/api/visit?url=home");
+  //     const data = await response.json();
+  //     setVisits(data.visits);
+  //   };
 
-    fetchVisits();
-    console.log(visits);
-  }, []);
+  //   fetchVisits();
+  //   console.log(visits);
+  // }, []);
   return (
     <footer className="bg-gray-900 max-w-screen mx-auto px-4 py-6 md:py-8">
       <div className="flex flex-col md:flex-row md:justify-between items-center mx-0">
@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-white ">Visits Number:{visits}</p>
+      {/* <p className="text-white">Visits Number:{visits}</p> */}
     </footer>
   );
 };
