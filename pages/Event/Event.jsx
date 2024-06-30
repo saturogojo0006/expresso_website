@@ -25,12 +25,12 @@ const Event = () => {
 
         AAWAAZ was a resounding success , leaving a lasting impression on everyone who attended. This was possible only due to the amazing cooperation and active participation of the members of both the fantastic clubs of NIT Patna, Expresso - The Literary & Art Club & Saptak - The Music Club.`,
         images: [
-          "https://drive.google.com/uc?export=view&id=1XBK49Y-SY4apQFFHG7Gz8TFJcu3SfaoQ",
-          "https://drive.google.com/uc?export=view&id=1ntv9S8DyCp09gDTSeZ9TJw1sDVKRMgUG",
-          "https://drive.google.com/uc?export=view&id=1zPyteJ4cM9tS4bC6U8KJKOd7lld9a_Mr",
-          "https://drive.google.com/uc?export=view&id=15I3ZGSQ6tGvVIz2Q3RPgVrrLKED6SAOI",
-          "https://drive.google.com/uc?export=view&id=1X2bzxqxVQpKw7xwBJQJK-yAqARW1Hk77",
-          "https://drive.google.com/uc?export=view&id=1BpBybbbLJwCfFw4HK8zaBRIIzHZE71Fa",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686166/Events/AAWAZ/DSC_1605-min_no52ku.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686168/Events/AAWAZ/_DSC0125-min_svrzfd.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686163/Events/AAWAZ/DSC_1209-min_m72xo1.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686160/Events/AAWAZ/DSC_1139-min_otyjxt.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686160/Events/AAWAZ/DSC_1109-min_ots81r.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686159/Events/AAWAZ/DSC_1000-min_muw1j2.jpg",
         ],
       },
       {
@@ -39,11 +39,11 @@ const Event = () => {
         description: `Expresso is all about expressing yourself, and this time you can do it in “Dil Se Canvas”. This is one of the awesome events of Expresso, where two artists team up to create magic on a canvas! First, one artist starts with the theme, then they swap, and the other finishes it. Organized at CV Raman Hall on March 3rd, 2024, at 5:00 pm, so just grab your partner now and unleash your creativity. We will give you paint and you’ll give us painting. 
         Let your creativity shine!`,
         images: [
-          "https://drive.google.com/uc?export=view&id=1nM-6o2etnG-ai1pCTrpBGHKMqvBWPPAU",
-          "https://drive.google.com/uc?export=view&id=1m4sn77c9Dv4s6ltcqRwkVjN5A6sIapwG",
-          "https://drive.google.com/uc?export=view&id=1Y2_DnJKmqBblYpgdHqYiPESBGy1W2-oQ",
-          "https://drive.google.com/uc?export=view&id=1-cD4sYI-vc-aThk1bzLJDVYXFb1jQS8Q",
-          "https://drive.google.com/uc?export=view&id=1L6NwNbPex0iEEK0mc7VrkgvRW0fhy3PK",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686570/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0315_or0tbe.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686548/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0350_enk09r.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686558/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0577_azsv6w.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686550/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0557_rr8kzw.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686546/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0471_tujzyg.jpg",
         ],
       },
       {
@@ -60,13 +60,13 @@ const Event = () => {
         
         Participants enjoyed the festivities and got exposure to International Diplomacy reporting a significant enhancement in their public speaking and planning skills.`,
         images: [
-          "https://drive.google.com/uc?export=view&id=1YqKLiExA_l_YWnLvkc8sAMQZceemTqYq",
-          "https://drive.google.com/uc?export=view&id=1mzPdo4E4YbXiktyOiWBkmQtNkLhPVldB",
-          "https://drive.google.com/uc?export=view&id=11uWINvUJYC7jhVP5oKvx0dTLKO5g9S77",
-          "https://drive.google.com/uc?export=view&id=17eRhpN5a8bB06068EhrBitjwpzUOx7Wj",
-          "https://drive.google.com/uc?export=view&id=1ot8kuBOBKdGgz3s8-eKm-2MAf5iTeiTT",
-          "https://drive.google.com/uc?export=view&id=1JZ7diMyYh19Cm4KxFHRrIvViP2cRQQ8L",
-          "https://drive.google.com/uc?export=view&id=1rlKr-84Sm-bJG_0Rd_2dXtV3W1ND5zPZ",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682809/Events/MUN/DSC_0418_lclzcs.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682802/Events/MUN/DSC_0425_yqggxl.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682820/Events/MUN/DSC_0463_xldm72.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684025/Events/MUN/DSC_0854-min_csyyht.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684048/Events/MUN/DSC_0912-min_enfu1i.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682835/Events/MUN/DSC_0928_fyldz7.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684034/Events/MUN/DSC_0925-min_peci2j.jpg",
         ],
       },
       {
@@ -91,12 +91,12 @@ const Event = () => {
         These events saw enthusiastic participation from students across various disciplines, engaging in thought-provoking discussions on diverse topics. The debates highlighted the power of critical thinking, fostering an environment of intellectual curiosity and lively discourse.
         `,
         images: [
-          "https://drive.google.com/uc?export=view&id=1QLkbGAEJBHVoa0Uq6CQQnH7diSwUIST-",
-          "https://drive.google.com/uc?export=view&id=1OueiPz3IF8bMjrSjLpQqYoEFa9ljTxKV",
-          "https://drive.google.com/uc?export=view&id=1yTJP9Ncx4YHieY6gIr8oqbvC96Rq_oCS",
-          "https://drive.google.com/uc?export=view&id=1XwKKWKsNofwe_mAhVpsqSvgLcGSNZM9n",
-          "https://drive.google.com/uc?export=view&id=1LvOwSac26eJTaHwcSYjUCPcmQrhRkjXc",
-          "https://drive.google.com/uc?export=view&id=1iUwg2gJ54zihRCGOkzG_bocsbmLj3Nb3",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687432/Events/SANHITA/DSC_0040-min_yyhy2b.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687373/Events/SANHITA/DSC_0070-min_h8bjbh.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686972/Events/SANHITA/DSC_0094_o2da0z.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686971/Events/SANHITA/DSC_0373_vuc9hd.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687448/Events/SANHITA/DSC_0049-min_x1ezlc.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687471/Events/SANHITA/DSC_0205.JPG-min_d58qfe.jpg",
         ],
       },
       {
@@ -127,11 +127,11 @@ const Event = () => {
 
         This series will stay continued and will bring  best out of bestBooks to the readers & learning enthusiasts...`,
         images: [
-          "https://drive.google.com/uc?export=view&id=1ZdujiG9hnilCFSUi6QIOPF9E29We_itO",
-          "https://drive.google.com/uc?export=view&id=1Ko8DqU_mHcOIky7lvYb5hIj5_qXgHcv1",
-          "https://drive.google.com/uc?export=view&id=1vR9NcBVu0VCW5FZtgwfQMkpdLRfphyfs",
-          "https://drive.google.com/uc?export=view&id=1Kd3qw7cT-0RJWNV80cNQq_oKpSvx5NXZ",
-          "https://drive.google.com/uc?export=view&id=1Hl0pWXX4IBVhDNPWS4xATU3VW65lyuCa",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688231/Events/Kitabe.padho/Blue_and_White_Modern_Minimalistic_About_Us_Instagram_Story_qdnjkg.png",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688203/Events/Kitabe.padho/WhatsApp_Image_2024-06-24_at_13.31.17_4a5d86a9_zuimrw.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688200/Events/Kitabe.padho/the_alchemist_vxot9e.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688197/Events/Kitabe.padho/WhatsApp_Image_2024-06-24_at_13.31.00_431c578a_dsei1c.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688194/Events/Kitabe.padho/WhatsApp_Image_2024-06-24_at_13.29.24_b672cd16_oaspu9.jpg",
         ],
       },
       
@@ -154,12 +154,12 @@ const Event = () => {
 
         Following these enthusiastic and spirited events, participants found a sense of belonging in the literary and artistic community at NIT Patna, recognizing the talent and skills of all involved.`,
         images: [
-          "https://drive.google.com/uc?export=view&id=1jnD5R6O2lA3XpNkxzIu04q0AQvImEkUI",
-          "https://drive.google.com/uc?export=view&id=1CamCCY355BtkDS2AXdO5NFXxvhkmLFEf",
-          "https://drive.google.com/uc?export=view&id=1MqIsMO1_18-G4G5TWIXvTEYEZzKdjRCG",
-          "https://drive.google.com/uc?export=view&id=1Ei3LmDuB37s9l7gPMtR2lLbI0iiSIlwq",
-          "https://drive.google.com/uc?export=view&id=1QnYBYP9lz_xuHzFzVD2kGGMklYUXTddQ",
-          "https://drive.google.com/uc?export=view&id=1qb84ahX2cieoA4ir-YyvC8ubshAQkLex",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681447/Events/Avlokan/DSC_0019_aqsksv.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681631/Events/Avlokan/DSC_0033_sfmnos.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681911/Events/Avlokan/DSC_0131-min_lhuxhj.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682616/Events/Avlokan/DSC_0141-min_bgb6wx.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682623/Events/Avlokan/DSC_1519_1_-min_tvsokp.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682626/Events/Avlokan/DSC_1495-min_ygyfrv.jpg",
         ],
       },
       {
@@ -171,12 +171,12 @@ const Event = () => {
 
         Doodling made a creative outlet, relaxation, and sometimes unexpected inspiration. It’s a way to let your mind wander and express itself freely. On that evening every detail find its place in the tapestry of time. Each doodle captures a fragment of time, weaving together the story of the day well-lived.`,
         images: [
-          "https://drive.google.com/uc?export=view&id=1_9COrNsZ_R4d3AbK0DkXepbjrJIrvK2x",
-          "https://drive.google.com/uc?export=view&id=1qzHpqHAZXaNosv_Usov-nzAuqIJtsL6G",
-          "https://drive.google.com/uc?export=view&id=19saXVqqJYGtic09tOYXKTbXHfkGKgbjH",
-          "https://drive.google.com/uc?export=view&id=1y698mqcbW3OEyJ0MmoFq6ldojSv2jT3o",
-          "https://drive.google.com/uc?export=view&id=1x4YnI4uQXsOEstB-1anmfre243pgZLWy",
-          "https://drive.google.com/uc?export=view&id=11L59xTpdtoRlSRHLiCe8p-_ZYVQQmpzt",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681044/Events/WORLD%20ART%20DAY%20%28DOODLING%29/axcydddh8inosewkw6ib.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681017/Events/WORLD%20ART%20DAY%20%28DOODLING%29/jpt3rfwfezahxift1nfx.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681026/Events/WORLD%20ART%20DAY%20%28DOODLING%29/jsrhtiekttxkehfkboaa.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681033/Events/WORLD%20ART%20DAY%20%28DOODLING%29/qbl6agtu7pvi3kjpue4k.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681059/Events/WORLD%20ART%20DAY%20%28DOODLING%29/do5oiaaypdhucdcrknsr.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688030/Events/WORLD%20ART%20DAY%20%28DOODLING%29/DSC_0500-min_hfmyaz.jpg",
         ],
       },
       {
@@ -190,9 +190,9 @@ const Event = () => {
         
         This event allowed students to nurture new connections that enhanced their social experiences in the college and created a vibrant and inclusive environment which celebrated different forms of love and connections. `,
         images: [
-          "https://drive.google.com/uc?export=view&id=1lD7lgJUeGrKDiQPM3eouCP_7dPd9eHp2",
-          "https://drive.google.com/uc?export=view&id=1Dr1wR2XXfLPfMKBAI7VxpFlC0qGroEkf",
-          "https://drive.google.com/uc?export=view&id=1Elu-bztGLxlX1pgGXEEvz4Z2jiVFHlE4",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682782/Events/Valentine%27s/IMG_0006_etbsyw.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682783/Events/Valentine%27s/IMG_0003_pyrmvj.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682780/Events/Valentine%27s/IMG_0005_gjfc1x.jpg",
         ],
       },
       {
@@ -209,9 +209,9 @@ const Event = () => {
         The event truly highlighted the magic of cinema in bringing people together, making it an evening to remember.
         `,
         images: [
-          "https://drive.google.com/uc?export=view&id=1pZXAtVnyjzRxE__LWd5vOS5yHA-UZJDW",
-          "https://drive.google.com/uc?export=view&id=1egNy-bNoa2lCSxyX56XDjV0Dz0LfrjYo",
-          "https://drive.google.com/uc?export=view&id=16io85ugk4pGFQ8NzfzTXng88k9WsgCZX",
+         "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687150/Events/MOVIE%20MATINEE/n3b8puwcjgzlrexwwxrc.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687151/Events/MOVIE%20MATINEE/ulms1l2zpxdsb4nt7dgj.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687150/Events/MOVIE%20MATINEE/fpll0rjzfbgcf8cd68gx.jpg",
         ],
       },
       {
@@ -224,10 +224,10 @@ const Event = () => {
         The event was a haven for art lovers, featuring interactive sessions where participants could learn about tattoo techniques and portrait drawing. It was a day of creativity, inspiration, and the celebration of artistic expression.
         `,
         images: [
-          "https://drive.google.com/uc?export=view&id=1d0bDyf_c2HPAs5g2mLVsDt4ZKneEk7ou",
-          "https://drive.google.com/uc?export=view&id=1YtZjDXVmrP4BChWGiGbdfbtq7Zi2pGGO",
-          "https://drive.google.com/uc?export=view&id=1I-F9d-pZM0RBkhiib-YKdoNwjDinMFxU",
-          "https://drive.google.com/uc?export=view&id=1-iZPbK4XH3CFQ0rIuBky6v0l79zX5y3W",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682784/Events/Valentine%27s/IMG_0007_ohhvzp.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682797/Events/Valentine%27s/IMG_0002_qpnh9g.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682780/Events/Valentine%27s/IMG_0004_wqvpe2.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682777/Events/Valentine%27s/IMG_0001_bvb8yq.jpg",
         ],
       },
       {
@@ -261,12 +261,13 @@ const Event = () => {
         These idiosyncratic ideas and interesting events encourage the participants to show their talents and creativity with the enhancement by glorifying their qualities ....
         `,
         images: [
-          "https://drive.google.com/uc?export=view&id=1ZXgELRdXETPbFGimQcfDnDfE5Y0m3rPu",
-          "https://drive.google.com/uc?export=view&id=11ZAiGywVWm_iPylMRNv-oTKGwgQJC0x5",
-          "https://drive.google.com/uc?export=view&id=1Yyt9n49QZiuALvSUUojVlAPOjsjBOO7d",
-          "https://drive.google.com/uc?export=view&id=1Nn1-BLYTMhqu_bK90IuEgpOjWhtzBATN",
-          "https://drive.google.com/uc?export=view&id=1jkGaFppYUy2W3gB1hy2GqjX973yZFIKd",
-          "https://drive.google.com/uc?export=view&id=1ZAOoKSbp5LVo63Hf2zDskxVOJlaP48J_",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682763/Events/Kalakriti/DSC_0309_skbnfn.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682760/Events/Kalakriti/DSC_0336_gf8r9a.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682691/Events/Kalakriti/SHL05224_q8ohq7.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682662/Events/Kalakriti/DSC_2293_wqlngs.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682770/Events/Kalakriti/DSC_0014_bjs5cd.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682774/Events/Kalakriti/DSC_0132_aq6fnv.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719683813/Events/Kalakriti/_DSC0041-min_ktj7ya.jpg",
         ],
       },
     ];
