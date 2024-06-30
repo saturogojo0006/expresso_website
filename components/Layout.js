@@ -3,12 +3,16 @@ import Navbar from "./Navbar";
 import Head from "next/head";
 import Footer from "./Footer";
 import Home from "../pages/Home";
-const Layout = ({ children }) => {
+const Layout = ({ children, metadata }) => {
   return (
     <>
       <Head>
         <title>Expresso Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Expresso is the club where literature and art collide, creating a vibrant community "
+        />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://stijndv.com" />
         <link
