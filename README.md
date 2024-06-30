@@ -81,16 +81,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - Event Page:
 
-  🕰️Event archive: 
+  Event archive: 
   Take a look at our past events that showcased talent and sparkled creativity among the enthusiasts.
 
-  📅Event updates: Get updated about our upcoming events, competitions and workshops.
+  Event updates: Get updated about our upcoming events, competitions and workshops.
 
-- 👨‍🎨Art studio: 
+- Art studio: 
 
   Explore some of the stunning artworks from our talented members
   
-- 📜Literary display: 
+- Literary display: 
 
   Read captivating poems, stories and essays of our aspiring writers
 
