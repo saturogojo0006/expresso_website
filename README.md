@@ -28,34 +28,25 @@ Fork the repository-
 
 ```
 
-Clone the project
+Clone the project:
 
 ```bash
   git clone https://github.com/expressonitp/expresso_website.git
 ```
 
-Install dependencies
+To run website:
 
-```bash
-  npm install next@latest
-```
 
-Start the server
 
 ```bash
   npm i
   npm run dev
-```
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
+  # or
+  bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -68,7 +59,9 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Deploy on Vercel
+## You can check it out the link
+
+
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
@@ -77,7 +70,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Usage
 
-- Home Page-
+- Home Page:
   
   ![!\['''image hp1'''\]https://res.cloudinary.com/dgzq115q7/image/upload/v1719733552/Hp1_cnbyuj.jpg](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733552/Hp1_cnbyuj.jpg)
 
@@ -86,22 +79,40 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   Message from our professor in-charge-
   !['''image hp2'''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733552/hp2_rhxf9e.jpg)
 
-- Event Page-
-  !['''image ep1''''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733552/EP1_orhn16.jpg)
-  ![''image ep2''''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733553/EP2_kyiclr.jpg)
-  ![''image ep3''''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733553/EP3_pi6wfu.jpg)
-  ![''image ep4''''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733553/EP4_m2cvzk.jpg)
+- Event Page:
 
-- Art collection-
-  !['''image'''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733553/art1_ricyro.jpg)
+  🕰️Event archive: 
+  Take a look at our past events that showcased talent and sparkled creativity among the enthusiasts.
 
-- Literature-
-  !['''lp1'''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733552/lp1_tcj0bi.jpg)
-- Team-
-  !['''tp'''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733552/tp1_o5ddyg.jpg)
+  📅Event updates: Get updated about our upcoming events, competitions and workshops.
 
-- Alumni-
-  !['''alumni'''](https://res.cloudinary.com/dgzq115q7/image/upload/v1719733552/ap1_jltwxr.jpg)
+- 👨‍🎨Art studio: 
+
+  Explore some of the stunning artworks from our talented members
+  
+- 📜Literary display: 
+
+  Read captivating poems, stories and essays of our aspiring writers
+
+- Team:
+
+  - Post Bearers
+  - Art
+  - Literature
+  - Web
+  
+
+
+- Alumni:
+
+  This page contains the details like Linkedin ,instagram and tweeter profile of Expresso's alumni.
+  
+- Join us:
+
+  - From here you can connect to us by providing your details i.e. Name, Email, Phone and can leave a message.
+  - You can checkout our instagram, linkedin, mail, map and facebook.
+  - You can give your feedback.
+
 
 
 
@@ -110,6 +121,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 <!-- - Light/dark mode toggle -->
 - Live previews
 - Fullscreen mode
+- Suggestions are invited.
+- Contact us feature using email id
+- [Next.js](https://nextjs.org/) frontend framework: Latest and Fast
+- Card rending
+
+
+Thank You
 <!-- - Cross platform -->
 
 ## Learn More
