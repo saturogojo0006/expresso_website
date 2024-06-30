@@ -9,51 +9,55 @@ const CarouselPage = () => {
   const images = [
     {
       id: 1,
-      src: "https://drive.google.com/uc?export=view&id=1G1wuO0_7CyCNktulgECCEGOM4uRmMw-2",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678142/Gallery/IMG_0790_lbqit4.jpg",
     },
     {
       id: 2,
-      src: "https://drive.google.com/uc?export=view&id=1jDBEUeW7JIy61DllGi7RocjWUzBESqtL",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678137/Gallery/IMG_0791_ny4ntg.jpg",
     },
     {
       id: 3,
-      src: "https://drive.google.com/uc?export=view&id=10W4HdBASxwh3gAtzVv0g6mQdTR1VDchb",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678132/Gallery/IMG_0792_eujzbl.jpg",
     },
     {
       id: 4,
-      src: "https://drive.google.com/uc?export=view&id=1IDH1YmLi-I23mnAvIGiW_ii8RR_eCncr",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678141/Gallery/IMG_0793_ph6ihx.jpg",
     },
     {
       id: 5,
-      src: "https://drive.google.com/uc?export=view&id=10W4HdBASxwh3gAtzVv0g6mQdTR1VDchb",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678132/Gallery/IMG_0792_eujzbl.jpg",
     },
     {
       id: 6,
-      src: "https://drive.google.com/uc?export=view&id=19WneNRuIINWf8v9vAHN4LGQ43jf56U9Y",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678139/Gallery/IMG_0794_i34yhl.jpg",
     },
     {
       id: 7,
-      src: "https://drive.google.com/uc?export=view&id=1CKJcnMZvKQGQGQIfh2r2KgGNti0q7jrg",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679468/Gallery/DSC_0948_3_11zon_p5lpxh.jpg",
     },
     {
       id: 8,
-      src: "https://drive.google.com/uc?export=view&id=11ih-tQyMwvX9MhcWZdfj11qf1rKs6hHN",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678133/Gallery/IMG_0796_wg5plx.jpg",
     },
     {
       id: 9,
-      src: "https://drive.google.com/uc?export=view&id=1P4ftux2rjE_VWrHQs4cycMMuQX7f9SFf",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678160/Gallery/IMG_0786_upwn99.jpg",
     },
     {
       id: 10,
-      src: "https://drive.google.com/uc?export=view&id=1NJeGeHXIKxzhaEJZpLYWlaiuhhKiZG_l",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678217/Gallery/DSC_0339_p0uyl5.jpg",
     },
     {
       id: 11,
-      src: "https://drive.google.com/uc?export=view&id=12QQDUz63xoOHYx5H-zLrO_CB4Csm3qzZ",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679443/Gallery/_DSC0056_1_11zon_etimct.jpg",
     },
     {
       id: 12,
-      src: "https://drive.google.com/uc?export=view&id=1FpasbBTw28TRxCmAVI3MysocO8LIukHr",
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679339/Gallery/DSC_0478_1_11zon_bjv6a3.jpg",
+    },
+    {
+      id: 13,
+      src: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719678134/Gallery/IMG_0795_pqa2uc.jpg",
     },
   ];
 
@@ -141,7 +145,7 @@ const CarouselPage = () => {
             onClick={nextSlide}
           >
             <Image
-              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664973/expresso/leftarrow-artdesc_s2ckx6.png"
+              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664945/expresso/rightarrow-artdesc_yckiew.png"
               width={20}
               height={20}
               alt="rightarrow"
