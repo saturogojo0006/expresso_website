@@ -23,7 +23,7 @@ Fork the repository-
 
 ```bash
   1.Click the "Fork" button
-  2.You'll see a copy of the original repository in your account, with your username as the owner. 
+  2.You will see a copy of the original repository in your account, with your username as the owner. 
   You can now make changes to this forked repository without affecting the original repository.
 
 ```
