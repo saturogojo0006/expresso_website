@@ -15,7 +15,7 @@ function EventDesc({ event }) {
         <div className="flex gap-1 flex-row-reverse items-center">
           <div className="text-white text-xl font-antonio pb-1">BACK</div>
           <div className="border-2 rounded-full border-white p-1">
-            <Image src="/Arrow2.png" width={20} height={20} alt="Arrow" />
+            <Image src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664989/expresso/Arrow2_epdbhb.png" width={20} height={20} alt="Arrow" />
           </div>
         </div>
       </button>
@@ -23,7 +23,7 @@ function EventDesc({ event }) {
       <div className="flex flex-col sm:flex-row items-center sm:items-start mt-4 gap-4">
         <div className="w-full sm:w-auto">
           {/* Use Next.js Image component */}
-          <Image src="/eventPicture.png" width={250} height={300} alt="Event Picture" className="object-cover w-full h-auto" />
+          <Image src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664964/expresso/eventPicture_izmy0i.png" width={250} height={300} alt="Event Picture" className="object-cover w-full h-auto" />
         </div>
         <div className="flex flex-col w-full sm:ml-4">
           <div className="font-antonio text-[#FEFEFE] text-3xl sm:text-5xl">{title}</div>

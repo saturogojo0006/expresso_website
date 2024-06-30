@@ -1,7 +1,7 @@
 const teamData = {
   post_bearers: {
     teamName: "Post-Bearers",
-    teamImage: "/Mask group.png",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664978/expresso/Mask_group_ti7q7g.png",
     members: [
       {
         id: 0,
@@ -97,7 +97,7 @@ const teamData = {
     ],},
       post_bearers_2: {
         teamName: "Post-Bearers",
-        teamImage: "/Mask group.png",
+        teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664978/expresso/Mask_group_ti7q7g.png",
         members: [
           {
             id: 8,
@@ -187,7 +187,7 @@ const teamData = {
     ],},
     post_bearers_3: {
       teamName: "Post-Bearers",
-      teamImage: "/Mask group.png",
+      teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664978/expresso/Mask_group_ti7q7g.png",
       members: [
       
         {
@@ -278,7 +278,7 @@ const teamData = {
     ],},
     post_bearers_4: {
       teamName: "Post-Bearers",
-      teamImage: "/Mask group.png",
+      teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664978/expresso/Mask_group_ti7q7g.png",
       members: [
         {
           id: 24,
@@ -314,7 +314,7 @@ const teamData = {
   },
   art: {
     teamName: "Art",
-    teamImage: "/ART.png",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
     members: [
       {
         id: 1,
@@ -398,7 +398,7 @@ const teamData = {
       },],},
       art_2: {
         teamName: "Art",
-        teamImage: "/ART.png",
+        teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
         members: [
       {
         id: 9,
@@ -490,7 +490,7 @@ const teamData = {
     ],},
     art_3: {
       teamName: "Art",
-      teamImage: "/ART.png",
+      teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
       members: [
       {
         id: 17,
@@ -544,7 +544,7 @@ const teamData = {
   },
   literature: {
     teamName: "Literary",
-    teamImage: "/Pen.png",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664979/expresso/Pen_l0l8t5.png",
     members: [
       {
         id: 1,
@@ -736,7 +736,7 @@ const teamData = {
     ],},
     literature_3: {
       teamName: "Literary",
-      teamImage: "/Pen.png",
+      teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664979/expresso/Pen_l0l8t5.png",
       members: [
       {
         id: 17,
@@ -810,7 +810,7 @@ const teamData = {
   },
   website: {
     teamName: "Web",
-    teamImage: "/office.png",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664939/expresso/office_cosnl8.png",
     members: [
       
       {
@@ -908,7 +908,7 @@ const teamData = {
   },
   website_2: {
     teamName: "Web",
-    teamImage: "/office.png",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664939/expresso/office_cosnl8.png",
     members: [
       
   {

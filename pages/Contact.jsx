@@ -99,7 +99,7 @@ const Contact = () => {
       <div className="flex flex-col sm:flex-row w-full">
         <div className="w-full sm:w-1/2">
           <Image
-            src="/treeup1.png"
+            src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664948/expresso/treeup1_mqlfmq.png"
             width={1200}
             height={300}
             alt="image"
@@ -108,7 +108,7 @@ const Contact = () => {
         </div>
         <div className="w-full sm:w-1/2">
           <Image
-            src="/treeup2.png"
+            src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664948/expresso/treeup2_ejoglk.png"
             width={1000}
             height={300}
             alt="image"
@@ -119,7 +119,7 @@ const Contact = () => {
       <div className="flex flex-col sm:flex-row w-full px-4 sm:px-8 py-8">
         <div className="w-full sm:w-5/12 sm:pl-2 sm:pr-6">
           <Image
-            src="/contactus.png"
+            src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664965/expresso/contactus_bzqd50.png"
             width={500}
             height={480}
             alt="image"
@@ -293,7 +293,7 @@ const Contact = () => {
       <div className="w-full bg-black">
         <div className="w-full">
           <Image
-            src="/treebottom.png"
+            src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664947/expresso/treebottom_ghchwd.png"
             width={1200}
             height={140}
             alt="image"

@@ -94,13 +94,13 @@ const CarouselPage = () => {
     <>
       <div
         className={`text-[20vw] sm:text-[8vw] relative z-10 font-antonio text-center bg-black text-white`}
-        style={{ backgroundImage: `url('/event.png')` }}
+        style={{ backgroundImage: `url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664966/expresso/event_n8qwxn.png')` }}
       >
         GALLERY{" "}
       </div>
       <div
         className="relative w-full h-[480px] sm:h-[640px] flex items-center justify-center bg-gray-900"
-        style={{ backgroundImage: `url('/event.png')` }}
+        style={{ backgroundImage: `url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664966/expresso/event_n8qwxn.png')` }}
       >
         <div
           className="relative w-[90%] m-2 h-96 lg:h-[620px] overflow-hidden shadow-lg rounded-lg"
@@ -130,7 +130,7 @@ const CarouselPage = () => {
             onClick={prevSlide}
           >
             <Image
-              src="/leftarrow-artdesc.png"
+              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664973/expresso/leftarrow-artdesc_s2ckx6.png"
               width={20}
               height={20}
               alt="leftarrow"
@@ -141,7 +141,7 @@ const CarouselPage = () => {
             onClick={nextSlide}
           >
             <Image
-              src="/rightarrow-artdesc.png"
+              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664973/expresso/leftarrow-artdesc_s2ckx6.png"
               width={20}
               height={20}
               alt="rightarrow"
