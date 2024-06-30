@@ -54,14 +54,6 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## You can check it out the link
-
-
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more detail
-
 
 ## Features
 
@@ -73,6 +65,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Card rending
 
 
-Thank You
+## Thank You
 <!-- - Cross platform -->
 
