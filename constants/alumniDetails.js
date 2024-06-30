@@ -7,7 +7,7 @@ const alumniData = {
         position: "Media Lead",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=12z_Mn0ljsv_uFWNcjPp2SwcWSTVRvt6s",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681118/Alumni/AvnitPrakash_l7fwcq.jpg",
         branch: "ECE-24",
         instagram:
           "https://www.instagram.com/_avnitp1070?igsh=MXd1aGJ0c3BzcXVzaw==",
@@ -21,7 +21,7 @@ const alumniData = {
         position: "Content Co-Editor",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1WhHgJX195nukbDeF0QF8VH69ZZeTpuT0",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681129/Alumni/ShubhamKumar_cepbpm.jpg",
         branch: "ME-24",
         instagram:
           "https://www.instagram.com/shubham_024_kumar?igsh=MjNrYTJ6amc2dnRi",
@@ -35,7 +35,7 @@ const alumniData = {
         position: "Event Coordinator ",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1-EpL6YEgYiLI4q7O5P1Ko578_kDOPVai",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681117/Alumni/yashAnupam_two5o2.jpg",
         branch: "ECE-24",
         instagram:
           "https://www.instagram.com/yash_anupam?igsh=ZXdxOG5ibXZjcnFt",
@@ -49,7 +49,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1vwLnhG7_pGWteX10OLp2-7sNRwl55d8Q",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681124/Alumni/ParulGupta_syn2bv.jpg",
         branch: "EE-24",
         instagram: "https://www.instagram.com/gparul.29?igsh=YzkxNDBsaHJzNzNl",
         linkedin:
@@ -62,7 +62,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1D5OSJtakA4ClfP5IcppyyePckJTewKk_",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681121/Alumni/HimanshuRai_xotf4v.jpg",
         branch: "CSE-24",
         instagram:
           "https://www.instagram.com/himanshurai122?igsh=MTlieTMyOXMxZWc4NQ==",
@@ -76,7 +76,7 @@ const alumniData = {
         position: " ",
         team: "Non-Technical",
         image:
-          "https://drive.google.com/uc?export=view&id=1UOBrLl06CD50TUROvJQL9JNO303eGXKA",
+        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681121/Alumni/Gautam_y3svtn.jpg",
         branch: "ECE-24",
         instagram: "https://www.instagram.com/gauti_1820?igsh=OXBhdTdjOHVkdGZz",
         linkedin:
@@ -89,7 +89,7 @@ const alumniData = {
         position: "Editor In-Chief",
         team: "Non-Technical",
         image:
-          "https://drive.google.com/uc?export=view&id=1bQ54Hvt_7vzRWo3aeVmNkFY9b9ut1DXJ",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681116/Alumni/subhiSingh_rkfilt.jpg",
         branch: "ECE-24",
         instagram:
           "https://www.instagram.com/_shubhii.s?igsh=MTUxMXp3OGtvd3BqaA==",
@@ -101,7 +101,7 @@ const alumniData = {
         name: "Riti Raj",
         position: "Event Co-Coordinator",
         team: "Non-Technical",
-        image: "https://drive.google.com/uc?export=view&id=1N9-utfoIfy8DZyM-8bYsx8bsGBoWjJIG",
+        image:  "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681137/Alumni/Riti_Raj_py2emu.jpg",
         branch: "CE-24",
         instagram: "https://www.instagram.com/ritiraj04?igsh=bDcwa3cyeGF2ODkw",
         linkedin: "https://www.linkedin.com/in/riti-raj-455885242?trk=contact-info",
@@ -117,7 +117,7 @@ const alumniData = {
         position: "Media Co-Coordinator",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1-Lr2JP46jGvPpA38dXKYEaLvrngQ4RCu",
+        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681118/Alumni/AkshitaMaheswari_gk8x8b.jpg",
         branch: "EE-24",
         instagram:
           "https://www.instagram.com/_akshhi?igsh=MWtzaGJyMTRzNmd2dQ==",
@@ -143,7 +143,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1-Nz-LtGy3bMgp9KbeuA7IASOCsHmZCuo",
+        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681125/Alumni/RathorGuruGovindSingh_pewta7.jpg",
         branch: "ME-24",
         instagram:
           "https://www.instagram.com/rathod_guru_naayak0816?igsh=ejlrem45ZmJ5enhp",
@@ -157,7 +157,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1-PP43ftawRR_5df6XRU1U5uw34I4bN-E",
+        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681123/Alumni/KaushikPatnaik_y29j1j.jpg",
         branch: "ECE-24",
         instagram:
           "https://www.instagram.com/kaushikpattnaik139?igsh=MW52ZDJwcjM0Y3Y3",
@@ -171,7 +171,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1-RtFNUH3X_LN66A4FUWJoO9pTys_cvlS",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681120/Alumni/DarshanJain_rtm18q.jpg",
         branch: "ECE-24",
         instagram: "https://www.instagram.com/_._darshh?igsh=N3M0aGVrOGtrdTZ1",
         linkedin:
@@ -184,7 +184,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=12fH1TGKvjz-NAponxVJ1Tkk0OCQa1QzB",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681128/Alumni/roshnimam_hxpxeu.jpg",
         branch: "ARCH-25",
         instagram: "https://www.instagram.com/mayuroshani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
         linkedin:
@@ -197,7 +197,7 @@ const alumniData = {
         position: "Ex Vice President",
         team: " ",
         image:
-          "https://drive.google.com/uc?export=view&id=1JA42d_R_iAnDy_dXnJRyiHSscyi2pw0x",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679913/profile%20pictures/Mushkan%20Jha.jpg",
         branch: "ARCH-26",
         instagram: "",
         linkedin:
