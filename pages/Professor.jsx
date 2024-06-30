@@ -77,7 +77,7 @@ function Professor() {
         <div className="flex flex-row justify-center items-center relative lg:mt-[-9.5%] lg:ml-[70%] lg:z-10">
           <span>
             <Image
-              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664985/expresso/PI_vlwdbt.png"
+              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719663264/dkdheer_zz9luz.png"
               width={240}
               height={230}
               alt="Professor Image"

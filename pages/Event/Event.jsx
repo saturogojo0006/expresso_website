@@ -380,7 +380,7 @@ const Event = () => {
             </div>
             <div
               className="text-[#ffffff] text-base sm:text-lg bg-cover bg-center p-4 mt-4 mb-6 whitespace-pre-line overflow-y-auto max-h-64 rounded-2xl"
-              style={{ backgroundImage: `url('/event.png')` }}
+              style={{ backgroundImage: `url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664985/expresso/HomeBg1_bzalmy.png')` }}
             >
               {event.description}
             </div>

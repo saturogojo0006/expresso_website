@@ -1407,21 +1407,24 @@ Yet, content, amidst life's quagmire.`,
 की मेरे बाद जो कोई तुझसे मिले तो तूझसे पहले मुझसे मिले।`,
   },
   literature58: {
-    title: "दो पंक्तियाँ",
-    author: "Alankrita Singh",
+    title: "Journey's Echoes",
+    author: "Om Vats",
     authorImage:
-      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/ALANKRITA%20SINGH.jpg",
-    instagram:
-      "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
-    linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260/?",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679907/profile%20pictures/Om%20Vats.jpg",
+    instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
+    linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
     coverImage: "/artpic.png",
-    description: `एक अलग ही कशिश है आज की चांदनी में
-मानो चाँद सूरज सा चमकता हो
-ये अपनी रौशनी में आबाद है या फिर किसी को देख कर चमक उठा है?
-
-
-ये जाम के प्याले सी आंखें उसकी
-नशा पीने पर कैसा होता होगा जिन्हे देखना ही अफ़ीम है`,
+    description: `On the train, pondering the paths,
+Unveiling hidden hopes in people's whispers,
+Understanding the unspoken words in their eyes,
+Observing both sides of human nature,
+One natural and simple, the other cunning and sycophantic,
+Feeling the conflict between them,
+Yet...they are all strangers,
+I want to believe,
+I want to forget that conflict,
+Heading home...want to feel joy,
+Still, remembering the "suffer" of this train.`,
   },
   literature59: {
     title: "आए पधारे राम हमारे ",
@@ -1496,24 +1499,23 @@ Yet, content, amidst life's quagmire.`,
 समझ आ चुका है, इस जिंदगी का फलसफा, अपनी जीत के लिए तो मौत को भी इसकी दरकार है।`,
   },
   literature63: {
-    title: "Journey's Echoes",
-    author: "Om Vats",
+   
+    title: "दो पंक्तियाँ",
+    author: "Alankrita Singh",
     authorImage:
-      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679907/profile%20pictures/Om%20Vats.jpg",
-    instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
-    linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/ALANKRITA%20SINGH.jpg",
+    instagram:
+      "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
+    linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260/?",
     coverImage: "/artpic.png",
-    description: `On the train, pondering the paths,
-Unveiling hidden hopes in people's whispers,
-Understanding the unspoken words in their eyes,
-Observing both sides of human nature,
-One natural and simple, the other cunning and sycophantic,
-Feeling the conflict between them,
-Yet...they are all strangers,
-I want to believe,
-I want to forget that conflict,
-Heading home...want to feel joy,
-Still, remembering the "suffer" of this train.`,
+    description: `एक अलग ही कशिश है आज की चांदनी में
+मानो चाँद सूरज सा चमकता हो
+ये अपनी रौशनी में आबाद है या फिर किसी को देख कर चमक उठा है?
+
+
+ये जाम के प्याले सी आंखें उसकी
+नशा पीने पर कैसा होता होगा जिन्हे देखना ही अफ़ीम है`,
+   
   },
   literature64: {
     title: "माँ",
