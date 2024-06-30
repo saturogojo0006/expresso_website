@@ -62,6 +62,64 @@ const LiteratureData = {
 जहां की खुदा तू और तू मेरी फरियाद थी`,
   },
   literature3: {
+    title: "हम बच्चे है हम मासूम है",
+    author: "Mirza Y S Baig",
+    authorImage:
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679915/profile%20pictures/MIRZA%20BAIG.jpg",
+    instagram: "https://www.instagram.com/mirzathedreamers",
+    linkedin: "https://www.linkedin.com/in/mirza-baig-nitp",
+    coverImage: "/artpic.png",
+    description: `वो सपनों के राजा वो सपनों की रानी
+वो मेरी रूह की ताकत, वो मेरी फूल सी कली  
+वो मेरे आँखों के तारे, वो दिलकश नज़ारे 
+कहा करते थे ऐसे ही माँ बाप हमारे..
+
+पर क्या कहूँ..  
+मेरा घर टूट चुका है.. मेरा सब कुछ लुट चुका है..  
+पता हमें भी न था, न उन्हें थी खबर..  
+कब ये प्यार भरी अल्फ़ाज़ लहू के सन्नाटे में बदल जाएंगे..  
+कब हमारे माँ बाप हमसे ही बिछड़ जाएंगे..
+
+हम बच्चे हैं, हम मासूम हैं..  
+फिर भी..  
+क्यों आपने फँसाया हमें अपनी सियासत के ढंग में..  
+क्यों उतारा हमें मैदान-ए-जंग में..  
+हम बच्चे हैं, हम मासूम..  
+फिर भी क्यों बनाया निशाना हममें..
+
+हम बच्चे हैं, हम मासूम हैं..  
+हमारी तरह और कितने ही मासूम हैं..  
+हमने क्या जुर्म कर दिया बता दीजिए..  
+हमें अनाथ क्यों कर दिया बता दीजिए..
+
+हम बच्चे हैं, हम मासूम हैं..  
+अब हम अपने प्यास को बुझाएं कैसे..  
+दो वक्त की रोटी कमाएं कैसे..  
+रहने का ठिकाना बनाएं कैसे..
+
+कफ़न में लिपटे, खून से सने..  
+हम अपनों को गले लगाएं कैसे..  
+अपने दर्द-ए-दिल की धड़कन को सुनाएं कैसे..  
+अपने रूह की फ़रियाद को बताएं कैसे..
+
+हमारे लिए तो सब कुछ लुट चुका है..  
+जीने की चाहत है पर आशियाना टूट चुका है..  
+पढ़ने की ख़्वाहिश है पर बस्ता छूट चुका है..  
+हमारे लिए तो सब कुछ लुट चुका है..
+
+बना बैठे हैं कुछ राहत की उम्मीदें..  
+हर साल करते हैं इस दुनिया से कुछ मिन्नतें..  
+ख़त्म करो इस जंग-ए-दुनिया के तकरार को..  
+अब हमें अपनाने का इकरार करो..
+
+हम बच्चे हैं, हम मासूम..  
+ये कुछ ख़्वाब हमारे भी हैं..  
+ये कुछ ख़्वाब हमारे भी हैं..  
+पर..  
+ख़्वाबों की दुनिया मुकम्मल कहाँ है..  
+जीने की ख़्वाहिश में मरना यहाँ है..`,
+  },
+  literature4: {
     title: "अधूरी बातें",
     author: "Arun Singh",
     authorImage:
@@ -102,7 +160,7 @@ const LiteratureData = {
 हर दर्द को सीने में दबाकर,
 मैं हंसता और हंसाता बहुत हूँ।`,
   },
-  literature4: {
+  literature5: {
     title: "आदतें",
     author: "Aniket Kumar",
     authorImage:
@@ -117,7 +175,7 @@ const LiteratureData = {
 इन पंक्तियों में मैंने तुमको पिरोया है ,
 भला इन पंक्तियों में मैं पूर्ण विराम कैसे लगा पाऊँगा`,
   },
-  literature5: {
+  literature6: {
     title: "तुम्हारी आँखे",
     author: "Alankrita Singh",
     authorImage:
@@ -157,7 +215,7 @@ const LiteratureData = {
 अरे हम तो ऐसे ही घायल हैं इन्हें देख के,
  इस बेकरार दिल पे यू बिजलियाँ गिराया ना करो`,
   },
-  literature6: {
+  literature7: {
     title: "इन्सान",
     author: "Harshali",
     authorImage:
@@ -188,7 +246,7 @@ const LiteratureData = {
 खुद से बतियाता, नीरवता को
 ताक़ता इक इन्सान है। अकेलापन, यानि मौन की मारक मुस्कान है।`,
   },
-  literature7: {
+  literature8: {
     title: "इश्क़",
     author: "Harsh Vardhan",
     authorImage:
@@ -211,7 +269,7 @@ const LiteratureData = {
 चोट दिल पर नहीं करता 
 रूह पर वार करता है ।`,
   },
-  literature8: {
+  literature9: {
     title: "बस तवक्कुल है।",
     author: "Pawni Chauhan",
     authorImage:
@@ -232,7 +290,7 @@ const LiteratureData = {
 बस संभाल रखा है ऐसे ख़ुद को हमने आजकल,
 बस तवक्कुल है तो धीरे-धीरे संभल भी जाएंगे आज नहीं तो कल।`,
   },
-  literature9: {
+  literature10: {
     title: "लड़कियां",
     author: "Akash Patel Singh",
     authorImage:
@@ -249,7 +307,7 @@ const LiteratureData = {
 एक दिन मर जाएंगी सारी लड़कियां,
 और ख़त्म हो जाएगा रौब मर्दों का।`,
   },
-  literature10: {
+  literature11: {
     title: "बर्बादी",
     author: "Om Vats",
     authorImage:
@@ -275,7 +333,7 @@ const LiteratureData = {
 फिर भी कुछ नही कर सकता ,
 पर इसी का सार तो जिंदगी है ।।`,
   },
-  literature11: {
+  literature12: {
     title: "बहुत दूर",
     author: "Kaushikee Kashyap",
     authorImage:
@@ -305,7 +363,7 @@ const LiteratureData = {
 कि पीछे छूट चुकी इंसानियत भी दिखती नहीं कभी।
 `,
   },
-  literature12: {
+  literature13: {
     title: "इक दिन उसको खो दोगे",
     author: "Shikha Thakur ",
     authorImage:
@@ -331,7 +389,7 @@ const LiteratureData = {
 कहते हो कि रोक सकोगे उसको, 'राखा' मुमकिन है!
 सच बोलूं तो पागल हो तुम- कुछ भी बोला करते हो..`,
   },
-  literature13: {
+  literature14: {
     title: "माँ  सरस्वती के प्रति",
     author: "Nilabh Mishra",
     authorImage:
@@ -356,7 +414,7 @@ const LiteratureData = {
 मिट जाए अंधकार अब
                            जीवन में नया रंग भरो ।४|`,
   },
-  literature14: {
+  literature15: {
     title: "खो दिया हूं।",
     author: "Aditya Kumar",
     authorImage:
@@ -379,7 +437,7 @@ const LiteratureData = {
 खुद की तालाश में अब निकल गया हूं।
 न जाने मैं कैसा हो गया हूं? मैं खुद में ही अब खो गया हूं।`,
   },
-  literature15: {
+  literature16: {
     title: "आज बहुत समय बाद",
     author: "Satyam",
     authorImage:
@@ -400,7 +458,7 @@ const LiteratureData = {
  ख्वाबों में अपना मान कर  माना जो तुम्हें खुदा..
  फिर मिलेंगे किसी रोज, फिर होने को जुदा`,
   },
-  literature16: {
+  literature17: {
     title: "बिका हुआ अख़बार",
     author: "Vani Kumari",
     authorImage:
@@ -430,7 +488,7 @@ const LiteratureData = {
 अब बिकी हुई है क्रांति, बिका हुआ हर आधार है, 
 है खबर ऐसी की अब बिक चुका अखबार है।।`,
   },
-  literature17: {
+  literature18: {
     title: "Beginning is End",
     author: "Supriya Raj",
     authorImage:
@@ -449,7 +507,7 @@ Why do we forget those good days ,when we did smile..
 One should accept every phase and shade..
 That's how a Great Human is made.`,
   },
-  literature18: {
+  literature19: {
     title: "अभिमान्युं",
     author: "Shivani",
     authorImage:
@@ -468,7 +526,7 @@ That's how a Great Human is made.`,
 मैं वो हूं जो द्रौपदी मां के लाज की खातिर 
 मात्र 16 साल की उम्र में ही वीरगति को प्राप्त किया।`,
   },
-  literature19: {
+  literature20: {
     title: "वफ़ा",
     author: "Aman Gupta",
     authorImage:
@@ -484,7 +542,7 @@ That's how a Great Human is made.`,
 अब अरमान में मेरे,
 तु भगवान बनने की कोशिश ना कर !`,
   },
-  literature20: {
+  literature21: {
     title: "जुआ",
     author: "Aniket Kumar",
     authorImage:
@@ -506,7 +564,7 @@ That's how a Great Human is made.`,
 और एक हार के बाद फिर से एक जीत की आश लगाना। 
 मानो तो ज़िंदगी का हर एक पल जुआ है।`,
   },
-  literature21: {
+  literature22: {
     title: "भूख",
     author: "Alankrita Singh",
     authorImage:
@@ -563,7 +621,7 @@ That's how a Great Human is made.`,
 हलवे की बात वह कहानी में टालती रही
 जब तक वह सोया नहीं बस पानी उबलती रही..!!!`,
   },
-  literature22: {
+  literature23: {
     title: "दो पंक्तियाँ",
     author: "Harsh Vardhan",
     authorImage:
@@ -580,7 +638,7 @@ That's how a Great Human is made.`,
 तुम मोहब्बत को खेल कहते हो 
 हम ने बर्बाद ज़िंदगी कर ली`,
   },
-  literature23: {
+  literature24: {
     title: "कल्ब - ए - इज़हार",
     author: "Harshali",
     authorImage:
@@ -600,7 +658,7 @@ That's how a Great Human is made.`,
 
 क्या कहूँ इस कमअक्ल से तुझ पे ज़ो निसार है. आज ज़िद पर अड़ा तेरा जवाब माँगता है।।`,
   },
-  literature24: {
+  literature25: {
     title: "तरस",
     author: "Om Vats",
     authorImage:
@@ -619,7 +677,7 @@ That's how a Great Human is made.`,
 बस बांधा हुआ सा हु,
 बस तरसा हुआ सा हु।।`,
   },
-  literature25: {
+  literature26: {
     title: "एक मुकम्मल दुआ",
     author: "Pawni Chauhan",
     authorImage:
@@ -645,7 +703,7 @@ That's how a Great Human is made.`,
 खूब लुट गए उन अंजान महफिलों में तो क्या हुआ, एक महफिल अब अपने लिए सजाओ तो सही।
 एक दुआ मुकम्मल हुई है जनाब, बाकी सारी अधुरी ख्वाहिशें किनारे हटाओ तो सही।।।`,
   },
-  literature26: {
+  literature27: {
     title: "प्रेम इच्छा",
     author: "Nilabh Mishra",
     authorImage:
@@ -682,7 +740,7 @@ That's how a Great Human is made.`,
 चली जाना मिलकर इससे
 फिर यह कोई शिकायत न कर पाएगा ।`,
   },
-  literature27: {
+  literature28: {
     title: "वो-जो मेरी है",
     author: "Om Vats",
     authorImage:
@@ -700,7 +758,7 @@ That's how a Great Human is made.`,
 कैसे बताऊं उससे की वो इन सब दुखो पे मलहम है,
 ना जानते हुए भी वो सबकुछ है।।`,
   },
-  literature28: {
+  literature29: {
     title: "Imperfectly Perfect",
     author: "Kaushikee Kashyap",
     authorImage:
@@ -719,7 +777,7 @@ There lie many hindrances in my way,
 "Don't worry ! You'll tackle them all" , each time I say
 `,
   },
-  literature29: {
+  literature30: {
     title: "यादें इश्क़ की",
     author: "Vani Singh",
     authorImage:
@@ -755,7 +813,7 @@ There lie many hindrances in my way,
 मन की सारी बात सुनने, कहने वाले
 इस डायरी से, इस स्याही से ।।`,
   },
-  literature30: {
+  literature31: {
     title: "कहता है कि..",
     author: "Shikha Thakur ",
     authorImage:
@@ -768,7 +826,7 @@ There lie many hindrances in my way,
 फ़ोन में घंटी मेरी हो तो ख़ाक भर कि कीमत है 
 चूल्हे पर रक्खे बर्तन में, चाय जले तो जले!!`,
   },
-  literature31: {
+  literature32: {
     title: "मैं तुम्हें फिर मिलूंगा",
     author: "Satyam",
     authorImage:
@@ -790,7 +848,7 @@ There lie many hindrances in my way,
 क्योंकि, कल या परसों, मैं तुमसे फिर मिलूंगा, फिर एक फूल की तरह खिलूंगा ! मैं तुमसे फिर मिलूंगा, मैं तुमसे फिर मिलूंगा।
 एक रोज ..........`,
   },
-  literature32: {
+  literature33: {
     title: "पट्टी  की कहानी",
     author: "Supriya Raj",
     authorImage:
@@ -806,7 +864,7 @@ There lie many hindrances in my way,
 फिर उड़ जाते हैं वो परिंदे आसमान में …
 छोड़ जाते हैं पट्टी को जमीं पर अटल |`,
   },
-  literature33: {
+  literature34: {
     title: "दर्द",
     author: "Shivani",
     authorImage:
@@ -854,7 +912,7 @@ There lie many hindrances in my way,
 बस कल अपनी ही बारी है॥
 यह दर्द बहुत ही भारी है।`,
   },
-  literature34: {
+  literature35: {
     title: "प्रेमी पत्र",
     author: "Nilabh Mishra",
     authorImage:
@@ -884,7 +942,7 @@ There lie many hindrances in my way,
 लिख देना कागज़ पर तुम भी
 "यह पत्र तुम्हारे नाम प्रिये" ।५।`,
   },
-  literature35: {
+  literature36: {
     title: "ग़म",
     author: "Akash Patel Singh",
     authorImage:
@@ -897,7 +955,7 @@ There lie many hindrances in my way,
 साकी डालो शराब ग्लास में
 आज सारे ग़मों को भुलाया जाए`,
   },
-  literature36: {
+  literature37: {
     title: "शिकायत",
     author: "Shikha Thakur ",
     authorImage:
@@ -922,7 +980,7 @@ There lie many hindrances in my way,
 
 शिकायतें तमाम है, गिनाये क्या....`,
   },
-  literature37: {
+  literature38: {
     title: "उसकी आँखों का काजल",
     author: "Aniket Kumar",
     authorImage:
@@ -936,7 +994,7 @@ There lie many hindrances in my way,
 मेरे काले रंग से उसकी कतीलाना आँखे चमक बिखेर पाए एक ऐसा जरिया मैं बन जाऊँ। 
 काश मैं उसकी आँखों का काजल बन जाऊँ।`,
   },
-  literature38: {
+  literature39: {
     title: "दो पंक्तियाँ",
     author: "Alankrita Singh",
     authorImage:
@@ -957,7 +1015,7 @@ There lie many hindrances in my way,
  कि वो मोहब्बत एक सी नहीं करता
 किसी दिन पूरा तो किसी दिन शून्य रहता!`,
   },
-  literature39: {
+  literature40: {
     title: "मुहब्बत",
     author: "Harshali",
     authorImage:
@@ -983,7 +1041,7 @@ There lie many hindrances in my way,
 
 क्या वो उन लम्हों में बहुत गहरे नही थे क्या इश्क़ के दरिया में वो इतने डूबे नही थे की जब दिल चाहा और बाहर चले आए।`,
   },
-  literature40: {
+  literature41: {
     title: "दो पंक्तियाँ",
     author: "Harsh Vardhan",
     authorImage:
@@ -998,7 +1056,7 @@ There lie many hindrances in my way,
 लोग कहते हैं मोहब्बत में असर होता है 
 कौन से शहर में होता है किधर होता है`,
   },
-  literature41: {
+  literature42: {
     title: "शुरुआत",
     author: "Pawni Chauhan",
     authorImage:
@@ -1011,7 +1069,7 @@ There lie many hindrances in my way,
 किसे दिलचस्पी है गैरों के ठिकानों में,
 आओ तुम्हारे दर पे ही अब दिन को रात करें`,
   },
-  literature42: {
+  literature43: {
     title: "बसंत",
     author: "Akash Patel Singh",
     authorImage:
@@ -1027,7 +1085,7 @@ There lie many hindrances in my way,
 मंद हवा है, सिरहन है
 तेरी छुअन है, मेरी हलचल है।।`,
   },
-  literature43: {
+  literature44: {
     title: "हिज़्र",
     author: "Aniket Kumar",
     authorImage:
@@ -1042,7 +1100,7 @@ There lie many hindrances in my way,
 मैंने तेरी सोहबत के खातिर कई बार घुटने घिस्से हैं, 
 और तुम एक कदम तक आगे न बढ़ा पाए तो अब बवाल क्यों करना।`,
   },
-  literature44: {
+  literature45: {
     title: "कृष्ण",
     author: "Shivani",
     authorImage:
@@ -1066,7 +1124,7 @@ There lie many hindrances in my way,
 मेरा संसार हो तुम
  मेरे सफर का सार हो तुम ||`,
   },
-  literature45: {
+  literature46: {
     title: "प्रेम विरह",
     author: "Nilabh Mishra",
     authorImage:
@@ -1090,7 +1148,7 @@ There lie many hindrances in my way,
  चक्षु आज उनके दुख से जले है,
 दृग युगल उनके भरे है।`,
   },
-  literature46: {
+  literature47: {
     title: "सफेद रंगत",
     author: "Om Vats",
     authorImage:
@@ -1115,7 +1173,7 @@ There lie many hindrances in my way,
 ऐ मोहतरमा।।
 `,
   },
-  literature47: {
+  literature48: {
     title: "Trees : The treasure",
     author: "Kaushikee Kashyap",
     authorImage:
@@ -1139,7 +1197,7 @@ Although their fascinating beauty is still obscure.
 
 `,
   },
-  literature48: {
+  literature49: {
     title: "बेटी",
     author: "Shikha Thakur",
     authorImage:
@@ -1167,7 +1225,7 @@ Although their fascinating beauty is still obscure.
  बस अपनी माँ के पास
  थोड़ा ज्यादा बेटी कर देता है !`,
   },
-  literature49: {
+  literature50: {
     title: "इश्क़",
     author: "Akash Patel Singh",
     authorImage:
@@ -1183,7 +1241,7 @@ Although their fascinating beauty is still obscure.
 यार, कैसा इश्क़ है मुझे ?
 बस, तुम ही से इश्क़ है मुझे !`,
   },
-  literature50: {
+  literature51: {
     title: "दीपों की दस्तक",
     author: "Pawni Chauhan",
     authorImage:
@@ -1196,7 +1254,7 @@ Although their fascinating beauty is still obscure.
 दीवाली ने दस्तक तो दे दी है, 
 तुम संग त्योहार मनाने आ जाना।`,
   },
-  literature51: {
+  literature52: {
     title: "दो पंक्तियाँ",
     author: "Harsh Vardhan",
     authorImage:
@@ -1216,7 +1274,7 @@ Although their fascinating beauty is still obscure.
 मैंने उसे हस कर खो दिया 
 जिसे रो रो कर माँगा था ।`,
   },
-  literature52: {
+  literature53: {
     title: "पिंजरा",
     author: "Shivani",
     authorImage:
@@ -1255,7 +1313,7 @@ Although their fascinating beauty is still obscure.
 फिर ख्याल आया मन में की क्यों ये बेड़िया मैंने खुद पे बंधने दी
 अपने सपनो की उड़ान क्यों मैंने थमने दी`,
   },
-  literature53: {
+  literature54: {
     title: "I Apologise to Myself",
     author: "Kaushikee Kashyap",
     authorImage:
@@ -1284,7 +1342,7 @@ You are pretty and your soul is pure
 You can do anything, I know this for sure..
 `,
   },
-  literature54: {
+  literature55: {
     title: "महफ़िल",
     author: "Shikha Thakur ",
     authorImage:
@@ -1310,7 +1368,7 @@ You can do anything, I know this for sure..
 सब छोड़ गए तो लगता है ज़जीरे हैं 
 कितनी आज़ादी लगती थी पहरों में!`,
   },
-  literature55: {
+  literature56: {
     title: "Lost in a world of desires",
     author: "Om Vats",
     authorImage:
@@ -1332,7 +1390,7 @@ Alone, I stand, with heart's attire,
 No recognition, no desire,
 Yet, content, amidst life's quagmire.`,
   },
-  literature56: {
+  literature57: {
     title: "दो पंक्तियाँ",
     author: "Alankrita Singh",
     authorImage:
@@ -1348,7 +1406,7 @@ Yet, content, amidst life's quagmire.`,
 की मुझे खुद में कुछ इस तरह बसा ले तू
 की मेरे बाद जो कोई तुझसे मिले तो तूझसे पहले मुझसे मिले।`,
   },
-  literature57: {
+  literature58: {
     title: "दो पंक्तियाँ",
     author: "Alankrita Singh",
     authorImage:
@@ -1365,7 +1423,7 @@ Yet, content, amidst life's quagmire.`,
 ये जाम के प्याले सी आंखें उसकी
 नशा पीने पर कैसा होता होगा जिन्हे देखना ही अफ़ीम है`,
   },
-  literature58: {
+  literature59: {
     title: "आए पधारे राम हमारे ",
     author: "Nilabh Mishra",
     authorImage:
@@ -1388,7 +1446,7 @@ Yet, content, amidst life's quagmire.`,
 पुलक प्रकट करेगी धरती, गायेंगे सब नाम तिहारे
 आज कई दिन बाद, अवध में राम पधारे ।`,
   },
-  literature59: {
+  literature60: {
     title: "सफ़र",
     author: "Akash Patel Singh",
     authorImage:
@@ -1407,7 +1465,7 @@ Yet, content, amidst life's quagmire.`,
 दब गयी है मेरी पुकार
 रुक जाओ, मैं भी साथ हूं।`,
   },
-  literature60: {
+  literature61: {
     title: "वक़्त और वजूद",
     author: "Pawni Chauhan",
     authorImage:
@@ -1420,7 +1478,7 @@ Yet, content, amidst life's quagmire.`,
 तूफानों का क्या है, मैंने तो हवाओं से भी ख़ुद को सहम जाते हुए देखा है। 
 ढलती हुईं शामों के साथ ख़ुद के वजूद को खोते हुए भी देखा है!`,
   },
-  literature61: {
+  literature62: {
     title: "ज़िंदगी",
     author: "Harshali",
     authorImage:
@@ -1437,7 +1495,7 @@ Yet, content, amidst life's quagmire.`,
 रूह फ़ना है, साँस थमी है हर लम्हा उदास है, पर दिल्लगी ही सही, यह गमों कि जश्न ए रात हैं. दिल को तसल्ली दे मशरूफि़यत ओढ़ कर आज 
 समझ आ चुका है, इस जिंदगी का फलसफा, अपनी जीत के लिए तो मौत को भी इसकी दरकार है।`,
   },
-  literature62: {
+  literature63: {
     title: "Journey's Echoes",
     author: "Om Vats",
     authorImage:
@@ -1457,7 +1515,7 @@ I want to forget that conflict,
 Heading home...want to feel joy,
 Still, remembering the "suffer" of this train.`,
   },
-  literature63: {
+  literature64: {
     title: "माँ",
     author: "Vani Singh",
     authorImage:
@@ -1509,7 +1567,7 @@ Still, remembering the "suffer" of this train.`,
 चाहे पूरा आसमां लिख दूं, 
 बात अधूरे रह जायेंगे ।।`,
   },
-  literature64: {
+  literature65: {
     title: "यादें",
     author: "Arun Singh",
     authorImage:
@@ -1539,7 +1597,7 @@ Still, remembering the "suffer" of this train.`,
 तेरी जुदाई में भी, हम तुझसे मुहब्बत निभा रहे हैं।
 `,
   },
-  literature65: {
+  literature66: {
     title: "मजदूर",
     author: "Akash Patel Singh",
     authorImage:
@@ -1561,7 +1619,7 @@ Still, remembering the "suffer" of this train.`,
 खेतों के, तुम्हारे 
 और इस प्रगतिशील दुनिया के।`,
   },
-  literature66: {
+  literature67: {
     title: "चाहत",
     author: "Harshali",
     authorImage:
@@ -1582,7 +1640,7 @@ Still, remembering the "suffer" of this train.`,
   लिखूं मैं तुझ पर सारा जीवन अपने दिन-रात  लिखूं I
 क्या लिखूं मैं तुझको कोई सज़ा या मिठा एक अहसास  लिखूं।`,
   },
-  literature67: {
+  literature68: {
     title: "शिकायतों की किताब",
     author: "Pawni Chauhan",
     authorImage:
@@ -1594,7 +1652,7 @@ Still, remembering the "suffer" of this train.`,
     हमने उन्हें पढ़ाने के लिए किताब क्या खोली, 
     वो तो उस क़िताब के आगे के ख़ाली पन्ने भर के रुखसत हो गए।`,
   },
-  literature68: {
+  literature69: {
     title: "ख्वाहिश",
     author: "Vani Singh",
     authorImage:
@@ -1616,7 +1674,7 @@ Still, remembering the "suffer" of this train.`,
 तुझे पाने की ख्वाहिश कब थी मेरी,
 तेरा दीदार हो, बस इतनी ही दुआ मांगी थी।।`,
   },
-  literature69: {
+  literature70: {
     title: "ग़ज़ल",
     author: "Nilabh Mishra",
     authorImage:
@@ -1630,7 +1688,7 @@ Still, remembering the "suffer" of this train.`,
 ये मौजियों की महफिल नही, ये पागलों की भीड़ है,
 आज फिर कोई शूली चढ़ेगा, इश्क के नाम पर ||`,
   },
-  literature70: {
+  literature71: {
     title: "कुछ तो बना लो",
     author: "Shivani",
     authorImage:
@@ -1663,7 +1721,7 @@ Still, remembering the "suffer" of this train.`,
 रख दो मेरे हाथ में अपना हाथ कुछ इस कादर
 कि मुझे अपने जीवन के हमसफ़र बना लो`,
   },
-  literature71: {
+  literature72: {
     title: "हर सपने को",
     author: "Pawni Chauhan",
     authorImage:
@@ -1695,7 +1753,7 @@ Still, remembering the "suffer" of this train.`,
 हर सपने को साकार किया ।
 हर सपने को साकार किया !!`,
   },
-  literature72: {
+  literature73: {
     title: "किताबें",
     author: "Akash Patel Singh",
     authorImage:
@@ -1716,7 +1774,7 @@ Still, remembering the "suffer" of this train.`,
 मिला मैं किताबों से।
 `,
   },
-  literature73: {
+  literature74: {
     title: "शायरी",
     author: "Nilabh Mishra",
     authorImage:
@@ -1746,7 +1804,7 @@ Still, remembering the "suffer" of this train.`,
 वो पूछते है क्या नशा किया है 
 हम नाम उनकी आंखों का ले लेते है ।`,
   },
-  literature74: {
+  literature75: {
     title: "यकीन",
     author: "Pawni Chauhan",
     authorImage:
@@ -1789,7 +1847,7 @@ Still, remembering the "suffer" of this train.`,
 यकीन उस पर करिए ,
 जिस पर दिल से यकीन करने का दिल करे ।`,
   },
-  literature75: {
+  literature76: {
     title: "खुशी",
     author: "Satyam",
     authorImage:
@@ -1802,7 +1860,7 @@ Still, remembering the "suffer" of this train.`,
  जिसे हर पल हम खुश रहते,
 वह तो एक पल को भी ना राज़ी हैं..`,
   },
-  literature76: {
+  literature77: {
     title: "पहली शराब",
     author: "Aditya Kumar",
     authorImage:
