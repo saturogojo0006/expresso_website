@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="text-white text-sm font-semibold text-center md:text-left mb-2 hover:underline">
+        <div className="text-white text-sm font-semibold text-center md:text-left mt-4 mb-2 hover:underline">
           &copy; Expresso NIT Patna 2024
         </div>
 
