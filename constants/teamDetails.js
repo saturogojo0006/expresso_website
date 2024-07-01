@@ -743,7 +743,7 @@ const teamData = {
         name: "Om Vats",
         position: "",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679907/profile%20pictures/Om%20Vats.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719829548/profile%20pictures/Om_Vats.jpg",
         branch: "CE-27",
         instagram: "https://www.instagram.com/omvats09",
         linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
