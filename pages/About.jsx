@@ -11,7 +11,7 @@ const About = () => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 500);
       if (window.innerWidth >= 600 && window.innerWidth < 800) {
-        setParentHeight(800); // Adjust height for screens between 600px and 800px
+        setParentHeight(780); // Adjust height for screens between 600px and 800px
       } else {
         setParentHeight(showFullDescription ? 700 : 380);
       }
@@ -24,7 +24,7 @@ const About = () => {
   }, [showFullDescription]);
 
   useEffect(() => {
-    setParentHeight(showFullDescription ? 700 : 380);
+    setParentHeight(showFullDescription ? 300 : 280);
   }, [showFullDescription]);
 
   const handleReadMore = () => setShowFullDescription(true);
@@ -37,7 +37,7 @@ const About = () => {
   return (
     <div className="w-full flex flex-col items-center bg-black md:bg-white">
 
-      <div className="flex flex-row justify-between gap-x-4 sm:gap-x-20 md:gap-x-80 lg:gap-x-80 items-center m-2 z-5">
+      <div className="flex flex-row justify-between gap-x-4 sm:gap-x-20 md:gap-x-80 lg:gap-x-80 items-center my-2 z-5">
         <div className="w-full sm:w-1/2 flex justify-center ">
           <Link href="/Literature">
             <button className="border-2 border-white rounded-3xl px-6 py-2 text-2xl sm:text-4xl lg:mr-80 bg-black text-white font-serif cursor-pointer">
@@ -76,7 +76,7 @@ const About = () => {
       </div>
 
       <div className="relative bg-black md:bg-white w-full flex flex-col items-center">
-        <div className="relative h-auto sm:h-120 bg-slate-900 px-12 pt-6 pb-3 mx-6 rounded-3xl my-3 text-white flex flex-col lg:flex-row items-start gap-x-6 justify-between lg:mx-20 lg:gap-x-16 lg:h-100">
+        <div className="relative h-auto sm:h-120 bg-slate-900 px-12 pt-6 pb-3 mx-4 rounded-3xl my-3 text-white flex flex-col lg:flex-row items-start gap-x-6 justify-between lg:mx-20 lg:gap-x-16 lg:h-100">
           <div className="flex flex-col items-start">
             <span className="text-5xl mb-2 font-semibold text-orange-300">
               ABOUT

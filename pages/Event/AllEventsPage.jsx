@@ -35,7 +35,7 @@ function AllEventsPage() {
       </div> */}
       <div className="pl-2 pr-2">
           <h2 className="text-white text-5xl font-bold text-center mb-4">SUGGEST EVENTS</h2>
-          <form className="bg-black p-6 rounded-lg flex flex-col justify-center items-center">
+          <form className="bg-black px-0 pb-4 w-full md:p-6 rounded-lg flex flex-col justify-center items-center">
             <div className="flex flex-col md:flex-row md:space-x-4 mb-4 w-1/2">
               <input
                 type="text"
@@ -51,7 +51,7 @@ function AllEventsPage() {
             </div>
             <textarea
               placeholder="Suggestion:"
-              className="p-2 border-b-2 bg-[rgba(255,255,255,0.05)] text-white border-gray-400  rounded-3xl w-1/2 h-32"
+              className="p-2 border-b-2 bg-[rgba(255,255,255,0.05)] text-white border-gray-400  rounded-3xl w-3/4  md:w-1/2 md:h-32"
             ></textarea>
                <button
               type="submit"

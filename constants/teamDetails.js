@@ -177,7 +177,7 @@ const teamData = {
         id: 15,
         name: "Satyam",
         position: "MUN Convenor",
-        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686810/profile%20pictures/satyam%20kumar%282%29.jpg",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/SATYAM%20KUMAR.jpg",
         branch: "CSE-26",
         instagram: "https://www.instagram.com/Satyamk1345",
         linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
@@ -841,7 +841,7 @@ const teamData = {
         name: "Satyam",
         position: "",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686810/profile%20pictures/satyam%20kumar%282%29.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/SATYAM%20KUMAR.jpg",
         branch: "CSE-26",
         instagram: "https://www.instagram.com/Satyamk1345",
         linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
