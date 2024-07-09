@@ -509,7 +509,7 @@ const teamData = {
         name: "Saim Jawed",
         position: "",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679909/profile%20pictures/Saim%20Jawed.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505709/profile%20pictures/SaimJawed.jpg",
         branch: "CSE-27",
         instagram: "https://www.instagram.com/s._aim_jawed",
         linkedin: "https://www.linkedin.com/in/saim-jawed-6a8766294",
@@ -898,7 +898,7 @@ const teamData = {
         name: "Saim Jawed",
         position: "",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679909/profile%20pictures/Saim%20Jawed.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505709/profile%20pictures/SaimJawed.jpg",
         branch: "CSE-27",
         instagram: "https://www.instagram.com/s._aim_jawed",
         linkedin: "https://www.linkedin.com/in/saim-jawed-6a8766294",
