@@ -494,7 +494,7 @@ const LiteratureData = {
     authorImage:
       "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/SUPRIYA%20RAJ.jpg",
     instagram: "https://www.instagram.com/supriyaraj5073",
-    linkedin: "SupriyaLinkedIn",
+    linkedin: "https://www.linkedin.com/in/supriya-raj-0128a4295",
     coverImage: "/artpic.png",
     description: `Sky and Stars are aligned 
 Morning awaits their end...
@@ -854,7 +854,7 @@ There lie many hindrances in my way,
     authorImage:
       "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/SUPRIYA%20RAJ.jpg",
     instagram: "https://www.instagram.com/supriyaraj5073",
-    linkedin: "SupriyaLinkedIn",
+    linkedin: "https://www.linkedin.com/in/supriya-raj-0128a4295",
     coverImage: "/artpic.png",
     description: `बन जाना  तुम डॉक्टर, इंजीनियर…
 बन जाना  तुम भटकता मुशाफिर…
