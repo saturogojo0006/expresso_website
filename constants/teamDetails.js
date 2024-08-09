@@ -353,7 +353,7 @@ const teamData = {
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680110/profile%20pictures/Pamidipati%20Jeevan.jpg",
         branch: "CSE-26",
         instagram: "https://www.instagram.com/zeevan0863",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/jeevan-pamidipati-93299525b",
         twitter: "",
       },
       {
@@ -682,9 +682,9 @@ const teamData = {
         position: "",
         image:
           "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680113/profile%20pictures/ANURAG%20KUMAR.jpg",
-        branch: "CSE-DD-28",
+        branch: "CSE-DS-28",
         instagram: "https://www.instagram.com/tiwary_anuragg",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/anurag-kumar-14ba2828b",
         twitter: "",
       },
       {
@@ -780,7 +780,7 @@ const teamData = {
           "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/rupak%20parashar.jpg",
         branch: "CSE-27",
         instagram: "https://www.instagram.com/rajrupakparashar.47",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/rupak-parashar-355053317",
         twitter: "",
       },
 
@@ -803,7 +803,7 @@ const teamData = {
           "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/SUPRIYA%20RAJ.jpg",
         branch: "CSE-CS-28",
         instagram: "https://www.instagram.com/Supriyaraj5073",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/supriya-raj-0128a4295",
         twitter: "",
       },
     ],
