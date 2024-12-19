@@ -3,6 +3,131 @@ const alumniData = {
     members: [
       {
         id: 1,
+        name: "Rahul Xavier",
+        position: "President",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679909/profile%20pictures/Rahul%20Xavier.jpg",
+        branch: "ARCH-25",
+        instagram:
+          "https://www.instagram.com/rahul_xvr",
+        linkedin:
+          "https://www.linkedin.com/in/rahul-xavier-426773239",
+        twitter: "",
+      },
+      {
+        id: 2,
+        name: "Mirza Y S Baig",
+        position: "Secretary",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679915/profile%20pictures/MIRZA%20BAIG.jpg",
+        branch: "ECE-25",
+        instagram: "https://www.instagram.com/mirzathedreamers",
+        linkedin: "https://www.linkedin.com/in/mirza-baig-nitp",
+        twitter: "",
+      },
+      {
+        id: 3,
+        name: "Alankrita Singh",
+        position: "Treasurer",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/ALANKRITA%20SINGH.jpg",
+        branch: "ECE-25",
+        instagram: "https://www.instagram.com/alankrita_singh0520",
+        linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260",
+        twitter: "",
+      },
+      {
+        id: 4,
+        name: "Pawni Chauhan",
+        position: "Literary Head",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679799/profile%20pictures/PAWNI%20CHAUHAN.jpg",
+        branch: "ME-25",
+        instagram: "https://www.instagram.com/pawnichauhan7",
+        linkedin: "https://linkedin.com/in/pawni-chauhan-95b181249",
+        twitter: "",
+      },
+      {
+        id: 5,
+        name: "Shalvee Kumari",
+        position: "PR Head",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679911/profile%20pictures/shalvee%20kumari.jpg",
+        branch: "ECE-25",
+        instagram: "https://www.instagram.com/shalvee_20",
+        linkedin: "https://www.linkedin.com/in/shalvee0920",
+        twitter: "",
+      }, 
+      {
+        id: 6,
+        name: "Harshali",
+        position: "Event Coordinator",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680111/profile%20pictures/HARSHALI.jpg",
+        branch: "CE-25",
+        instagram: "https://www.instagram.com/",
+        linkedin: "https://www.linkedin.com/in/harshali-59564b228",
+        twitter: "",
+      },
+      {
+        id: 7,
+        name: "Harsh Vardhan",
+        position: "Event Coordinator",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679798/profile%20pictures/Harsh%20Vardhan.jpg",
+        branch: "CSE-25",
+        instagram: "https://www.instagram.com/ig_harsh.vardhan",
+        linkedin: "https://www.linkedin.com/in/harsh-vardhan-4354b1237/",
+        twitter: "",
+      },
+   
+      {
+        id: 8,
+        name: "Aishwarya Pandit",
+        position: "",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680116/profile%20pictures/AISHSWARYA%20PANDIT.jpg",
+        branch: "ARCH-26",
+        instagram: "https://www.instagram.com/yours.aishwarya_",
+        linkedin: "https://www.linkedin.com/in/aishwarya-pandit-176567234",
+        twitter: "",
+      },   
+    ],
+  },
+
+  events1: {
+    members: [
+      {
+        id: 1,
+        name: "Shivani",
+        position: "Content Coordinator",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682009/profile%20pictures/Shivani%20Raj.jpg",
+        branch: "CSE-25",
+        instagram: "https://www.instagram.com/Shivaniraj4683",
+        linkedin: "https://www.linkedin.com/in/shivani-raj-59b798257",
+        twitter: "",
+      },
+      {
+        id: 2,
+        name: "Rohan Shetty",
+        position: "Web Head",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679712/profile%20pictures/Rohan%20Shetty.jpg",
+        branch: "ECE-25",
+        instagram: "https://www.instagram.com/shetty._.rohan",
+        linkedin: "https://www.linkedin.com/in/rohan1704",
+        twitter: "",
+      },
+      {
+        id: 3,
+        name: "Muskan Jha",
+        position: "Ex Vice President",
+        team: " ",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679913/profile%20pictures/Mushkan%20Jha.jpg",
+        branch: "ARCH-26",
+        instagram: "",
+        linkedin: "https://in.linkedin.com/in/muskanjhamj",
+        twitter: "",
+      },
+      {
+        id: 4,
         name: "Avnit Prakash",
         position: "Media Lead",
         team: " ",
@@ -16,7 +141,7 @@ const alumniData = {
         twitter: "https://x.com/i_m_avnit00?t=k3_mofi96kqLR0oBIe4dHg&s=08",
       },
       {
-        id: 2,
+        id: 5,
         name: "Shubham Kumar",
         position: "Content Co-Editor",
         team: " ",
@@ -30,7 +155,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 3,
+        id: 6,
         name: "Yash Anupam",
         position: "Event Coordinator ",
         team: " ",
@@ -44,7 +169,7 @@ const alumniData = {
         twitter: "https://x.com/yash_anupam?t=bCh4JzBcCM_fuMxIJ_CYuw&s=08",
       },
       {
-        id: 4,
+        id: 7,
         name: "Parul Gupta",
         position: " ",
         team: " ",
@@ -57,7 +182,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 5,
+        id: 8,
         name: "Himanshu Rai",
         position: " ",
         team: " ",
@@ -70,21 +195,15 @@ const alumniData = {
           "https://www.linkedin.com/in/himanshu-rai-3034a2203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
+
+    ]
+  },  
+
+  
+  event: {
+    members: [
       {
-        id: 6,
-        name: "Gautam Kumar",
-        position: " ",
-        team: "Non-Technical",
-        image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681121/Alumni/Gautam_y3svtn.jpg",
-        branch: "ECE-24",
-        instagram: "https://www.instagram.com/gauti_1820?igsh=OXBhdTdjOHVkdGZz",
-        linkedin:
-          "https://www.linkedin.com/in/gautam-kumar-14811b218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        twitter: "",
-      },
-      {
-        id: 7,
+        id: 1,
         name: "Subhi Singh",
         position: "Editor In-Chief",
         team: "Non-Technical",
@@ -97,7 +216,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 8,
+        id: 2,
         name: "Riti Raj",
         position: "Event Co-Coordinator",
         team: "Non-Technical",
@@ -109,12 +228,8 @@ const alumniData = {
           "https://www.linkedin.com/in/riti-raj-455885242?trk=contact-info",
         twitter: "",
       },
-    ],
-  },
-  event: {
-    members: [
       {
-        id: 1,
+        id: 3,
         name: "Akshita Maheshwari",
         position: "Media Co-Coordinator",
         team: " ",
@@ -128,7 +243,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 2,
+        id: 4,
         name: "Abu Talha Abbasi",
         position: "Co-Literary Lead",
         team: " ",
@@ -140,7 +255,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 3,
+        id: 5,
         name: "Rathore Guru Govind Singh",
         position: " ",
         team: " ",
@@ -154,7 +269,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 4,
+        id: 6,
         name: "Kaushik Pattnaik",
         position: " ",
         team: " ",
@@ -168,7 +283,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 5,
+        id: 7,
         name: "Darshan Jain",
         position: " ",
         team: " ",
@@ -181,7 +296,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 6,
+        id: 8,
         name: "Roshani Mayur",
         position: " ",
         team: " ",
@@ -194,20 +309,25 @@ const alumniData = {
           "https://www.linkedin.com/in/jaindarsh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
+    ],
+  },
+  event1: {
+    members: [
       {
-        id: 7,
-        name: "Muskan Jha",
-        position: "Ex Vice President",
-        team: " ",
+        id: 1,
+        name: "Gautam Kumar",
+        position: " ",
+        team: "Non-Technical",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679913/profile%20pictures/Mushkan%20Jha.jpg",
-        branch: "ARCH-26",
-        instagram: "",
-        linkedin: "https://in.linkedin.com/in/muskanjhamj",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681121/Alumni/Gautam_y3svtn.jpg",
+        branch: "ECE-24",
+        instagram: "https://www.instagram.com/gauti_1820?igsh=OXBhdTdjOHVkdGZz",
+        linkedin:
+          "https://www.linkedin.com/in/gautam-kumar-14811b218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
       {
-        id: 8,
+        id: 2,
         name: "Aastha Sinha",
         position: "Web Head",
         team: " ",
@@ -220,12 +340,8 @@ const alumniData = {
           "https://www.linkedin.com/in/aastha-sinha-03751419b/",
         twitter: "",
       },
-    ],
-  },
-  event1: {
-    members: [
       {
-        id: 1,
+        id: 3,
         name: "Ketki Churi",
         position: "President",
         team: " ",
@@ -237,7 +353,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 2,
+        id: 4,
         name: "Akash Deep Narayan",
         position: "Vice President",
         team: " ",
@@ -251,7 +367,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 3,
+        id: 5,
         name: "Shreyanshi Kumari",
         position: "Secretary",
         team: " ",
@@ -265,7 +381,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 4,
+        id: 6,
         name: "Simran Kumari",
         position: "Treasurer",
         team: " ",
@@ -279,7 +395,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 5,
+        id: 7,
         name: "Anamika Kumari",
         position: "Literary Head",
         team: " ",
@@ -292,7 +408,7 @@ const alumniData = {
         twitter: "",
       },
       {
-        id: 6,
+        id: 8,
         name: "Tanzeelur Rahman",
         position: "Arts Head",
         team: " ",
@@ -305,32 +421,7 @@ const alumniData = {
           "",
         twitter: "",
       },
-      {
-        id: 7,
-        name: "Kumar Srijan",
-        position: "PR HEAD",
-        team: " ",
-        image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505681/Alumni/Kumar%20Srijan.jpg",
-        branch: "ECE-23",
-        instagram: "",
-        linkedin: "",
-        twitter: "",
-      },
-      {
-        id: 8,
-        name: "Zohaib Bin Hamid",
-        position: "Event Coordinator",
-        team: " ",
-        image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505676/Alumni/Zohaib%20Bin%20Hamid.jpg",
-        branch: "EE-23",
-        instagram:
-          "https://instagram.com/zohaib._.bin._.hamid",
-        linkedin:
-          "https://www.linkedin.com/in/zohaib-bin-hamid-597003194",
-        twitter: "",
-      },
+      
     ],
   },
   event2: {
@@ -665,6 +756,37 @@ const alumniData = {
         twitter: "",
       },
     ],
+  },
+    
+  event5: {
+    members: [
+      {
+        id: 1,
+        name: "Kumar Srijan",
+        position: "PR HEAD",
+        team: " ",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505681/Alumni/Kumar%20Srijan.jpg",
+        branch: "ECE-23",
+        instagram: "",
+        linkedin: "",
+        twitter: "",
+      },
+      {
+        id: 2,
+        name: "Zohaib Bin Hamid",
+        position: "Event Coordinator",
+        team: " ",
+        image:
+        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505676/Alumni/Zohaib%20Bin%20Hamid.jpg",
+        branch: "EE-23",
+        instagram:
+          "https://instagram.com/zohaib._.bin._.hamid",
+        linkedin:
+          "https://www.linkedin.com/in/zohaib-bin-hamid-597003194",
+        twitter: "",
+      },
+    ]
   },
 };
 
