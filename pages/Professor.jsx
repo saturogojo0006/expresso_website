@@ -37,9 +37,9 @@ function Professor() {
   };
 
   const fullText = `Dear Club Enthusiasts, 
-  We are thrilled to extend a warm welcome to you as you explore the vibrant world of the Literary and Art Club at NIT Patna. I am
-   honored      to introduce myself as the Professor Incharge of this dynamic community of creative minds. Our club is a melting pot of
-    talent, where literature meets art in a fusion of imagination and expression. As you navigate through our website, you'll discover the diverse range of activities, projects, and events that define our creative journey. In the upcoming weeks, we have an exciting lineup of events that beckon your participation and artistic contribution. We believe in fostering an environment where every voice is heard, and every brushstroke tells a unique story. Feel free to explore, engage, and connect with us. Whether you're an aspiring writer, a visual artist, or someone passionate about the intersection of words and images, you've found your creative home. Let's embark on this artistic odyssey together, where inspiration knows no limits and the Literary and Art Club becomes a canvas for your imagination. Thank you for being a part of our creative community. 
+
+  We are thrilled to extend a warm welcome to you as you explore the vibrant world of the Literary and Art Club at NIT Patna.
+   I am honored to introduce myself as the Professor Incharge of this dynamic community of creative minds. Our club is a melting pot of talent, where literature meets art in a fusion of imagination and expression. As you navigate through our website, you'll discover the diverse range of activities, projects, and events that define our creative journey. In the upcoming weeks, we have an exciting lineup of events that beckon your participation and artistic contribution. We believe in fostering an environment where every voice is heard, and every brushstroke tells a unique story. Feel free to explore, engage, and connect with us. Whether you're an aspiring writer, a visual artist, or someone passionate about the intersection of words and images, you've found your creative home. Let's embark on this artistic odyssey together, where inspiration knows no limits and the Literary and Art Club becomes a canvas for your imagination. Thank you for being a part of our creative community. 
 
     Best regards, 
     Dr. Dharmendra Kumar Dheer 
