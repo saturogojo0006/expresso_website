@@ -38,8 +38,7 @@ function Professor() {
 
   const fullText = `Dear Members and Aspirants,
 
-  It is with great enthusiasm that I welcome you all to Expresso-The Literary and Art Club NIT Patna! As the President of this wonderful
-  community, I am proud to represent a group of individuals bound by their passion for creativity and self-expression.
+  It is with great enthusiasm that I welcome you all to Expresso-The Literary and Art Club NIT Patna! \n As the President of this wonderful community, I am proud to represent a group of individuals bound by their passion for creativity and self-expression.
   Our club stands as a platform for dreamers, thinkers, and creators—a space where words come alive and art speaks volumes. In the weeks ahead, we have a host of exciting events and activities lined up that are designed to inspire, challenge, and bring out the best in every member.
   Here, we celebrate individuality and collaboration alike, believing that each idea contributes to the vibrant tapestry of our club. Whether you’re a poet, an artist, a storyteller, or simply someone who appreciates the beauty of literature and art, this is your space to shine.
   Let us work together to turn this club into a thriving community of ideas and imagination. Thank you for joining us on this creative journey. Your energy and enthusiasm are what make this club truly special.
