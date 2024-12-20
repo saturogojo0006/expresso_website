@@ -18,6 +18,33 @@ const Event = () => {
     const data = [
       {
         id: 1,
+        title: "MUN 2.0",
+        description: `The vibrant campus of NIT Patna was once again immersed in the spirit of diplomacy and debate as Model United Nations (MUN) 2.0 took place on 13th, 14th, and 15th September 2024 at Ashok Rajpath Campus. This second edition provided students a unique platform to simulate the workings of the United Nations and hone their diplomatic skills.
+
+        In this edition, we had four committees to facilitate proceedings:
+
+        1. General Assembly (UNGA): For addressing global challenges with collaborative action.
+        2. Security Council (UNSC): Resolving pressing security issues as world leaders.
+        3. Joint Parliamentary Committee (JPC): Simulating parliamentary discourse to tackle national concerns.
+        4. International Press (IP): Reporting the vibrant discussions and providing critical insights into the proceedings.
+
+        The event commenced on the first day with an introduction and opening ceremony, setting the stage for three days of insightful discussions. The second day focused on the Joint Parliamentary Committee (JPC), which delved into national concerns with legislative precision, while the International Press (IP) began its diligent coverage of the proceedings.
+
+        On the third day, the General Assembly (UNGA) and Security Council (UNSC) tackled global challenges and security concerns, with the IP continuing its comprehensive reporting. The event concluded on a grand note in the evening of the third day, with the winners' announcement, certificate distribution, and prize ceremony, recognizing the outstanding contributions and performances of the participants.
+
+        MUN 2.0 offered an unparalleled platform for students to hone their public speaking, negotiation, and analytical skills while gaining practical exposure to the intricacies of international diplomacy and legislative processes. This edition set a new benchmark for intellectual events on campus, leaving an indelible mark on its participants.`,
+        images: [
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603359/MUN2.0/MUN2.0c_lpslf1.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603359/MUN2.0/MUN2.0b_mevtwk.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603357/MUN2.0/MUN2.0a_jnabdp.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603431/MUN2.0/MUN2.0d_amkn61.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603450/MUN2.0/MUN2.0e_dpfqjn.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603492/MUN2.0/MUn2.0f_fhj7de.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603753/MUN2.0/Mun2.0g_tkdssl.jpg",
+        ],
+      },
+      {
+        id: 2,
         title: "AAWAAZ",
         description: `The NIT Patna , under the collaboration of Expresso - the Literary & Art Club and Saptak - the music club hosted a captivating event , AAWAAZ Shayari and Ghazal Night on 13th September, 2023 from 5:30 pm onwards in the ever lively C.V. Raman Hall.
 
@@ -34,7 +61,7 @@ const Event = () => {
         ],
       },
       {
-        id: 2,
+        id: 3,
         title: "Dil se Canvas",
         description: `Expresso is all about expressing yourself, and this time you can do it in “Dil Se Canvas”. This is one of the awesome events of Expresso, where two artists team up to create magic on a canvas! First, one artist starts with the theme, then they swap, and the other finishes it. Organized at CV Raman Hall on March 3rd, 2024, at 5:00 pm, so just grab your partner now and unleash your creativity. We will give you paint and you’ll give us painting. 
         Let your creativity shine!`,
@@ -47,7 +74,7 @@ const Event = () => {
         ],
       },
       {
-        id: 3,
+        id: 4,
         title: "MUN",
         description: `The aroma of NIT Patna immersed in Diplomacy as the first ever Model United Nations (MUN) of the campus commenced on 9th and 10th September of 2k23 in the Visvesvaraya Hall. MUN acts as a simulation of the working of United Nations giving students the opportunity to act like delegates representing their allotted nations.
 
@@ -70,7 +97,7 @@ const Event = () => {
         ],
       },
       {
-        id: 4,
+        id: 5,
         title: "Tcf_Sanhita",
         description: `Literature and debate are twin pillars of intellectual growth; while literature enriches our minds with diverse narratives and profound truths, debate sharpens our ability to challenge, defend, and refine those ideas through rigorous discourse.
 
@@ -100,7 +127,7 @@ const Event = () => {
         ],
       },
       {
-        id: 5,
+        id: 6,
         title: "Kitabe Padho Behas Nhi Tark Do..",
         description: `"Books are our Bestfriends , windows to the World."
         
@@ -136,7 +163,7 @@ const Event = () => {
       },
       
       {
-        id: 6,
+        id: 7,
         title: "TCF_Avlokan",
         title: 'TCF_Avlokan',
         description: `"The power of a mastermind lies in their ability to see the bigger picture and connect the dots"!
@@ -163,7 +190,7 @@ const Event = () => {
         ],
       },
       {
-        id: 7,
+        id: 8,
         title: "Doodle Your Day",
         description: `"Art is the language of the soul, speaking volumes where words falter, and painting colors of humanity’s shared journey."
 
@@ -180,7 +207,7 @@ const Event = () => {
         ],
       },
       {
-        id: 8,
+        id: 9,
         title: `Valentine's Week`,
         description: ` What's better than sharing your feelings and thoughts to your favourite person without the fear of judgement, that too in the love-filled and heartfelt week of valentine's.
 
@@ -196,7 +223,7 @@ const Event = () => {
         ],
       },
       {
-        id: 9,
+        id: 10,
         title: "Movie Matinee",
         description: `Expresso’s Signature Event, Secret Valentine, brought an unforgettable cinematic experience to NIT Patna  with the screening of Sita Ramam! 
 
@@ -215,7 +242,7 @@ const Event = () => {
         ],
       },
       {
-        id: 10,
+        id: 11,
         title: "Portrait Palooza and Tattoo Booth",
         description: ` The artist and their passionate immersed in two great event under the Expresso named as Portrait Palooza and Tattoo Booth on 10th February, 2024 from 2.30 pm onwards at Pmc offering a vibrant blend of live tattooing and portrait artistry. 
 
@@ -231,7 +258,7 @@ const Event = () => {
         ],
       },
       {
-        id: 11,
+        id: 12,
         title: "Tcf_Kalakriti",
         description: ` Art is the expression of emotions and beauty in a creative manner that stirs the soul ….. 
 

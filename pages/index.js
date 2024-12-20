@@ -5,6 +5,8 @@ import LandingPage from "./LandingPage";
 import About from "./About";
 import Professor from "./Professor";
 import CarouselPage from "./CarouselPage";
+import President from "./President";
+import Dean from "./Dean"
 // import Event from "./Event";
 // import Team from "./Team";
 // import Contact from "./Contact";
@@ -28,6 +30,12 @@ export default function Home() {
       </div>
       <div className="">
         <Professor />
+      </div>
+      <div className="">
+        <Dean />
+      </div>
+      <div className="">
+        <President />
       </div>
       <div className="m-2">
         <About />
