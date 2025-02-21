@@ -7,7 +7,6 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Footer = () => {
-
   const [visitorCount, setVisitorCount] = useState(null);
 
   useEffect(() => {
@@ -24,8 +23,8 @@ const Footer = () => {
     fetchVisitorCount();
   }, []);
 
-  console.log(visitorCount);
-  
+  // console.log(visitorCount);
+
   return (
     <footer className="bg-gray-900 max-w-screen mx-auto px-4 py-6 md:py-8">
       <div className="flex flex-col md:flex-row md:justify-between items-center mx-0">
@@ -71,9 +70,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-white text-md text-center mt-1">
-        Visitor Count: {visitorCount !== null ? visitorCount : "Loading..."}
-      </p>
+      {visitorCount && (
+        <p className="text-white text-md text-center">
+          Visitor Count: {visitorCount}
+        </p>
+      )}
     </footer>
   );
 };
