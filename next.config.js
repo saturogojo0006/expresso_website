@@ -2,7 +2,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
     domains: ['drive.google.com', 'linkedin.com', 'instagram.com', 'google.com', 'twitter.com', 'res.cloudinary.com'],
   },
