@@ -496,7 +496,7 @@ const teamData = {
       },
 
       {
-        id: 3,
+        id: 2,
         name: "Bhawna Roy",
         position: "",
         image:
@@ -507,7 +507,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 4,
+        id: 3,
         name: "Dristi Upadhyay",
         position: "",
         image:
@@ -519,7 +519,7 @@ const teamData = {
       },
 
       {
-        id: 5,
+        id: 4,
         name: "Kiran Saini",
         position: "",
         image:
@@ -530,7 +530,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 6,
+        id: 5,
         name: "Kushagra",
         position: "",
         image:
@@ -542,7 +542,7 @@ const teamData = {
       },
 
       {
-        id: 7,
+        id: 6,
         name: "Nilabh Mishra",
         position: "",
         image:
@@ -552,24 +552,32 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
         twitter: "",
       },
-
-
       {
-        id: 8,
-        name: "Aakash Tiwari",
+        id: 7,
+        name: "Satyam",
         position: "",
-        image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680107/profile%20pictures/Aakash%20tiwari.jpg",
-        branch: "CSE-CS-28",
-        instagram: "https://www.instagram.com/tiwariji.789/",
-        linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/SATYAM%20KUMAR.jpg",
+        branch: "CSE-26",
+        instagram: "https://www.instagram.com/Satyamk1345",
+        linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
         twitter: "",
-      },],},
+      },
+     ],},
       literature_2: {
         teamName: "Literary",
         teamImage: "/Pen.png",
         members: [
-      
+          {
+            id: 8,
+            name: "Aakash Tiwari",
+            position: "",
+            image:
+              "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680107/profile%20pictures/Aakash%20tiwari.jpg",
+            branch: "CSE-CS-28",
+            instagram: "https://www.instagram.com/tiwariji.789/",
+            linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
+            twitter: "",
+          },
       {
         id: 9,
         name: "Adarsh Kumar Dubey",
@@ -638,35 +646,34 @@ const teamData = {
           "https://www.linkedin.com/in/21032005-ayushi-srivastava",
         twitter: "",
       },
-
-      {
-        id: 15,
-        name: "Kaushikee Kashyap",
-        position: "",
-        image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679795/profile%20pictures/KAUSHIKEE%20KASHYAP.jpg",
-        branch: "CSE-27",
-        instagram: "https://www.instagram.com/kaushikee_k",
-        linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
-        twitter: "",
-      },
-      {
-        id: 16,
-        name: "Nikita Pant",
-        position: "",
-        image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680115/profile%20pictures/nikita%20pant.jpg",
-        branch: "ECE-27",
-        instagram: "https://www.instagram.com/nikitapant_9",
-        linkedin: "https://www.linkedin.com/in/nikita-pant-852806280",
-        twitter: "",
-      },
     ],},
     literature_3: {
       teamName: "Literary",
       teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664979/expresso/Pen_l0l8t5.png",
       members: [
-      {
+        {
+          id: 15,
+          name: "Kaushikee Kashyap",
+          position: "",
+          image:
+            "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679795/profile%20pictures/KAUSHIKEE%20KASHYAP.jpg",
+          branch: "CSE-27",
+          instagram: "https://www.instagram.com/kaushikee_k",
+          linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
+          twitter: "",
+        },
+        {
+          id: 16,
+          name: "Nikita Pant",
+          position: "",
+          image:
+            "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680115/profile%20pictures/nikita%20pant.jpg",
+          branch: "ECE-27",
+          instagram: "https://www.instagram.com/nikitapant_9",
+          linkedin: "https://www.linkedin.com/in/nikita-pant-852806280",
+          twitter: "",
+        },
+        {
         id: 17,
         name: "Om Vats",
         position: "",
@@ -710,16 +717,6 @@ const teamData = {
         branch: "CSE-27",
         instagram: "https://www.instagram.com/rajrupakparashar.47",
         linkedin: "https://www.linkedin.com/in/rupak-parashar-355053317",
-        twitter: "",
-      },
-      {
-        id: 15,
-        name: "Satyam",
-        position: "",
-        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/SATYAM%20KUMAR.jpg",
-        branch: "CSE-26",
-        instagram: "https://www.instagram.com/Satyamk1345",
-        linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
         twitter: "",
       },
       {
