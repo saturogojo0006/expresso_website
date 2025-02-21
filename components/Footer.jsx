@@ -7,18 +7,25 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const Footer = () => {
-  // const [visits, setVisits] = useState(0);
 
-  // useEffect(() => {
-  //   const fetchVisits = async () => {
-  //     const response = await fetch("/api/visit?url=home");
-  //     const data = await response.json();
-  //     setVisits(data.visits);
-  //   };
+  const [visitorCount, setVisitorCount] = useState(null);
 
-  //   fetchVisits();
-  //   console.log(visits);
-  // }, []);
+  useEffect(() => {
+    async function fetchVisitorCount() {
+      try {
+        const response = await fetch("/api/visit");
+        const data = await response.json();
+        setVisitorCount(data.count);
+      } catch (error) {
+        console.error("Error fetching visitor count:", error);
+      }
+    }
+
+    fetchVisitorCount();
+  }, []);
+
+  console.log(visitorCount);
+  
   return (
     <footer className="bg-gray-900 max-w-screen mx-auto px-4 py-6 md:py-8">
       <div className="flex flex-col md:flex-row md:justify-between items-center mx-0">
@@ -64,7 +71,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <p className="text-white">Visits Number:{visits}</p> */}
+      <p className="text-white text-md text-center mt-1">
+        Visitor Count: {visitorCount !== null ? visitorCount : "Loading..."}
+      </p>
     </footer>
   );
 };
