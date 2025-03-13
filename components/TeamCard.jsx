@@ -31,30 +31,36 @@ const TeamCard = ({ member }) => {
         <h2 className="text-xl font-normal font-Antonio">{member.name}</h2>
         <p className="text-lg mb-4 font-Antonio">{member.position}</p>
         <div className="flex justify-center items-center space-between space-x-10 cursor-pointer">
-          <a
-            href={member.instagram}
-            className="text-lg"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href={member.twitter}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-lg"
-          >
-            <FaTwitter />
-          </a>
-          <a
-            href={member.linkedin}
-            className="text-lg"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin />
-          </a>
+          {member.instagram && (
+            <a
+              href={member.instagram}
+              className="text-lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          )}
+          {member.twitter && (
+            <a
+              href={member.twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg"
+            >
+              <FaTwitter />
+            </a>
+          )}
+          {member.linkedin && (
+            <a
+              href={member.linkedin}
+              className="text-lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+          )}
         </div>
       </div>
     </div>

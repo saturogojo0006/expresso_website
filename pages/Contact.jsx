@@ -72,7 +72,7 @@ const Contact = () => {
             phone: "",
           });
           setFormSubmitted(true);
-          console.log(result.text);
+          // console.log(result.text);
         },
         (error) => {
           setLoading(false);

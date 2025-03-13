@@ -20,24 +20,31 @@ const ArtCard = ({ art, openOverlay }) => {
               src={art.artistImage}
               width={65}
               height={80}
-              alt ="ArtistAwesome"
+              alt="ArtistAwesome"
               // alt={art.artist}
             />
           </div>
           <div className="flex flex-col items-center font-bold text-white text-center text-[10px] font-sans">
             <span>{art.artist}</span>
             <div className="flex">
-              <a href={art.instagram} target="_blank" className="mx-1">
-                <FaInstagram className="text-white m-0.5 align-middle w-3 h-5 hover:cursor-pointer" />
-              </a>
-              <a href={art.linkedin} target="_blank" className="mx-1">
-                <FaLinkedin className="text-white m-0.5 align-middle w-3 h-5 hover:cursor-pointer" />
-              </a>
+              {art.instagram && (
+                <a href={art.instagram} target="_blank" className="mx-1">
+                  <FaInstagram className="text-white m-0.5 align-middle w-3 h-5 hover:cursor-pointer" />
+                </a>
+              )}
+              {art.linkedin && (
+                <a href={art.linkedin} target="_blank" className="mx-1">
+                  <FaLinkedin className="text-white m-0.5 align-middle w-3 h-5 hover:cursor-pointer" />
+                </a>
+              )}
             </div>
           </div>
         </div>
       </div>
-      <div className="flex mt-2 cursor-pointer min-h-64 max-h-64 overflow-hidden" onClick={() => openOverlay(art)}>
+      <div
+        className="flex mt-2 cursor-pointer min-h-64 max-h-64 overflow-hidden"
+        onClick={() => openOverlay(art)}
+      >
         <Image src={art.artImage} width={240} height={250} alt={art.artName} />
       </div>
       <div className="text-white text-sm font-sans mt-2">{art.description}</div>

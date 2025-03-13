@@ -26,12 +26,16 @@ const LiteratureCard = ({ literature }) => {
           <div className="flex flex-col items-center font-bold text-white text-center text-[10px] font-sans">
             <span>{literature.author}</span>
             <div className="flex">
-              <a href={literature.instagram} target="_blank" className="mx-1">
-                <FaInstagram className="text-white m-0.5 align-middle w-3 h-5 hover:cursor-pointer" />
-              </a>
-              <a href={literature.linkedin} target="_blank" className="mx-1">
-                <FaLinkedin className="text-white m-0.5 align-middle w-3 h-5 hover:cursor-pointer" />
-              </a>
+              {literature.instagram && (
+                <a href={literature.instagram} target="_blank" className="mx-1">
+                  <FaInstagram className="text-white m-0.5 align-middle w-3 h-5 hover:cursor-pointer" />
+                </a>
+              )}
+              {literature.linkedin && (
+                <a href={literature.linkedin} target="_blank" className="mx-1">
+                  <FaLinkedin className="text-white m-0.5 align-middle w-3 h-5 hover:cursor-pointer" />
+                </a>
+              )}
             </div>
           </div>
         </div>
