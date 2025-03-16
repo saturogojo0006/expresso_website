@@ -81,7 +81,7 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/kshitijekvs",
         twitter: "",
       },
-      
+
       {
         id: 8,
         name: "Akash Patel Singh",
@@ -94,105 +94,104 @@ const teamData = {
         twitter: "",
       },
 
-            
-      
-    ],},
-      post_bearers_2: {
-        teamName: "Post-Bearers",
-        teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664978/expresso/Mask_group_ti7q7g.png",
-        members: [
-          {
-            id: 9,
-            name: "Shikha Thakur",
-            position: "Literary Head",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680104/profile%20pictures/SHIKHA%20THAKUR.jpg",
-            branch: "ECE-26",
-            instagram: "https://www.instagram.com/nebula_k05",
-            linkedin: "https://www.linkedin.com/in/shikha-thakur-8028a7258/",
-            twitter: "",
-          },
-    
-          {
-            id: 10,
-            name: "Dipesh Kumar Singh",
-            position: "Art Head",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719725403/profile%20pictures/Dipesh_Kumar_adhcjo.jpg",
-            branch: "CE-26",
-            instagram: "https://www.instagram.com/di.pesh279",
-            linkedin: "https://www.linkedin.com/in/dipesh-singh-0225891ba",
-            twitter: "",
-          },
+    ],
+  },
+  post_bearers_2: {
+    teamName: "Post-Bearers",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664978/expresso/Mask_group_ti7q7g.png",
+    members: [
+      {
+        id: 9,
+        name: "Shikha Thakur",
+        position: "Literary Head",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680104/profile%20pictures/SHIKHA%20THAKUR.jpg",
+        branch: "ECE-26",
+        instagram: "https://www.instagram.com/nebula_k05",
+        linkedin: "https://www.linkedin.com/in/shikha-thakur-8028a7258/",
+        twitter: "",
+      },
 
-          {
-            id: 11,
-            name: "Neeraj Kumar",
-            position: "Design Head",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680088/profile%20pictures/NEERAJ%20KUMAR.jpg",
-            branch: "ARCH-27",
-            instagram: "https://www.instagram.com/neerajk1617",
-            linkedin: "https://www.linkedin.com/in/neeraj-kumar-96657330a/",
-            twitter: "",
-          },
-    
-          {
-            id: 12,
-            name: "Supriya Kumari",
-            position: "Content Head",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680132/profile%20pictures/SUPRIYA%20KUMARI.jpg",
-            branch: "CSE-26",
-            instagram: "https://www.instagram.com/supriya_sharma_568",
-            linkedin: "https://www.linkedin.com/in/supriya-kumari-1021a7258",
-            twitter: "",
-          },
-     
-          {
-            id: 13,
-            name: "Shubham Tiwari",
-            position: "Web Head",
-            image:
-              "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679916/profile%20pictures/Shubham%20Tiwari.jpg",
-            branch: "CSE-26",
-            instagram: "https://www.instagram.com/shubham_tiwarii05/",
-            linkedin: "https://www.linkedin.com/in/shubham-tiwari-966223253",
-            twitter: "",
-          },
-    
-          {
-            id: 14,
-            name: "Nilabh Mishra",
-            position: "PR Head",
-            image:
-              "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679796/profile%20pictures/nilabh%20mishra.jpg",
-            branch: "ME-26",
-            instagram: "https://www.instagram.com/nilabh_mishra",
-            linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
-            twitter: "",
-          },
-    
-          {
-            id: 15,
-            name: "Anshu Kumari",
-            position: "Social Media Head",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680096/profile%20pictures/ANSHU%20KUMARI.jpg",
-            branch: "CE-26",
-            instagram: "https://www.instagram.com/___anshukumari___",
-            linkedin: "https://www.linkedin.com/in/anshu-kumari-a32936257",
-            twitter: "",
-          },
-    
-          {
-            id: 16,
-            name: "Bhawna Roy",
-            position: "MUN Convenor",
-            image:
-              "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680116/profile%20pictures/bhawna%20roy.jpg",
-            branch: "CE-26",
-            instagram: "https://www.instagram.com/bhawna.bhardwaj22",
-            linkedin: "https://www.linkedin.com/in/bhawna-roy-164946257",
-            twitter: "",
-          },
-    
-    ],},
+      {
+        id: 10,
+        name: "Dipesh Kumar Singh",
+        position: "Art Head",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719725403/profile%20pictures/Dipesh_Kumar_adhcjo.jpg",
+        branch: "CE-26",
+        instagram: "https://www.instagram.com/di.pesh279",
+        linkedin: "https://www.linkedin.com/in/dipesh-singh-0225891ba",
+        twitter: "",
+      },
+
+      {
+        id: 11,
+        name: "Neeraj Kumar",
+        position: "Design Head",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680088/profile%20pictures/NEERAJ%20KUMAR.jpg",
+        branch: "ARCH-27",
+        instagram: "https://www.instagram.com/neerajk1617",
+        linkedin: "https://www.linkedin.com/in/neeraj-kumar-96657330a/",
+        twitter: "",
+      },
+
+      {
+        id: 12,
+        name: "Supriya Kumari",
+        position: "Content Head",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680132/profile%20pictures/SUPRIYA%20KUMARI.jpg",
+        branch: "CSE-26",
+        instagram: "https://www.instagram.com/supriya_sharma_568",
+        linkedin: "https://www.linkedin.com/in/supriya-kumari-1021a7258",
+        twitter: "",
+      },
+
+      {
+        id: 13,
+        name: "Shubham Tiwari",
+        position: "Web Head",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679916/profile%20pictures/Shubham%20Tiwari.jpg",
+        branch: "CSE-26",
+        instagram: "https://www.instagram.com/shubham_tiwarii05/",
+        linkedin: "https://www.linkedin.com/in/shubham-tiwari-966223253",
+        twitter: "",
+      },
+
+      {
+        id: 14,
+        name: "Nilabh Mishra",
+        position: "PR Head",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679796/profile%20pictures/nilabh%20mishra.jpg",
+        branch: "ME-26",
+        instagram: "https://www.instagram.com/nilabh_mishra",
+        linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
+        twitter: "",
+      },
+
+      {
+        id: 15,
+        name: "Anshu Kumari",
+        position: "Social Media Head",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680096/profile%20pictures/ANSHU%20KUMARI.jpg",
+        branch: "CE-26",
+        instagram: "https://www.instagram.com/___anshukumari___",
+        linkedin: "https://www.linkedin.com/in/anshu-kumari-a32936257",
+        twitter: "",
+      },
+
+      {
+        id: 16,
+        name: "Bhawna Roy",
+        position: "MUN Convenor",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680116/profile%20pictures/bhawna%20roy.jpg",
+        branch: "CE-26",
+        instagram: "https://www.instagram.com/bhawna.bhardwaj22",
+        linkedin: "https://www.linkedin.com/in/bhawna-roy-164946257",
+        twitter: "",
+      },
+    ],
+  },
   art: {
     teamName: "Art",
     teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
@@ -208,7 +207,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 5,
+        id: 2,
         name: "Aman Gupta",
         position: "",
         image:
@@ -219,7 +218,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 2,
+        id: 3,
         name: "Anshu Kumari",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680096/profile%20pictures/ANSHU%20KUMARI.jpg",
@@ -229,7 +228,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 3,
+        id: 4,
         name: "Dipesh Kumar Singh",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719725403/profile%20pictures/Dipesh_Kumar_adhcjo.jpg",
@@ -239,7 +238,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 4,
+        id: 5,
         name: "Jeevan Pamidipati",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680110/profile%20pictures/Pamidipati%20Jeevan.jpg",
@@ -249,7 +248,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 5,
+        id: 6,
         name: "Lalit Kumar",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680099/profile%20pictures/LALIT%20KUMAR.jpg",
@@ -259,7 +258,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 21,
+        id: 7,
         name: "Mayank Harsh",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679589/profile%20pictures/mayank%20harsh.jpg",
@@ -270,7 +269,7 @@ const teamData = {
       },
 
       {
-        id: 6,
+        id: 8,
         name: "Nicky Kumari",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679600/profile%20pictures/NICKY%20KUMARI.jpg",
@@ -279,8 +278,16 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/nicky-kumari-7a57312b6",
         twitter: "",
       },
+
+
+    ],
+  },
+  art_2: {
+    teamName: "Art",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
+    members: [
       {
-        id: 7,
+        id: 9,
         name: "Rai Chirag Kumar",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719725607/profile%20pictures/Rai_Chirag_Kumar_jucwst.jpg",
@@ -289,54 +296,48 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/chirag-kumar-rai-bbb009271",
         twitter: "",
       },
-     
-    ],},
-      art_2: {
-        teamName: "Art",
-        teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
-        members: [
-          {
-            id: 8,
-            name: "Rajnandini Roy",
-            position: "",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679711/profile%20pictures/rajnandini%20roy.jpg",
-            branch: "ARCH-27",
-            instagram: "https://www.instagram.com/",
-            linkedin: "https://www.linkedin.com/in/rajnandini-roy-031a61261",
-            twitter: "",
-          },
-          {
-            id: 14,
-            name: "Reeya Ranjan",
-            position: "",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679712/profile%20pictures/reeya%20ranjan.jpg",
-            branch: "ARCH-27",
-            instagram: "https://www.instagram.com/reeyaranjan",
-            linkedin: "https://www.linkedin.com/in/reeya-ranjan-bb963830a",
-            twitter: "",
-          },
-          {
-            id: 18,
-            name: "Ronak Das",
-            position: "",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727411/profile%20pictures/Ronak_Das_bsj0fx.jpg",
-            branch: "CSE-26",
-            instagram: "https://www.instagram.com/mrronak_d/#",
-            linkedin: "https://www.linkedin.com/in/ronak-dass-682b56270/",
-            twitter: "",
-          },
-          {
-            id: 23,
-            name: "Vani Kumari",
-            position: "",
-            image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684557/profile%20pictures/VANI%20SINGH.jpg",
-            branch: "ECE-26",
-            instagram: "https://www.instagram.com/vanisingh_2701/",
-            linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
-            twitter: "",
-          },
       {
-        id: 9,
+        id: 10,
+        name: "Rajnandini Roy",
+        position: "",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679711/profile%20pictures/rajnandini%20roy.jpg",
+        branch: "ARCH-27",
+        instagram: "https://www.instagram.com/",
+        linkedin: "https://www.linkedin.com/in/rajnandini-roy-031a61261",
+        twitter: "",
+      },
+      {
+        id: 11,
+        name: "Reeya Ranjan",
+        position: "",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679712/profile%20pictures/reeya%20ranjan.jpg",
+        branch: "ARCH-27",
+        instagram: "https://www.instagram.com/reeyaranjan",
+        linkedin: "https://www.linkedin.com/in/reeya-ranjan-bb963830a",
+        twitter: "",
+      },
+      {
+        id: 12,
+        name: "Ronak Das",
+        position: "",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727411/profile%20pictures/Ronak_Das_bsj0fx.jpg",
+        branch: "CSE-26",
+        instagram: "https://www.instagram.com/mrronak_d/#",
+        linkedin: "https://www.linkedin.com/in/ronak-dass-682b56270/",
+        twitter: "",
+      },
+      {
+        id: 13,
+        name: "Vani Kumari",
+        position: "",
+        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684557/profile%20pictures/VANI%20SINGH.jpg",
+        branch: "ECE-26",
+        instagram: "https://www.instagram.com/vanisingh_2701/",
+        linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
+        twitter: "",
+      },
+      {
+        id: 14,
         name: "Ritika Kumari",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680103/profile%20pictures/RITIKA%20KUMARI.jpg",
@@ -345,9 +346,8 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/ritika-kumari-bb4705258",
         twitter: "",
       },
-
       {
-        id: 10,
+        id: 15,
         name: "Abhay Ravidas",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727544/profile%20pictures/Abhay_Ravidas_nxklmk.jpg",
@@ -358,7 +358,7 @@ const teamData = {
       },
 
       {
-        id: 11,
+        id: 16,
         name: "Akanksha Nigam",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680084/profile%20pictures/AKANKSHA%20NIGAM.jpg",
@@ -367,9 +367,14 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/akanksha-nigam-5a70012ab",
         twitter: "",
       },
-
+    ],
+  },
+  art_3: {
+    teamName: "Art",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
+    members: [
       {
-        id: 12,
+        id: 17,
         name: "Anamika Kumari",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686809/profile%20pictures/anamika%20kumari.jpg",
@@ -378,9 +383,8 @@ const teamData = {
         linkedin: "",
         twitter: "",
       },
-
       {
-        id: 13,
+        id: 18,
         name: "Damini Kumari",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680088/profile%20pictures/DAMINI%20KUMARI.jpg",
@@ -389,9 +393,8 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/damini-kumari-a0a098282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         twitter: "",
       },
-
       {
-        id: 14,
+        id: 19,
         name: "Gaurav Suman",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680101/profile%20pictures/GAURAV%20SUMAN.jpg",
@@ -400,9 +403,8 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/gaurav-suman-baa84328a",
         twitter: "",
       },
-      
       {
-        id: 15,
+        id: 20,
         name: "Krish Kumar Sinha",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680106/profile%20pictures/gdmndbkqs4pvm1dd8xay.jpg",
@@ -411,9 +413,8 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/krish-kumar-sinha-a9b422246",
         twitter: "",
       },
-
       {
-        id: 16,
+        id: 21,
         name: "Madhumista",
         position: "",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680105/profile%20pictures/madhumista.jpg",
@@ -422,13 +423,8 @@ const teamData = {
         linkedin: "",
         twitter: "",
       },
-    ],},
-    art_3: {
-      teamName: "Art",
-      teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
-      members: [
       {
-        id: 17,
+        id: 22,
         name: "Moupiya Goldar",
         position: "",
         image:
@@ -438,9 +434,8 @@ const teamData = {
         linkedin: "",
         twitter: "",
       },
-
       {
-        id: 18,
+        id: 23,
         name: "Saim Jawed",
         position: "",
         image:
@@ -451,7 +446,7 @@ const teamData = {
         twitter: "",
       },
       {
-        id: 19,
+        id: 24,
         name: "Sanchita Jha",
         position: "",
         image:
@@ -463,8 +458,12 @@ const teamData = {
           "https://www.linkedin.com/in/sanchita-jha",
         twitter: "",
       },
+    ],
+  },
+  art_4: {
+    members: [
       {
-        id: 20,
+        id: 25,
         name: "Shreyashi Chatterjee",
         position: "",
         image:
@@ -475,7 +474,7 @@ const teamData = {
           "https://www.linkedin.com/in/shreyashi-chatterjee-5b684127b",
         twitter: "",
       },
-    ],
+    ]
   },
   literature: {
     teamName: "Literary",
@@ -562,22 +561,23 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
         twitter: "",
       },
-     ],},
-      literature_2: {
-        teamName: "Literary",
-        teamImage: "/Pen.png",
-        members: [
-          {
-            id: 8,
-            name: "Aakash Tiwari",
-            position: "",
-            image:
-              "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680107/profile%20pictures/Aakash%20tiwari.jpg",
-            branch: "CSE-CS-28",
-            instagram: "https://www.instagram.com/tiwariji.789/",
-            linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
-            twitter: "",
-          },
+      {
+        id: 8,
+        name: "Aakash Tiwari",
+        position: "",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680107/profile%20pictures/Aakash%20tiwari.jpg",
+        branch: "CSE-CS-28",
+        instagram: "https://www.instagram.com/tiwariji.789/",
+        linkedin: "https://www.linkedin.com/in/aakash-tiwari-in",
+        twitter: "",
+      },
+    ],
+  },
+  literature_2: {
+    teamName: "Literary",
+    teamImage: "/Pen.png",
+    members: [
       {
         id: 9,
         name: "Adarsh Kumar Dubey",
@@ -589,7 +589,6 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/adarsh-kumar-dubey-748024290",
         twitter: "",
       },
-
       {
         id: 10,
         name: "Aniket Kumar",
@@ -628,7 +627,7 @@ const teamData = {
         name: "Ayushi Shukla",
         position: "",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680114/profile%20pictures/ayushi%20shukla.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680114/profile%20pictures/ayushi%20shukla.jpg",
         branch: "CSE-27",
         instagram: "",
         linkedin: "https://www.linkedin.com/in/ayushi-shukla-55021928b",
@@ -646,34 +645,35 @@ const teamData = {
           "https://www.linkedin.com/in/21032005-ayushi-srivastava",
         twitter: "",
       },
-    ],},
-    literature_3: {
-      teamName: "Literary",
-      teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664979/expresso/Pen_l0l8t5.png",
-      members: [
-        {
-          id: 15,
-          name: "Kaushikee Kashyap",
-          position: "",
-          image:
-            "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679795/profile%20pictures/KAUSHIKEE%20KASHYAP.jpg",
-          branch: "CSE-27",
-          instagram: "https://www.instagram.com/kaushikee_k",
-          linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
-          twitter: "",
-        },
-        {
-          id: 16,
-          name: "Nikita Pant",
-          position: "",
-          image:
-            "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680115/profile%20pictures/nikita%20pant.jpg",
-          branch: "ECE-27",
-          instagram: "https://www.instagram.com/nikitapant_9",
-          linkedin: "https://www.linkedin.com/in/nikita-pant-852806280",
-          twitter: "",
-        },
-        {
+      {
+        id: 15,
+        name: "Kaushikee Kashyap",
+        position: "",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679795/profile%20pictures/KAUSHIKEE%20KASHYAP.jpg",
+        branch: "CSE-27",
+        instagram: "https://www.instagram.com/kaushikee_k",
+        linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
+        twitter: "",
+      },
+      {
+        id: 16,
+        name: "Nikita Pant",
+        position: "",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680115/profile%20pictures/nikita%20pant.jpg",
+        branch: "ECE-27",
+        instagram: "https://www.instagram.com/nikitapant_9",
+        linkedin: "https://www.linkedin.com/in/nikita-pant-852806280",
+        twitter: "",
+      },
+    ],
+  },
+  literature_3: {
+    teamName: "Literary",
+    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664979/expresso/Pen_l0l8t5.png",
+    members: [
+      {
         id: 17,
         name: "Om Vats",
         position: "",
@@ -702,7 +702,7 @@ const teamData = {
         name: "Rishav Kumar",
         position: "",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680113/profile%20pictures/rishav%20kumar.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680113/profile%20pictures/rishav%20kumar.jpg",
         branch: "EE-27",
         instagram: "https://www.instagram.com/ab_kab_rishav",
         linkedin: "https://www.linkedin.com/in/rishav-kumar-0a7057290",
@@ -747,7 +747,7 @@ const teamData = {
     teamName: "Web",
     teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664939/expresso/office_cosnl8.png",
     members: [
-      
+
       {
         id: 1,
         name: "Shubham Tiwari",
@@ -759,7 +759,7 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/shubham-tiwari-966223253",
         twitter: "",
       },
-    
+
       {
         id: 2,
         name: "Shradha Jha",
@@ -782,7 +782,7 @@ const teamData = {
         linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
         twitter: "",
       },
-   
+
       {
         id: 4,
         name: "Nikhil Kumar Das",
@@ -845,44 +845,44 @@ const teamData = {
     teamName: "Web",
     teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664939/expresso/office_cosnl8.png",
     members: [
-      
-  {
-    id: 1,
-    name: "Aman Gupta",
-    position: "Web Design Lead",
-    image:
-      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719685003/profile%20pictures/AMAN%20GUPTA.jpg",
-    branch: "ARCH-26",
-    instagram: "https://www.instagram.com/itz_aman506",
-    linkedin: "https://www.linkedin.com/in/aman-gupta-3726521b4",
-    twitter: "",
+
+      {
+        id: 1,
+        name: "Aman Gupta",
+        position: "Web Design Lead",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719685003/profile%20pictures/AMAN%20GUPTA.jpg",
+        branch: "ARCH-26",
+        instagram: "https://www.instagram.com/itz_aman506",
+        linkedin: "https://www.linkedin.com/in/aman-gupta-3726521b4",
+        twitter: "",
+      },
+      {
+        id: 2,
+        name: "Aditya Kumar",
+        position: "Web Design Co-lead",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679797/profile%20pictures/aditya%20kumar.jpg",
+        branch: "ECE-26",
+        instagram: "https://www.instagram.com/adityakumar.393",
+        linkedin: "https://www.linkedin.com/in/aditya-kumar-7bb54b257/",
+        twitter: "",
+      },
+      {
+        id: 3,
+        name: "Sanchita Jha",
+        position: "Web Asset Management",
+        image:
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680099/profile%20pictures/SANCHITA%20JHA.jpg",
+        branch: "CE-27",
+        instagram:
+          "https://www.instagram.com/sanchitaj_04/?igsh=MWF0anZucWRqY256cA%3D%3D",
+        linkedin:
+          "https://www.linkedin.com/in/sanchita-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        twitter: "",
+      },
+    ],
   },
-  {
-    id: 2,
-    name: "Aditya Kumar",
-    position: "Web Design Co-lead",
-    image:
-      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679797/profile%20pictures/aditya%20kumar.jpg",
-    branch: "ECE-26",
-    instagram: "https://www.instagram.com/adityakumar.393",
-    linkedin: "https://www.linkedin.com/in/aditya-kumar-7bb54b257/",
-    twitter: "",
-  },
-  {
-    id: 3,
-    name: "Sanchita Jha",
-    position: "Web Asset Management",
-    image:
-      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680099/profile%20pictures/SANCHITA%20JHA.jpg",
-    branch: "CE-27",
-    instagram:
-      "https://www.instagram.com/sanchitaj_04/?igsh=MWF0anZucWRqY256cA%3D%3D",
-    linkedin:
-      "https://www.linkedin.com/in/sanchita-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    twitter: "",
-  },
-],
-},
 };
 
 export default teamData;
