@@ -8,8 +8,8 @@ const EventPage = () => {
   return (
     <div>
       <EventFirstPage />
+      <UpcomingEvent />
       <Event />
-      {/* <UpcomingEvent /> */}
       <AllEventsPage />
       {/* <EventDesc
         event={{
