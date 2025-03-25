@@ -12,6 +12,7 @@ const UpcomingEvent = () => {
       id: 1,
       title: "Artopia",
       datetime: new Date("2025-03-25T18:00:00"), // Correct format for countdown
+      link: "https://meet.google.com/vtu-msym-srq",
       description: `The NIT Patna, under the vibrant organization of Expresso - The Literary & Art Club, is set to host an exhilarating three-day online event, ARTOPIA: A Digital Arts Extravaganza, from March 25th, 2025.
 
       Attendees will be immersed in the world of graphic design, animation, and interactive media, witnessing live digital art showcases, engaging in hands-on workshops, and exploring breathtaking exhibitions featuring both emerging and renowned artists. Adding to the experience, insightful talks by industry experts will provide valuable perspectives on the ever-evolving landscape of digital art.
@@ -156,6 +157,16 @@ const UpcomingEvent = () => {
                         {selectedEvent.venue}
                       </span>
                     </div>
+                    {selectedEvent.link && (
+                      <div className="flex flex-col items-start">
+                        <a
+                          href={selectedEvent.link}
+                          className="text-blue-400 text-base"
+                        >
+                          Meet Link
+                        </a>
+                      </div>
+                    )}
                   </div>
                   <div className="w-full px-16 lg:px-2">
                     <div className="w-full mt-5 flex flex-col">
