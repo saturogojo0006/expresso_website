@@ -13,8 +13,8 @@ const UpcomingEvent = () => {
       id: 1,
       title: "Artopia",
       subtitle: "Storyboard Saga",
-      datetime: new Date("2025-03-26T18:00:00"), // Correct format for countdown
-      link: "https://us06web.zoom.us/j/83382255690?pwd=nE2mwbuavkX8CrjuUdTjYgc03S7Eof.1",
+      datetime: new Date("2025-03-26T18:00:00"),
+      link: "https://meet.google.com/izy-pvpy-yjp",
       whatsappLink: "https://chat.whatsapp.com/KCrJqu6KMlAJwB3cL8ZifV",
       description: `The NIT Patna, under the vibrant organization of Expresso - The Literary & Art Club, is set to host an exhilarating three-day online event, ARTOPIA: A Digital Arts Extravaganza, from March 25th, 2025.
 
