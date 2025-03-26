@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import { FaWhatsapp } from "react-icons/fa6";
 
 const UpcomingEvent = () => {
   const [time, setTime] = useState(new Date());
@@ -11,8 +12,10 @@ const UpcomingEvent = () => {
     {
       id: 1,
       title: "Artopia",
-      datetime: new Date("2025-03-25T18:00:00"), // Correct format for countdown
-      link: "https://meet.google.com/vtu-msym-srq",
+      subtitle: "Storyboard Saga",
+      datetime: new Date("2025-03-26T18:00:00"), // Correct format for countdown
+      link: "",
+      whatsappLink: "https://chat.whatsapp.com/KCrJqu6KMlAJwB3cL8ZifV",
       description: `The NIT Patna, under the vibrant organization of Expresso - The Literary & Art Club, is set to host an exhilarating three-day online event, ARTOPIA: A Digital Arts Extravaganza, from March 25th, 2025.
 
       Attendees will be immersed in the world of graphic design, animation, and interactive media, witnessing live digital art showcases, engaging in hands-on workshops, and exploring breathtaking exhibitions featuring both emerging and renowned artists. Adding to the experience, insightful talks by industry experts will provide valuable perspectives on the ever-evolving landscape of digital art.
@@ -21,7 +24,7 @@ const UpcomingEvent = () => {
 
       This artistic celebration promises to be a landmark event, made possible by the unwavering dedication and enthusiasm of Expresso - The Literary & Art Club of NIT Patna. 🚀`,
       images: [
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1742453655/Events/Artopia/ArtopiaPoster.png",
+        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1742930398/Events/Artopia/Vibha%20Rao.png",
       ],
       venue: "Online",
     },
@@ -68,7 +71,7 @@ const UpcomingEvent = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-black px-2">
       <div className="w-full lg:w-1/3 bg-yellow-500 text-white flex flex-col lg:px-4 py-3 rounded-3xl my-4 lg:ml-4">
-        <div className="text-black text-5xl text-center xl:text-6xl font-bold leading-10 tracking-wide lg:ml-4 mt-4 pl-2">
+        <div className="text-black text-4xl text-center xl:text-5xl font-bold leading-10 tracking-wide lg:ml-4 mt-4 pl-2">
           UPCOMING EVENTS
         </div>
 
@@ -95,8 +98,11 @@ const UpcomingEvent = () => {
         <div className="w-full text-white flex flex-col justify-center px-4 py-0 mx-auto rounded-md">
           {selectedEvent && (
             <>
-              <div className="text-white text-4xl xl:text-5xl font-bold uppercase text-center mb-4">
+              <div className="text-white text-3xl xl:text-4xl font-bold uppercase text-center">
                 {selectedEvent.title}
+              </div>
+              <div className="text-white text-3xl xl:text-4xl font-bold uppercase text-center mb-4">
+                {selectedEvent.subtitle}
               </div>
               <div className="flex justify-center relative">
                 <img
@@ -144,14 +150,14 @@ const UpcomingEvent = () => {
                       <span className="text-white mt-2">Seconds</span>
                     </div>
                   </div>
-                  <div className="flex items-center justify-center lg:justify-start gap-4 mt-4">
+                  <div className="flex items-center justify-center gap-4 mt-4">
                     <Image
                       src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664940/expresso/pinLocation_glqqiy.png"
                       alt="Location Pin"
                       width={30}
                       height={30}
                     />
-                    <div className="flex flex-col items-start">
+                    <div className="flex flex-col items-center">
                       <span className="text-orange-400 text-base">VENUE</span>
                       <span className="text-white text-lg font-bold">
                         {selectedEvent.venue}
@@ -161,12 +167,25 @@ const UpcomingEvent = () => {
                       <div className="flex flex-col items-start">
                         <a
                           href={selectedEvent.link}
-                          className="text-blue-400 text-base"
+                          className="text-blue-400 text-xl"
                         >
-                          Meet Link
+                          <button className="bg-blue-400 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                            Meet Link
+                          </button>
                         </a>
                       </div>
                     )}
+                  </div>
+                  <div className="flex items-center justify-center gap-4 mt-4">
+                    <a
+                      href={selectedEvent.whatsappLink}
+                      className="text-center text-xl flex items-center text-green-600"
+                    >
+                      <button className="hover:bg-slate-200 hover:text-green-800 text-white px-4 py-2 rounded-lg bg-green-800">
+                        <FaWhatsapp size={30} className="inline mr-2" />{" "}
+                        Whatsapp Group
+                      </button>
+                    </a>
                   </div>
                   <div className="w-full px-16 lg:px-2">
                     <div className="w-full mt-5 flex flex-col">
