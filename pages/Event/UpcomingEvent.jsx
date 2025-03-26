@@ -12,9 +12,9 @@ const UpcomingEvent = () => {
     {
       id: 1,
       title: "Artopia",
-      subtitle: "Storyboard Saga",
-      datetime: new Date("2025-03-26T18:00:00"),
-      link: "https://meet.google.com/izy-pvpy-yjp",
+      subtitle: "Heritage Hues",
+      datetime: new Date("2025-03-27T18:00:00"),
+      link: "https://meet.google.com/zqp-yfjj-zyw",
       whatsappLink: "https://chat.whatsapp.com/KCrJqu6KMlAJwB3cL8ZifV",
       description: `The NIT Patna, under the vibrant organization of Expresso - The Literary & Art Club, is set to host an exhilarating three-day online event, ARTOPIA: A Digital Arts Extravaganza, from March 25th, 2025.
 
@@ -24,7 +24,7 @@ const UpcomingEvent = () => {
 
       This artistic celebration promises to be a landmark event, made possible by the unwavering dedication and enthusiasm of Expresso - The Literary & Art Club of NIT Patna. 🚀`,
       images: [
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1742930398/Events/Artopia/Vibha%20Rao.png",
+        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743002757/Events/Artopia/Vidushini%20Prasad.png",
       ],
       venue: "Online",
     },
