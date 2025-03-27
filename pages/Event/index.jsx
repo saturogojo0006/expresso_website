@@ -8,7 +8,7 @@ const EventPage = () => {
   return (
     <div>
       <EventFirstPage />
-      <UpcomingEvent />
+      {/* <UpcomingEvent /> */}
       <Event />
       <AllEventsPage />
       {/* <EventDesc
