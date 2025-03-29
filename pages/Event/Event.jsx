@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from 'next/router';
+import { title } from "process";
+import { images } from "@/next.config";
 // import {NavLink, Navigate, useNavigate} from 'react-router-dom' ;
 
 const Event = () => {
@@ -16,6 +18,32 @@ const Event = () => {
   
   const fetchEventData = async () => {
     const data = [
+      {
+        id:0,
+        title: "ARTOPIA 2025",
+        description:`ARTOPIA was a vibrant three-day online art workshop organized by Expresso – The Literary and Art Club, NIT Patna, bringing together artists, creators, and enthusiasts to celebrate the power of artistic expression. The event featured renowned artists who shared their expertise, guiding participants through different artistic styles, techniques, and storytelling methods.
+
+        The event featured three exclusive workshops:
+        
+        - Fusing Tradition with Digital Art – Led by Aman Varma, this session explored the fusion of traditional artistic elements with modern digital tools, showcasing how heritage and technology can blend seamlessly in digital art.
+        
+        - Storyboard Saga – Conducted by Vibha Rao, this workshop delved into the art of visual storytelling through comics and animation, capturing the nuances of characters, emotions, and everyday narratives.
+        
+        - Heritage Hues – Guided by Vidushini Prasad, this session celebrated the intricate beauty of Madhubani painting, highlighting its rich cultural significance and timeless artistic traditions.
+        
+        
+        More than just a series of workshops, ARTOPIA was a creative space where imagination thrived, stories unfolded, and artistic passions were ignited. It was a journey of learning, exploration, and inspiration—one that encouraged participants to push their creative boundaries and embrace the magic of art.`,
+
+        images: ["https://res.cloudinary.com/dnbutfdy7/image/upload/v1742453655/Events/Artopia/ArtopiaPoster.png",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743002757/Events/Artopia/Vidushini%20Prasad.png",
+          // "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/Vidushini2.png",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222869/Events/Artopia/VibhaRao2.png",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/AmanVerma2.png",
+          // "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/AmanVerma1.png",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1742442037/Events/Artopia/26vibharao.png",
+        ],
+      },
+
       {
         id: 1,
         title: "MUN 2.0",
