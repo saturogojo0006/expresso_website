@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/router";
 import { title } from "process";
 import { images } from "@/next.config";
 // import {NavLink, Navigate, useNavigate} from 'react-router-dom' ;
@@ -9,19 +9,19 @@ const Event = () => {
   const [events, setEvents] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState({});
   const [overlay, setOverlay] = useState({ isOpen: false, image: null });
- 
-    const router = useRouter();
-  
-    const goBackHome = () => {
-      router.push('/'); // Replace '/' with the path to your home page
-    };
-  
+
+  const router = useRouter();
+
+  const goBackHome = () => {
+    router.push("/"); // Replace '/' with the path to your home page
+  };
+
   const fetchEventData = async () => {
     const data = [
       {
-        id:0,
+        id: 0,
         title: "ARTOPIA 2025",
-        description:`ARTOPIA was a vibrant three-day online art workshop organized by Expresso – The Literary and Art Club, NIT Patna, bringing together artists, creators, and enthusiasts to celebrate the power of artistic expression. The event featured renowned artists who shared their expertise, guiding participants through different artistic styles, techniques, and storytelling methods.
+        description: `ARTOPIA was a vibrant three-day online art workshop organized by Expresso – The Literary and Art Club, NIT Patna, bringing together artists, creators, and enthusiasts to celebrate the power of artistic expression. The event featured renowned artists who shared their expertise, guiding participants through different artistic styles, techniques, and storytelling methods.
 
         The event featured three exclusive workshops:
         
@@ -34,7 +34,8 @@ const Event = () => {
         
         More than just a series of workshops, ARTOPIA was a creative space where imagination thrived, stories unfolded, and artistic passions were ignited. It was a journey of learning, exploration, and inspiration—one that encouraged participants to push their creative boundaries and embrace the magic of art.`,
 
-        images: ["https://res.cloudinary.com/dnbutfdy7/image/upload/v1742453655/Events/Artopia/ArtopiaPoster.png",
+        images: [
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1742453655/Events/Artopia/ArtopiaPoster.png",
           "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743002757/Events/Artopia/Vidushini%20Prasad.png",
           // "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/Vidushini2.png",
           "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222869/Events/Artopia/VibhaRao2.png",
@@ -189,11 +190,11 @@ const Event = () => {
           "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688194/Events/Kitabe.padho/WhatsApp_Image_2024-06-24_at_13.29.24_b672cd16_oaspu9.jpg",
         ],
       },
-      
+
       {
         id: 7,
         title: "TCF_Avlokan",
-        title: 'TCF_Avlokan',
+        title: "TCF_Avlokan",
         description: `"The power of a mastermind lies in their ability to see the bigger picture and connect the dots"!
         Expresso - Literary and Art Club of NIT Patna organized a series of events under Avlokan in TCF '24, providing an opportunity to hone your abilities and talents in the fun-filled hours of dares, wisdom, writing, and spelling.
 
@@ -264,7 +265,7 @@ const Event = () => {
         The event truly highlighted the magic of cinema in bringing people together, making it an evening to remember.
         `,
         images: [
-         "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687150/Events/MOVIE%20MATINEE/n3b8puwcjgzlrexwwxrc.jpg",
+          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687150/Events/MOVIE%20MATINEE/n3b8puwcjgzlrexwwxrc.jpg",
           "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687151/Events/MOVIE%20MATINEE/ulms1l2zpxdsb4nt7dgj.jpg",
           "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687150/Events/MOVIE%20MATINEE/fpll0rjzfbgcf8cd68gx.jpg",
         ],
@@ -340,23 +341,24 @@ const Event = () => {
   }, []);
 
   const handleNextImage = (eventId) => {
-    setCurrentImageIndex((prevState) => ({
-      ...prevState,
-      [eventId]:
-        (prevState[eventId] + 1) %
-        events.find((event) => event.id === eventId).images.length,
-    }));
+    setCurrentImageIndex((prevState) => {
+      const event = events.find((event) => event.id === eventId);
+      return {
+        ...prevState,
+        [eventId]: (prevState[eventId] + 1) % event.images.length,
+      };
+    });
   };
 
   const handlePrevImage = (eventId) => {
-    setCurrentImageIndex((prevState) => ({
-      ...prevState,
-      [eventId]:
-        (prevState[eventId] -
-          1 +
-          events.find((event) => event.id === eventId).images.length) %
-        events.find((event) => event.id === eventId).images.length,
-    }));
+    setCurrentImageIndex((prevState) => {
+      const event = events.find((event) => event.id === eventId);
+      return {
+        ...prevState,
+        [eventId]:
+          (prevState[eventId] - 1 + event.images.length) % event.images.length,
+      };
+    });
   };
 
   const openOverlay = (image) => {
@@ -370,16 +372,21 @@ const Event = () => {
   return (
     <div className="flex flex-col bg-[#4B4B4B] h-full pt-4 px-4 sm:px-8 sm:justify-center">
       <button
-      className="self-end h-[29px] w-[109px] mb-4 sm:mb-0"
-      onClick={goBackHome}
-    >
-      <div className="flex gap-1 flex-row-reverse items-center">
-        <div className="text-white text-xl font-antonio pb-1">BACK</div>
-        <div className="border-2 rounded-full border-white p-1">
-          <Image src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664989/expresso/Arrow2_epdbhb.png" width={20} height={20} alt="Arrow" />
+        className="self-end h-[29px] w-[109px] mb-4 sm:mb-0"
+        onClick={goBackHome}
+      >
+        <div className="flex gap-1 flex-row-reverse items-center">
+          <div className="text-white text-xl font-antonio pb-1">BACK</div>
+          <div className="border-2 rounded-full border-white p-1">
+            <Image
+              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664989/expresso/Arrow2_epdbhb.png"
+              width={20}
+              height={20}
+              alt="Arrow"
+            />
+          </div>
         </div>
-      </div>
-    </button>
+      </button>
 
       {events.map((event, index) => (
         <div
@@ -414,8 +421,7 @@ const Event = () => {
                 {"<"}
               </button>
               <span className="px-4">
-                {currentImageIndex[event.id] + 1}/
-                {events.find((event) => event.id === event.id).images.length}
+                {currentImageIndex[event.id] + 1}/{event.images.length}
               </span>
               <button
                 onClick={() => handleNextImage(event.id)}
@@ -435,13 +441,14 @@ const Event = () => {
             </div>
             <div
               className="text-[#ffffff] text-base sm:text-lg bg-cover bg-center p-4 mt-4 mb-6 whitespace-pre-line overflow-y-auto max-h-64 rounded-2xl"
-              style={{ backgroundImage: `url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664985/expresso/HomeBg1_bzalmy.png')` }}
+              style={{
+                backgroundImage: `url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664985/expresso/HomeBg1_bzalmy.png')`,
+              }}
             >
               {event.description}
             </div>
           </div>
-          </div>
-       
+        </div>
       ))}
 
       {overlay.isOpen && (
