@@ -5,7 +5,7 @@ const alumniData = {
         id: 1,
         name: "Rahul Xavier",
         position: "President",
-        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679909/profile%20pictures/Rahul%20Xavier.jpg",
+        image: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685573/Rahul_Xavier_jyi7st.jpg",
         branch: "ARCH-25",
         instagram:
           "https://www.instagram.com/rahul_xvr",
@@ -17,7 +17,7 @@ const alumniData = {
         id: 2,
         name: "Mirza Y S Baig",
         position: "Secretary",
-        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679915/profile%20pictures/MIRZA%20BAIG.jpg",
+        image: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685511/MIRZA_BAIG_twlpxa.jpg",
         branch: "ECE-25",
         instagram: "https://www.instagram.com/mirzathedreamers",
         linkedin: "https://www.linkedin.com/in/mirza-baig-nitp",
@@ -27,7 +27,7 @@ const alumniData = {
         id: 3,
         name: "Alankrita Singh",
         position: "Treasurer",
-        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/ALANKRITA%20SINGH.jpg",
+        image: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685422/ALANKRITA_SINGH_sbmvhh.jpg",
         branch: "ECE-25",
         instagram: "https://www.instagram.com/alankrita_singh0520",
         linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260",
@@ -38,7 +38,7 @@ const alumniData = {
         name: "Pawni Chauhan",
         position: "Literary Head",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679799/profile%20pictures/PAWNI%20CHAUHAN.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685623/PAWNI_CHAUHAN_rxztw5.jpg",
         branch: "ME-25",
         instagram: "https://www.instagram.com/pawnichauhan7",
         linkedin: "https://linkedin.com/in/pawni-chauhan-95b181249",
@@ -49,7 +49,7 @@ const alumniData = {
         name: "Shalvee Kumari",
         position: "PR Head",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679911/profile%20pictures/shalvee%20kumari.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685829/shalvee_kumari_wqqs1p.jpg",
         branch: "ECE-25",
         instagram: "https://www.instagram.com/shalvee_20",
         linkedin: "https://www.linkedin.com/in/shalvee0920",
@@ -60,7 +60,7 @@ const alumniData = {
         name: "Harshali",
         position: "Event Coordinator",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680111/profile%20pictures/HARSHALI.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685508/HARSHALI_zzo3x1.jpg",
         branch: "CE-25",
         instagram: "https://www.instagram.com/",
         linkedin: "https://www.linkedin.com/in/harshali-59564b228",
@@ -71,7 +71,7 @@ const alumniData = {
         name: "Harsh Vardhan",
         position: "Event Coordinator",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679798/profile%20pictures/Harsh%20Vardhan.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685499/Harsh_Vardhan_etdpct.jpg",
         branch: "CSE-25",
         instagram: "https://www.instagram.com/ig_harsh.vardhan",
         linkedin: "https://www.linkedin.com/in/harsh-vardhan-4354b1237/",
@@ -82,7 +82,7 @@ const alumniData = {
         id: 8,
         name: "Aishwarya Pandit",
         position: "",
-        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680116/profile%20pictures/AISHSWARYA%20PANDIT.jpg",
+        image: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685409/AISHSWARYA_PANDIT_mijym7.jpg",
         branch: "ARCH-26",
         instagram: "https://www.instagram.com/yours.aishwarya_",
         linkedin: "https://www.linkedin.com/in/aishwarya-pandit-176567234",
@@ -98,7 +98,7 @@ const alumniData = {
         name: "Shivani",
         position: "Content Coordinator",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682009/profile%20pictures/Shivani%20Raj.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685879/Shivani_Raj_trkn6k.jpg",
         branch: "CSE-25",
         instagram: "https://www.instagram.com/Shivaniraj4683",
         linkedin: "https://www.linkedin.com/in/shivani-raj-59b798257",
@@ -108,7 +108,7 @@ const alumniData = {
         id: 2,
         name: "Rohan Shetty",
         position: "Web Head",
-        image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679712/profile%20pictures/Rohan%20Shetty.jpg",
+        image: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685623/Rohan_Shetty_qvxdg2.jpg",
         branch: "ECE-25",
         instagram: "https://www.instagram.com/shetty._.rohan",
         linkedin: "https://www.linkedin.com/in/rohan1704",
@@ -120,7 +120,7 @@ const alumniData = {
         position: "Ex Vice President",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679913/profile%20pictures/Mushkan%20Jha.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685515/Mushkan_Jha_wpmf3z.jpg",
         branch: "ARCH-26",
         instagram: "",
         linkedin: "https://in.linkedin.com/in/muskanjhamj",
@@ -132,7 +132,7 @@ const alumniData = {
         position: "Media Lead",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681118/Alumni/AvnitPrakash_l7fwcq.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665216/AvnitPrakash_l7fwcq_noajeu.jpg",
         branch: "ECE-24",
         instagram:
           "https://www.instagram.com/_avnitp1070?igsh=MXd1aGJ0c3BzcXVzaw==",
@@ -146,7 +146,7 @@ const alumniData = {
         position: "Content Co-Editor",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681129/Alumni/ShubhamKumar_cepbpm.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665301/ShubhamKumar_cepbpm_qb8qis.jpg",
         branch: "ME-24",
         instagram:
           "https://www.instagram.com/shubham_024_kumar?igsh=MjNrYTJ6amc2dnRi",
@@ -160,7 +160,7 @@ const alumniData = {
         position: "Event Coordinator ",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681117/Alumni/yashAnupam_two5o2.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665317/yashAnupam_two5o2_h5gdon.jpg",
         branch: "ECE-24",
         instagram:
           "https://www.instagram.com/yash_anupam?igsh=ZXdxOG5ibXZjcnFt",
@@ -174,7 +174,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681124/Alumni/ParulGupta_syn2bv.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665262/ParulGupta_syn2bv_pjv1me.jpg",
         branch: "EE-24",
         instagram: "https://www.instagram.com/gparul.29?igsh=YzkxNDBsaHJzNzNl",
         linkedin:
@@ -187,7 +187,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681121/Alumni/HimanshuRai_xotf4v.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665228/HimanshuRai_xotf4v_w0bcwf.jpg",
         branch: "CSE-24",
         instagram:
           "https://www.instagram.com/himanshurai122?igsh=MTlieTMyOXMxZWc4NQ==",
@@ -208,7 +208,7 @@ const alumniData = {
         position: "Editor In-Chief",
         team: "Non-Technical",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681116/Alumni/subhiSingh_rkfilt.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665307/subhiSingh_rkfilt_hqsxxm.jpg",
         branch: "ECE-24",
         instagram:
           "https://www.instagram.com/_shubhii.s?igsh=MTUxMXp3OGtvd3BqaA==",
@@ -221,7 +221,7 @@ const alumniData = {
         position: "Event Co-Coordinator",
         team: "Non-Technical",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681137/Alumni/Riti_Raj_py2emu.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665299/Riti_Raj_py2emu_cfyuzw.jpg",
         branch: "CE-24",
         instagram: "https://www.instagram.com/ritiraj04?igsh=bDcwa3cyeGF2ODkw",
         linkedin:
@@ -234,7 +234,7 @@ const alumniData = {
         position: "Media Co-Coordinator",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681118/Alumni/AkshitaMaheswari_gk8x8b.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665191/AkshitaMaheswari_gk8x8b_ewikbu.jpg",
         branch: "EE-24",
         instagram:
           "https://www.instagram.com/_akshhi?igsh=MWtzaGJyMTRzNmd2dQ==",
@@ -260,7 +260,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681125/Alumni/RathorGuruGovindSingh_pewta7.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665270/RathorGuruGovindSingh_pewta7_xvr013.jpg",
         branch: "ME-24",
         instagram:
           "https://www.instagram.com/rathod_guru_naayak0816?igsh=ejlrem45ZmJ5enhp",
@@ -274,7 +274,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681123/Alumni/KaushikPatnaik_y29j1j.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665239/KaushikPatnaik_y29j1j_hogcxj.jpg",
         branch: "ECE-24",
         instagram:
           "https://www.instagram.com/kaushikpattnaik139?igsh=MW52ZDJwcjM0Y3Y3",
@@ -288,7 +288,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681120/Alumni/DarshanJain_rtm18q.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665227/DarshanJain_rtm18q_wwprzf.jpg",
         branch: "ECE-24",
         instagram: "https://www.instagram.com/_._darshh?igsh=N3M0aGVrOGtrdTZ1",
         linkedin:
@@ -301,7 +301,7 @@ const alumniData = {
         position: " ",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681128/Alumni/roshnimam_hxpxeu.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665283/roshnimam_hxpxeu_hfapf2.jpg",
         branch: "ARCH-25",
         instagram:
           "https://www.instagram.com/mayuroshani?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D",
@@ -319,7 +319,7 @@ const alumniData = {
         position: " ",
         team: "Non-Technical",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681121/Alumni/Gautam_y3svtn.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665224/Gautam_y3svtn_efvkuf.jpg",
         branch: "ECE-24",
         instagram: "https://www.instagram.com/gauti_1820?igsh=OXBhdTdjOHVkdGZz",
         linkedin:
@@ -332,7 +332,7 @@ const alumniData = {
         position: "Web Head",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505684/Alumni/Aastha%20Sinha.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665194/Aastha_Sinha_la3qwg.jpg",
         branch: "ECE-23",
         instagram:
           "",
@@ -346,7 +346,7 @@ const alumniData = {
         position: "President",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505661/Alumni/Ketki%20Churi.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665256/Ketki_Churi_yhfbfp.jpg",
         branch: "ME-22",
         instagram: "https://instagram.com/ketki_umesh_/",
         linkedin: "https://www.linkedin.com/in/ketki-churi-30b76b181",
@@ -358,7 +358,7 @@ const alumniData = {
         position: "Vice President",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505682/Alumni/Akash%20deep%20Narayan.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665230/IMG-20240705-WA0022_worioi_kda35m.jpg",
         branch: "CSE-23",
         instagram:
           "https://instagram.com/akashdeepnarayan",
@@ -372,7 +372,7 @@ const alumniData = {
         position: "Secretary",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505696/Alumni/Shreyashi%20Kumari.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665307/Shreyashi_Kumari_fdwvrd.jpg",
         branch: "ECE-23",
         instagram:
           "https://instagram.com/shreyashisahay/",
@@ -386,7 +386,7 @@ const alumniData = {
         position: "Treasurer",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505662/Alumni/IMG-20240705-WA0028_dcuxdo.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665237/IMG-20240705-WA0028_dcuxdo_crl0px.jpg",
         branch: "ECE-23",
         instagram:
           "https://instagram.com/__.roy.15__/",
@@ -400,7 +400,7 @@ const alumniData = {
         position: "Literary Head",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505685/Alumni/Anamika%20Kumari.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665215/Anamika_Kumari_jzgkky.jpg",
         branch: "EE-23",
         instagram: "https://instagram.com/anamikaaa__k",
         linkedin:
@@ -413,7 +413,7 @@ const alumniData = {
         position: "Arts Head",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505680/Alumni/Tanzeelur%20Rahman.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665315/Tanzeelur_Rahman_yrs2jn.jpg",
         branch: "ARCH-24",
         instagram:
           "https://instagram.com/thatxeel",
@@ -432,7 +432,7 @@ const alumniData = {
         position: "Web Head",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505680/Alumni/Abhishek%20Kumar.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665195/Abhishek_Kumar_ej5ozb.jpg",
         branch: "CE-23",
         instagram: "",
         linkedin: "",
@@ -444,7 +444,7 @@ const alumniData = {
         position: "Literary Head",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505688/Alumni/Priyansh%20Khare.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665269/Priyansh_Khare_jqcsn4.jpg",
         branch: "EE-22",
         instagram:
           "https://instagram.com/priyanshk.exe",
@@ -458,7 +458,7 @@ const alumniData = {
         position: "Treasurer",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505677/Alumni/Aditya%20Singh.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665214/Aditya_Singh_mr9sh2.jpg",
         branch: "ME-22",
         instagram:
           "https://instagram.com/doingitlater/",
@@ -472,7 +472,7 @@ const alumniData = {
         position: "",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505697/Alumni/Harsh.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665249/Harsh_xb8cqf.jpg",
         branch: "",
         instagram:
           "",
@@ -486,7 +486,7 @@ const alumniData = {
         position: "Co Editor",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505693/Alumni/Smriti%20Pal.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665304/Smriti_Pal_ihfz7w.jpg",
         branch: "CSE-22",
         instagram: "",
         linkedin:
@@ -499,7 +499,7 @@ const alumniData = {
         position: "Secretary",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505661/Alumni/Aditi.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665209/Aditi_kweuuc.jpg",
         branch: "ECE-22",
         instagram:
           "https://instagram.com/anshu_aditi",
@@ -525,7 +525,7 @@ const alumniData = {
         position: "MUN Converner",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505661/Alumni/Kriti%20Mathur.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665244/Kriti_Mathur_sfajsb.jpg",
         branch: "IMSC CHEM-24",
         instagram:
           "https://www.instagram.com/k_r_i_t_i__99/",
@@ -543,7 +543,7 @@ const alumniData = {
         position: "Event Coordinator",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505661/Alumni/Subhrat%20chaturvedi.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665313/Subhrat_chaturvedi_z4kzqb.jpg",
         branch: "ARCH-23",
         instagram: "https://instagram.com/khudirang/",
         linkedin: "https://www.linkedin.com/in/subhrat-chaturvedi-b91402175",
@@ -555,7 +555,7 @@ const alumniData = {
         position: "Media Head",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505661/Alumni/Sameer%20Nautiyal.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665286/Sameer_Nautiyal_jvjsqb.jpg",
         branch: "IMSC PHY-24",
         instagram:
           "https://www.instagram.com/mitshd?r=nametag",
@@ -569,7 +569,7 @@ const alumniData = {
         position: "Design Head",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505662/Alumni/Priyanka%20Kumari.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665266/Priyanka_Kumari_yz1124.jpg",
         branch: "ME-23",
         instagram:
           "https://www.instagram.com/priyanka_404/",
@@ -583,7 +583,7 @@ const alumniData = {
         position: "",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505676/Alumni/Meenal%20Badge.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665255/Meenal_Badge_ipyxsn.jpg",
         branch: "CE-22",
         instagram:
           "",
@@ -597,7 +597,7 @@ const alumniData = {
         position: "",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505680/Alumni/Neelotpal%20s%20Raghuvanshi.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665259/Neelotpal_s_Raghuvanshi_p5gdcg.jpg",
         branch: "CSE-23",
         instagram: "https://www.linkedin.com/in/nitesh-kumar-35b6b61b5",
         linkedin:
@@ -610,7 +610,7 @@ const alumniData = {
         position: "",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505684/Alumni/Rohit%20Kumar%20singh.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665280/Rohit_Kumar_singh_miicvd.jpg",
         branch: "EE-23",
         instagram:
           "https://www.instagram.com/blankelement/",
@@ -624,7 +624,7 @@ const alumniData = {
         position: "MUN Converner",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505685/Alumni/Sejal%20Bansal.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665289/Sejal_Bansal_mfls3a.jpg",
         branch: "ME-23",
         instagram: "https://www.instagram.com/bansal_sejal_/",
         linkedin: "https://www.linkedin.com/in/sejal-bansal-4767b6201",
@@ -636,7 +636,7 @@ const alumniData = {
         position: "Event Co-Cordinator",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505686/Alumni/Archana%20Garge.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665218/Archana_Garge_z5u77u.jpg",
         branch: "CSE-23",
         instagram:
           "https://instagram.com/_archana_g_",
@@ -654,7 +654,7 @@ const alumniData = {
         position: "Media Coordinator",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505687/Alumni/Garima%20Singh.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665223/Garima_Singh_dbyach.jpg",
         branch: "CSE-22",
         instagram: "https://instagram.com/garyysin",
         linkedin: "https://www.linkedin.com/in/garimasinghnitp/",
@@ -666,7 +666,7 @@ const alumniData = {
         position: "Media Co-Coordinator",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505687/Alumni/Varadraj.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665317/Varadraj_scag1h.jpg",
         branch: "ARCH-23",
         instagram:
           "",
@@ -680,7 +680,7 @@ const alumniData = {
         position: "",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505687/Alumni/Srikar.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665306/Srikar_q6mws6.jpg",
         branch: "ARCH-23",
         instagram:
           "https://instagram.com/srikar_sai_bollam/",
@@ -694,7 +694,7 @@ const alumniData = {
         position: "PR Head",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505688/Alumni/Dewansh%20Srivastava.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665221/Dewansh_Srivastava_cxgj1l.jpg",
         branch: "CE-22",
         instagram:
           "https://www.instagram.com/dewanshsrivastav",
@@ -708,7 +708,7 @@ const alumniData = {
         position: "President",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505693/Alumni/Aman%20Chaturvedi.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665212/Aman_Chaturvedi_rupyon.jpg",
         branch: "EE-21",
         instagram: "https://instagram.com/hum__sukhan",
         linkedin:
@@ -721,7 +721,7 @@ const alumniData = {
         position: "Media Co-Cordinator",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505694/Alumni/Nitesh%20Kumar.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665262/Nitesh_Kumar_zfgakx.jpg",
         branch: "ECE-23",
         instagram:
           "https://instagram.com/nitesh_ka_insta",
@@ -735,7 +735,7 @@ const alumniData = {
         position: "Design Head",
         team: " ",
         image:
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505694/Alumni/Lavanya%20Singla.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665252/Lavanya_Singla_ncf18n.jpg",
         branch: "CSE-23",
         instagram: "",
         linkedin: "https://www.linkedin.com/in/lavanya-singla-0576b71b8/",
@@ -747,7 +747,7 @@ const alumniData = {
         position: "",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505676/Alumni/Akash%20Kumar.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665200/Akash_Kumar_vozojj.jpg",
         branch: "ME-23",
         instagram:
           "https://www.instagram.com/akash_2771_thakur/",
@@ -778,7 +778,8 @@ const alumniData = {
         position: "Event Coordinator",
         team: " ",
         image:
-        "https://res.cloudinary.com/dnbutfdy7/image/upload/v1720505676/Alumni/Zohaib%20Bin%20Hamid.jpg",
+        "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750665319/Zohaib_Bin_Hamid_fpefn2.jpg",
+
         branch: "EE-23",
         instagram:
           "https://instagram.com/zohaib._.bin._.hamid",
