@@ -18,7 +18,7 @@ const Event = () => {
 
   const fetchEventData = async () => {
     const data = [
-      {
+     {
         id: 0,
         title: "ARTOPIA 2025",
         description: `ARTOPIA was a vibrant three-day online art workshop organized by Expresso – The Literary and Art Club, NIT Patna, bringing together artists, creators, and enthusiasts to celebrate the power of artistic expression. The event featured renowned artists who shared their expertise, guiding participants through different artistic styles, techniques, and storytelling methods.
@@ -35,13 +35,13 @@ const Event = () => {
         More than just a series of workshops, ARTOPIA was a creative space where imagination thrived, stories unfolded, and artistic passions were ignited. It was a journey of learning, exploration, and inspiration—one that encouraged participants to push their creative boundaries and embrace the magic of art.`,
 
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1742453655/Events/Artopia/ArtopiaPoster.png",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743002757/Events/Artopia/Vidushini%20Prasad.png",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839067/ArtopiaPoster_tn8yvl.png",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839053/Vidushini_Prasad_cd7vyi.png",
           // "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/Vidushini2.png",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222869/Events/Artopia/VibhaRao2.png",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/AmanVerma2.png",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839051/VibhaRao2_a79mkp.png",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839053/AmanVerma2_scmmvo.png",
           // "https://res.cloudinary.com/dnbutfdy7/image/upload/v1743222870/Events/Artopia/AmanVerma1.png",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1742442037/Events/Artopia/26vibharao.png",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839050/26vibharao_pvwx7x.png",
         ],
       },
 
@@ -63,13 +63,13 @@ const Event = () => {
 
         MUN 2.0 offered an unparalleled platform for students to hone their public speaking, negotiation, and analytical skills while gaining practical exposure to the intricacies of international diplomacy and legislative processes. This edition set a new benchmark for intellectual events on campus, leaving an indelible mark on its participants.`,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603359/MUN2.0/MUN2.0c_lpslf1.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603359/MUN2.0/MUN2.0b_mevtwk.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603357/MUN2.0/MUN2.0a_jnabdp.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603431/MUN2.0/MUN2.0d_amkn61.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603450/MUN2.0/MUN2.0e_dpfqjn.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603492/MUN2.0/MUn2.0f_fhj7de.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1734603753/MUN2.0/Mun2.0g_tkdssl.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750684830/MUN2.0c_rvaume.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750684829/MUN2.0b_pv4uux.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750684828/MUN2.0a_cxov88.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750684829/MUN2.0d_qjbhiz.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750684830/MUn2.0f_bedkfi.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750684831/MUN2.0e_wmvj6h.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750684831/Mun2.0g_nvaflc.jpg",
         ],
       },
       {
@@ -81,12 +81,12 @@ const Event = () => {
 
         AAWAAZ was a resounding success , leaving a lasting impression on everyone who attended. This was possible only due to the amazing cooperation and active participation of the members of both the fantastic clubs of NIT Patna, Expresso - The Literary & Art Club & Saptak - The Music Club.`,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686166/Events/AAWAZ/DSC_1605-min_no52ku.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686168/Events/AAWAZ/_DSC0125-min_svrzfd.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686163/Events/AAWAZ/DSC_1209-min_m72xo1.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686160/Events/AAWAZ/DSC_1139-min_otyjxt.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686160/Events/AAWAZ/DSC_1109-min_ots81r.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686159/Events/AAWAZ/DSC_1000-min_muw1j2.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750838992/DSC_1605-min_no52ku_zofsei.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750838992/_DSC0125-min_svrzfd_uozw88.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750838992/DSC_1209-min_m72xo1_jrfe3q.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750838991/DSC_1139-min_otyjxt_kwvpat.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750838992/DSC_1109-min_ots81r_yhpp8k.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750838991/DSC_1000-min_muw1j2_isxjm2.jpg",
         ],
       },
       {
@@ -95,11 +95,11 @@ const Event = () => {
         description: `Expresso is all about expressing yourself, and this time you can do it in “Dil Se Canvas”. This is one of the awesome events of Expresso, where two artists team up to create magic on a canvas! First, one artist starts with the theme, then they swap, and the other finishes it. Organized at CV Raman Hall on March 3rd, 2024, at 5:00 pm, so just grab your partner now and unleash your creativity. We will give you paint and you’ll give us painting. 
         Let your creativity shine!`,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686570/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0315_or0tbe.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686548/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0350_enk09r.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686558/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0577_azsv6w.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686550/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0557_rr8kzw.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686546/Events/DIL%20SE%20CANVAS/DilSeCanvas/DSC_0471_tujzyg.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839115/DSC_0315_or0tbe_dkutlo.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839107/DSC_0577_azsv6w_nfcjs0.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839106/DSC_0350_enk09r_px0kee.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839106/DSC_0557_rr8kzw_utwmvv.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839105/DSC_0471_tujzyg_yhwbvb.jpg",
         ],
       },
       {
@@ -116,13 +116,13 @@ const Event = () => {
         
         Participants enjoyed the festivities and got exposure to International Diplomacy reporting a significant enhancement in their public speaking and planning skills.`,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682809/Events/MUN/DSC_0418_lclzcs.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682802/Events/MUN/DSC_0425_yqggxl.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682820/Events/MUN/DSC_0463_xldm72.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684025/Events/MUN/DSC_0854-min_csyyht.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684048/Events/MUN/DSC_0912-min_enfu1i.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682835/Events/MUN/DSC_0928_fyldz7.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684034/Events/MUN/DSC_0925-min_peci2j.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839223/DSC_0418_lclzcs_eak7wo.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839224/DSC_0425_yqggxl_exir2c.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839225/DSC_0463_xldm72_xpvbf5.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839226/DSC_0854-min_csyyht_coszqq.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839227/DSC_0912-min_enfu1i_sghdmd.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839235/DSC_0928_fyldz7_xoml4k.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839224/DSC_0925-min_peci2j_hnrldi.jpg",
         ],
       },
       {
@@ -147,12 +147,12 @@ const Event = () => {
         These events saw enthusiastic participation from students across various disciplines, engaging in thought-provoking discussions on diverse topics. The debates highlighted the power of critical thinking, fostering an environment of intellectual curiosity and lively discourse.
         `,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687432/Events/SANHITA/DSC_0040-min_yyhy2b.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687373/Events/SANHITA/DSC_0070-min_h8bjbh.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686972/Events/SANHITA/DSC_0094_o2da0z.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719686971/Events/SANHITA/DSC_0373_vuc9hd.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687448/Events/SANHITA/DSC_0049-min_x1ezlc.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687471/Events/SANHITA/DSC_0205.JPG-min_d58qfe.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839238/DSC_0040-min_yyhy2b_mvy3xf.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839239/DSC_0070-min_h8bjbh_li3y8y.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839246/ygureoalb5qt6cackftr_fwmzaz.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839241/kqivfztpeiqbdcqmxyzg_bygna1.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839239/DSC_0049-min_x1ezlc_wjy4wa.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839241/DSC_0205.JPG-min_d58qfe_etszqb.jpg",
         ],
       },
       {
@@ -183,11 +183,11 @@ const Event = () => {
 
         This series will stay continued and will bring  best out of bestBooks to the readers & learning enthusiasts...`,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688231/Events/Kitabe.padho/Blue_and_White_Modern_Minimalistic_About_Us_Instagram_Story_qdnjkg.png",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688203/Events/Kitabe.padho/WhatsApp_Image_2024-06-24_at_13.31.17_4a5d86a9_zuimrw.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688200/Events/Kitabe.padho/the_alchemist_vxot9e.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688197/Events/Kitabe.padho/WhatsApp_Image_2024-06-24_at_13.31.00_431c578a_dsei1c.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688194/Events/Kitabe.padho/WhatsApp_Image_2024-06-24_at_13.29.24_b672cd16_oaspu9.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839187/WhatsApp_Image_2024-06-24_at_13.31.00_431c578a_dsei1c_mwvtqh.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839188/WhatsApp_Image_2024-06-24_at_13.31.17_4a5d86a9_zuimrw_qdlcha.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839193/Blue_and_White_Modern_Minimalistic_About_Us_Instagram_Story_qdnjkg_canjra.png",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839184/the_alchemist_vxot9e_n4hh7j.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839184/WhatsApp_Image_2024-06-24_at_13.29.24_b672cd16_oaspu9_bgntwc.jpg",
         ],
       },
 
@@ -210,12 +210,12 @@ const Event = () => {
 
         Following these enthusiastic and spirited events, participants found a sense of belonging in the literary and artistic community at NIT Patna, recognizing the talent and skills of all involved.`,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681447/Events/Avlokan/DSC_0019_aqsksv.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681631/Events/Avlokan/DSC_0033_sfmnos.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681911/Events/Avlokan/DSC_0131-min_lhuxhj.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682616/Events/Avlokan/DSC_0141-min_bgb6wx.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682623/Events/Avlokan/DSC_1519_1_-min_tvsokp.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682626/Events/Avlokan/DSC_1495-min_ygyfrv.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839098/DSC_0019_aqsksv_fezlym.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839090/DSC_0033_sfmnos_knieyh.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839085/DSC_0131-min_lhuxhj_ibezzw.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839085/DSC_1519_1_-min_tvsokp_jj2cgl.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839085/DSC_1495-min_ygyfrv_udyt0g.jpgg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839084/DSC_0141-min_bgb6wx_kcet0b.jpg",
         ],
       },
       {
@@ -227,12 +227,12 @@ const Event = () => {
 
         Doodling made a creative outlet, relaxation, and sometimes unexpected inspiration. It’s a way to let your mind wander and express itself freely. On that evening every detail find its place in the tapestry of time. Each doodle captures a fragment of time, weaving together the story of the day well-lived.`,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681044/Events/WORLD%20ART%20DAY%20%28DOODLING%29/axcydddh8inosewkw6ib.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681017/Events/WORLD%20ART%20DAY%20%28DOODLING%29/jpt3rfwfezahxift1nfx.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681026/Events/WORLD%20ART%20DAY%20%28DOODLING%29/jsrhtiekttxkehfkboaa.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681033/Events/WORLD%20ART%20DAY%20%28DOODLING%29/qbl6agtu7pvi3kjpue4k.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719681059/Events/WORLD%20ART%20DAY%20%28DOODLING%29/do5oiaaypdhucdcrknsr.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719688030/Events/WORLD%20ART%20DAY%20%28DOODLING%29/DSC_0500-min_hfmyaz.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839208/axcydddh8inosewkw6ib_v4i7mt.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839220/jpt3rfwfezahxift1nfx_fnhbar.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839215/qbl6agtu7pvi3kjpue4k_lxunif.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839213/do5oiaaypdhucdcrknsr_mkzcbk.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839207/jsrhtiekttxkehfkboaa_szz6sc.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839201/DSC_0500-min_hfmyaz_zkgi60.jpg",
         ],
       },
       {
@@ -246,9 +246,9 @@ const Event = () => {
         
         This event allowed students to nurture new connections that enhanced their social experiences in the college and created a vibrant and inclusive environment which celebrated different forms of love and connections. `,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682782/Events/Valentine%27s/IMG_0006_etbsyw.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682783/Events/Valentine%27s/IMG_0003_pyrmvj.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682780/Events/Valentine%27s/IMG_0005_gjfc1x.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839250/IMG_0006_etbsyw_rgdme8.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839250/IMG_0003_pyrmvj_oskmwm.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839249/IMG_0005_gjfc1x_mmbfz1.jpg",
         ],
       },
       {
@@ -265,9 +265,9 @@ const Event = () => {
         The event truly highlighted the magic of cinema in bringing people together, making it an evening to remember.
         `,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687150/Events/MOVIE%20MATINEE/n3b8puwcjgzlrexwwxrc.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687151/Events/MOVIE%20MATINEE/ulms1l2zpxdsb4nt7dgj.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719687150/Events/MOVIE%20MATINEE/fpll0rjzfbgcf8cd68gx.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839198/n3b8puwcjgzlrexwwxrc_foseec.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839199/ulms1l2zpxdsb4nt7dgj_wbwb80.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839195/fpll0rjzfbgcf8cd68gx_aba8uv.jpg",
         ],
       },
       {
@@ -280,10 +280,10 @@ const Event = () => {
         The event was a haven for art lovers, featuring interactive sessions where participants could learn about tattoo techniques and portrait drawing. It was a day of creativity, inspiration, and the celebration of artistic expression.
         `,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682784/Events/Valentine%27s/IMG_0007_ohhvzp.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682797/Events/Valentine%27s/IMG_0002_qpnh9g.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682780/Events/Valentine%27s/IMG_0004_wqvpe2.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682777/Events/Valentine%27s/IMG_0001_bvb8yq.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839251/IMG_0007_ohhvzp_gkrayh.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839252/IMG_0002_qpnh9g_bkwvlg.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839248/IMG_0004_wqvpe2_smx8qv.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839248/IMG_0001_bvb8yq_ut7y80.jpg",
         ],
       },
       {
@@ -317,13 +317,13 @@ const Event = () => {
         These idiosyncratic ideas and interesting events encourage the participants to show their talents and creativity with the enhancement by glorifying their qualities ....
         `,
         images: [
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682763/Events/Kalakriti/DSC_0309_skbnfn.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682760/Events/Kalakriti/DSC_0336_gf8r9a.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682691/Events/Kalakriti/SHL05224_q8ohq7.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682662/Events/Kalakriti/DSC_2293_wqlngs.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682770/Events/Kalakriti/DSC_0014_bjs5cd.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682774/Events/Kalakriti/DSC_0132_aq6fnv.jpg",
-          "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719683813/Events/Kalakriti/_DSC0041-min_ktj7ya.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839131/DSC_0309_skbnfn_iejpxr.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839138/DSC_0336_gf8r9a_mg3nej.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839130/DSC_0132_aq6fnv_zrpei9.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839124/SHL05224_q8ohq7_jaeetn.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839140/DSC_2293_wqlngs_jhuhhu.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839129/DSC_0014_bjs5cd_do8mkf.jpg",
+          "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750839123/_DSC0041-min_ktj7ya_lusb5k.jpg",
         ],
       },
     ];
