@@ -152,7 +152,7 @@ const UpcomingEvent = () => {
                   </div>
                   <div className="flex items-center justify-center gap-4 mt-4">
                     <Image
-                      src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664940/expresso/pinLocation_glqqiy.png"
+                      src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748384/pinLocation_glqqiy_met3st.png"
                       alt="Location Pin"
                       width={30}
                       height={30}

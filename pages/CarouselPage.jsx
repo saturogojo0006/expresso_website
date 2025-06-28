@@ -98,13 +98,13 @@ const CarouselPage = () => {
     <>
       <div
         className={`text-[20vw] sm:text-[8vw] relative z-10 font-antonio text-center bg-black text-white`}
-        style={{ backgroundImage: `url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664966/expresso/event_n8qwxn.png')` }}
+        style={{ backgroundImage: `url('https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748547/event_n8qwxn_hsmjg7.png')` }}
       >
         GALLERY{" "}
       </div>
       <div
         className="relative w-full h-[480px] sm:h-[640px] flex items-center justify-center bg-gray-900"
-        style={{ backgroundImage: `url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664966/expresso/event_n8qwxn.png')` }}
+        style={{ backgroundImage: `url('https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748547/event_n8qwxn_hsmjg7.png')` }}
       >
         <div
           className="relative w-[90%] m-2 h-96 lg:h-[620px] overflow-hidden shadow-lg rounded-lg"
@@ -134,7 +134,7 @@ const CarouselPage = () => {
             onClick={prevSlide}
           >
             <Image
-              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664973/expresso/leftarrow-artdesc_s2ckx6.png"
+              src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748603/leftarrow-artdesc_s2ckx6_drmkfn.png"
               width={20}
               height={20}
               alt="leftarrow"

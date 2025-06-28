@@ -39,7 +39,7 @@ const TeamDesc = () => {
       className="flex flex-col min-h-screen bg-cover bg-center"
       style={{
         backgroundImage:
-          "url(https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664977/expresso/background_tbltbq.png)",
+          "url(https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748507/background_tbltbq_u1i9yb.png)",
       }}
     >
       {/* laptop */}
@@ -83,7 +83,7 @@ const TeamDesc = () => {
                 </div>
                 <div className="mt-14 ml-5 flex items-center justify-center w-40 h-30">
                   <Image
-                    src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664945/expresso/team_soc27i.png"
+                    src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748415/team_soc27i_rezzgk.png"
                     width={620}
                     height={550}
                     alt="teamImage"
