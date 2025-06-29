@@ -64,7 +64,7 @@ function Professor() {
         <div className="flex flex-col items-center lg:justify-start lg:items-start lg:ml-40 lg:z-10">
           <div className="text-white flex flex-row items-center space-x-2">
             <Image
-              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664975/expresso/Letter_q0gqv7.png"
+              src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748648/Letter_q0gqv7_vc7rpe.png"
               width={44}
               height={140}
               alt="msg-image"
@@ -85,7 +85,7 @@ function Professor() {
         <div className="flex flex-row justify-center items-center relative lg:mt-[-9.5%] lg:ml-[70%] lg:z-10">
           <span>
             <Image
-              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1734675255/expresso/Aniket_Kumar_pbbbfq.png"
+              src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748457/Aniket_Kumar_pbbbfq_xuddvi.png"
               width={240}
               height={230}
               alt="Professor Image"

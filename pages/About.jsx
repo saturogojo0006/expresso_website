@@ -57,7 +57,7 @@ const About = () => {
       <div className="flex justify-center sm:justify-end w-full bg-black md:bg-black z-4">
         <div className="relative flex justify-center items-center bg-black md:bg-white w-full overflow-hidden object-contain" style={{ height: parentHeight }}>
           <Image
-            src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664940/expresso/Group_319_ml1fvd.png"
+            src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748571/Group_319_ml1fvd_tchwon.png"
             alt="Bus Image"
             width={1200}
             height={800}
@@ -65,7 +65,7 @@ const About = () => {
             style={{}}
           />
           <Image
-            src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664940/expresso/Group_320_uwpigl.png"
+            src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748573/Group_320_uwpigl_r4ltgp.png"
             alt="Bus Image"
             width={1200}
             height={800}

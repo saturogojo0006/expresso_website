@@ -33,7 +33,7 @@ const AlumniPage = () => {
   }, [toggle, teamKeys]);
 
   return (
-    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664963/expresso/alumniBackground_x2sr8y.png)" }}>
+    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748455/alumniBackground_x2sr8y_vsatvf.png)" }}>
       <div className="hidden lg:flex flex-col w-full h-full">
         <div className="flex flex-row w-full lg:w-2/3 h-1/2 overflow-auto lg:overflow-hidden">
           <div className="flex flex-col space-y-10 mt-6 mr-5 ml-16 lg:ml-10 lg:space-y-0 lg:space-x-10 lg:flex-row lg:flex-wrap">
@@ -59,13 +59,13 @@ const AlumniPage = () => {
                 </div>
                 <div className="mr-4">
                 <div className="mt-14 mb-0 flex items-center justify-center w-60 h-40">
-                  <Image src='https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664988/expresso/ALUMNI_qytbfe.png' width={900} height={600} alt="AlumniImage" />
+                  <Image src='https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748451/ALUMNI_qytbfe_ocvozg.png' width={900} height={600} alt="AlumniImage" />
                 </div>
                 </div>
               </div>
               <div className=" flex flex-row items-center justify-center w-full">
                 <div className="mr-4 cursor-pointer">
-                  <Image onClick={handleButtonleft} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664972/expresso/leftArrow_roirvg.png" width={50} height={50} alt="leftarrow" />
+                  <Image onClick={handleButtonleft} src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748601/leftArrow_roirvg_wamtuf.png" width={50} height={50} alt="leftarrow" />
                 </div>
                 <div className="mr-4 font-Antonio text-5xl font-bold ml-4 flex items-center justify-center w-14 h-14 rounded-full bg-white text-black">
                   {toggle + 1}
@@ -106,12 +106,12 @@ const AlumniPage = () => {
                   </div>
                 </div>
                 <div className="mt-6 flex items-center justify-center w-40 h-30">
-                  <Image src='https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664988/expresso/ALUMNI_qytbfe.png' width={600} height={500} alt="teamImage" />
+                  <Image src='https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748451/ALUMNI_qytbfe_ocvozg.png' width={600} height={500} alt="teamImage" />
                 </div>
               </div>
               <div className="mt-6 flex flex-row items-center justify-center w-full">
                 <div className="mr-4 cursor-pointer">
-                  <Image onClick={handleButtonleft} src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664972/expresso/leftArrow_roirvg.png" width={50} height={50} alt="leftarrow" />
+                  <Image onClick={handleButtonleft} src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748601/leftArrow_roirvg_wamtuf.png" width={50} height={50} alt="leftarrow" />
                 </div>
                 <div className="mr-4 font-Antonio text-5xl font-bold ml-4 flex items-center justify-center w-14 h-14 rounded-full bg-white text-black">
                   {toggle + 1}

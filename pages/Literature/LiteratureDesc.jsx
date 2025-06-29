@@ -49,7 +49,7 @@ const LiteratureDesc = () => {
 
 
   return (
-    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(https://res.cloudinary.com/dnbutfdy7/image/upload/v1719665021/expresso/art-desc-bg_zf9qnp.png)" }}>
+    <div className="flex flex-col min-h-screen bg-cover bg-center" style={{ backgroundImage: "url(https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748484/art-desc-bg_zf9qnp_ccvcpp.png)" }}>
 
       {/* Displaying cards for smaller screens */}
       <div className="flex flex-col w-full items-center m-2 gap-y-4 md:hidden">

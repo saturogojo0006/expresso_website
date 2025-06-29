@@ -1,7 +1,7 @@
 const teamData = {
   post_bearers: {
     teamName: "Post-Bearers",
-    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664978/expresso/Mask_group_ti7q7g.png",
+    teamImage: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748654/Mask_group_ti7q7g_njtg7d.png",
     members: [
       {
         id: 1,
@@ -98,7 +98,7 @@ const teamData = {
   },
   post_bearers_2: {
     teamName: "Post-Bearers",
-    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664978/expresso/Mask_group_ti7q7g.png",
+    teamImage: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748654/Mask_group_ti7q7g_njtg7d.png",
     members: [
       {
         id: 9,
@@ -194,7 +194,7 @@ const teamData = {
   },
   art: {
     teamName: "Art",
-    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
+    teamImage: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748461/ART_ar8boc_jyroil.png",
     members: [
       {
         id: 1,
@@ -284,7 +284,7 @@ const teamData = {
   },
   art_2: {
     teamName: "Art",
-    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
+    teamImage: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748461/ART_ar8boc_jyroil.png",
     members: [
       {
         id: 9,
@@ -371,7 +371,7 @@ const teamData = {
   },
   art_3: {
     teamName: "Art",
-    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664990/expresso/ART_ar8boc.png",
+    teamImage: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748461/ART_ar8boc_jyroil.png",
     members: [
       {
         id: 17,
@@ -478,7 +478,7 @@ const teamData = {
   },
   literature: {
     teamName: "Literary",
-    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664979/expresso/Pen_l0l8t5.png",
+    teamImage: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748380/Pen_l0l8t5_ot13ni.png",
     members: [
 
       {
@@ -671,7 +671,7 @@ const teamData = {
   },
   literature_3: {
     teamName: "Literary",
-    teamImage: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664979/expresso/Pen_l0l8t5.png",
+    teamImage: "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748380/Pen_l0l8t5_ot13ni.png",
     members: [
       {
         id: 17,

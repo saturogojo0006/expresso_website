@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <div>
         <div className="responsive x-0 y-0 object-cover">
-          <Image src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664989/expresso/HomePageBG_t6uqqf.png" width={1530} height={860} alt="Home Page" />
+          <Image src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748598/HomePageBG_t6uqqf_oxizue.png" width={1530} height={860} alt="Home Page" />
         </div>
       </div>
       <div className="">

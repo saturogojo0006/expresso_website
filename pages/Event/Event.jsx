@@ -379,7 +379,7 @@ const Event = () => {
           <div className="text-white text-xl font-antonio pb-1">BACK</div>
           <div className="border-2 rounded-full border-white p-1">
             <Image
-              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664989/expresso/Arrow2_epdbhb.png"
+              src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748459/Arrow2_epdbhb_e4ldhi.png"
               width={20}
               height={20}
               alt="Arrow"
@@ -442,7 +442,7 @@ const Event = () => {
             <div
               className="text-[#ffffff] text-base sm:text-lg bg-cover bg-center p-4 mt-4 mb-6 whitespace-pre-line overflow-y-auto max-h-64 rounded-2xl"
               style={{
-                backgroundImage: `url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664985/expresso/HomeBg1_bzalmy.png')`,
+                backgroundImage: `url('https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748578/HomeBg1_bzalmy_g7mbge.png')`,
               }}
             >
               {event.description}
