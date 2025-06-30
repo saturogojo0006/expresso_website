@@ -145,7 +145,7 @@ const CarouselPage = () => {
             onClick={nextSlide}
           >
             <Image
-              src="https://res.cloudinary.com/dnbutfdy7/image/upload/v1719664945/expresso/rightarrow-artdesc_yckiew.png"
+              src="https://res.cloudinary.com/dfvf4xowl/image/upload/v1750748409/rightarrow-artdesc_yckiew_tdbwqd.png"
               width={20}
               height={20}
               alt="rightarrow"
