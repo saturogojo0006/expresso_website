@@ -3,7 +3,7 @@ const LiteratureData = {
     title: "सुदामा कृष्ण का मिलन",
     author: "Shivani",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685879/Shivani_Raj_trkn6k.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682009/profile%20pictures/Shivani%20Raj.jpg",
     instagram: "https://www.instagram.com/Shivaniraj4683",
     linkedin: "https://www.linkedin.com/in/shivani-raj-59b798257",
     coverImage: "/artpic.png",
@@ -47,7 +47,7 @@ const LiteratureData = {
     title: "फरियाद",
     author: "Aman Gupta",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685468/AMAN_GUPTA_j6z5ba.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719685003/profile%20pictures/AMAN%20GUPTA.jpg",
     instagram: "https://www.instagram.com/itz_aman506",
     linkedin: "https://www.linkedin.com/in/aman-gupta-3726521b4",
     coverImage: "/artpic.png",
@@ -65,7 +65,7 @@ const LiteratureData = {
     title: "हम बच्चे है हम मासूम है",
     author: "Mirza Y S Baig",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685511/MIRZA_BAIG_twlpxa.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679915/profile%20pictures/MIRZA%20BAIG.jpg",
     instagram: "https://www.instagram.com/mirzathedreamers",
     linkedin: "https://www.linkedin.com/in/mirza-baig-nitp",
     coverImage: "/artpic.png",
@@ -123,7 +123,7 @@ const LiteratureData = {
     title: "अधूरी बातें",
     author: "Arun Singh",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685473/ARUN_SINGH_xxmsxu.png",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680095/profile%20pictures/ARUN%20SINGH.png",
     instagram: "https://www.instagram.com/arunsingh_.08/",
     linkedin: "https://www.linkedin.com/in/arun-singh-1a0b25225",
     coverImage: "/artpic.png",
@@ -164,7 +164,7 @@ const LiteratureData = {
     title: "आदतें",
     author: "Aniket Kumar",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685443/ANIKET_KUMAR_cgmz0z.png",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679912/profile%20pictures/ANIKET%20KUMAR.png",
     instagram: "https://www.instagram.com/silver_shades4971",
     linkedin: "https://www.linkedin.com/in/aniket-kumar-99b591234",
     coverImage: "/artpic.png",
@@ -179,7 +179,7 @@ const LiteratureData = {
     title: "तुम्हारी आँखे",
     author: "Alankrita Singh",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685422/ALANKRITA_SINGH_sbmvhh.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/ALANKRITA%20SINGH.jpg",
     instagram:
       "https://www.instagram.com/alankrita_singh0520?igsh=MTdkYzdsemJhdWRwNw==",
     linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260/?",
@@ -219,7 +219,7 @@ const LiteratureData = {
     title: "इन्सान",
     author: "Harshali",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685508/HARSHALI_zzo3x1.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680111/profile%20pictures/HARSHALI.jpg",
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/in/harshali-59564b228",
     coverImage: "/artpic.png",
@@ -250,7 +250,7 @@ const LiteratureData = {
     title: "इश्क़",
     author: "Harsh Vardhan",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685499/Harsh_Vardhan_etdpct.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679798/profile%20pictures/Harsh%20Vardhan.jpg",
     instagram: "https://www.instagram.com/ig_harsh.vardhan",
     linkedin: "https://www.linkedin.com/in/harsh-vardhan-4354b1237/",
     coverImage: "/artpic.png",
@@ -273,7 +273,7 @@ const LiteratureData = {
     title: "बस तवक्कुल है।",
     author: "Pawni Chauhan",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685623/PAWNI_CHAUHAN_rxztw5.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679799/profile%20pictures/PAWNI%20CHAUHAN.jpg",
     instagram: "https://www.instagram.com/pawnichauhan7",
     linkedin: "https://linkedin.com/in/pawni-chauhan-95b181249",
     coverImage: "/artpic.png",
@@ -294,7 +294,7 @@ const LiteratureData = {
     title: "लड़कियां",
     author: "Akash Patel Singh",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685483/AKASH_PATEL_SINGH_xepnvs.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684480/profile%20pictures/AKASH%20PATEL%20SINGH.jpg",
     instagram: "https://www.instagram.com/akash.nitp?igsh=MThxNmFzaG50eWV3Nw==",
     linkedin: "https://in.linkedin.com/in/akashpatelsingh1 ",
     coverImage: "/artpic.png",
@@ -311,7 +311,7 @@ const LiteratureData = {
     title: "बर्बादी",
     author: "Om Vats",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685540/Om_Vats_zgmdrv.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719829548/profile%20pictures/Om_Vats.jpg",
     instagram: "https://www.instagram.com/omvats09?igsh=OWc2MzR0MWN5bms3",
     linkedin: "https://www.linkedin.com/in/om-vats-6aab58280",
     coverImage: "/artpic2.png",
@@ -337,7 +337,7 @@ const LiteratureData = {
     title: "बहुत दूर",
     author: "Kaushikee Kashyap",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685504/KAUSHIKEE_KASHYAP_ay0p4g.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679795/profile%20pictures/KAUSHIKEE%20KASHYAP.jpg",
     instagram:
       "https://www.instagram.com/kaushikee_k?igsh=MWQxYW9hMjJteHhlMA==",
     linkedin: "https://www.linkedin.com/in/kaushikee-kashyap-891a55314",
@@ -367,7 +367,7 @@ const LiteratureData = {
     title: "इक दिन उसको खो दोगे",
     author: "Shikha Thakur ",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685799/SHIKHA_THAKUR_lhowgy.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680104/profile%20pictures/SHIKHA%20THAKUR.jpg",
     instagram: "https://www.instagram.com/nebula_k05?igsh=MTRjOW5oNDI4dWk5bQ==",
     linkedin: "https://www.linkedin.com/in/shikha-thakur-8028a7258",
     coverImage: "/artpic.png",
@@ -393,7 +393,7 @@ const LiteratureData = {
     title: "माँ  सरस्वती के प्रति",
     author: "Nilabh Mishra",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685529/nilabh_mishra_jfbx3f.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679796/profile%20pictures/nilabh%20mishra.jpg",
     instagram: "https://www.instagram.com/nilabh__mishra?igsh=anF0Yzk4bHBiZXhm",
     linkedin: "https://www.linkedin.com/in/nilabh-mishra-383788257",
     coverImage: "/artpic.png",
@@ -418,7 +418,7 @@ const LiteratureData = {
     title: "खो दिया हूं।",
     author: "Aditya Kumar",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685408/aditya_kumar_n3acch.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679797/profile%20pictures/aditya%20kumar.jpg",
     instagram: "https://www.instagram.com/adityakumar.393",
     linkedin: "https://www.linkedin.com/in/aditya-kumar-7bb54b257/",
     coverImage: "/artpic.png",
@@ -441,7 +441,7 @@ const LiteratureData = {
     title: "आज बहुत समय बाद",
     author: "Satyam",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685776/Satyam_Singh_tyki5z.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680108/profile%20pictures/Satyam%20Singh.jpg",
     instagram: "https://www.instagram.com/satyamk1345/",
     linkedin: "https://www.linkedin.com/in/satyam-kumar-434165250",
     coverImage: "/artpic.png",
@@ -462,7 +462,7 @@ const LiteratureData = {
     title: "बिका हुआ अख़बार",
     author: "Vani Kumari",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750686070/VANI_SINGH_nykwuq.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719684557/profile%20pictures/VANI%20SINGH.jpg",
     instagram:
       "https://www.instagram.com/vanisingh_2701/",
     linkedin: "https://www.linkedin.com/in/vani-kumari-45645b245",
@@ -492,7 +492,7 @@ const LiteratureData = {
     title: "Beginning is End",
     author: "Supriya Raj",
     authorImage:
-      "https://res.cloudinary.com/dfvf4xowl/image/upload/v1750685873/SUPRIYA_RAJ_ux7wb1.jpg",
+      "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/SUPRIYA%20RAJ.jpg",
     instagram: "https://www.instagram.com/supriyaraj5073",
     linkedin: "https://www.linkedin.com/in/supriya-raj-0128a4295",
     coverImage: "/artpic.png",
